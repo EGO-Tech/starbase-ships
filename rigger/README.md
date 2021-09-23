@@ -66,22 +66,24 @@ To enter the ship, there is a button above the cockpit that will open a `Hatch`.
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-`ForwardThrust` - Current forwawrd thrust, maximum of 10,000 units
-`SafeZone` - Whether current location is in the safe zone.
-`StrengthFactor` - Current strength of ship. May factuate as ore crates are filled. Anything below 1.0 means ship is damaged.
-`Cruise` - Activates cruise control, forward thrust will not reset to zero unless turned down.
-`Turtle` - Activates turtle mode which sets forward thrust to a maximum limit of 20% of full thrust.
-`Aim` - Reduces the response time of key presses for pitch and yaw.
-`Sloth` - (Right Console) Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.
-`Guides` & `Guidance` - Activates rangefinders (except center one which can be actiavted separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder.
-`Range` & `Distance` - Activates center rangefinder, with `Distance` showing distance to object.
-`Scanner` & `Scan` - Turns on the [Ore Scanner](#ore-scanner).
-`Approach`, `Collect`, `Mine`, `Lasers`, `Pulse`, `MineHeight` & `MineDepth` - Mining controls. See [Mining](#mining).
-`Nav`, `Autopilot` & `Avoidance` - Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance).
-Transponder `Toggle` & `Ping` - Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds
-`ISAN2`, `Heading`, `Dest`, `DTW` & `Deltas` - See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton.
-`G` - Compass display. Shows direction towards `Dest` waypoint, `+` is in front of ship while `O` is behind the ship. Best used when stationary. See [Compass](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md) for more informaton.
-`Timer` - See [Timer](#timer).
+| Interface | Function |
+|---|---|
+| `ForwardThrust` | Current forwawrd thrust, maximum of 10,000 units |
+| `SafeZone` | Whether current location is in the safe zone. |
+| `StrengthFactor` | Current strength of ship. May factuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
+| `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
+| `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of 20% of full thrust. |
+| `Aim` | Reduces the response time of key presses for pitch and yaw. |
+| `Sloth` | (Right Console) Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
+| `Guides` & `Guidance` | Activates rangefinders (except center one which can be actiavted separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder. |
+| `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
+| `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner). |
+| `Approach`, `Collect`, `Mine`, `Lasers`, `Pulse`, `MineHeight` & `MineDepth` | Mining controls. See [Mining](#mining). |
+| `Nav`, `Autopilot` & `Avoidance` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
+| Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
+| `ISAN2`, `Heading`, `Dest`, `DTW` & `Deltas` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
+| `G` | Compass display. Shows direction towards `Dest` waypoint, `+` is in front of ship while `O` is behind the ship. Best used when stationary. See [Compass](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md) for more informaton. |
+| `Timer` | See [Timer](#timer). |
 
 ### Using the Waypoint System
 
@@ -91,7 +93,7 @@ This is a custom interface for the [ISAN Waypoint System](https://github.com/Arc
 
 #### Viewing, Loading and Naming Waypoints
 
-View a waypoint (WP1 to WP18) by pressing the individual button. The waypoint will be shown on the `WP` panel. Load the waypoint in `WP` to `Dest` using the `Load Dest` button. Once in `Dest`, the waypoint will be used by the compass, ISAN and autopilot systems.
+View a waypoint (`WP1` to `WP18`) by pressing the individual button. The waypoint will be shown on the `WP` panel. Load the waypoint in `WP` to `Dest` using the `Load Dest` button. Once in `Dest`, the waypoint will be used by the compass, ISAN and autopilot systems.
 
 To give waypoints a name, use your universal tool to change the panel values with the way point name. This is for display purposes and your own reference only, it is not used anywhere else.
 
@@ -109,7 +111,7 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 
 **NOTE:** `Nav` needs to be tuned more for accuracy. I recommend using it in conjunction with the compass.
 
-`Avoidance` will activates `Guides`. If the guides detect objects it will pitch the ship down and cut forwrd thurst. If `Autopilot` is activated, it will readjust and continue its flight.
+`Avoidance` will activate `Guides`. If the guides detect objects it will pitch the ship down and cut forwrd thurst. If `Autopilot` is activated, it will readjust and continue its flight.
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. It also hasn't been tested extensively. **Use at your own risk!**
 
@@ -131,21 +133,23 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 
 ![Pilot Right Console](images/pilot_right_console.jpg)
 
-`Battery` - Shows current battery charge of the 40 batteries, maximum of 10,000 units.
-`Generator` - Current generator rate, maximum of 100%
-`MinEPS` & `Min_EPS` - Toggle and sets minimum generator rate. See [Managing Power](#managing-power).
-`RadiationRate` - Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged, turn on [`Cooling`](#cooling) as backup.
-`CoolerRate` - Current cooling rate from coolant, maximum of 100%. Will be 0% unless [`Cooling`](#cooling) is turned on.
-`Cooling` - Turns on and off cooling using coolant. See [Cooling](#cooling).
-`Fuel` - Total fuel remaining on fuel rods, maximum of 1,800,000 units for the six fuel chambers.
-`Propellant` - Total propellant remaining in propellant tanks, maximum of 38,000,000 units.
-`PropTime` - Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*.
-`FuelTime` - Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*.
-`WithBackup` - Same as FuelTime but takes into account backup rods available. Use the switch for `BackupRods` to set the number of backup rods available.
-`Shutdown` - Will turn off all generators.
-`FlowIn` & `FlowOut` - Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant).
-`Lights` - Turns on and off internal lights
-`Headlights` - Turns on and off external light on the nose of the ship. May help with mining.
+| Interface | Function |
+|---|---|
+| `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
+| `Generator` | Current generator rate, maximum of 100%. |
+| `MinEPS` & `Min_EPS` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged, turn on [`Cooling`](#cooling) as backup. |
+| `CoolerRate` | Current cooling rate from coolant, maximum of 100%. Will be 0% unless [`Cooling`](#cooling) is turned on. |
+| `Cooling` | Turns on and off cooling using coolant. See [Cooling](#cooling). |
+| `Fuel` | Total fuel remaining on fuel rods, maximum of 1,800,000 units for the six fuel chambers. |
+| `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
+| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
+| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
+| `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `BackupRods` to set the number of backup rods available. |
+| `Shutdown` | Will turn off all generators. |
+| `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
+| `Lights` | Turns on and off internal lights. |
+| `Headlights` | Turns on and off external light on the nose of the ship. May help with mining. |
 
 *ISAN speed is normally quite conservative and not 100% accurate.
 
