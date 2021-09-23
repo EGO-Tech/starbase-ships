@@ -1,0 +1,5 @@
+x=7.2 y=-4.56 r=57.296
+n="\n" q=n+n s=1728 k=" stks"+q o=" Ore" c=" Crystal"
+i=0 if:scr<1then:Scan="OFF" goto3end :scn=1 :Scan=q :Range=1
+d=:Distance+x if:Distance>0thend=y/d*r end :sp=d
+ifi<:sr then:ix=i a=:vl/s b=:mt-c-o :Scan+=b+n+a+k i++ goto4end goto3

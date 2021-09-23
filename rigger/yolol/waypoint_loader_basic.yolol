@@ -1,0 +1,19 @@
+n="\n"
+if:wl1>0then:wpn=1 :wp=1+n+:w1 :wl1=0 goto2end
+if:wl2>0then:wpn=2 :wp=2+n+:w2 :wl2=0 goto2end
+if:wl3>0then:wpn=3 :wp=3+n+:w3 :wl3=0 goto2end
+if:wl4>0then:wpn=4 :wp=4+n+:w4 :wl4=0 goto2end
+if:wl5>0then:wpn=5 :wp=5+n+:w5 :wl5=0 goto2end
+if:wl6>0then:wpn=6 :wp=6+n+:w6 :wl6=0 goto2end
+if:wl7>0then:wpn=7 :wp=7+n+:w7 :wl7=0 goto2end
+if:wl8>0then:wpn=8 :wp=8+n+:w8 :wl8=0 goto2end
+if:wl9>0then:wpn=9 :wp=9+n+:w9 :wl9=0 goto2end
+if:wl10>0then:wpn=10 :wp=10+n+:w10 :wl10=0 goto2end
+if:wl11>0then:wpn=11 :wp=11+n+:w11 :wl11=0 goto2end
+if:wl12>0then:wpn=12 :wp=12+n+:w12 :wl12=0 goto2end
+if:wl13>0then:wpn=13 :wp=13+n+:w13 :wl13=0 goto2end
+if:wl14>0then:wpn=14 :wp=14+n+:w14 :wl14=0 goto2end
+if:wl15>0then:wpn=15 :wp=15+n+:w15 :wl15=0 goto2end
+if:wl16>0then:wpn=16 :wp=16+n+:w16 :wl16=0 goto2end
+if:wl17>0then:wpn=17 :wp=17+n+:w17 :wl17=0 goto2end
+if:wl18>0then:wpn=18 :wp=18+n+:w18 :wl18=0 goto2end goto2

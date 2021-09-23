@@ -1,0 +1,7 @@
+t=10 m=3 Mr=0.08 Md=0.5 lr=0 ts=:TurtleRate if:spd>10thengoto1end
+if:Approach<1thengoto1end :Range=1 :Turtle=ts :Avoidance=0
+d=:Distance r=d-t dr=r-lr s=Mr*r+Md*dr lr=r
+ifd>999 or r<m then:Approach=0 goto7end
+ifs>0then:fwd=s else:fwd=0end
+ifs<0then:FCUBackward=-s else:FCUBackward=0end
+if:Approach>0thengoto3end :fwd=0 :FCUBackward=0 goto1

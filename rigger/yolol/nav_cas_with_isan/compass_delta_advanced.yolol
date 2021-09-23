@@ -1,0 +1,12 @@
+a=0.7 :kz=1
+b="+0" c="O1" d=0 e=0 f=0 g=0 h=0 i=.5
+j=:n k=:o l=:p m=:u-j n=:v-k o=:w-l p=:r-j q=:s-k r=:t-l
+s=(m*m+n*n+o*o)^i m/=s n/=s o/=s t=(p*p+q*q+r*r)^i p/=t q/=t r/=t
+u=:wx-j v=:wy-k w=:wz-l x=(u*u+v*v+w*w)^.5 u/=x v/=x w/=x y=q*o-n*r
+z=r*m-o*p aa=p*n-m*q ab=m*u+n*v+o*w ac=p*u+q*v+r*w ad=y*u+z*v+aa*w
+g=ac*3/a g=6-g-(3-g)*(g<3)-(-3-g)*(g>-3) h=ad*5/a
+:kz=15-h-(5-h)*(h<5)-(-5-h)*(h>-5) :kx=b+c-ab<0-b-c :ky=g :kl=x
+:hx=m :hy=n :hz=o :ix=p :iy=q :iz=r :jx=y :jy=z :jz=aa
+:ks=((j-d)^2+(k-e)^2+(l-f)^2)^.5/1.6 d=j e=k f=l goto3-:kr
+
+// original by Firestar99

@@ -1,0 +1,10 @@
+u=" " v=u+u r=u+v x="-" y="O" t="\n" s="::" z=1000 a=x b=x c=x d=x e=x
+f=x g=x h=x i=x j=x k=x l=x m=x n=x o=x p=x if:rf<1thengoto8end
+if:rft<z thena=y end if:rf9<z thenb=y end if:rf8<z thenc=y end
+if:rf6<z thend=y end if:rf4<z thene=y end if:rfl<z thenf=y end
+if:rf3<z theng=y end if:rf2<z theni=y end if:rfr<z thenj=y end
+if:rf7<z thenk=y end if:rf5<z thenl=y end if:rf11<z thenm=y end
+if:rf1<z thenn=y end if:rf10<z theno=y end if:rfb<z thenp=y end
+if:range>0 and :distance<z thenh=y end q=v+a+r+s+t+r+b+r+c+t+u+d+r+r
+::=q+u+e+t+f+v+g+u+h+u+i+v+j+t+u+k+r+r+u+l+t+r+m+u+n+u+o+t+s+r+p+r+s
+goto1

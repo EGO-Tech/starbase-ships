@@ -1,0 +1,2 @@
+x=:lasers*:pulse ifx<1thengoto1end :lasers=0
+:lasers=1 goto1

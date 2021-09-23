@@ -1,0 +1,1 @@
+:MineDepth=(:MineDepth+:mds)*(:MineDepth>=0)-:MineDepth>:mdm goto1

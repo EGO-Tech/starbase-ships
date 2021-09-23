@@ -1,0 +1,8 @@
+x=1000 n="\n" p=n+n a="TOP" b="BOTTOM" c="RIGHT" d="LEFT" e="CENTER"
+f="!!!ALERT!!!" v="OFF" if:rf<1thengoto8end v="ALL CLEAR" i=""
+t=:rf8<x+:rf9<x+:rft<x ift>0theni+=a+n end
+t=:rf1<x+:rf10<x+:rf11<x+:rfb<x ift>0theni+=b+n end
+t=:rf2<x+:rf4<x+:rf5<x+:rf8<x+:rf10<x+:rfr<x ift>0theni+=c+n end
+t=:rf3<x+:rf6<x+:rf7<x+:rf9<x+:rf11<x+:rfl<x ift>0theni+=d+n end
+rd=:distance t=rd<x-rd<1 ift>0theni+=e+n end
+ifi!="" and :rf>0thenv=f+n+i :ga=1else:ga=0end :Guidance=p+v goto2

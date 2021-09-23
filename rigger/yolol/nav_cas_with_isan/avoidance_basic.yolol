@@ -1,0 +1,6 @@
+if:Avoidance<1thengoto1end :rf=1 :range=1
+if:ga>0thengoto3end :pch=0 ifi>0then:fwd=f :cas=1 i=0end goto1
+:pch=-20 :acount++ ifi<1theni=1 f=:fwd :fwd=0end goto1
+
+// Original by fixerid
+// https://github.com/fixerid/sb-projects/wiki/Navigation-Autopilot-with-Collision-Avoidance-System-(NavCas)
