@@ -4,6 +4,12 @@ The Rigger is a fast medium sized mining ship. Although it has a limited autopil
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rigger)
 
+<img src="images/rigger1.jpg" alt="Rigger" width="400" /> <img src="images/rigger2.jpg" alt="Rigger" width="400" /> <img src="images/rigger3.jpg" alt="Rigger" width="400" />
+<img src="images/rigger4.jpg" alt="Rigger" width="400" /> <img src="images/rigger5.jpg" alt="Rigger" width="400" /> <img src="images/rigger6.jpg" alt="Rigger" width="400" />
+<img src="images/rigger7.jpg" alt="Rigger" width="400" /> <img src="images/rigger8.jpg" alt="Rigger" width="400" /> <img src="images/rigger9.jpg" alt="Rigger" width="400" />
+
+More photos in the [`photos` folder](photos)
+
 ## Features
 
 The ship has the following features:
