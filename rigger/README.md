@@ -209,7 +209,7 @@ I ran out of single character global variables while both the C and K are used b
 
 I don't know, I went a bit crazy there, but you can use them to add whatever you want, including weapons.
 
-#### Why can't the crafting becnh craft T2 refills?
+#### Why can't the crafting bench craft T2 refills?
 
 You need to bolt a meter upgrade to the bench. The ship designer doesn't provide it so I couldn't add it to the blueprint.
 
