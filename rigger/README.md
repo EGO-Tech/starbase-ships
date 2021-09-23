@@ -2,6 +2,8 @@
 
 The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
+[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rigger)
+
 ## Features
 
 The ship has the following features:
@@ -44,7 +46,7 @@ TIP: If you can craft your own crates, generators (T2), box and triangle thruste
 
 ## Download Blueprint
 
-The blueprint file is available in the [`blueprints` folder](blueprints/rigger.fbe).
+The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/rigger/blueprints/rigger.fbe).
 
 ## Known Issues
 
