@@ -1,0 +1,4 @@
+if:load_rf<1thengoto1end :tbr=1
+if:tbr_loc<1thengoto2end :tbr_pos=3
+if:tbr_for>40thengoto3end :tbr_rot-=20 if:tbr_rot>-180thengoto3end
+if:tbr_for>40thengoto4end :cbrf=1 :tbr=0 :tbr_rot=0 :load_rf=0 goto1

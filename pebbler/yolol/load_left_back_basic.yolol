@@ -1,0 +1,4 @@
+if:load_lb<1thengoto1end if:cblf>0then:load_lb=0 goto1end :tbl=1
+if:tbl_loc<1thengoto2end :tbl_pos=9
+if:tbl_for>40thengoto3end :tbl_rot+=20 if:tbl_rot<180thengoto3end
+if:tbl_for>40thengoto4end :cblb=1 :tbl=0 :tbl_rot=0 :load_lb=0 goto1
