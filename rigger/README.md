@@ -44,6 +44,17 @@ The ship has the following features:
 - Many more extra slots for extra YOLOL or memory chips
 - Extension points for modules (currently untested)
 
+## Changelog
+
+### v1.0.1 (Current) - 25/09/2021
+
+- Upgraded Compass to v1.1, use Compass' 3 in 1 ISAN Code and removed individual ISAN receiver codes.
+- Changed NavCas to share Compass receivers' code rather than Compass to share NavCas receivers' code.
+
+### v1.0.0 - 23/09/2021
+
+- Initial release
+
 ## Build Cost
 
 ![Ship Build Cost](images/build_cost.png)
@@ -211,7 +222,13 @@ I converted all external plates to Aegisium for weight and armor, you can use ot
 
 #### Why is the compass panel label G?
 
-I ran out of single character global variables while both the C and K are used by the ISAN and waypoint system which I was hoping to keep unmodified. I haven't used any digits though, so potentially one of those could be used. Suggestions welcomed.
+~~I ran out of single character global variables while both the C and K are used by the ISAN and waypoint system which I was hoping to keep unmodified. I haven't used any digits though, so potentially one of those could be used. Suggestions welcomed.~~
+
+As of version 1.0.1, I managed to free up a lot of global variables, but decided to keep it as it is. In fact with the panel rotated (see below), if you look closely enough the `G` kinda looks like a compass point north (up) :P
+
+#### Why is the compass panel rotated (version > 1.0.1)?
+
+ The original Compass uses front and right receivers, but this ship uses front and bottom receivers. For ease of future upgrades, I just rotated the panel instead of making changes to the original code.
 
 #### Why are there so many extra hardpoints?
 
