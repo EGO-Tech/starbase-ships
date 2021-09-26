@@ -15,14 +15,28 @@ More photos in the [`photos` folder](photos)
 The ship has the following features:
 
 - Standard Cruise and Turtle functions
-- Eight T2 generators with two T2 fuel chambers and two spare rods on racks
+- Eight T2 generators with two T2 fuel chambers and six spare rods on racks
 - Radiators that provide more than adequate cooling
 - Eight small propellant tanks with 8,000,000 units of propellant
 - 15 batteries
 - 12 T2 box triangle thrusters providing forward thrust
 - 36 T2 manuever thrusters with plenty of space for more
 - Two tractor beams which will load asteroids into four compartments with cargo lock beams
+- Rangefinder to help judge forward distance
 - Pretty much max speed 150m/s when empty
+
+## Changelog
+
+### v1.1.0 (Current) - 26/09/2021
+
+- Increase width of cargo beam areas, to better support 45Mv asteroids
+- Increase force threshold of tractor beams when loading, to support 45Mv asteroids
+- Reposition tractor beams, to better support 45Mv asteroids
+- Add four additional spare fuel rods
+
+### v1.0.0 - 24/09/2021
+
+- Initial release
 
 ## Build Cost
 
@@ -36,7 +50,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 ## Known Issues
 
-- The compartments are a very tight fit for the asteriods and can only fit the smaller asteroids
+- Loading of asteriods are rather slow, especially the larger ones.
 
 ## Usage
 
@@ -82,3 +96,14 @@ Finally, I am hoping to get feedback from the community and learn from it, so ho
 #### Can I sell ships based on this blueprint?
 
 No.
+
+#### How much can I make from hauling safe zone asteriods?
+
+It is not very lucrative, but here is an estimated breakdown of 45Mv asteriods (with a rough breakdown of 35Mv shell and 10Mv core) from the safe zone I got during testing.
+
+| Material | Volume | Credits |
+| --- | --- | --- |
+| Ice/Vokarium | 45Mv | 36k |
+| Ajatite/Charodium | 45Mv | 58k |
+| Valkite/Bastium | 45Mv | 27k |
+| Ice/Nhurgite | 45Mv | 56k |
