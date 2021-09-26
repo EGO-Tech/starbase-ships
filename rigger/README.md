@@ -184,6 +184,8 @@ The small propellant tank above the crafting bench can also be used to refuel th
 
 Remember to turn `FlowIn` and `FlowOut` back on if you are using the Endo to collect ore via the resource bridge.
 
+If for some reason you need access to the ship's internal tanks, you can unbolt the grates on top of the ship which are marked with circular decals. This will give access to _some_ tanks.
+
 #### Cooling
 
 The radiators provide more than enough cooling (about 40% extra) for heat generated and you can always add more with all the hardpoints.
@@ -215,6 +217,10 @@ Finally, I am hoping to get feedback from the community and learn from it, so ho
 #### Can I sell ships based on this blueprint?
 
 No.
+
+#### I just printed the ship, why can't I control the ship?
+
+Please read the note [here](#flying-the-ship).
 
 #### Why does it need so much Aegisium?
 
