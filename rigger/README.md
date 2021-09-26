@@ -20,11 +20,11 @@ The ship has the following features:
 - Transponder system with ping function
 - Two mining lasers on turrets that point towards asteroids with pulse and sweeping
 - Two ore collectors that point towards asteroids
-- Material scanner that will point to asteroids
-- Approach and mine functions
+- Material scanner that will point towards asteroids
+- Approach and auto mine functions
 - Two external and two internal resource bridges
 - Auto generator rate script with adjustable minimum rate
-- 16 T2 generators (with space for two more) with six T2 fuel chambers and 16 spare rods on racks
+- 16 T2 generators (plus space for two more) with six T2 fuel chambers and 16 spare rods on racks
 - Radiators that provide more than adequate cooling, with backup cooling using coolant
 - Eight medium and six small propellant tanks with 38,000,000 units of propellant
 - Estimated flight time of 6 hours and range of 3,000km
@@ -34,14 +34,15 @@ The ship has the following features:
 - Four T2 triangle thrusters providing braking thrust
 - 40 T2 manuever thrusters with plenty of space for more
 - Basic crafting bench to craft refills (will need to bolt own meter upgrade for T2 refills)
-- Extra small propellant tank with own resource bridge for emergency refueling
+- Extra small propellant tank with its own resource bridge for emergency refueling
 - Totally unnecessary amounts of extra hardpoints (all cabled and piped) all over the ship
 - [ISAN Quad Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) with custom interface that supports 18 waypoints
-- [NavCas (Autopilot and Crash Avoidance System) by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), customised to integrate with waypoint system, running on separate set of  three ISAN Monos
-- [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), customised to integrate with waypoint system and share the receivers with NavCas
+- [NavCas (Autopilot and Crash Avoidance System) by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), customised to integrate with ISAN Waypoint System, running on separate set of  three ISAN Monos
+- [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), customised to integrate with ISAN Waypoint System and share the receivers with NavCas
 - Alert panels and visualisations for obstacle detection
+- Timer panel
 - Two passenger seats
-- Many more extra slots for extra YOLOL or memory chips
+- Many extra slots for YOLOL or memory chips
 - Extension points for modules (currently untested)
 
 ## Changelog
@@ -59,7 +60,7 @@ The ship has the following features:
 
 ![Ship Build Cost](images/build_cost.png)
 
-TIP: If you can craft your own crates, generators (T2), box and triangle thruster components (T2) and ship tools to reduce assembly cost.
+TIP: You can craft your own crates, generators (T2), box and triangle thruster components (T2) and ship tools to reduce assembly cost.
 
 ## Download Blueprint
 
@@ -75,11 +76,11 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 Summary of the ship functions can be found on the YOLOL chips bolted behind the pilot chair. Swipe down on the lock to read each one. More detailed usage instructions are available below.
 
-To enter the ship, there is a button above the cockpit that will open a `Hatch`. Once inside you can also open and close the cockpit glass `Canopy`. Buttons for these are available in the pilot right side console and also on the cieling next to the hatch.
+To enter the ship, there is a button above the cockpit that will open a `Hatch`. Once inside you can also open and close the cockpit glass `Canopy`. Buttons for these are available in the pilot right side console and also on the ceiling next to the hatch.
 
 ### Flying the Ship
 
-**IMPORTANT:** Before flying the ship you should bind your keys by using the V key while sitting on the pilot chair. You will to bind keys for FWD+/FWD- (for forward thrust, usually SHIFT and CTRL), YAW+/YAW- (for yaw, usually E and Q) and PCH+/PCH- (for pitch, usually S and W).
+**IMPORTANT:** Before flying the ship you should bind your keys by using the `V` key while sitting on the pilot chair. You will to bind keys for FWD+/FWD- (for forward thrust, usually SHIFT and CTRL), YAW+/YAW- (for yaw, usually E and Q) and PCH+/PCH- (for pitch, usually S and W).
 
 ![Pilot Center Console](images/pilot_center_console.jpg)
 
@@ -89,7 +90,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 |---|---|
 | `ForwardThrust` | Current forwawrd thrust, maximum of 10,000 units |
 | `SafeZone` | Whether current location is in the safe zone. |
-| `StrengthFactor` | Current strength of ship. May factuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
+| `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of 20% of full thrust. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
@@ -101,7 +102,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Nav`, `Autopilot` & `Avoidance` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `ISAN2`, `Heading`, `Dest`, `DTW` & `Deltas` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
-| `G` | Compass display. Shows direction towards `Dest` waypoint, `+` is in front of ship while `O` is behind the ship. Best used when stationary. See [Compass](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md) for more informaton. |
+| `G` Rotated | Compass display. Shows direction towards `Dest` waypoint, `+` is in front of ship while `O` is behind the ship. Best used when stationary. See [Compass](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md) for more informaton. |
 | `Timer` | See [Timer](#timer). |
 
 ### Using the Waypoint System
@@ -112,41 +113,41 @@ This is a custom interface for the [ISAN Waypoint System](https://github.com/Arc
 
 #### Viewing, Loading and Naming Waypoints
 
-View a waypoint (`WP1` to `WP18`) by pressing the individual button. The waypoint will be shown on the `WP` panel. Load the waypoint in `WP` to `Dest` using the `Load Dest` button. Once in `Dest`, the waypoint will be used by the compass, ISAN and autopilot systems.
+View a waypoint (`WP1` to `WP18`) by pressing the individual buttons. The waypoint will be shown on the `WP` panel. Load the waypoint in `WP` to `Dest` using the `Load Dest` button. Once in `Dest`, the waypoint will be used by the compass, ISAN and autopilot systems.
 
-To give waypoints a name, use your universal tool to change the panel values with the way point name. This is for display purposes and your own reference only, it is not used anywhere else.
+To give waypoints a name, use your universal tool to change the panel values with the name you want. This is for display purposes and your own reference only, it is not used anywhere else.
 
 #### Saving Waypoints
 
 Use `Save Loc` to save waypoint of current location to the waypoint position viewed on the `WP` panel.
 
-To manually save coordinates, use your universal tool to add X, Y and Z values to `NewX`, `NewY` and `NewZ` respectively. Then use the button to save coordinates to the waypoint position viewed on the `WP` panel.
+To manually save coordinates, use your universal tool to add X, Y and Z values to `NewX`, `NewY` and `NewZ` respectively. Then use the button to save the coordinates to the waypoint position viewed on the `WP` panel.
 
 ### Autopilot and Crash Avoidance
 
-The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-projects/tree/main/NavCas) which uses a newer version of ISAN and waypoint from ISAN Waypoint System.
+The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-projects/tree/main/NavCas) which uses the 3 in 1 ISAN from Compass and waypoint from ISAN Waypoint System.
 
 Use while the ship is stationary. Activating `Nav` will start point the ship towards `Dest` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Dest` waypoint with `Avoidance` activated.
 
 **NOTE:** `Nav` needs to be tuned more for accuracy. I recommend using it in conjunction with the compass.
 
-`Avoidance` will activate `Guides`. If the guides detect objects it will pitch the ship down and cut forwrd thurst. If `Autopilot` is activated, it will readjust and continue its flight.
+`Avoidance` will activate `Guides`. If the guides detect objects it will pitch the ship down and cut forward thrust. If `Autopilot` is activated, it will readjust and continue its flight.
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. It also hasn't been tested extensively. **Use at your own risk!**
 
 ### Mining
 
-To approach an asteriod, point the center range finder at an asteriod and activate `Approach`. Once in range (10 to 14m on `Distance`), activate `Lasers` to turn on mining lasers. `Pulse` will activate pulsing of lasers while `MineHeight` and `MineDepth` will adjust sweeping distances of lasers.
+To approach an asteriod, point the center range finder at an asteriod and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. `Pulse` will activate pulsing of the lasers while `MineHeight` and `MineDepth` will adjust sweeping distances of the lasers.
 
 `Mine` is a button which will activate automated mining. Point the center range finder at an asteriod and activate. It will activate `Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
 
-`Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objected detected by the center range finder.
+`Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objects detected by the center range finder.
 
 If batteries start running out of charge while mining, turn on `Min_EPS`. Continous use of the lasers and collectors at the same time requires a `MinEPS` of around 90%.
 
 #### Ore Scanner
 
-Activate using the `Scanner` button. The laser will try to adjust to point at the objected detected by the center range finder. Scan results will show on the `Scan` panel in number of stacks. It has a maximum range of 100m.
+Activate using the `Scanner` button. The laser will try to adjust to point at the objects detected by the center range finder. Scan results will show on the `Scan` panel in number of stacks. It has a maximum range of 100m.
 
 ### Managing Power, Fuel and Cooling
 
@@ -164,17 +165,17 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
-| `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `BackupRods` to set the number of backup rods available. |
-| `Shutdown` | Will turn off all generators. |
+| `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `BackupRods` to set the number of backup rods available. As standard there are 16 extra rods. |
+| `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
-| `Headlights` | Turns on and off external light on the nose of the ship. May help with mining. |
+| `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteriods. |
 
 *ISAN speed is normally quite conservative and not 100% accurate.
 
 #### Managing Power
 
-By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate but seeting the `MinEPS` value for the minimum rate and turning on `Min_EPS`.
+By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `MinEPS` value using the switch for the minimum rate and turning on `Min_EPS`.
 
 #### Refueling Propellant
 
@@ -182,7 +183,7 @@ All four resource bridges can be used for refuelling propellant. To refuel from 
 
 The small propellant tank above the crafting bench can also be used to refuel the ship. Turn off `FlowOut` and connect the tank's resource bridge to any of the ship's resource bridges, this will transfer the propellant from the tank to the ship. You can then unbolt the tank and craft refills for the tank using ice and then bolt the tank back to the support. Rinse and repeat until full.
 
-Remember to turn `FlowIn` and `FlowOut` back on if you are using the Endo to collect ore via the resource bridge.
+Remember to turn `FlowIn` and `FlowOut` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
 
 If for some reason you need access to the ship's internal tanks, you can unbolt the grates on top of the ship which are marked with circular decals. This will give access to _some_ tanks.
 
@@ -190,13 +191,13 @@ If for some reason you need access to the ship's internal tanks, you can unbolt 
 
 The radiators provide more than enough cooling (about 40% extra) for heat generated and you can always add more with all the hardpoints.
 
-However in case of radiators failure you can activate the backup cooling using coolant but pressing the `Cooling` button. But the coolant can only provide partial cooling (about a third) needed so it will only work for partial radiator failure. There are also two coolant recharge racks next to the internal resource bridges to recharge coolant.
+However in case of radiators failure you can activate the backup cooling using coolant but pressing the `Cooling` button. But the coolant can only provide partial cooling (about 30%) needed so it will only work for partial radiator failure. There are also two coolant recharge racks next to the internal resource bridges to recharge coolant.
 
 ### Other Stuff
 
 #### Timer
 
-On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, housrs, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the Timer field.
+On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.
 
 ## Providing Feedback
 
@@ -230,11 +231,11 @@ I converted all external plates to Aegisium for weight and armor, you can use ot
 
 ~~I ran out of single character global variables while both the C and K are used by the ISAN and waypoint system which I was hoping to keep unmodified. I haven't used any digits though, so potentially one of those could be used. Suggestions welcomed.~~
 
-As of version 1.0.1, I managed to free up a lot of global variables, but decided to keep it as it is. In fact with the panel rotated (see below), if you look closely enough the `G` kinda looks like a compass point north (up) :P
+As of version 1.0.1, I managed to free up a lot of global variables, but decided to keep it as it is. In fact with the panel rotated (see below), if you look closely enough the rotated `G` kinda looks like a compass pointing north (up/forward) :P
 
 #### Why is the compass panel rotated (version > 1.0.1)?
 
- The original Compass uses front and right receivers, but this ship uses front and bottom receivers. For ease of future upgrades, I just rotated the panel instead of making changes to the original code.
+ The original Compass uses front and right receivers, but this ship uses front and bottom receivers. For ease of future upgrades, I just rotated the panel instead of making changes to the original Compass code.
 
 #### Why are there so many extra hardpoints?
 
@@ -248,6 +249,6 @@ You need to bolt a meter upgrade to the bench. The ship designer doesn't provide
 
 My idea was to have extension points where modules (more crates, warp core, more propellant, etc) can be attached. The plates there can be removed and there are beams with ducts available for module connection. However no modules have been created yet and this has not been tested.
 
-However if you decide to build any of these modules, you can add range finders in front of the module and name the distance fields RFT, RTB, RTR or RTL for top, bottom, right and left modules respectively. These should automatically be supported by the crash avoidance system plus the guidance alert and visualisation.
+However if you decide to build any of these modules, you can add range finders in front of the module and name the distance fields `RFT`, `RTB`, ``RTR` or `RTL` for top, bottom, right and left modules respectively. These should automatically be supported by the crash avoidance system plus the guidance alert and visualisation.
 
 And I would love to see modules you have created, even if it is just a photo.
