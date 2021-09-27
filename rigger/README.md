@@ -41,13 +41,25 @@ The ship has the following features:
 - [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), customised to integrate with ISAN Waypoint System and share the receivers with NavCas
 - Alert panels and visualisations for obstacle detection
 - Timer panel
+- Odometer panel
 - Two passenger seats
 - Many extra slots for YOLOL or memory chips
 - Extension points for modules (currently untested)
 
 ## Changelog
 
-### v1.0.1 (Current) - 25/09/2021
+### v1.1.0 (Current) - 27/09/2021
+
+- Updated scripts to remove need for custom key bindings for forward, pitch and yaw
+- Increased ore collectors' power from 1000 to 1250
+- Correctly set ore collectors' turret minimum pitch from -13 to -20
+- Swapped `SafeZone`, `StrengthFactor` and Compass panels with `ForwardThrust` for better visibility
+- Added individual progress panels for each fuel chambers on pilot right console
+- Added odometer to pilot right console which shows lifetime and trip flight distances
+- Added name decals
+- Tuned approach script parameters (Thanks Rymn!)
+
+### v1.0.1 - 25/09/2021
 
 - Upgraded Compass to v1.1, use Compass' 3 in 1 ISAN Code and removed individual ISAN receiver codes.
 - Changed NavCas to share Compass receivers' code rather than Compass to share NavCas receivers' code.
@@ -80,7 +92,7 @@ To enter the ship, there is a button above the cockpit that will open a `Hatch`.
 
 ### Flying the Ship
 
-**IMPORTANT:** Before flying the ship you should bind your keys by using the `V` key while sitting on the pilot chair. You will to bind keys for FWD+/FWD- (for forward thrust, usually SHIFT and CTRL), YAW+/YAW- (for yaw, usually E and Q) and PCH+/PCH- (for pitch, usually S and W).
+~~**IMPORTANT:** Before flying the ship you should bind your keys by using the `V` key while sitting on the pilot chair. You will to bind keys for FWD+/FWD- (for forward thrust, usually SHIFT and CTRL), YAW+/YAW- (for yaw, usually E and Q) and PCH+/PCH- (for pitch, usually S and W).~~ No longer needed as of v1.1.0.
 
 ![Pilot Center Console](images/pilot_center_console.jpg)
 
@@ -162,6 +174,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `CoolerRate` | Current cooling rate from coolant, maximum of 100%. Will be 0% unless [`Cooling`](#cooling) is turned on. |
 | `Cooling` | Turns on and off cooling using coolant. See [Cooling](#cooling). |
 | `Fuel` | Total fuel remaining on fuel rods, maximum of 1,800,000 units for the six fuel chambers. |
+| `Fuel1` to `Fuel6` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
@@ -170,6 +183,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
 | `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteriods. |
+| `Odometer` | See [Odometer](#odometer). |
 
 *ISAN speed is normally quite conservative and not 100% accurate.
 
@@ -199,6 +213,10 @@ However in case of radiators failure you can activate the backup cooling using c
 
 On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.
 
+#### Odometer
+
+On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed from ISAN (may not be that accurate). To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.
+
 ## Providing Feedback
 
 I can be found in-game as Egomaniac and on discord as vinteo#4211. Feel free to contact me and provide feedback or if you need help. Pull requests are also welcomed for scripts changes/fixes.
@@ -219,9 +237,9 @@ Finally, I am hoping to get feedback from the community and learn from it, so ho
 
 No.
 
-#### I just printed the ship, why can't I control the ship?
+#### I just printed the ship, why can't I control the ship (version <= 1.0.1)?
 
-Please read the note [here](#flying-the-ship).
+If using version 1.0.1 and earlier, please read the note [here](#flying-the-ship).
 
 #### Why does it need so much Aegisium?
 
