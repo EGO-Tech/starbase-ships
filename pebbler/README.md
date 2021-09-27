@@ -42,7 +42,7 @@ The ship has the following features:
 
 ![Ship Build Cost](images/build_cost.png)
 
-TIP: If you can craft your generators (T2), box thruster components (T2) and ship tools to reduce assembly cost.
+TIP: You can craft your own generators (T2), box thruster components (T2) and ship tools to reduce assembly cost.
 
 ## Download Blueprint
 
@@ -50,7 +50,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 ## Known Issues
 
-- Loading of asteriods are rather slow, especially the larger ones.
+- Loading of asteroids are rather slow, especially the larger ones.
 
 ## Usage
 
@@ -60,9 +60,9 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 | Interface | Function |
 |---|---|
-| `ForwardThrust` | Current forwawrd thrust, maximum of 10,000 units |
+| `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
-| `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of 20% of full thrust. |
+| `Turtle` | Activates turtle mode which sets all thrust to a maximum limit of 20% of full thrust. |
 | `ID` | Toggle for the transponder. |
 | `Distance` | Distance for rangefinder. Green button toggles the rangefinder.|
 | `StoredBatteryPower` | Shows current battery charge of the 15 batteries, maximum of 10,000 units. |
@@ -97,9 +97,9 @@ Finally, I am hoping to get feedback from the community and learn from it, so ho
 
 No.
 
-#### How much can I make from hauling safe zone asteriods?
+#### How much can I make from hauling safe zone asteroids?
 
-It is not very lucrative, but here is an estimated breakdown of 45Mv asteriods (with a rough breakdown of 35Mv shell and 10Mv core) from the safe zone I got during testing.
+It is not very lucrative, but here is an estimated breakdown of 45Mv asteroids (with a rough breakdown of 35Mv shell and 10Mv core) from the safe zone I got during testing.
 
 | Material | Volume | Credits |
 | --- | --- | --- |

@@ -149,9 +149,9 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 
 ### Mining
 
-To approach an asteriod, point the center range finder at an asteriod and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. `Pulse` will activate pulsing of the lasers while `MineHeight` and `MineDepth` will adjust sweeping distances of the lasers.
+To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. `Pulse` will activate pulsing of the lasers while `MineHeight` and `MineDepth` will adjust sweeping distances of the lasers.
 
-`Mine` is a button which will activate automated mining. Point the center range finder at an asteriod and activate. It will activate `Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
+`Mine` is a button which will activate automated mining. Point the center range finder at an asteroid and activate. It will activate `Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
 
 `Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objects detected by the center range finder.
 
@@ -182,7 +182,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
-| `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteriods. |
+| `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteroids. |
 | `Odometer` | See [Odometer](#odometer). |
 
 *ISAN speed is normally quite conservative and not 100% accurate.
