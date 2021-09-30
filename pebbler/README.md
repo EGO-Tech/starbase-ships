@@ -15,7 +15,7 @@ More photos in the [`photos` folder](photos)
 The ship has the following features:
 
 - Standard Cruise and Turtle functions
-- Eight T2 generators with two T2 fuel chambers and six spare rods on racks
+- Six T2 generators with two T2 fuel chambers and six spare rods on racks
 - Radiators that provide more than adequate cooling
 - Eight small propellant tanks with 8,000,000 units of propellant
 - 15 batteries
@@ -23,11 +23,18 @@ The ship has the following features:
 - 36 T2 manuever thrusters with plenty of space for more
 - Two tractor beams which will load asteroids into four compartments with cargo lock beams
 - Rangefinder to help judge forward distance
+- Resource bridge for refueling
 - Pretty much max speed 150m/s when empty
 
 ## Changelog
 
-### v1.1.0 (Current) - 26/09/2021
+### v1.1.1 (Current) - 30/09/2021
+
+- Added resource bridge for refueling
+- Removed two generator units as two fuel chambers can only support six generator units
+- Added some bolts to increase ship strength factor to 2.679
+
+### v1.1.0 - 26/09/2021
 
 - Increase width of cargo beam areas, to better support 45Mv asteroids
 - Increase force threshold of tractor beams when loading, to support 45Mv asteroids
