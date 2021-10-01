@@ -20,7 +20,7 @@ The ship has the following features:
 - Eight small propellant tanks with 8,000,000 units of propellant
 - 15 batteries
 - 12 T2 box triangle thrusters providing forward thrust
-- 36 T2 manuever thrusters with plenty of space for more
+- 36 T2 manuever thrusters
 - Two tractor beams which will load asteroids into four compartments with cargo lock beams
 - Rangefinder to help judge forward distance
 - Resource bridge for refueling
@@ -82,7 +82,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 To load asteroids, activate `Left` or `Right` tractor beam and point the beam at an asteroid. Once the beam has locked on, use `Load` to use beam to load it into either the front or back compartments. The back compartment should be loaded first, **the loading of the back compartment will not activate if the front cargo lock beam is activated**.
 
-Once the asteroid is in place the cargo lock beam should activate itself and the tarctor beam will reset. If it does not activate because the asteroid is too big or for any other reason, you can use `Toogle` to active the cargo lock beam manually and it will also reset the tractor beam.
+Once the asteroid is in place the cargo lock beam should activate itself and the tractor beam will reset. If it does not activate because the asteroid is too big or for any other reason, you can use `Toggle` to active the cargo lock beam manually and it will also reset the tractor beam.
 
 ## Providing Feedback
 
