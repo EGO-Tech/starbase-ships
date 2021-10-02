@@ -1,0 +1,4 @@
+if:load1<1thengoto1end :beam=1
+if:tb_loc<1thengoto1end :tb_pos=6.1 :Approach=0
+if:tb_for>100thengoto3end :tb_rot+=20 if:tb_rot<60thengoto3end
+if:tb_for>100thengoto4end :cb1=1 :beam=0 :tb_rot=0 :load1=0 goto1

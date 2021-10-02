@@ -4,6 +4,8 @@ The Pebbler is an **experimental** asteroid hauling ship. It is designed to be u
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
+If you like safe zone asteroid hauling, please consider the the [Rocker](../rocker) as well.
+
 <img src="photos/20210924201205_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924201152_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924201256_1.jpg" alt="Pebbler" width="400" />
 <img src="photos/20210924201414_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924202536_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924202541_1.jpg" alt="Pebbler" width="400" />
 <img src="photos/20210924202612_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924205348_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924220038_1.jpg" alt="Pebbler" width="400" />
