@@ -51,6 +51,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 - Loading of asteroids are rather slow, especially the larger ones.
 - When asteroids are loaded more on one side, the ship can become unbalanced and thrust efficiency drops
+- Ship yaw is not very good.
 - Currently there are no navigation features but will possibly add ISAN and Compass in the future if this ship becomes useful to Endos
 
 ## Usage
@@ -70,6 +71,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
 | `Approach`, `Beam`, `Load`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
+| `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
+| `DurabilityErrors` | Number of durability errors on the ship. If the asteroids are not position correctly it may cause errors |
 | `Timer` | See [Timer](#timer). |
 
 ### Managing Power and Fuel
