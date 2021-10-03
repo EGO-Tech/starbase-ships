@@ -4,6 +4,8 @@ The Rocker is an **experimental** asteroid hauling ship. It is designed to be us
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
+[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker)
+
 <img src="photos/20211002134507_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134515_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134623_1.jpg" alt="Rocker" width="400" />
 <img src="photos/20211002134643_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134647_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002135839_1.jpg" alt="Rocker" width="400" />
 <img src="photos/20211002140030_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002140236_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002140517_1.jpg" alt="Rocker" width="400" />

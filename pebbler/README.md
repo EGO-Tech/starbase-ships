@@ -6,6 +6,8 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 If you like safe zone asteroid hauling, please consider the the [Rocker](../rocker) as well.
 
+[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Pebbler)
+
 <img src="photos/20210924201205_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924201152_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924201256_1.jpg" alt="Pebbler" width="400" />
 <img src="photos/20210924201414_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924202536_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924202541_1.jpg" alt="Pebbler" width="400" />
 <img src="photos/20210924202612_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924205348_1.jpg" alt="Pebbler" width="400" /> <img src="photos/20210924220038_1.jpg" alt="Pebbler" width="400" />
