@@ -27,7 +27,7 @@ The ship has the following features:
 - 12 T2 box and 28 T2 triangle thrusters providing forward thrust
 - 56 T2 manuever thrusters
 - Tractor beam which will load asteroids into five compartments with cargo lock beams
-- Load automation that will will load asteroids into the right container in the right order
+- Load automation that will load asteroids into the right container in the right order
 - Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
 - Rangefinders to help judge forward distance and asteroid fit
 - Resource bridge for refueling
