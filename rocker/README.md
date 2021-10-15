@@ -35,7 +35,13 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 02/10/2021
+### v1.0.1 (Current) - 15/10/2021
+
+- Retuned approach script to work better and more reliably
+- Added credit calculations for Aegisium and Exorium ores for the more adventurous Endos
+- Increased ship strength factor to 4.743
+
+### v1.0.0 - 02/10/2021
 
 - Initial release
 
