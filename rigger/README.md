@@ -48,7 +48,15 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.0 (Current) - 27/09/2021
+### v1.1.1 (Current) - 16/10/2021
+
+- Updated mining lasers script to turn off immediately when button is toggled off
+- Improved scanner to not "flash" results on display
+- Reorganised YOLOL chips and added labels to racks
+- Retuned approach script to be a lot more conservative and safe
+- Increased ship strength factor to 4.978
+
+### v1.1.0 - 27/09/2021
 
 - Updated scripts to remove need for custom key bindings for forward, pitch and yaw
 - Increased ore collectors' power from 1000 to 1250

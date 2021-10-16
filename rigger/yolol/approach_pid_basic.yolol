@@ -1,4 +1,4 @@
-s=8 Kp=0.2 Ki=0.04 Kd=1.5 t=3 m=1000 g=1/m p=0 goto1+:Approach>0
+s=10 Kp=0.11 Ki=0.00 Kd=0.8 t=3 m=1000 g=1/m p=0 goto1+:Approach>0
 r=:Distance :Range=1 :Turtle=:TurtleRate :Avoidance=0 :Cruise=10
 e=r-s d=e-p i+=e/(d-g) i/=2 o=Kp*e+Ki*i+Kd*d p=e r*=r<m
 z/=:Approach*r*(d*d>g+e*e>4) :FCUForward=o/t :FcuBackward=-o*t goto2
