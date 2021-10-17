@@ -35,7 +35,12 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.1 (Current) - 15/10/2021
+### v1.0.2 (Current) - 17/10/2021
+
+- Increased move step of tractor beam to 30 degrees from 20 degrees for slightly faster loading
+- Added load position switch to be able to load asteroids from the sides (see [Loading Asteroids](#loading-asteroids))
+
+### v1.0.1 - 15/10/2021
 
 - Retuned approach script to work better and more reliably
 - Added credit calculations for Aegisium and Exorium ores for the more adventurous Endos
@@ -78,7 +83,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `ID` | Toggle for the transponder. |
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
-| `Approach`, `Beam`, `Load`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
+| `Approach`, `Beam`, `Load`, `Load Position`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `DurabilityErrors` | Number of durability errors on the ship. If the asteroids are not position correctly it may cause errors |
 | `Timer` | See [Timer](#timer). |
@@ -116,6 +121,8 @@ To load asteroids, activate `Beam` to activate tractor beam and point the beam a
 Once the asteroid is in place the cargo lock beam should activate itself and the tractor beam will reset. If it does not activate for any reason, you can use `Toggle` to active the cargo lock beam manually and it will also reset the tractor beam.
 
 All these can be done the automated `Load` function. Point the center rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach`, `Scan` and `Beam` as well as smartly activating the `Load` of the right compartment. So you can just use `Load` each time and it will load the asteroids to the right compartment in the right order.
+
+As of version 1.0.2, asteroids can also be loaded faster from the sides, by setting the `Load Position` to the left or right. Loading from the right can only load to the back and right back compartments and loading from the left can only load the left back compartment. For safety, loading from the sides can only be activated if the cargo compartments on its respective sides are empty. Also the ship will not spin to the side when using `Approach` automatically, so this has to be done manually. `Load` can be used once the beam has locked on.
 
 ### Other Stuff
 
