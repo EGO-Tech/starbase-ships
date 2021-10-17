@@ -38,7 +38,7 @@ The ship has the following features:
 ### v1.0.2 (Current) - 17/10/2021
 
 - Increased move step of tractor beam to 30 degrees from 20 degrees for slightly faster loading
-- Added load position switch to be able to load asteroids from the sides (see [Loading Asteroids](#loading-asteroids))
+- Added load position switch to be able to load asteroids from the sides (see [Loading Asteroids](#loading-asteroids)). Thanks to Udrakan for the idea.
 
 ### v1.0.1 - 15/10/2021
 
