@@ -19,7 +19,7 @@ More photos in the [`photos` folder](photos)
 The ship has the following features:
 
 - Standard Cruise function
-- Turtle function with adjustable rate
+- Turtle and Sloth function with adjustable rates
 - 12 T2 generators with four T2 fuel chambers and eight spare rods on racks
 - Radiators that provide more than adequate cooling
 - Two small and two medium propellant tanks with 10,000,000 units of propellant
@@ -35,7 +35,14 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.2 (Current) - 17/10/2021
+### v1.0.3 (Current) - 19/10/2021
+
+- Locked Turtle and TurtleRate to only forward thrust
+- Added Sloth and Sensitivity to limit yaw and pitch thrust
+- Retuned approach script again as it is not dependant on Turtle mode anymore
+- Replaced two chip reader racks with 3-slot racks for more chip space
+
+### v1.0.2 - 17/10/2021
 
 - Increased move step of tractor beam to 30 degrees from 20 degrees for slightly faster loading
 - Added load position switch to be able to load asteroids from the sides (see [Loading Asteroids](#loading-asteroids)). Thanks to Udrakan for the idea.
@@ -79,7 +86,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 |---|---|
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
-| `Turtle`, `TurtleRate` | Activates turtle mode which sets all thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
+| `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
+| `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
 | `ID` | Toggle for the transponder. |
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
