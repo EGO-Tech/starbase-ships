@@ -1,0 +1,1 @@
+:md=(:md+:mds)*(:md>=0)-:md>:mdm goto1

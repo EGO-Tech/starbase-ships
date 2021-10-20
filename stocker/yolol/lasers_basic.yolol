@@ -1,0 +1,14 @@
+x=1.92 y=3.84 r=57.296 dd=12 s=40 m=999
+if:lasers<1thengoto2end rd=:Distance d=rd+x
+ifrd<1 or rd>m thend=dd+x end lpc=y/d*r iflpc>s thenlpc=s end
+mh=:mh/2 :lp1=lpc :lp2=lpc :lr1=0 :lr2=0 lr=mh/d*r
+md=:md/2 lpf=y/(d+md+md)*r iflpf>s thenlpf=s end
+lpn=y/(d+md)*r iflpn>s thenlpn=s end :lcw=1
+:lp1=lpf :lp2=lpn :lr1=lr :lr2=-lr :lcw=3
+:lp1=lpc :lp2=lpc :lr1=0 :lr2=0 :lcw=3
+:lp1=lpn :lp2=lpf :lr1=lr :lr2=-lr :lcw=3
+:lp1=lpc :lp2=lpc :lr1=0 :lr2=0 :lcw=3
+:lp1=lpn :lp2=lpf :lr1=-lr :lr2=lr :lcw=3
+:lp1=lpc :lp2=lpc :lr1=0 :lr2=0 :lcw=3
+:lp1=lpf :lp2=lpn :lr1=-lr :lr2=lr
+goto2
