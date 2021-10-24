@@ -1,0 +1,4 @@
+n="\n" a="h" b="m" c="s" k="km" e="\n\nDistance:\n" p=300000
+s=t%60 m=(t-s)%3600/60 h=(t-m*60-s)/3600 d=:sp*t/1000
+:WithBackup=h+a+m+b+(s-s%1)+c+e+d+k f=:Fuel :bcw=19
+t=(:Fuel+:BackUpRods*p)/((f-:Fuel)/4) goto2
