@@ -48,7 +48,11 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 24/10/2021
+### v1.0.1 (Current) - 28/10/2021
+
+- Fixed some broken cables on pilot left console
+
+### v1.0.0 - 24/10/2021
 
 - Initial release
 
