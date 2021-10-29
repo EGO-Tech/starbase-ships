@@ -1,3 +1,5 @@
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 # Starbase Ships
 Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 
@@ -7,3 +9,14 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 | <img src="stocker/photos/20211013183158_1.jpg" alt="Stocker" width="200" /> | [Stocker](stocker) | The Stocker is a 216 ore crate capacity fast travel capable mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](rigger). The blueprint is provided for free | v1.0.1 |
 | <img src="pebbler/photos/20210924201205_1.jpg" alt="Pebbler" width="200" /> | [Pebbler](pebbler) | The Pebbler is an **experimental** asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses two tractor beams to position asteroids into compartments of cargo lock beams. Although it is not very lucrative, the Pebbler is no frills and will pay itself back in about four or five quick trips to the belt.| v1.1.1 |
 | <img src="rocker/photos/20211002134507_1.jpg" alt="Rocker" width="200" /> | [Rocker](rocker) | The Rocker is an **experimental** asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses a tractor beam to position asteroids into five compartments of cargo lock beams in a circular pattern. It is a more polished and advanced version of the [Pebbler](pebbler) as it has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids.| v1.0.3 |
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
