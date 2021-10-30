@@ -1,6 +1,6 @@
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
 # Pebbler
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 The Pebbler is an **experimental** asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses two tractor beams to position asteroids into compartments of cargo lock beams. Although it is not very lucrative, the Pebbler is no frills and will pay itself back in about four or five quick trips to the belt.
 
@@ -100,17 +100,17 @@ Of course in-game tips are greatly appreciated.
 
 ## Frequently Asked Questions
 
-#### Why is the blueprint free?
+### Why is the blueprint free?
 
 This ship is experimental and was quickly put together in a day. I just wanted to test how tractor beams work.
 
 Finally, I am hoping to get feedback from the community and learn from it, so hopefully I will be able to design better ships in the future.
 
-#### Can I sell ships based on this blueprint?
+### Can I sell ships based on this blueprint?
 
 No.
 
-#### How much can I make from hauling safe zone asteroids?
+### How much can I make from hauling safe zone asteroids?
 
 It is not very lucrative, but here is an estimated breakdown of 45Mv asteroids (with a rough breakdown of 35Mv shell and 10Mv core) from the safe zone I got during testing.
 
