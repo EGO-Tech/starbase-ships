@@ -1,8 +1,9 @@
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
 # Rocker
 
-The Rocker is an **experimental** asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses a tractor beam to position asteroids into five compartments of cargo lock beams in a circular pattern. It is a more polished and advanced version of the [Pebbler](../pebbler) as it has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids.
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+The Rocker is an **experimental** asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses a tractor beam to position asteroids into five compartments of cargo lock beams in a circular pattern.
+It is a more polished and advanced version of the [Pebbler](../pebbler) as it has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids.
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
@@ -120,19 +121,26 @@ By default the generator will only run and ramp up when the batteries need charg
 
 ![Scanner](images/scanner.jpg)
 
-`Scan` turns on the material scanner. The beam has a range of 100m. Point the beam at an asteroid and `Material` will show the materials in the asteroid along with the volume of each in stacks. `Credits` will show the _estimated_ amount of credits you will get for the asteroid if you drop it off at Origin stations. The calculation is 158.8% (worked out this with testing) of the cost of ore of the vendor price. **This only has data for safe zone materials.** The total volume of the asteroid in Mv is also shown.
+`Scan` turns on the material scanner. The beam has a range of 100m.
+Point the beam at an asteroid and `Material` will show the materials in the asteroid along with the volume of each in stacks.
+`Credits` will show the _estimated_ amount of credits you will get for the asteroid if you drop it off at Origin stations.
+The calculation is 158.8% (worked out this with testing) of the cost of ore of the vendor price. **This only has data for safe zone materials.** The total volume of the asteroid in Mv is also shown.
 
 ### Loading Asteroids
 
 Approach an asteroid by pointing the center rangefinder at an asteroid and activating `Approach`. This will guide the ship to around 10m of the asteroid.
 
-To load asteroids, activate `Beam` to activate tractor beam and point the beam at an asteroid. Once the beam has locked on, use `Load` to use beam to load to a compartment. The back compartment should be loaded first followed by the left and right back and finally the the front compartments. **The loading of the a compartment will not activate if cargo lock beam of the compartments in front of it is activated**.
+To load asteroids, activate `Beam` to activate tractor beam and point the beam at an asteroid. Once the beam has locked on, use `Load` to use beam to load to a compartment.
+The back compartment should be loaded first followed by the left and right back and finally the the front compartments.
+**The loading of the a compartment will not activate if cargo lock beam of the compartments in front of it is activated**.
 
 Once the asteroid is in place the cargo lock beam should activate itself and the tractor beam will reset. If it does not activate for any reason, you can use `Toggle` to active the cargo lock beam manually and it will also reset the tractor beam.
 
 All these can be done the automated `Load` function. Point the center rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach`, `Scan` and `Beam` as well as smartly activating the `Load` of the right compartment. So you can just use `Load` each time and it will load the asteroids to the right compartment in the right order.
 
-As of version 1.0.2, asteroids can also be loaded faster from the sides, by setting the `Load Position` to the left or right. Loading from the right can only load to the back and right back compartments and loading from the left can only load the left back compartment. For safety, loading from the sides can only be activated if the cargo compartments on its respective sides are empty. Also the ship will not spin to the side when using `Approach` automatically, so this has to be done manually. `Load` can be used once the beam has locked on.
+As of version 1.0.2, asteroids can also be loaded faster from the sides, by setting the `Load Position` to the left or right. Loading from the right can only load to the back and right back compartments and loading from the left can only load the left back compartment.
+For safety, loading from the sides can only be activated if the cargo compartments on its respective sides are empty.
+Also the ship will not spin to the side when using `Approach` automatically, so this has to be done manually. `Load` can be used once the beam has locked on.
 
 ### Other Stuff
 
@@ -150,17 +158,17 @@ Of course in-game tips are greatly appreciated.
 
 ## Frequently Asked Questions
 
-#### Why is the blueprint free?
+### Why is the blueprint free?
 
 This ship is experimental, it is not very lucrative to haul small safe zone asteroids and tractor beams are super slow. But I had a lot of fun building it!
 
 Finally, I am hoping to get feedback from the community and learn from it, so hopefully I will be able to design better ships in the future.
 
-#### Can I sell ships based on this blueprint?
+### Can I sell ships based on this blueprint?
 
 No.
 
-#### How much can I make from hauling safe zone asteroids?
+### How much can I make from hauling safe zone asteroids?
 
 It is not very lucrative, but here is an estimated breakdown of 45Mv asteroids (with a rough breakdown of 35Mv shell and 10Mv core) from the safe zone I got during testing.
 
