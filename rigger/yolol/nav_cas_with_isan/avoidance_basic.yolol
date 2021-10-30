@@ -5,4 +5,3 @@ ifi>0then:FCUForward=f :cas=1 i=0end goto1
 ifi<1theni=1 f=:FCUForward :FCUForward=0end goto1
 
 // Original by fixerid
-// https://github.com/fixerid/sb-projects/wiki/Navigation-Autopilot-with-Collision-Avoidance-System-(NavCas)
