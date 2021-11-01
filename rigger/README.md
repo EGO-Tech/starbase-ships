@@ -6,6 +6,8 @@ The Rigger is a fast medium sized mining ship. Although it has a limited autopil
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rigger)
 
+The Rigger (v1.1.0) is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.
+
 <img src="images/rigger1.jpg" alt="Rigger" width="400" /> <img src="images/rigger2.jpg" alt="Rigger" width="400" /> <img src="images/rigger3.jpg" alt="Rigger" width="400" />
 <img src="images/rigger4.jpg" alt="Rigger" width="400" /> <img src="images/rigger5.jpg" alt="Rigger" width="400" /> <img src="images/rigger6.jpg" alt="Rigger" width="400" />
 <img src="images/rigger7.jpg" alt="Rigger" width="400" /> <img src="images/rigger8.jpg" alt="Rigger" width="400" /> <img src="images/rigger9.jpg" alt="Rigger" width="400" />
@@ -58,7 +60,7 @@ The ship has the following features:
 - Retuned approach script to be a lot more conservative and safe
 - Increased ship strength factor to 4.978
 
-### v1.1.0 - 27/09/2021
+### v1.1.0 (Ship Shop Version) - 27/09/2021
 
 - Updated scripts to remove need for custom key bindings for forward, pitch and yaw
 - Increased ore collectors' power from 1000 to 1250

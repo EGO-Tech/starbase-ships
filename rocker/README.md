@@ -9,6 +9,8 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker)
 
+The Rocker (v1.0.0) is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.
+
 <img src="photos/20211002134507_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134515_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134623_1.jpg" alt="Rocker" width="400" />
 <img src="photos/20211002134643_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134647_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002135839_1.jpg" alt="Rocker" width="400" />
 <img src="photos/20211002140030_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002140236_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002140517_1.jpg" alt="Rocker" width="400" />
@@ -56,7 +58,7 @@ The ship has the following features:
 - Added credit calculations for Aegisium and Exorium ores for the more adventurous Endos
 - Increased ship strength factor to 4.743
 
-### v1.0.0 - 02/10/2021
+### v1.0.0 (Ship Shop Version) - 02/10/2021
 
 - Initial release
 
