@@ -1,6 +1,6 @@
 # Rocker
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 The Rocker is an **experimental** asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses a tractor beam to position asteroids into five compartments of cargo lock beams in a circular pattern.
 It is a more polished and advanced version of the [Pebbler](../pebbler) as it has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids.
