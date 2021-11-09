@@ -2,6 +2,7 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 ![Linting](https://github.com/vinteo/starbase-ships/workflows/Linting/badge.svg)
+![YOLOL](https://github.com/vinteo/starbase-ships/workflows/YOLOL/badge.svg)
 
 
 Blueprints and manuals for some ships for the game Starbase by Frozenbyte
