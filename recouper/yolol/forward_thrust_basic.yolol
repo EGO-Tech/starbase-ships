@@ -1,0 +1,4 @@
+t=111 a=32 b=2 c=3 d=9 e=4 f=16
+z=:t1*a+:t2*b+:t3*b+:t4*b+:t5*b+:t6*c+:t7*c+:t8*c+:t9*d+:t12*e+:t13*e
+z+=:t10*b+:t11+:t14*b+:t15*f+:t16*f+:t17*e+:t18*e+:t19*e+:t20*e
+:ForwardThrust=z/t goto2

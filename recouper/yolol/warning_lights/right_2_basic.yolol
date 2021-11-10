@@ -1,0 +1,2 @@
+k=1000 a=6*k b=5*k :w3=:gd*((:r7+:r8+:r9+:r0+:rb+:rc)<a)
+:w4=:gd*((:r6+:r7+:r9+:ra+:rb)<b) goto1

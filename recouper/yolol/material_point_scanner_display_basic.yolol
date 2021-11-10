@@ -1,0 +1,12 @@
+p="\n" q=p+p s=" stks"+q k="k" a="Ajatite" b="Bastium" c="Charodium"
+i="Ice" n="Nhurgite" v="Valkite" o="Vokarium" ab="Aegisium"
+ac="Exorium" r=q+"NO RESULT" u=100 d=.544 e=.87 f=3.81 g=.816
+h=2.721 j=.544 l=.979 m=1.588 ad=2.503 ae=4.354 af=1000
+if:m1=="" or :m2==""thengoto11end if:vt<1thengoto12end ag=:v1/u*u
+ah=:v2/u*u :Material=q+:m1+p+ag+s+:m2+p+ah+s x=:m1 y=:m2 z=x==a w=x==i
+cr=:v1*(z*d+w*g+(x==v)*j)
+cr+=:v2*((y==b)*e+(y==c)*f+(y==n)*h+(y==o)*l+(y==ab)*ad+(y==ac)*ae)
+t=:vt/af cr*=m :Credits=p+cr+k+q+"Volume:"+p+t+"Mv" goto5
+
+:Material=r :Credits=r goto5
+aa=q+"Scanning..." :Material=aa :Credits=aa goto5

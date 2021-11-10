@@ -1,0 +1,2 @@
+if:load<1then:cguide=0 :jaw=0 goto1end
+a=:cargo<1 :cguide=a :load=a :jaw=a goto1

@@ -1,0 +1,3 @@
+n="\n" :target=n+n+"X: "+:wx+n+"Y: "+:wy+n+"Z: "+:wz
+if:load_ap<1thengoto1end
+:wx=:nx :wy=:ny :wz=:nz :load_ap=0 goto1
