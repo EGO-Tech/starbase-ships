@@ -15,6 +15,8 @@ The Stocker is a 216 ore crate capacity fast travel capable mining ship. It is d
 
 More photos in the [`photos` folder](photos)
 
+This ship is featured in the a [Ship Showcase Video by Krawll Unchained](https://www.youtube.com/watch?v=RXAccUqcWhI&ab_channel=KrawllUnchained)
+
 ## Features
 
 The ship has the following features:

@@ -21,6 +21,8 @@ The Rocker (v1.0.0) is also available to buy in game at Hangar Showroom 2 of Ran
 
 More photos in the [`photos` folder](photos)
 
+This ship is featured in the a [Ship Showcase Video by Krawll Unchained](https://www.youtube.com/watch?v=RXAccUqcWhI&ab_channel=KrawllUnchained)
+
 ## Features
 
 The ship has the following features:
