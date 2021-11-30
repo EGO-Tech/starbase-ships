@@ -1,0 +1,3 @@
+if:load5<1thengoto1end if:cb5>0then:load5=0 :tb5=0 goto1end :tb5=1
+if:tb5_loc<1thengoto1end :tb5_pos=4 :Approach=0
+if:tb5_for>100thengoto3end :cb5=1 :tb5=0 :load5=0 goto1

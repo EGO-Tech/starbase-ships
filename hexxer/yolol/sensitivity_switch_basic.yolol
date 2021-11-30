@@ -1,0 +1,2 @@
+:Sensitivity=(:Sensitivity+:sss)*(:Sensitivity>=0)-:Sensitivity>100
+goto1
