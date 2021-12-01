@@ -72,6 +72,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
 | `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
+| `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `ID` | Toggle for the transponder. |
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
