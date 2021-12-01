@@ -44,7 +44,17 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.3 (Current) - 19/10/2021
+### v1.0.4 (Current) - 02/12/2021
+
+- Fixed a broken cable
+- Added Aim button
+- Added some missing decorative plates
+- Changed material of all plates to Ajatite to reduce mass
+- Added some additional painting & decals
+- Added device mappings to have better labels for fuel and min gen devices
+- New Approach script by Darkyshadow
+
+### v1.0.3 - 19/10/2021
 
 - Locked Turtle and TurtleRate to only forward thrust
 - Added Sloth and Sensitivity to limit yaw and pitch thrust
@@ -97,6 +107,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
 | `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
+| `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `ID` | Toggle for the transponder. |
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
@@ -114,14 +125,14 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 10,000,000 units. |
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `MinEPS` & `Min_EPS` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged. |
-| `Fuel1`, `Fuel2`, `Fuel3`, `Fuel4` | Total fuel remaining on fuel rods, maximum of 300,000 units each. |
+| `Fuel Rod 1`, `Fuel Rod 2`, `Fuel Rod 3`, `Fuel Rod 4` | Total fuel remaining on fuel rods, maximum of 300,000 units each. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 
 #### Managing Power
 
-By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `MinEPS` value using the switch for the minimum rate and turning on `Min_EPS`.
+By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Rate` value using the switch for the minimum rate and turning on `Min Gen`.
 
 ### Scanning Asteroids
 
