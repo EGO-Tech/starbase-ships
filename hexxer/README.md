@@ -8,6 +8,8 @@ The Hexxer is a ship for hauling small asteroids, designed to be used in the saf
 It has load automation to approach and load asteroids in the right order to balance the ship as much as possible as well as a material scanner that gives estimated credits for selling the asteroids.
 It has similar functions to the [Rocker](../rocker) but loads a little quicker and has one more compartment.
 
+If you like safe zone asteroid hauling, please consider the [Rocker](../rocker) or the [Rocker Duo](../rocker_duo) as well.
+
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hexxer)

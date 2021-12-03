@@ -9,7 +9,7 @@ The Pebbler is an **experimental** asteroid hauling ship. It is designed to be u
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-If you like safe zone asteroid hauling, please consider the the [Rocker](../rocker) as well.
+If you like safe zone asteroid hauling, please consider the [Rocker](../rocker), the [Rocker Duo](../rocker_duo) or the [Hexxer](../hexxer) as well.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Pebbler)
 
