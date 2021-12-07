@@ -1,0 +1,2 @@
+k=1000 a=(4+:range)*k c=:distance*:range
+:wa=:gd*((:c7+:c8+:c9+:ca+c)<a) :wb=:gd*((:c5+:c6+:c9+:c0+c)<a) goto1
