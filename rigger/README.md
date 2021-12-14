@@ -16,7 +16,7 @@ The Rigger (v1.1.0) is also available to buy in game at Hangar Showroom 2 of Ran
 
 More photos in the [`photos` folder](photos)
 
-This ship is featured in the a [Ship Showcase Video by Krawll Unchained](https://www.youtube.com/watch?v=RXAccUqcWhI&ab_channel=KrawllUnchained)
+This ship is featured in the a [Ship Showcase Video by Krawll Unchained](https://www.youtube.com/watch?v=RXAccUqcWhI&ab_channel=KrawllUnchained) and [Ship Shop Tour (German) by Softwerker](https://www.youtube.com/watch?v=-yPhVYfb0b8&ab_channel=Softwerker)
 
 ## Features
 
