@@ -1,0 +1,20 @@
+if:AutoPilot<1 and :Nav<1theng=0 f=0 goto1end ap=:AutoPilot
+r=20 pt=15 yt=15 ep=1.05 ed=5000 et=5000 t=:Turtle :Cruise=0
+ifg>0then:Avoidance=1else:Avoidance=0end
+xD=:wx-:ex yD=:wy-:ey zD=:wz-:ez Dt=sqrt(xD^2+yD^2+zD^2)
+iff<1thenx0=:ex y0=:ey z0=:ez Do=Dt f=1 r=0end
+da=sqrt((:ex-x0)^2+(:ey-y0)^2+(:ez-z0)^2) d0=d1 d1=Dt v1=d0-d1
+dx=(Do-da)*ep+ed ifDt>dx or :cas>0thens=1 :cas=0end
+ifs>0then:FCUForward=0 ifabs v1<15thenf=0 g=0 s=0 goto1endend
+e=10^6 ds=e*sqrt((:fx-:ex)^2+(:fy-:ey)^2+(:fz-:ez)^2) Dd=ds/Dt
+xs=:ex+Dd*xD/e ys=:ey+Dd*yD/e zs=:ez+Dd*zD/e vr=xs-:fx vs=ys-:fy
+vt=zs-:fz vj=:gx-:ex vk=:gy-:ey vl=:gz-:ez va=:fx-:ex vb=:fy-:ey
+vc=:fz-:ez vx=vk*vc-vb*vl vy=-(vj*vc-va*vl) vz=vj*vb+va*vk
+pj=vr*vj+vs*vk+vt*vl px=vr*vx+vs*vy+vz*vt a=pj>-r b=px>-r c=pj<-r
+n="\n" :dd=Do-da+n+Dt+n+v1+"\npj:"+pj+" px:"+px+" r:"+r+" g:"+g d=pj>r
+ifDt<et then:AutoPilot=0 :FCUForward=0end ifg>0thengoto1end h=pj<r
+ifa*h*b*(px<r)theng=ap :FCUForward=t*ap :Nav=0 goto1end j=px>r k=px<-r
+ifc then:FcuRotationalPitch=pt end ifd then:FcuRotationalPitch=-pt end
+ifj then:FcuRotationalYaw=yt end
+ifk then:FcuRotationalYaw=-yt end goto1
+// Original by fixerid
