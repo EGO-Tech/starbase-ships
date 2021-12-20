@@ -222,3 +222,7 @@ No.
 ### Why can't the crafting bench craft T2 refills?
 
 You need to bolt a meter upgrade to the bench. The ship designer doesn't provide it so I couldn't add it to the blueprint.
+
+### Will changing all thruster nozzles to T3 versions increase speed?
+
+Yes, only slightly, by about an additional 2m/s. For all thrusters (including maneuver and braking thrusters), this is at a cost of 3.6 stacks of Ymrium and 14.3 Kutonium as well of 120K credits for assembly.
