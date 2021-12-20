@@ -1,7 +1,7 @@
 # Stocker
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.3&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Stocker is a 216 ore crate capacity fast travel capable mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](../rigger). The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
@@ -54,7 +54,11 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.2 (Current) - 17/12/2021
+### v1.0.3 (Current) - 20/12/2021
+
+- Added Reset ISAN button
+
+### v1.0.2 - 17/12/2021
 
 - Fixed labels for memory relays
 - Painted a small plate black that wasn't painted by mistake
@@ -150,6 +154,14 @@ It will also flash `Red` warning lights on the pilot center console according to
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
 
+### Resetting Navigation
+
+If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button. Press once to take ISAN offline, then press again to reset.
+
+For v1.0.2 and below, do this by using your universal tool on the ISAN panel on the pilot console and clearing the value of the `_` field.
+The first time will show ISAN as offline, repeat clearing the value again to reset ISAN and NavGrid.
+
+
 ### Mining
 
 To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Mining Lasers` to turn on the mining lasers.
@@ -230,5 +242,4 @@ You need to bolt a meter upgrade to the bench. The ship designer doesn't provide
 
 ### Why does NavGrid show an error?
 
-This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN. Do this using your universal tool on the ISAN panel on the pilot console and clearing the value of the `_` field.
-The first time will show ISAN as offline, repeat clearing the value again to reset ISAN and NavGrid.
+This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN. See [Resetting Navigation](#resetting-navigation).
