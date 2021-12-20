@@ -1,7 +1,7 @@
 # Shifter
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Shifter is a 450 ore crate capacity fast travel capable mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](../stocker).
@@ -56,6 +56,10 @@ The ship has the following features:
 - Top speed of 135m/s when empty
 
 ## Changelog
+
+### v1.0.1 (Current) - 21/12/2021
+
+- Added Reset ISAN button
 
 ### v1.0.0 (Current) - 20/12/2021
 
@@ -145,6 +149,15 @@ It will also flash `Red` warning lights on the pilot center console according to
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
 
+### Resetting Navigation
+
+If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button. Press once to take ISAN offline, then press again to reset.
+
+For v1.0.0, this has to be done manually.
+Since this ship has three ISAN panels (one each on the pilot, engineering and navigation consoles), before reseting ISAN, rename the `_` field of two of the panels to something else temporarily using the universal tool.
+Then using your universal tool on the remaining ISAN panel, clear the value of the `_` field.
+The first time will show ISAN as offline, repeat clearing the value again to reset ISAN and NavGrid. You can then rename the fields back to `_` on the two panels earlier.
+
 ### Mining
 
 To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Mining Lasers` to turn on the mining lasers.
@@ -229,7 +242,4 @@ Yes, only slightly, by about an additional 2m/s. For all thrusters (including ma
 
 ### Why does NavGrid show an error?
 
-This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN.
-Since this ship has three ISAN panels (one each on the pilot, engineering and navigation consoles), before reseting ISAN, rename the `_` field of two of the panels to something else temporarily using the universal tool.
-Then using your universal tool on the remaining ISAN panel, clear the value of the `_` field.
-The first time will show ISAN as offline, repeat clearing the value again to reset ISAN and NavGrid. You can then rename the fields back to `_` on the two panels earlier.
+This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN. See [Resetting Navigation](#resetting-navigation).
