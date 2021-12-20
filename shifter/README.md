@@ -226,3 +226,10 @@ You need to bolt a meter upgrade to the bench. The ship designer doesn't provide
 ### Will changing all thruster nozzles to T3 versions increase speed?
 
 Yes, only slightly, by about an additional 2m/s. For all thrusters (including maneuver and braking thrusters), this is at a cost of 3.6 stacks of Ymrium and 14.3 Kutonium as well of 120K credits for assembly.
+
+### Why does NavGrid show an error?
+
+This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN.
+Since this ship has three ISAN panels (one each on the pilot, engineering and navigation consoles), before reseting ISAN, rename the `_` field of two of the panels to something else temporarily using the universal tool.
+Then using your universal tool on the remaining ISAN panel, clear the value of the `_` field.
+The first time will show ISAN as offline, repeat clearing the value again to reset ISAN and NavGrid. You can then rename the fields back to `_` on the two panels earlier.

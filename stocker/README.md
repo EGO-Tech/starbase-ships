@@ -227,3 +227,8 @@ No.
 ### Why can't the crafting bench craft T2 refills?
 
 You need to bolt a meter upgrade to the bench. The ship designer doesn't provide it so I couldn't add it to the blueprint.
+
+### Why does NavGrid show an error?
+
+This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN. Do this using your universal tool on the ISAN panel on the pilot console and clearing the value of the `_` field.
+The first time will show ISAN as offline, repeat clearing the value again to reset ISAN and NavGrid.
