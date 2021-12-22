@@ -1,0 +1,3 @@
+t=160 a=16 b=2 c=4 d=46 e=3
+z=:t1*a+:t2*a+:t3*b+:t4*c+:t5*c+:t6*c+:t7*b+:t8*b+:t9*b+:t10*e+:t11*e
+z+=:t12*e+:t13*e+:t14*b+:t15*b+:t16*d+:t17*d :avg=z/t goto2

@@ -24,6 +24,12 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 | <img src="rocker_duo/photos/20211203224915_1.jpg" alt="Rocker Duo" width="200" /> | [Rocker Duo](rocker_duo) | The Rocker Duo is a asteroid hauling ship that is bascially two [Rockers](rocker) mashed together. It is designed to be used in the safe zone and haul small asteroids. It uses two tractor beams to position asteroids into two sets of five compartments of cargo lock beams in a circular pattern so it can hold up to ten asteroids. | v1.0.0 | 10 | Very Slow |
 | <img src="hexxer/photos/20211130203152_1.jpg" alt="Hexxer" width="200" /> | [Hexxer](hexxer) | The Hexxer is a ship for hauling small asteroids, designed to be used in the safe zone. It uses six tractor beams to pull asteroids into six compartments of cargo lock beams in a hex pattern. It has load automation to approach and load asteroids in the right order to balance the ship as much as possible as well as a material scanner that gives estimated credits for selling the asteroids. It has similar functions to the [Rocker](../rocker) but loads a little quicker and has one more compartment.| v1.0.0 | 6 | Moderate |
 
+## Others
+
+| Ship | Name | Description | Version | Fast Travel Core |
+|---|---|---|---|---|
+| <img src="quester/photos/20211222182319_1.jpg" alt="Quester" width="200" /> | [Quester](quester) | The Quester multi purpose command or explorer ship that is fitted with a medbay with a reconstruction machine and a workshop with all three crafting benches. It also has a large main hall that is designed to be large enough to fit the capital ship nav logger (not included in blueprint). However the owner is free to fit the hall for whatever purpose that is desired. | v1.0.0 | Yes |
+
 ## License
 
 This work is licensed under a
