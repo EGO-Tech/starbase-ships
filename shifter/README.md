@@ -61,7 +61,7 @@ The ship has the following features:
 
 - Added Reset ISAN button
 
-### v1.0.0 (Current) - 20/12/2021
+### v1.0.0 - 20/12/2021
 
 - Initial release
 
@@ -84,7 +84,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 ## Usage
 
-To enter the ship, there is a button on top of the center of the ship that will open a `Hatch`. Once inside you can also open and close the cockpit glass `Canopy`. The pilot `Chair` can be rotated around for easy access. Buttons for these are available in the pilot side consoles and also on the ceiling above the pilot seat.
+To enter the ship, there is are buttons on either side of the body of the ship that will open `Doors`. Once inside you can also open and close the cockpit glass `Canopy`. Buttons for these are available in the pilot side consoles and also on the ceiling above the pilot seat.
 
 ### Flying the Ship
 
@@ -96,6 +96,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 |---|---|
 | `Speed`, `Speedo` | Current speed in metres per second. `Speedo` button toggles speedometer, use to reset speedometer if not working |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
+| `Throttle` | Current throttle level, maximum of 100 percent |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
 | `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
@@ -106,7 +107,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Approach`, `Collect`, `Mine`, `Mining Lasers`, `Pulse`, `Eco`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
 | `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
-| `NavGrid`, `NavP`, `NavC` & `Atitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](using-the-waypoint-system). |
+| `NavGrid`, `NavP`, `NavC` & `Attitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](using-the-waypoint-system). |
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
@@ -191,10 +192,8 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 | `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
-| `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteroids. |
 | `Canopy` | Opens or closes glass canopy. |
-| `Hatch` | Opens or closes ship entry hatch. |
-| `Chair` | Rotates pilot chair. |
+| `Doors` | Opens or closes ship entry doors. |
 
 #### Managing Power
 
@@ -204,7 +203,8 @@ By default the generator will only run and ramp up when the batteries need charg
 
 All four resource bridges can be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot right side console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
 
-The two red propellant tanks behind the generators can also be used to refuel the ship. Connect the `Red` resource bridge to the `Green` resource bridge to tarnsfer propellant. You can then unbolt the red tanks and craft refills for the tanks using ice and then bolt the tank back to the support. Rinse and repeat until full. The `Red` and `Green` buttons toggles the respective resource bridges.
+The two red propellant tanks on the bottom level at the back of ship can also be used to refuel the ship. Connect the `Red` resource bridge to the `Green` resource bridge to transfer propellant.
+You can then unbolt the red tanks and craft refills for the tanks using ice and then bolt the tank back to the support. Rinse and repeat until full. The `Red` and `Green` buttons toggles the respective resource bridges.
 
 Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
 

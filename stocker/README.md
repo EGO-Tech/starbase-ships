@@ -111,7 +111,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Approach`, `Collect`, `Mine`, `Mining Lasers`, `Pulse`, `Eco`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
 | `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
-| `NavGrid`, `NavP`, `NavC` & `Atitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](using-the-waypoint-system). |
+| `NavGrid`, `NavP`, `NavC` & `Attitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](using-the-waypoint-system). |
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
@@ -195,7 +195,6 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 | `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
-| `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteroids. |
 | `Canopy` | Opens or closes glass canopy. |
 | `Hatch` | Opens or closes ship entry hatch. |
 | `Chair` | Rotates pilot chair. |
@@ -208,7 +207,8 @@ By default the generator will only run and ramp up when the batteries need charg
 
 All four resource bridges can be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot right side console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
 
-The two red propellant tanks behind the generators can also be used to refuel the ship. Connect the `Red` resource bridge to the `Green` resource bridge to tarnsfer propellant. You can then unbolt the red tanks and craft refills for the tanks using ice and then bolt the tank back to the support. Rinse and repeat until full. The `Red` and `Green` buttons toggles the respective resource bridges.
+The two red propellant tanks behind the generators can also be used to refuel the ship. Connect the `Red` resource bridge to the `Green` resource bridge to transfer propellant.
+You can then unbolt the red tanks and craft refills for the tanks using ice and then bolt the tank back to the support. Rinse and repeat until full. The `Red` and `Green` buttons toggles the respective resource bridges.
 
 Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
 
