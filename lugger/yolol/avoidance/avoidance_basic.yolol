@@ -1,0 +1,4 @@
+a=100 if:av<1thengoto1end :guide=1
+f=:FcuForward b=:ru+:rm+:rd :FcuForward*=b==0 z/=b==0 goto1+:av
+b=4*:rd-2*:ru+:rm c=a*(b>0-b<0) :FUD=c :au=c>0 :ad=c<0 z/=:av*b goto3
+:FcuForward=f :FUD=0 :au=0 :ad=0 goto1

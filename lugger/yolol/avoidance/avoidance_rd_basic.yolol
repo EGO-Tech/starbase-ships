@@ -1,0 +1,2 @@
+k=1000 a=15*k b=:r9+:rb+:rc+:rf+:re
+:rd=:gd*((b+:c0+:ca+:cb+:cc+:cd+:l9+:lb+:lc+:ld+:le)<a) goto1

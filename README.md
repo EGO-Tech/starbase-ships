@@ -24,6 +24,12 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 | <img src="rocker_duo/photos/20211203224915_1.jpg" alt="Rocker Duo" width="200" /> | [Rocker Duo](rocker_duo) | The Rocker Duo is a asteroid hauling ship that is bascially two [Rockers](rocker) mashed together. It is designed to be used in the safe zone and haul small asteroids. It uses two tractor beams to position asteroids into two sets of five compartments of cargo lock beams in a circular pattern so it can hold up to ten asteroids. | v1.0.0 | 10 | Very Slow |
 | <img src="hexxer/photos/20211130203152_1.jpg" alt="Hexxer" width="200" /> | [Hexxer](hexxer) | The Hexxer is a ship for hauling small asteroids, designed to be used in the safe zone. It uses six tractor beams to pull asteroids into six compartments of cargo lock beams in a hex pattern. It has load automation to approach and load asteroids in the right order to balance the ship as much as possible as well as a material scanner that gives estimated credits for selling the asteroids. It has similar functions to the [Rocker](../rocker) but loads a little quicker and has one more compartment.| v1.0.0 | 6 | Moderate |
 
+## Haulers
+
+| Ship | Name | Description | Version | Ore Crates | Fast Travel Core |
+|---|---|---|---|---|---|
+| <img src="lugger/photos/20211225214407_1.jpg" alt="Lugger" width="200" /> | [Lugger](lugger) | The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. | v1.0.0 | 832 | Yes |
+
 ## Others
 
 | Ship | Name | Description | Version | Fast Travel Core |
