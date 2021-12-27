@@ -1,7 +1,7 @@
 # Rigger
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
@@ -56,7 +56,13 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.1 (Current) - 16/10/2021
+### v1.1.2 (Current) - 27/12/2021
+
+- Painted external hardpoints and maneuver thrusters black
+- Replaced two YOLOL chip readers with memory relays to allow for remapping, giving some nicer labels on the consoles
+- Upgraded Compass to v1.2.1
+
+### v1.1.1 - 16/10/2021
 
 - Updated mining lasers script to turn off immediately when button is toggled off
 - Improved scanner to not "flash" results on display
@@ -126,7 +132,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Guides` & `Guidance` | Activates rangefinders (except center one which can be actiavted separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner). |
-| `Approach`, `Collect`, `Mine`, `Lasers`, `Pulse`, `MineHeight` & `MineDepth` | Mining controls. See [Mining](#mining). |
+| `Approach`, `Collect`, `Mine`, `Lasers`, `Pulse`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
 | `Nav`, `Autopilot` & `Avoidance` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `ISAN2`, `Heading`, `Dest`, `DTW` & `Deltas` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
@@ -165,13 +171,13 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 
 ### Mining
 
-To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. `Pulse` will activate pulsing of the lasers while `MineHeight` and `MineDepth` will adjust sweeping distances of the lasers.
+To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. `Pulse` will activate pulsing of the lasers while `Laser Sweep Height` and `Laser Sweep Depth` will adjust sweeping distances of the lasers.
 
 `Mine` is a button which will activate automated mining. Point the center range finder at an asteroid and activate. It will activate `Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
 
 `Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objects detected by the center range finder.
 
-If batteries start running out of charge while mining, turn on `Min_EPS`. Continous use of the lasers and collectors at the same time requires a `MinEPS` of around 90%.
+If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
 
 #### Ore Scanner
 
@@ -185,12 +191,12 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 |---|---|
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `MinEPS` & `Min_EPS` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged, turn on [`Cooling`](#cooling) as backup. |
 | `CoolerRate` | Current cooling rate from coolant, maximum of 100%. Will be 0% unless [`Cooling`](#cooling) is turned on. |
 | `Cooling` | Turns on and off cooling using coolant. See [Cooling](#cooling). |
 | `Fuel` | Total fuel remaining on fuel rods, maximum of 1,800,000 units for the six fuel chambers. |
-| `Fuel1` to `Fuel6` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
+| `Fuel Rod 1` to `Fuel Rod 6` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
@@ -205,7 +211,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 
 #### Managing Power
 
-By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `MinEPS` value using the switch for the minimum rate and turning on `Min_EPS`.
+By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Limit` value using the switch for the minimum rate and turning on `Min Gen`.
 
 #### Refueling Propellant
 
