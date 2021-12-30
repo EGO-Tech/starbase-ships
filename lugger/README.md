@@ -1,7 +1,7 @@
 # Lugger
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. However it is pretty much at its voxel limit so any additions or changes may be difficult without sacrificing crates.
@@ -50,7 +50,12 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.1 (Current) - 27/12/2021
+### v1.0.2 (Current) - 31/12/2021
+
+- Replaced braking thrusters' nozzles with T3 nozzles as originally intended
+- Removed `nName`, `nX`, `nY` and `nZ` panels from navigation co-pilot console as duplicates interfere with operation
+
+### v1.0.1 - 27/12/2021
 
 - Added grates at the back and bottom of the ships that can be removed to access rear thrusters' hardpoints for easy repair
 

@@ -28,7 +28,7 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 
 | Ship | Name | Description | Version | Ore Crates | Fast Travel Core |
 |---|---|---|---|---|---|
-| <img src="lugger/photos/20211225214407_1.jpg" alt="Lugger" width="200" /> | [Lugger](lugger) | The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. | v1.0.1 | 832 | Yes |
+| <img src="lugger/photos/20211225214407_1.jpg" alt="Lugger" width="200" /> | [Lugger](lugger) | The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. | v1.0.2 | 832 | Yes |
 
 ## Others
 
