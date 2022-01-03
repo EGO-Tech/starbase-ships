@@ -129,7 +129,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of 20% of full thrust. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Sloth` | (Right Console) Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
-| `Guides` & `Guidance` | Activates rangefinders (except center one which can be actiavted separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder. |
+| `Guides` & `Guidance` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner). |
 | `Approach`, `Collect`, `Mine`, `Lasers`, `Pulse`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |

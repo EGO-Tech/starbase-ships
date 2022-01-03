@@ -105,7 +105,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
 | `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
-| `Guides` | Activates rangefinders (except center one which can be actiavted separately). Can be used as guide lasers. `Red` warning lights show location of obstacles (left, right and centre). |
+| `Guides` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Red` warning lights show location of obstacles (left, right and centre). |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Material Scanner` & `Materials` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
 | `Approach`, `Collect`, `Mine`, `Mining Lasers`, `Pulse`, `Eco`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
@@ -150,7 +150,7 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 `Avoidance` will activate `Guides`. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom `Blue` warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
 It will also flash `Red` warning lights on the pilot center console according to the position of obstacle detected. If `Autopilot` is activated, it will readjust and continue its flight.
 
-`Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset but clearing the panel value using the `U` tool.
+`Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset by clearing the panel value using the `U` tool.
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
 
