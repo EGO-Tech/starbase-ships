@@ -1,7 +1,7 @@
 # Lugger
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.3&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. However it is pretty much at its voxel limit so any additions or changes may be difficult without sacrificing crates.
@@ -50,7 +50,11 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.2 (Current) - 31/12/2021
+### v1.0.3 (Current) - 04/01/2022
+
+- Added reset buttons for timer, odometer and avoids as current method does not work with duplicate panels
+
+### v1.0.2 - 31/12/2021
 
 - Replaced braking thrusters' nozzles with T3 nozzles as originally intended
 - Removed `nName`, `nX`, `nY` and `nZ` panels from navigation co-pilot console as duplicates interfere with operation
@@ -142,7 +146,7 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 `Avoidance` will activate `Guides`. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom `Blue` warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
 It will also flash `Red` warning lights on the pilot center console according to the position of obstacle detected. If `Autopilot` is activated, it will readjust and continue its flight.
 
-`Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset but clearing the panel value using the `U` tool.
+`Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset by holding down the `Avoids` `Reset Trips` button.
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
 
@@ -186,11 +190,11 @@ The propellant tanks are also easily accessible for swapping or crafting refills
 
 #### Timer
 
-On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.
+On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, hold down the `Reset Timer` button on the pilot left console.
 
 #### Odometer
 
-On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed (speedometer must be activated). To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.
+On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed (speedometer must be activated). To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.
 
 ## Providing Feedback
 
