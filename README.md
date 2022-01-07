@@ -30,6 +30,12 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 |---|---|---|---|---|---|
 | <img src="lugger/photos/20211225214407_1.jpg" alt="Lugger" width="200" /> | [Lugger](lugger) | The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. | v1.0.4 | 832 | Yes |
 
+## Fighters
+
+| Ship | Name | Description | Version | Lasers | Autocannons |
+|---|---|---|---|---|---|
+| <img src="jabber/photos/20220107211217_1.jpg" alt="Jabber" width="200" /> | [Jabber](jabber) | The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable. | v1.0.0 | 4 | 0 |
+
 ## Others
 
 | Ship | Name | Description | Version | Fast Travel Core |
