@@ -122,7 +122,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 | Interface | Function |
 |---|---|
-| `ForwardThrust` | Current forwawrd thrust, maximum of 10,000 units |
+| `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
