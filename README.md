@@ -34,7 +34,7 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 
 | Ship | Name | Description | Version | Lasers | Autocannons |
 |---|---|---|---|---|---|
-| <img src="jabber/photos/20220107211217_1.jpg" alt="Jabber" width="200" /> | [Jabber](jabber) | The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable. | v1.0.0 | 4 | 0 |
+| <img src="jabber/photos/20220107211217_1.jpg" alt="Jabber" width="200" /> | [Jabber](jabber) | The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable. | v1.0.1 | 4 | 0 |
 
 ## Others
 
