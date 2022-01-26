@@ -1,0 +1,5 @@
+n="\n" k=1000 u="km" t="Trip:"+n
+if:odo_res>0then:odometer=n+"Reseting..." :odo_t=0end
+s=:sp :odo_l+=s/k :odo_t+=s/k
+if:Odometer==""thengoto1end :Odometer=n+:odo_l+u+n+n+t+:odo_t+u+n
+goto1
