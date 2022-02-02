@@ -1,7 +1,7 @@
 # Rocker Duo
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Rocker Duo is a asteroid hauling ship that is bascially two [Rockers](../rocker) mashed together. It is designed to be used in the safe zone and haul small asteroids.
@@ -42,6 +42,10 @@ The ship has the following features:
 - Pretty much max speed 150m/s when empty
 
 ## Changelog
+
+### v1.0.1 (Current) - 03/02/2022
+
+- Changed material of some beams that were accidently changed back to Bastium
 
 ### v1.0.0 (Current) - 04/12/2021
 
