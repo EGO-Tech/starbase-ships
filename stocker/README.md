@@ -8,6 +8,8 @@ The Stocker is a 216 ore crate capacity fast travel capable mining ship. It is d
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Stocker)
 
+The Stocker (v1.0.1) is also available to buy in game at Scenery Showroom of Rando 4 Ship Shop at stations with Rando ship shops.
+
 <img src="photos/20211013183139_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020215245_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020222134_1.jpg" alt="Stocker" width="400" />
 <img src="photos/20211020223238_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223324_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223540_1.jpg" alt="Stocker" width="400" />
 <img src="photos/20211020223639_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223656_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223717_1.jpg" alt="Stocker" width="400" />
