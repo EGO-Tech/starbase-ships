@@ -1,7 +1,7 @@
 # Jabber
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
@@ -43,7 +43,14 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.1 (Current) - 26/01/2022
+### v1.0.2 (Current) - 12/02/2022
+
+- Replaced ammo magazines to get new 600 capacity
+- Updated ammo displays and lights to reflect the new capacity
+- Painted all maneuver thrusters fully black
+- Painted forward thrusters black and red
+
+### v1.0.1 - 26/01/2022
 
 - Added `Shutdown` button, shuffled controls a bit to make space
 - Added name decals
@@ -111,14 +118,14 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Fire` | Fire lasers, best bound to a key and held down to fire. |
 | `Combat` | Activates combat mode which enables lasers and starts charging them. |
 | `Crosshair` | Activates beam crosshair. |
-| `Laser Ammo Right 1`, `Laser Ammo Right 2`, `Laser Ammo Left 1` & `Laser Ammo Left 2` | Ammo remaining on lasers, maximum of 200 units for each. |
+| `Laser Ammo Right 1`, `Laser Ammo Right 2`, `Laser Ammo Left 1` & `Laser Ammo Left 2` | Ammo remaining on lasers, maximum of 600 units for each. |
 | `Laser Ammo Heat 1`, `Laser Heat Right 2`, `Laser Heat Left 1` & `Laser Heat Left 2` | Heat generated on lasers, maximum of 1,000 units for each. |
 | `Laser Ammo Power 1`, `Laser Power Right 2`, `Laser Power Left 1` & `Laser Power Left 2` | Power remaining on lasers, maximum of 5,000 units for each. |
 | `Red` lights | Each row of four lights for each laser representing heat. Each light represents 200 units of power. Blinks when heat reaches 600 units. |
-| `Blue` lights | Each row of four lights for each laser representing ammo. Each light represents 50 ammo. Blinks when ammo drops below reaches 50. |
+| `Blue` lights | Each row of four lights for each laser representing ammo. Each light represents 150 ammo. Blinks when ammo drops below reaches 150. |
 | `Green` lights | Each row of four lights for each laser representing power. Each light represents 1,250 units of power. Blinks when power drops below 1,250. |
 
-When entering combat, activate `Combat` to turn on lasers and start charging the lasers. `Crosshair` actiavtes the beam crosshair for target aimming. Use `Fire` to fire the lasers. It is best used bound to a key and then holding down the key to fire. Lasers fire alternating in pairs of one each of each side.
+When entering combat, activate `Combat` to turn on lasers and start charging the lasers. `Crosshair` activates the beam crosshair for target aimming. Use `Fire` to fire the lasers. It is best used bound to a key and then holding down the key to fire. Lasers fire alternating in pairs of one each of each side.
 
 Open the `Service` hatches for access to the ammo magazines.
 
