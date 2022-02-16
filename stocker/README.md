@@ -1,7 +1,7 @@
 # Stocker
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.3&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.4&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Stocker is a 216 ore crate capacity fast travel capable mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](../rigger). The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
@@ -56,7 +56,12 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.3 (Current) - 20/12/2021
+### v1.0.4 (Current) - 16/02/2022
+
+- Fixed sweeping of bottom two lasers
+- Switched lights from white to light blue for less glare
+
+### v1.0.3 - 20/12/2021
 
 - Added Reset ISAN button
 
