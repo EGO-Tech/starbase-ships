@@ -71,7 +71,7 @@ The ship has the following features:
 - Painted a small plate black that wasn't painted by mistake
 - Painted hardpoints of rangefinders and tools black
 
-### v1.0.1 - 28/10/2021
+### v1.0.1 (Ship Shop Version) - 28/10/2021
 
 - Fixed some broken cables on pilot left console
 
