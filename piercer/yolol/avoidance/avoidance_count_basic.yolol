@@ -1,0 +1,2 @@
+a=:au+:ad ifa<1thengoto1end
+b=:au+:ad ifb>0thengoto2end :cas=1 :lav++ :tav++ goto1

@@ -1,0 +1,6 @@
+x=1.68 y=-1.68 r=57.296 dd=13 s=20 m=999
+if:lasers<1thena=1 goto2end rd=:Distance d=rd+x
+ifrd<1 or rd>m thend=dd+x end c=y/d*r ifc>s thenc=s end goto5+:dms
+goto2 // manual
+:dp=c goto2 // fixed
+:rot=1 ifa>0then:dp=c a=0end goto2 // auto

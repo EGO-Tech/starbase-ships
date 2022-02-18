@@ -14,6 +14,7 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 | <img src="rigger/images/rigger1.jpg" alt="Rigger" width="200" /> | [Rigger](rigger) | The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. | v1.1.2 | 100 | 2 | No |
 | <img src="stocker/photos/20211013183158_1.jpg" alt="Stocker" width="200" /> | [Stocker](stocker) | The Stocker is a 216 ore crate capacity fast travel capable mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](rigger). | v1.0.4 | 216 | 4 | Yes |
 | <img src="shifter/photos/20211219204001_1.jpg" alt="Shifter" width="200" /> | [Shifter](shifter) | The Shifter is a 450 ore crate capacity fast travel capable mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](stocker). | v1.0.4 | 450 | 4 | Yes |
+| <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer](piercer) | The Piercer is a 334 ore crate capacity fast travel capable mining ship with an automated rotating laser drill for mining operations. | v1.0.0 | 334 | 4 | Yes |
 
 ## Asteroid Haulers
 
