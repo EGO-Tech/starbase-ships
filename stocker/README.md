@@ -17,7 +17,11 @@ The Stocker (v1.0.1) is also available to buy in game at Scenery Showroom of Ran
 
 More photos in the [`photos` folder](photos)
 
-This ship is featured in the a [Ship Showcase Video by Krawll Unchained](https://www.youtube.com/watch?v=RXAccUqcWhI&ab_channel=KrawllUnchained)
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - 3 Ships by "Egomaniac" ( The moon Crasher) 😉😁](https://www.youtube.com/watch?v=RXAccUqcWhI) |
 
 ## Features
 

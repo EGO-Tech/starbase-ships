@@ -20,6 +20,12 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 More photos in the [`photos` folder](photos)
 
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [CrispyChestnuts](https://www.youtube.com/channel/UCZuFhUb3UwEfSiUvIZJJ55Q) | [Crispy demos the Hexxer by Egomaniac](https://www.youtube.com/watch?v=dbKt1CyBivc) |
+
 ## Features
 
 The ship has the following features:

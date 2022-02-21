@@ -23,7 +23,13 @@ The Rocker (v1.0.0) is also available to buy in game at Hangar Showroom 2 of Ran
 
 More photos in the [`photos` folder](photos)
 
-This ship is featured in the a [Ship Showcase Video by Krawll Unchained](https://www.youtube.com/watch?v=RXAccUqcWhI&ab_channel=KrawllUnchained) and [Ship Shop Tour (German) by Softwerker](https://www.youtube.com/watch?v=L_w0D9E99cg&ab_channel=Softwerker)
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [CrispyChestnuts](https://www.youtube.com/channel/UCZuFhUb3UwEfSiUvIZJJ55Q) | [Crispy demos the Rocker Duo (and Rocker) by Egomaniac](https://www.youtube.com/watch?v=SI1ndXVzCmE) |
+| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - 3 Ships by "Egomaniac" ( The moon Crasher) 😉😁](https://www.youtube.com/watch?v=RXAccUqcWhI) |
+| [Softwerker](https://www.youtube.com/channel/UCLOj9FpWzNuFhsqv1g16lEw) | [Ship Shop Tour: Rando 7 (Teil 2/X) 🦾 Let's Play Starbase [S2E82] [German/Deutsch]](https://www.youtube.com/watch?v=L_w0D9E99cg) |
 
 ## Features
 

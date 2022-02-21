@@ -16,7 +16,12 @@ The Rigger (v1.1.0) is also available to buy in game at Hangar Showroom 2 of Ran
 
 More photos in the [`photos` folder](photos)
 
-This ship is featured in the a [Ship Showcase Video by Krawll Unchained](https://www.youtube.com/watch?v=RXAccUqcWhI&ab_channel=KrawllUnchained) and [Ship Shop Tour (German) by Softwerker](https://www.youtube.com/watch?v=-yPhVYfb0b8&ab_channel=Softwerker)
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - 3 Ships by "Egomaniac" ( The moon Crasher) 😉😁](https://www.youtube.com/watch?v=RXAccUqcWhI) |
+| [Softwerker](https://www.youtube.com/channel/UCLOj9FpWzNuFhsqv1g16lEw) | [Ship Shop Tour: Rando 7 (Teil 1/X) 🦾 Let's Play Starbase [S2E81] [German/Deutsch]](https://www.youtube.com/watch?v=-yPhVYfb0b8) |
 
 ## Features
 
