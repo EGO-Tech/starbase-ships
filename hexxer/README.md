@@ -14,6 +14,8 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hexxer)
 
+The Hexxer (v1.0.0) is also available to buy in game at Hangar Showroom 1 of Rando 1 Ship Shop at stations with Rando ship shops.
+
 <img src="photos/20211130202523_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130202716_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130202726_1.jpg" alt="Hexxer" width="400" />
 <img src="photos/20211130202735_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130202952_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130200338_1.jpg" alt="Hexxer" width="400" />
 <img src="photos/20211130200911_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130203152_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130215537_1.jpg" alt="Hexxer" width="400" />
@@ -47,7 +49,7 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 01/12/2021
+### v1.0.0 (Current, Ship Shop Version) - 01/12/2021
 
 - Initial release
 
