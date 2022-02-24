@@ -41,7 +41,7 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 | Ship | Name | Description | Version | Fast Travel Core |
 |---|---|---|---|---|
 | <img src="quester/photos/20211222182319_1.jpg" alt="Quester" width="200" /> | [Quester](quester) | The Quester multi purpose command or explorer ship that is fitted with a medbay with a reconstruction machine and a workshop with all three crafting benches. It also has a large main hall that is designed to be large enough to fit the capital ship nav logger (not included in blueprint). However the owner is free to fit the hall for whatever purpose that is desired. | v1.0.4 | Yes |
-| <img src="tourer/photos/20220126152139_1.jpg" alt="Tourer" width="200" /> | [Tourer](tourer) | The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a fast travel core for mooon trips. | v1.0.0 | Yes |
+| <img src="tourer/photos/20220126152139_1.jpg" alt="Tourer" width="200" /> | [Tourer](tourer) | The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a fast travel core for mooon trips. | v1.0.1 | Yes |
 
 ## License
 

@@ -1,7 +1,7 @@
 # Tourer
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a fast travel core for mooon trips. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
@@ -41,7 +41,11 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 26/01/2022
+### v1.0.1 (Current) - 24/02/2022
+
+- Fixed incorrect values for `Aim` button
+
+### v1.0.0 - 26/01/2022
 
 - Initial release
 
