@@ -1,0 +1,2 @@
+a=0.5*(:dms>0) if:lasers*:rot thengoto2end :dr=0 goto1
+if:dcr==:dr then:dp+=a :dr+=90end if:dr>180then:dp+=a :dr=0end goto1

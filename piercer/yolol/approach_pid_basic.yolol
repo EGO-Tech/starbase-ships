@@ -1,0 +1,19 @@
+s=13 m=1000 ib=5 t=20 g=0.200 p=0 i=0 x=ib+s u=0
+if:Ap*(:M<m)then:Range=1 goto3+:insideSafeZone end goto1
+Kp=0.056 Ki=0.001 Kd=5.4 h=0.50 l=1-h p=:M-s goto5 //NSZ
+Kp=0.080 Ki=0.001 Kd=5.8 h=0.50 l=1-h p=:M-s goto5 //SZ
+e=:M-s d=(p-e)*Kd*h+d*l i+=e*Ki*(:M<x) o=Kp*e+i f=u/t u+=u<t p=e
+z/=:Ap*(:M<m)*(d*d>g+e*e>1) :fcuforward=o*f :fcubackward=(d-i)*f goto5
+if(d*d>g+e*e>1)==0then:Ap=0end :fcuforward=0 :fcubackward=0 goto1
+
+//Improved PID - Approximated Profiled Motion PID - VER 1.1
+// by: Darkyshadow
+// github.com/GameName-Darkyshadow/Starbase
+// tips by in game mail are not necessary but appreciated
+// Tuning Parameters explained on Github with Manual
+
+//Large Ship Example Tunings
+//Kp=0.056 Ki=0.001 Kd=5.4 h=0.50 //t=20 //Super Conservative
+//Kp=0.080 Ki=0.001 Kd=5.8 h=0.50 //t=20 //Conservative
+//Medium Ship Example Tunings
+//Kp=0.090 Ki=0.001 Kd=5.8 h=0.98 //t=10  //Medium Aggressive
