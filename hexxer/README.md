@@ -1,7 +1,7 @@
 # Hexxer
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Hexxer is a ship for hauling small asteroids, designed to be used in the safe zone. It uses six tractor beams to pull asteroids into six compartments of cargo lock beams in a hex pattern.
@@ -49,7 +49,14 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current, Ship Shop Version) - 01/12/2021
+### v1.0.1 (Current) - 03/03/2022
+
+- Added `Unload` button which turns off all cargo lock beams
+- Removed some thin floor plates on either side of cockpit for easier access to levers
+- Painted tractor beam and scanner mounts black
+- Painted triangle thrusters' bodies black and nozzles red
+
+### v1.0.0 (Ship Shop Version) - 01/12/2021
 
 - Initial release
 
@@ -122,6 +129,7 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 | Interface | Function |
 |---|---|
 | Cargo `Load` & `Toggle` | Individual cargo loading controls. |
+| `Unload` | Turns off all cargo lock beams. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `DurabilityErrors` | Number of durability errors on the ship. If the asteroids are not position correctly it may cause errors |
 | `Timer` | See [Timer](#timer). |
