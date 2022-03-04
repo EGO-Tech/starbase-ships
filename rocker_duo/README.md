@@ -1,7 +1,7 @@
 # Rocker Duo
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Rocker Duo is a asteroid hauling ship that is bascially two [Rockers](../rocker) mashed together. It is designed to be used in the safe zone and haul small asteroids.
@@ -49,11 +49,16 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.1 (Current) - 03/02/2022
+### v1.0.2 (Current) - 04/03/2022
+
+- Piped and cabled four braking thusters that were not connected
+- Added `Unload` buttons which turns off cargo lock beams on right and left side respectively
+
+### v1.0.1 - 03/02/2022
 
 - Changed material of some beams that were accidently changed back to Bastium
 
-### v1.0.0 (Current) - 04/12/2021
+### v1.0.0 - 04/12/2021
 
 - Initial release
 
@@ -92,7 +97,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
-| `Approach`, `Tractor Beam`, `Load`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
+| `Approach`, `Beam`, `Unload`, `Load`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `DurabilityErrors` | Number of durability errors on the ship. If the asteroids are not position correctly it may cause errors |
 | `Timer` | See [Timer](#timer). |
@@ -129,13 +134,15 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 
 Approach an asteroid by pointing the center rangefinder at an asteroid and activating `Approach`. This will guide the ship to around 10m of the asteroid.
 
-To load asteroids, activate `Tractor Beam` of either side to activate tractor beam and point the beam at an asteroid. Once the beam has locked on, use `Load` to use beam to load to a compartment.
+To load asteroids, activate `Beam` of either side to activate tractor beam and point the beam at an asteroid. Once the beam has locked on, use `Load` to use beam to load to a compartment.
 The back compartment should be loaded first followed by the left and right back and finally the the front compartments.
 **The loading of the a compartment will not activate if cargo lock beam of the compartments in front of it is activated**.
 
 Once the asteroid is in place the cargo lock beam should activate itself and the tractor beam will reset. If it does not activate for any reason, you can use `Toggle` to active the cargo lock beam manually and it will also reset the tractor beam.
 
-All these can be done the automated `Load` function. Point the center rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach`, `Scan` and `Tractor Beam` as well as smartly activating the `Load` of the right compartment. So you can just use `Load` each time and it will load the asteroids to the right compartment in the right order.
+All these can be done the automated `Load` function. Point the center rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach`, `Scan` and `Beam` as well as smartly activating the `Load` of the right compartment. So you can just use `Load` each time and it will load the asteroids to the right compartment in the right order.
+
+`Unload` will turn of all cargo lock beams on either side.
 
 ### Other Stuff
 
