@@ -142,6 +142,8 @@ Once the asteroid is in place the cargo lock beam should activate itself and the
 
 All these can be done the automated `Load` function on **the pilot center console**. Point the rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach` and `Scan` as well as smartly activating the `Load` of the right compartment. So you can just use `Load` each time and it will load the asteroids to the right compartment in the right order.
 
+`Unload` will turn of all cargo lock beams.
+
 ### Other Stuff
 
 #### Timer
