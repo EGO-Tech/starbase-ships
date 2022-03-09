@@ -27,7 +27,7 @@ The ship has the following features:
 - Auto generator rate script with adjustable minimum rate
 - Six T2 generators with two T2 fuel chambers and two spare rods on racks
 - Radiators that provide more than adequate cooling
-- Three medium with 12,000,000 units of propellant
+- Three medium tanks with 12,000,000 units of propellant
 - Propellant time and fuel time panels
 - 8 batteries
 - 22 T2 triangle thrusters providing forward thrust
@@ -92,7 +92,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Fuel Rod 1` & `Fuel Rod 2` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Shutdown` | Turns off fuel chambers. |
-| `Propellant` | Total propellant remaining in propellant tanks, maximum of 8,000,000 units. |
+| `Propellant` | Total propellant remaining in propellant tanks, maximum of 12,000,000 units. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
@@ -102,6 +102,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Door` | Open and closes the door into the ship. |
 | `Service` | Open and closes the service hatches on side of the ship for access to the fuel rods. |
 
+*ISAN speed is normally quite conservative and not 100% accurate.
 
 #### Managing Power
 
