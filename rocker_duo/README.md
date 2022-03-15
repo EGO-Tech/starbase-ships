@@ -14,6 +14,8 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker%20Duo)
 
+The Rocker Duo (v1.0.1, with thruster fix from v1.0.2) is also available to buy in game at Central Showroom of Rando 2 Ship Shop at stations with Rando ship shops.
+
 <img src="photos/20211203214550_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214558_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214608_1.jpg" alt="Rocker Duo" width="400" />
 <img src="photos/20211203214624_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214644_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214700_1.jpg" alt="Rocker Duo" width="400" />
 <img src="photos/20211203214726_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214728_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203223957_1.jpg" alt="Rocker Duo" width="400" />
@@ -54,7 +56,7 @@ The ship has the following features:
 - Piped and cabled four braking thusters that were not connected
 - Added `Unload` buttons which turns off cargo lock beams on right and left side respectively
 
-### v1.0.1 - 03/02/2022
+### v1.0.1 (Ship Shop Version, with thruster fix from v1.0.2) - 03/02/2022
 
 - Changed material of some beams that were accidently changed back to Bastium
 
