@@ -1,5 +1,7 @@
 # Pebbler
 
+**NOTE: The Pebbler is considered end of life and will no longer be getting any updates.**
+
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
@@ -9,7 +11,7 @@ The Pebbler is an **experimental** asteroid hauling ship. It is designed to be u
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-If you like safe zone asteroid hauling, please consider the [Rocker](../rocker), the [Rocker Duo](../rocker_duo) or the [Hexxer](../hexxer) as well.
+If you like safe zone asteroid hauling, please consider the [Rocker](../../rocker), the [Rocker Duo](../../rocker_duo) or the [Hexxer](../../hexxer) as well.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Pebbler)
 
