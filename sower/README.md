@@ -1,7 +1,7 @@
 # Sower
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship.
@@ -35,6 +35,13 @@ The ship has the following features:
 - Top speed of 140 m/s empty
 
 ## Changelog
+
+### v1.0.1 (Current) - 16/03/2022
+
+- Fixed centering speed for `FcuUpDown` lever
+- Removed the single YOLOL rack label
+- Fixed back cable for memory relay getting in the way
+- Added missing ducts, cables and pipes for back radiators' hardpoints
 
 ### v1.0.0 - 11/03/2022
 
