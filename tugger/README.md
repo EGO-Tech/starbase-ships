@@ -17,6 +17,12 @@ Special thanks to `bambu666` for helping me test this ship and providing feedbac
 
 More photos in the [`photos` folder](photos)
 
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - The Tugger by "Egomaniac" - New "Towing mechanic"](https://www.youtube.com/watch?v=I1Zl2mli1YQ) |
+
 ## Features
 
 The ship has the following features:
