@@ -23,3 +23,4 @@ jobs:
         run: |
           yodk verify ./**/**/*.yolol
           yodk verify ./**/**/**/*.yolol
+          yodk verify ./**/**/**/**/*.yolol
