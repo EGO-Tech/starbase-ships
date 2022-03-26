@@ -1,7 +1,7 @@
 # Rocker Duo
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Rocker Duo is a asteroid hauling ship that is bascially two [Rockers](../rocker) mashed together. It is designed to be used in the safe zone and haul small asteroids.
@@ -14,7 +14,7 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker%20Duo)
 
-The Rocker Duo (v1.0.1, with thruster fix from v1.0.2) is also available to buy in game at Central Showroom of Rando 2 Ship Shop at stations with Rando ship shops.
+The Rocker Duo (v1.1.0) is also available to buy in game at Central Showroom of Rando 2 Ship Shop at stations with Rando ship shops.
 
 <img src="photos/20211203214550_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214558_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214608_1.jpg" alt="Rocker Duo" width="400" />
 <img src="photos/20211203214624_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214644_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214700_1.jpg" alt="Rocker Duo" width="400" />
@@ -51,12 +51,21 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.2 (Current) - 04/03/2022
+### v1.1.0 (Current, Ship Shop Version) - 23/05/2022
+
+- Painted thrusters, generators and fuel chambers black
+- Painted propellant tanks red
+- Added four heat sinks
+- Reduced radiators to four bases
+- Replaced  `RadiationRate` panel with `HeatTransferRate`
+- Added `StoredHeat` panel
+
+### v1.0.2 - 04/03/2022
 
 - Piped and cabled four braking thusters that were not connected
 - Added `Unload` buttons which turns off cargo lock beams on right and left side respectively
 
-### v1.0.1 (Ship Shop Version, with thruster fix from v1.0.2) - 03/02/2022
+### v1.0.1 - 03/02/2022
 
 - Changed material of some beams that were accidently changed back to Bastium
 
@@ -114,7 +123,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
-| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Fuel Rod 1`, `Fuel Rod 2`, `Fuel Rod 3`, `Fuel Rod 4`, `Fuel Rod 5`, `Fuel Rod 6`, `Fuel Rod 7`, `Fuel Rod 8` | Total fuel remaining on fuel rods, maximum of 300,000 units each. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `ID` | Toggle for the transponder. |
