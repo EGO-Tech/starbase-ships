@@ -1,16 +1,15 @@
 # Tourer
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=2.0.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
-The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a fast travel core for mooon trips. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
+The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Tourer)
 
-<img src="photos/20220126152207_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126152219_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126152226_1.jpg" alt="Tourer" width="400" />
-<img src="photos/20220126152139_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126152148_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126152154_1.jpg" alt="Tourer" width="400" />
-<img src="photos/20220126152239_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126152309_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126154303_1.jpg" alt="Tourer" width="400" />
+<img src="photos/20220605013238_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220605013301_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220605013223_1.jpg" alt="Tourer" width="400" />
+<img src="photos/20220605013233_1.jpg" alt="Tourer" width="400" />  <img src="photos/20220126152309_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126154303_1.jpg" alt="Tourer" width="400" />
 
 More photos in the [`photos` folder](photos)
 
@@ -19,29 +18,43 @@ More photos in the [`photos` folder](photos)
 The ship has the following features:
 
 - Seating for 16 passengers
-- Fast travel core
+- Cargo lock frame to store cargo
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
 - Transponder system with ping function
 - One resource bridge
 - Auto generator rate script with adjustable minimum rate
 - Six T2 generators with two T2 fuel chambers and two spare rods on racks
-- Radiators that provide more than adequate cooling
+- Radiators and heat sink that provide more than adequate cooling
 - Three medium tanks with 12,000,000 units of propellant
 - Propellant time and fuel time panels
-- 8 batteries
-- 22 T2 triangle thrusters providing forward thrust
+- 11 batteries
+- 24 T2 triangle thrusters providing forward thrust
 - 10 T2 manuever thrusters providing braking thrust
 - 35 T2 manuever thrusters
 - [ISAN Mono Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System)
+- Speedometer
 - Timer panel
 - Odometer panel
 - Service hatches for easy access to fuel
-- Top speed of 105 m/s empty
+- Top speed of 130 m/s empty
 
 ## Changelog
 
-### v1.0.1 (Current) - 24/02/2022
+### v2.0.0 (Current) - 05/06/2022
+
+- Painted thrusters black and nozzles red
+- Added heat sink
+- Reduced radiators to one base and two extensions
+- Replaced  `RadiationRate` panel with `HeatTransferRate`
+- Added three batteries on left side wing as ballast
+- Changed material of plates on left side wing to Chardonium as ballast
+- Added a pair of triangle forward thrusters for more thrust and better balance, increases top speed from 105m/s to 130m/s
+- Removed fast travel core
+- Added cargo lock frame in place of fast travel core
+- Added speedometer
+
+### v1.0.1 - 24/02/2022
 
 - Fixed incorrect values for `Aim` button
 
@@ -86,23 +99,22 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `ISAN2`, `Heading`, `Dest`, `DTW`, `Deltas`, `WP`, `Up`, `Down`, `Save` & `Home` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
 | `Timer` | See [Timer](#timer). |
 | `Odometer` | See [Odometer](#odometer). |
-| `Battery` | Shows current battery charge of the eight batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the 11 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `RadiationRate` | Current radiation rate, maximum of 100%. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Fuel Rod 1` & `Fuel Rod 2` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Shutdown` | Turns off fuel chambers. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 12,000,000 units. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
-| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
-| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
+| `PropTime` | Time and distance remaining of propellant based on current usage. |
+| `FuelTime` | Time and distance remaining of fuel based on current usage. |
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
+| `Cargo` | Activates cargo lock frame. |
 | `Canopy` | Open and closes the cockpit glass canopy. |
 | `Door` | Open and closes the door into the ship. |
 | `Service` | Open and closes the service hatches on side of the ship for access to the fuel rods. |
-
-*ISAN speed is normally quite conservative and not 100% accurate.
 
 #### Managing Power
 
@@ -124,7 +136,7 @@ On the pilot center console there is a `Timer` panel which acts as a timer. It w
 
 #### Odometer
 
-On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed from ISAN (may not be that accurate). To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.
+On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.
 
 ## Providing Feedback
 
