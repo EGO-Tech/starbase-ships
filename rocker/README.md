@@ -1,7 +1,7 @@
 # Rocker
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.5&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Rocker is an asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses a tractor beam to position asteroids into five compartments of cargo lock beams in a circular pattern.
@@ -13,7 +13,7 @@ If you like safe zone asteroid hauling, please consider the [Rocker Duo](../rock
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker)
 
-The Rocker (v1.0.0) is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.
+The Rocker (v1.1.0) is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.
 
 <img src="photos/20211002134507_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134515_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134623_1.jpg" alt="Rocker" width="400" />
 <img src="photos/20211002134643_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134647_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002135839_1.jpg" alt="Rocker" width="400" />
@@ -52,7 +52,18 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.5 (Current) - 03/02/2022
+### v1.1.0 (Current, Ship Shop Version) - 23/05/2022
+
+- Painted thrusters, generators and fuel chambers black
+- Painted propellant tanks red
+- Fixed typo on load position label
+- Added two heat sinks
+- Reduced radiators to two bases
+- Replaced  `RadiationRate` panel with `HeatTransferRate`
+- Added `StoredHeat` panel
+- Added `Unload` button which turns off all cargo lock beams
+
+### v1.0.5 - 03/02/2022
 
 - Changed material of some beams that were accidently changed back to Bastium
 
@@ -84,7 +95,7 @@ The ship has the following features:
 - Added credit calculations for Aegisium and Exorium ores for the more adventurous Endos
 - Increased ship strength factor to 4.743
 
-### v1.0.0 (Ship Shop Version) - 02/10/2021
+### v1.0.0 - 02/10/2021
 
 - Initial release
 
@@ -123,7 +134,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `ID` | Toggle for the transponder. |
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
-| `Approach`, `Beam`, `Load`, `Load Position`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
+| `Approach`, `Beam`, `Load`, `Unload`, `Load Position`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `DurabilityErrors` | Number of durability errors on the ship. If the asteroids are not position correctly it may cause errors |
 | `Timer` | See [Timer](#timer). |
@@ -138,7 +149,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
-| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Fuel Rod 1`, `Fuel Rod 2`, `Fuel Rod 3`, `Fuel Rod 4` | Total fuel remaining on fuel rods, maximum of 300,000 units each. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 
@@ -170,6 +182,8 @@ All these can be done the automated `Load` function. Point the center rangefinde
 As of version 1.0.2, asteroids can also be loaded faster from the sides, by setting the `Load Position` to the left or right. Loading from the right can only load to the back and right back compartments and loading from the left can only load the left back compartment.
 For safety, loading from the sides can only be activated if the cargo compartments on its respective sides are empty.
 Also the ship will not spin to the side when using `Approach` automatically, so this has to be done manually. `Load` can be used once the beam has locked on.
+
+`Unload` will turn of all cargo lock beams.
 
 ### Other Stuff
 
