@@ -1,14 +1,14 @@
 # Stocker
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.4&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Stocker is a 216 ore crate capacity fast travel capable mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](../rigger). The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Stocker)
 
-The Stocker (v1.0.1) is also available to buy in game at Scenery Showroom of Rando 4 Ship Shop at stations with Rando ship shops.
+The Stocker (v1.1.0) is also available to buy in game at Scenery Showroom of Rando 4 Ship Shop at stations with Rando ship shops.
 
 <img src="photos/20211013183139_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020215245_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020222134_1.jpg" alt="Stocker" width="400" />
 <img src="photos/20211020223238_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223324_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223540_1.jpg" alt="Stocker" width="400" />
@@ -39,7 +39,7 @@ The ship has the following features:
 - Two external and two internal resource bridges
 - Auto generator rate script with adjustable minimum rate
 - 32 T2 generators with 12 T2 fuel chambers and 20 spare rods on racks
-- Radiators that provide more than adequate cooling
+- Radiators and heat sinks that provide more than adequate cooling
 - 12 medium and 14 small propellant tanks with 62,000,000 units of propellant
 - Estimated flight time of 6 hours and range of 3,000km
 - Propellant time and fuel time panels
@@ -47,7 +47,7 @@ The ship has the following features:
 - 38 T2 box and 104 T2 triangle thrusters providing forward thrust
 - 32 T2 triangle thrusters providing braking thrust
 - 32 T2 triangle thrusters for maneuvers
-- Basic crafting bench to craft refills (will need to bolt own meter upgrade for T2 refills)
+- Basic crafting bench to craft refills
 - Extra two small propellant tank with its own resource bridge for emergency refueling
 - Two extra hardpoints (all cabled and piped)
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
@@ -60,7 +60,18 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.4 (Current) - 16/02/2022
+### v1.1.0 (Current, Ship Shop Version) - 27/05/2022
+
+- Painted thrusters black
+- Painted emergency propellant tanks red
+- Fixed typo in thruster name
+- Added meter upgrade to basic crafting bench
+- Added 14 heat sinks
+- Reduced radiators to 6 bases and 12 extensions
+- Replaced all `RadiationRate` panels with `HeatTransferRate`
+- Added `StoredHeat` panel
+
+### v1.0.4 - 16/02/2022
 
 - Fixed sweeping of bottom two lasers
 - Switched lights from white to light blue for less glare
@@ -75,7 +86,7 @@ The ship has the following features:
 - Painted a small plate black that wasn't painted by mistake
 - Painted hardpoints of rangefinders and tools black
 
-### v1.0.1 (Ship Shop Version) - 28/10/2021
+### v1.0.1 - 28/10/2021
 
 - Fixed some broken cables on pilot left console
 
@@ -203,7 +214,8 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 | `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
-| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
 | `Canopy` | Opens or closes glass canopy. |
@@ -246,10 +258,6 @@ Of course in-game tips are greatly appreciated.
 ### Can I sell ships based on this blueprint?
 
 No.
-
-### Why can't the crafting bench craft T2 refills?
-
-You need to bolt a meter upgrade to the bench. The ship designer doesn't provide it so I couldn't add it to the blueprint.
 
 ### Why does NavGrid show an error?
 
