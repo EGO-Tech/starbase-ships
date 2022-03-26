@@ -62,6 +62,8 @@ TIP: You can craft your own crates, generators (T2) and triangle thruster compon
 
 ## Download Blueprint
 
+**NOTE: The upcoming heat mechanics game update will break this ship, it is recommended to wait for the update and an updated blueprint before downloading.**
+
 The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/tugger/blueprints/tugger.fbe).
 
 ## Usage
@@ -92,7 +94,6 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `Canopy` | Open and closes the cockpit glass canopy. |
 | `Chair` | Spins the pilot chair between forward facing and backwards facing. |
-
 
 #### Managing Power
 
