@@ -137,7 +137,7 @@ Open the `Service` hatches for access to the fuel rods.
 
 #### Refueling Propellant
 
-The resource bridgescan be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
+The resource bridge below the nose of the ship can be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
 
 ### Other Stuff
 
