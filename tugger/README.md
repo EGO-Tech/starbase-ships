@@ -1,10 +1,10 @@
 # Tugger
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=2.0.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
-The Tugger is a small tug ship with enough power generation to tow a ship of up to 10,000,000kg at up to 40m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam.
+The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 Special thanks to `bambu666` for helping me test this ship and providing feedback.
@@ -27,7 +27,7 @@ More photos in the [`photos` folder](photos)
 
 The ship has the following features:
 
-- Back facing tow beam for towing ships, with a towing capacity of 10,000,000kg
+- Back facing tow beam for towing ships, with a towing capacity of 7,500,000kg
 - Spinning pilot chair to view out the back of the ship through generous sized back window
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
@@ -35,20 +35,32 @@ The ship has the following features:
 - One resource bridge
 - Auto generator rate script with adjustable minimum rate
 - Button to automatically adjust the minimum generator rate acoording to towed mass
-- 36 T2 generators with six T2 fuel chambers (with two T1 enhancers each) and 12 spare rods on racks
-- Radiators that provide more than adequate cooling
+- 24 T2 generators (with 48 T1 enhancers) with eight T2 fuel chambers and 16 spare rods on racks
+- Radiators and heat sink that provide more than adequate cooling
 - Six medium tanks with 24,000,000 units of propellant
 - Propellant time and fuel time panels
-- 136 batteries
+- 144 batteries
 - 38 T2 triangle thrusters providing forward thrust
 - 16 T2 manuever thrusters providing braking thrust
 - 32 T2 manuever thrusters
 - [Compass System by Firestar99](https://gitlab.com/Firestar99/yolol/-/tree/master/src/compass)
+- Speedometer
 - Timer panel
 - Odometer panel
 - Top speed of 140 m/s while not towing
 
 ## Changelog
+
+### v2.0.0 - 25/05/2022
+
+- Rebuilt power blocks for new heat mechanics, reducing towing capacity to 7,500,000kg
+- Added 18 heat sinks
+- Reduced radiators to eight bases and 16 extensions
+- Replaced  `RadiationRate` panel with `HeatTransferRate`
+- Added `StoredHeat` panel
+- Added four more spare rods with new section at the bottom of the ship
+- Added eight more batteries
+- Replaced cargo lock frame speedometer with new speedometer
 
 ### v1.0.0 - 16/03/2022
 
@@ -61,8 +73,6 @@ The ship has the following features:
 TIP: You can craft your own crates, generators (T2) and triangle thruster components (T2) to reduce assembly cost.
 
 ## Download Blueprint
-
-**NOTE: The upcoming heat mechanics game update will break this ship, it is recommended to wait for the update and an updated blueprint before downloading.**
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/tugger/blueprints/tugger.fbe).
 
@@ -79,7 +89,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | Interface | Function |
 |---|---|
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
-| `Speed` | Current speed in metres per second. Button toggles speedometer, use to reset speedometer if not working |
+| `Speed` | Current speed in metres per second. |
 | `Distance` | Activates forward rangefinder, with `Distance` showing distance to object. |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
@@ -103,10 +113,11 @@ The left lever on the center console controls backwards thrust (braking) and the
 |---|---|
 | `Battery` | Shows current battery charge of the 136 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `RadiationRate` | Current radiation rate, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. |
 | `Fuel Rod 1` to `Fuel Rod 6` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Shutdown` | Turns off fuel chambers. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 24,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed, so speedometer must be activated. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed, so speedometer must be activated. |
@@ -131,7 +142,7 @@ By default the generator will only run and ramp up when the batteries need charg
 The tow beam faces out the back of the ship so position the Tugger in front of, with the back facing the ship you wish to tow. Spin the `Chair` around to look out the back window and activate `Tow` to turn on the tow beam. Once the tow beam is locked on the ship, the `Tow Status` will be `2` and the mass of the locked ship will be shown as `Tow Mass` in kilograms.
 Activate `Auto Gen` which will then turn on `Min Gen` with a `Min Generator Rate` based off the `Tow Mass`. Wait till the generators reach the targeted rate before flying off.
 
-The Tugger has enough power generation to tow a ship of a mass of up to 10ktons or 10,000,000 kilograms. For large ships, it is recommended to turn on `Min Gen` to ramp up the generator before locking on and then activating `Auto Gen` once locked on to adjust the `Min Generator Rate` accordingly.
+The Tugger has enough power generation to tow a ship of a mass of up to 7.5ktons or 7,500,000 kilograms. For large ships, it is recommended to turn on `Min Gen` to ramp up the generator before locking on and then activating `Auto Gen` once locked on to adjust the `Min Generator Rate` accordingly.
 
 **NOTE:** Remember to turn off `Min Gen` after towing to save on fuel.
 
