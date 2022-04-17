@@ -14,6 +14,12 @@ The Jabber is a fast light fighter with four lasers. Although it has very light 
 
 More photos in the [`photos` folder](photos)
 
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - Vinteo's first "Small Fighter" !](https://www.youtube.com/watch?v=9_0CvLgVGqY) |
+
 ## Features
 
 The ship has the following features:
