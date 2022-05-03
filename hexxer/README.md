@@ -1,7 +1,7 @@
 # Hexxer
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Hexxer is a ship for hauling small asteroids, designed to be used in the safe zone. It uses six tractor beams to pull asteroids into six compartments of cargo lock beams in a hex pattern.
@@ -49,14 +49,22 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.1 (Current) - 03/03/2022
+### v1.1.0 (Current, Ship Shop Version) - 04/05/2022
+
+- Added two heat sinks
+- Reduced radiators to two bases
+- Replaced  `RadiationRate` panel with `HeatTransferRate`
+- Added `StoredHeat` panel
+- Painted both layers of generators and fuel chambers black
+
+### v1.0.1 - 03/03/2022
 
 - Added `Unload` button which turns off all cargo lock beams
 - Removed some thin floor plates on either side of cockpit for easier access to levers
 - Painted tractor beam and scanner mounts black
 - Painted triangle thrusters' bodies black and nozzles red
 
-### v1.0.0 (Ship Shop Version) - 01/12/2021
+### v1.0.0 - 01/12/2021
 
 - Initial release
 
@@ -105,7 +113,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
-| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Fuel Rod 1`, `Fuel Rod 2`, `Fuel Rod 3`, `Fuel Rod 4`, `Fuel Rod 5` | Total fuel remaining on fuel rods, maximum of 300,000 units each. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 
