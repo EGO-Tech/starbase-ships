@@ -1,14 +1,14 @@
 # Rigger
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.2&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.2.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rigger)
 
-The Rigger (v1.1.0) is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.
+The Rigger (v1.2.0) is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.
 
 <img src="images/rigger1.jpg" alt="Rigger" width="400" /> <img src="images/rigger2.jpg" alt="Rigger" width="400" /> <img src="images/rigger3.jpg" alt="Rigger" width="400" />
 <img src="images/rigger4.jpg" alt="Rigger" width="400" /> <img src="images/rigger5.jpg" alt="Rigger" width="400" /> <img src="images/rigger6.jpg" alt="Rigger" width="400" />
@@ -28,8 +28,8 @@ More photos in the [`photos` folder](photos)
 The ship has the following features:
 
 - 100 Ore Crates
-- Standard Cruise and Turtle functions
-- Adjustable sensitivity system (Sloth function)
+- Standard Cruise function
+- Turtle and Sloth function with adjustable rates
 - Transponder system with ping function
 - Two mining lasers on turrets that point towards asteroids with pulse and sweeping
 - Two ore collectors that point towards asteroids
@@ -37,8 +37,8 @@ The ship has the following features:
 - Approach and auto mine functions
 - Two external and two internal resource bridges
 - Auto generator rate script with adjustable minimum rate
-- 16 T2 generators (plus space for two more) with six T2 fuel chambers and 16 spare rods on racks
-- Radiators that provide more than adequate cooling, with backup cooling using coolant
+- 16 T2 generators with six T2 fuel chambers and 16 spare rods on racks
+- Radiators and ehat sinks that provide more than adequate cooling
 - Eight medium and six small propellant tanks with 38,000,000 units of propellant
 - Estimated flight time of 6 hours and range of 3,000km
 - Propellant time and fuel time panels
@@ -57,11 +57,27 @@ The ship has the following features:
 - Odometer panel
 - Two passenger seats
 - Many extra slots for YOLOL or memory chips
-- Extension points for modules (currently untested)
+- Top speed of 140m/s when empty
 
 ## Changelog
 
-### v1.1.2 (Current) - 27/12/2021
+### v1.2.0 (Current, Ship Shop Version) - 23/05/2022
+
+- Painted thrusters black
+- Removed coolant cooling systems
+- Added four heat sinks
+- Reduced radiators to two bases and four extensions
+- Replaced  `RadiationRate` panel with `HeatTransferRate`
+- Added `StoredHeat` panel
+- Fixed piping for emergency propellant tank
+- Adjusted laser pitch limit from -50 degrees to -35 degrees to avoid hitting ship nose
+- Added bench meter upgrade
+- Added adjustable turtle rate
+- Switched cable plugs to small control stands to free up more console space, rearranged displays and buttons
+- Changed lights from white to light blue
+- Removed help chips except chip with URL to ship manual
+
+### v1.1.2 - 27/12/2021
 
 - Painted external hardpoints and maneuver thrusters black
 - Replaced two YOLOL chip readers with memory relays to allow for remapping, giving some nicer labels on the consoles
@@ -75,7 +91,7 @@ The ship has the following features:
 - Retuned approach script to be a lot more conservative and safe
 - Increased ship strength factor to 4.978
 
-### v1.1.0 (Ship Shop Version) - 27/09/2021
+### v1.1.0 - 27/09/2021
 
 - Updated scripts to remove need for custom key bindings for forward, pitch and yaw
 - Increased ore collectors' power from 1000 to 1250
@@ -131,9 +147,9 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
-| `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of 20% of full thrust. |
+| `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
+| `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
-| `Sloth` | (Right Console) Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
 | `Guides` & `Guidance` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner). |
@@ -142,7 +158,6 @@ The left lever on the center console controls backwards thrust (braking) and the
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `ISAN2`, `Heading`, `Dest`, `DTW` & `Deltas` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
 | `G` Rotated | Compass display. Shows direction towards `Dest` waypoint, `+` is in front of ship while `O` is behind the ship. Best used when stationary. See [Compass](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md) for more informaton. |
-| `Timer` | See [Timer](#timer). |
 
 ### Using the Waypoint System
 
@@ -188,7 +203,7 @@ If batteries start running out of charge while mining, turn on `Min Gen`. Contin
 
 Activate using the `Scanner` button. The laser will try to adjust to point at the objects detected by the center range finder. Scan results will show on the `Scan` panel in number of stacks. It has a maximum range of 100m.
 
-### Managing Power, Fuel and Cooling
+### Managing Power and Fuel
 
 ![Pilot Right Console](images/pilot_right_console.jpg)
 
@@ -197,10 +212,8 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
-| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. If it is hitting 100% your radiators may be damaged, turn on [`Cooling`](#cooling) as backup. |
-| `CoolerRate` | Current cooling rate from coolant, maximum of 100%. Will be 0% unless [`Cooling`](#cooling) is turned on. |
-| `Cooling` | Turns on and off cooling using coolant. See [Cooling](#cooling). |
-| `Fuel` | Total fuel remaining on fuel rods, maximum of 1,800,000 units for the six fuel chambers. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Fuel Rod 1` to `Fuel Rod 6` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
@@ -210,6 +223,9 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
 | `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteroids. |
+| `Canopy` | Opens or closes glass canopy. |
+| `Hatch` | Opens or closes ship entry hatch. |
+| `Timer` | See [Timer](#timer). |
 | `Odometer` | See [Odometer](#odometer). |
 
 *ISAN speed is normally quite conservative and not 100% accurate.
@@ -227,12 +243,6 @@ The small propellant tank above the crafting bench can also be used to refuel th
 Remember to turn `FlowIn` and `FlowOut` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
 
 If for some reason you need access to the ship's internal tanks, you can unbolt the grates on top of the ship which are marked with circular decals. This will give access to _some_ tanks.
-
-#### Cooling
-
-The radiators provide more than enough cooling (about 40% extra) for heat generated and you can always add more with all the hardpoints.
-
-However in case of radiators failure you can activate the backup cooling using coolant but pressing the `Cooling` button. But the coolant can only provide partial cooling (about 30%) needed so it will only work for partial radiator failure. There are also two coolant recharge racks next to the internal resource bridges to recharge coolant.
 
 ### Other Stuff
 
@@ -289,7 +299,7 @@ I don't know, I went a bit crazy there, but you can use them to add whatever you
 
 ### Why can't the crafting bench craft T2 refills?
 
-You need to bolt a meter upgrade to the bench. The ship designer doesn't provide it so I couldn't add it to the blueprint.
+You need to bolt a meter upgrade to the bench.
 
 ### What are the square points with decals on the top, bottom and sides of the ship?
 

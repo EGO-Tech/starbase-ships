@@ -1,4 +1,4 @@
-x=7.2 y=-6.48 r=57.296 dd=12 s=-50 m=999
+x=7.2 y=-6.48 r=57.296 dd=12 s=-35 m=999
 if:lasers<1thengoto2end rd=:Distance d=rd+x
 ifrd<1 or rd>m thend=dd+x end lpc=y/d*r iflpc<s thenlpc=s end
 mh=:MineHeight/2 :lp1=lpc :lp2=lpc :lr1=0 :lr2=0 lr=mh/d*r
