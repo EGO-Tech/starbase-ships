@@ -34,7 +34,7 @@ Blueprints and manuals for some ships for the game Starbase by Frozenbyte
 
 | Ship | Name | Description | Version | Tow Capacity |
 |---|---|---|---|---|
-| <img src="tugger/photos/20220313170411_1.jpg" alt="Tugger" width="200" /> | [Tugger](tugger) | The Tugger is a small tug ship with enough power generation to tow a ship of up to 10,000,000kg at up to 40m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. | v1.0.0 | 10,000,000kg |
+| <img src="tugger/photos/20220313170411_1.jpg" alt="Tugger" width="200" /> | [Tugger](tugger) | The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. | v2.0.0 | 7,500,000kg |
 
 ## Fighters
 
