@@ -1,7 +1,7 @@
 # Lugger
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.5&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. However it is pretty much at its voxel limit so any additions or changes may be difficult without sacrificing crates.
@@ -24,7 +24,6 @@ The ship has the following features:
 - 832 crates
 - Two additional seats for co-pilots in a large open bridge
 - All three crafting benches
-- Fast travel core
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
 - Transponder system with ping function
@@ -32,8 +31,8 @@ The ship has the following features:
 - Auto generator rate script with adjustable minimum rate
 - 30 T2 generators with 10 T2 fuel chambers and 20 spare rods on racks
 - Radiators that provide more than adequate cooling
-- 24 large propellant tanks with 216,000,000 units of propellant
-- Estimated propellant time of 5.5 hours and range of 3,000km
+- 24 large propellant tanks with 288,000,000 units of propellant
+- Estimated propellant time of 7 hours and range of 3,500km
 - Propellant time and fuel time panels
 - 144 batteries
 - Two 10 ring plasma thrusters and 88 T2 triangle thrusters, all with T3 nozzles providing forward thrust
@@ -42,7 +41,7 @@ The ship has the following features:
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
 - [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
 - Warning lights and alarm for obstacle detection and avoidance, powered by 44 rangefinders
-- Speedometer by MoriWatari
+- Speedometer
 - Timer panel
 - Odometer panel
 - Many extra slots for YOLOL or memory chips
@@ -50,7 +49,19 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.5 (Current) - 21/01/2022
+### v1.1.0 (Current) - 26/05/2022
+
+- Painted thrusters black and nozzles red
+- Removed useless `BackDoor` button and `Solar` panel from engineering console
+- Added 10 heat sinks
+- Reduced radiators to four bases and eight extensions
+- Replaced all `RadiationRate` panels with `HeatTransferRate`
+- Added `StoredHeat` panels
+- Replaced cargo lock frame speedometer with new speedometer
+- Increased max propellant to 288,000,000
+- Removed fast travel core
+
+### v1.0.5 - 21/01/2022
 
 - Fixed propellant progress value max values
 - Removed floating crates left in blueprint by mistake
@@ -104,7 +115,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 | Interface | Function |
 |---|---|
-| `Speed`, `Speedo` | Current speed in metres per second. `Speedo` button toggles speedometer, use to reset speedometer if not working |
+| `Speed` | Current speed in metres per second. |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Plasma` & `Plasma Charge Level` | Activates the plasma thrusters and intitiate charging. Plasma thrusters has to be activated and charge level at 1.0 for it to fire. |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
@@ -168,16 +179,17 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 
 | Interface | Function |
 |---|---|
-| `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
-| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed, so speedometer must be activated. |
-| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed, so speedometer must be activated. |
+| `Propellant` | Total propellant remaining in propellant tanks, maximum of 288,000,000 units. |
+| `PropTime` | Time and distance remaining of propellant based on current usage. |
+| `FuelTime` | Time and distance remaining of fuel based on current usage. |
 | `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `Backup Rods` to set the number of backup rods available. As standard there are 20 extra rods. |
 | `Fuel Rod 1` to `Fuel Rod 10` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Generator` | Current generator rate, maximum of `Generator Limit`. |
 | `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
-| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
 | `Doors` | Opens or closes ship entry doors. |
@@ -202,7 +214,7 @@ On the pilot center console there is a `Timer` panel which acts as a timer. It w
 
 #### Odometer
 
-On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed (speedometer must be activated). To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.
+On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.
 
 ## Providing Feedback
 
