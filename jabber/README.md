@@ -122,8 +122,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Fuel Rod Left` & `Fuel Rod Right` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 8,000,000 units. |
-| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
-| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
+| `PropTime` | Time and distance remaining of propellant based on current usage. |
+| `FuelTime` | Time and distance remaining of fuel based on current usage. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Canopy` | Open and closes the cockpit glass canopy. |
 | `Hatch` | Open and closes the hatch below the ship. |
@@ -167,7 +167,7 @@ On the pilot center console there is a `Timer` panel which acts as a timer. It w
 
 #### Odometer
 
-On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed from ISAN (may not be that accurate). To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.
+On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.
 
 ## Providing Feedback
 
