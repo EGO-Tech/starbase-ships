@@ -119,8 +119,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 24,000,000 units. |
-| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed, so speedometer must be activated. |
-| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed, so speedometer must be activated. |
+| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed. |
+| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed. |
 | `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `Backup Rods` to set the number of backup rods available. As standard there are 12 extra rods. |
 
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Limit` value using the switch for the minimum rate and turning on `Min Gen`.
