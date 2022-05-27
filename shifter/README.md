@@ -1,7 +1,7 @@
 # Shifter
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Shifter is a 450 ore crate capacity fast travel capable mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](../stocker).
@@ -26,7 +26,6 @@ The ship has the following features:
 - 450 ore crates
 - Spacious double level interior
 - Two additional seats for co-pilots
-- Fast travel core
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
 - Transponder system with ping function
@@ -36,9 +35,9 @@ The ship has the following features:
 - Approach and auto mine functions
 - Two external and four internal resource bridges
 - Auto generator rate script with adjustable minimum rate
-- 32 T2 generators with 12 T2 fuel chambers and 24 spare rods on racks
+- 32 T2 generators with 12 T2 fuel chambers and 48 spare rods on racks
 - Radiators and heat sinks that provide more than adequate cooling
-- Nine large propellant tanks with 81,000,000 units of propellant
+- Nine large propellant tanks with 108,000,000 units of propellant
 - Estimated flight time of 4 hours and range of 2,000km
 - Propellant time and fuel time panels
 - 96 batteries
@@ -46,12 +45,13 @@ The ship has the following features:
 - 48 T2 triangle thrusters providing braking thrust
 - 72 T2 triangle thrusters for maneuvers
 - Basic crafting bench to craft refills with meter upgrade plus the other two benches
+- Asteroid belt and moon atmosphere furnaces
 - Extra two small propellant tank with its own resource bridge for emergency refueling
 - Two extra hardpoints (all cabled and piped)
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
 - [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
 - Warning lights and alarm for obstacle detection and avoidance, powered by 36 rangefinders
-- Speedometer by MoriWatari
+- Speedometer
 - Timer panel
 - Odometer panel
 - Many extra slots for YOLOL or memory chips
@@ -59,7 +59,15 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.0 (Current, Ship Shop Version) - 27/05/2022
+### v1.1.1 (Current) - 27/05/2022
+
+- Replaced speedometer by MoriWatari with new speedometer
+- Removed fast travel core
+- Added asteroid belt and moon atmosphere furnaces
+- Added 24 spare T2 fuel rods on racks
+- Increased max propellant to 108,000,000
+
+### v1.1.0 (Ship Shop Version) - 27/05/2022
 
 - Painted thrusters black
 - Added meter upgrade to basic crafting bench
@@ -124,7 +132,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 | Interface | Function |
 |---|---|
-| `Speed`, `Speedo` | Current speed in metres per second. `Speedo` button toggles speedometer, use to reset speedometer if not working |
+| `Speed` | Current speed in metres per second. |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Throttle` | Current throttle level, maximum of 100 percent |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
@@ -210,9 +218,9 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 
 | Interface | Function |
 |---|---|
-| `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
-| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed, so speedometer must be activated. |
-| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed, so speedometer must be activated. |
+| `Propellant` | Total propellant remaining in propellant tanks, maximum of 108,000,000 units. |
+| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed. |
+| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed. |
 | `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `Backup Rods` to set the number of backup rods available. As standard there are 20 extra rods. |
 | `Fuel Rod 1` to `Fuel Rod 12` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Generator` | Current generator rate, maximum of `Generator Limit`. |
@@ -246,7 +254,7 @@ On the pilot center console there is a `Timer` panel which acts as a timer. It w
 
 #### Odometer
 
-On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed (speedometer must be activated). To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.
+On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.
 
 ## Providing Feedback
 
