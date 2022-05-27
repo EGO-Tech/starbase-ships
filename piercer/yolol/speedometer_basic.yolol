@@ -1,3 +1,0 @@
-if:spdd>3then:sp=0 goto1end :sp=(598.98*:spdd-89.224)/10 goto1
-
-// Original by MoriWatari
