@@ -1,13 +1,15 @@
 # Shifter
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.4&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Shifter is a 450 ore crate capacity fast travel capable mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](../stocker).
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Shifter)
+
+The Shifter (v1.1.0) is also available to buy in game at Central Showroom of Rando 1 Ship Shop at stations with Rando ship shops.
 
 <img src="photos/20211219204020_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211219204001_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218213931_1.jpg" alt="Shifter" width="400" />
 <img src="photos/20211219204038_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218215740_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214039_1.jpg" alt="Shifter" width="400" />
@@ -35,7 +37,7 @@ The ship has the following features:
 - Two external and four internal resource bridges
 - Auto generator rate script with adjustable minimum rate
 - 32 T2 generators with 12 T2 fuel chambers and 24 spare rods on racks
-- Radiators that provide more than adequate cooling
+- Radiators and heat sinks that provide more than adequate cooling
 - Nine large propellant tanks with 81,000,000 units of propellant
 - Estimated flight time of 4 hours and range of 2,000km
 - Propellant time and fuel time panels
@@ -43,7 +45,7 @@ The ship has the following features:
 - 42 T2 box and 124 T2 triangle thrusters providing forward thrust
 - 48 T2 triangle thrusters providing braking thrust
 - 72 T2 triangle thrusters for maneuvers
-- Basic crafting bench to craft refills (will need to bolt own meter upgrade for T2 refills) plus the other two benches
+- Basic crafting bench to craft refills with meter upgrade plus the other two benches
 - Extra two small propellant tank with its own resource bridge for emergency refueling
 - Two extra hardpoints (all cabled and piped)
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
@@ -57,7 +59,18 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.4 (Current) - 16/02/2022
+### v1.1.0 (Current, Ship Shop Version) - 27/05/2022
+
+- Painted thrusters black
+- Added meter upgrade to basic crafting bench
+- Added 10 heat sinks
+- Reduced radiators to four bases and eight extensions
+- Replaced all `RadiationRate` panels with `HeatTransferRate`
+- Added `StoredHeat` panels
+- Moved `Canopy` button from pilot right console to left console
+- Piped mining lasers in case of heat generation in the future
+
+### v1.0.4 - 16/02/2022
 
 - Fixed sweeping of lasers
 - Changed material of some beams which was mistakenly changed back to Bastium
@@ -101,7 +114,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 ## Usage
 
-To enter the ship, there is are buttons on either side of the body of the ship that will open `Doors`. Once inside you can also open and close the cockpit glass `Canopy`. Buttons for these are available in the pilot side consoles and also on the ceiling above the pilot seat.
+To enter the ship, there is are buttons on either side of the body of the ship that will open `Doors`. Once inside you can also open and close the cockpit glass `Canopy`. Buttons for these are available in the pilot left side console and also on the ceiling above the pilot seat.
 
 ### Flying the Ship
 
@@ -206,10 +219,10 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 | `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
-| `RadiationRate` | Current radiation rate of the radiators, maximum of 100%. |
+| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
 | `Lights` | Turns on and off internal lights. |
-| `Canopy` | Opens or closes glass canopy. |
 | `Doors` | Opens or closes ship entry doors. |
 
 #### Managing Power
@@ -248,10 +261,6 @@ Of course in-game tips are greatly appreciated.
 ### Can I sell ships based on this blueprint?
 
 No.
-
-### Why can't the crafting bench craft T2 refills?
-
-You need to bolt a meter upgrade to the bench. The ship designer doesn't provide it so I couldn't add it to the blueprint.
 
 ### Will changing all thruster nozzles to T3 versions increase speed?
 
