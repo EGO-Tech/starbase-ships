@@ -17,6 +17,12 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 More photos in the [`photos` folder](photos)
 
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - The Piercer by Egomaniac - Surgical mining!](https://www.youtube.com/watch?v=UJVmU2bdvLA&t=7s) |
+
 ## Features
 
 The ship has the following features:
