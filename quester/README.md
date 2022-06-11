@@ -1,7 +1,7 @@
 # Quester
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Quester multi purpose command or explorer ship that is fitted with a medbay with a reconstruction machine and a workshop with all three crafting benches.
@@ -56,7 +56,13 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.0 (Current) - 26/05/2022
+### v1.1.1 (Current) - 11/06/2022
+
+- Removed unused speedo chip
+- Fixed max propellant on engineering console
+- Added meter upgrade to basic crafting bench
+
+### v1.1.0 - 26/05/2022
 
 - Painted thrusters black and nozzles red
 - Removed some useless bolts that were sticking out
