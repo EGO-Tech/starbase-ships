@@ -1,0 +1,2 @@
+k=1000
+a=:gd>0 :w9=(:r9<k)*a :w0=(:r0<k)*a :wa=(:ra<k)*a :wb=(:rb<k)*a goto2
