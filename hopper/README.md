@@ -1,7 +1,7 @@
 # Hopper
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Hopper is small personal transport that can be used to quickly get around a station or taking short trips.
@@ -32,6 +32,10 @@ The ship has the following features:
 
 ## Changelog
 
+### v1.0.1 (Current) - 24/07/2022
+
+- Fixed centering speed of `FcuBackwards` lever
+
 ### v1.0.0 - 24/07/2022
 
 - Initial release
@@ -45,6 +49,10 @@ TIP: You can craft your own crates, generators (T2) and triangle thruster compon
 ## Download Blueprint
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/hopper/blueprints/hopper.fbe).
+
+## Known Issues
+
+- The ship cannot roll
 
 ## Usage
 

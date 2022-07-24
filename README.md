@@ -51,7 +51,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://vi
 | <img src="quester/photos/20211222182319_1.jpg" alt="Quester" width="200" /> | [Quester](quester) | The Quester multi purpose command or explorer ship that is fitted with a medbay with a reconstruction machine and a workshop with all three crafting benches. It also has a large main hall that is designed to be large enough to fit the capital ship nav logger (not included in blueprint). However the owner is free to fit the hall for whatever purpose that is desired. | v1.1.1 |
 | <img src="tourer/photos/20220605013233_1.jpg" alt="Tourer" width="200" /> | [Tourer](tourer) | The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo. | v2.0.0 |
 | <img src="sower/photos/20220311205426_1.jpg" alt="Sower" width="200" /> | [Sower](sower) | The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship. | v1.1.0 |
-| <img src="hopper/photos/20220724173249_1.jpg" alt="Hopper" width="200" /> | [Hopper](hopper) | The Hopper is small personal transport that can be used to quickly get around a station or taking short trips. | v1.0.0 |
+| <img src="hopper/photos/20220724173249_1.jpg" alt="Hopper" width="200" /> | [Hopper](hopper) | The Hopper is small personal transport that can be used to quickly get around a station or taking short trips. | v1.0.1 |
 
 ## License
 
