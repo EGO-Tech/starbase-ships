@@ -1,7 +1,7 @@
 # Hopper
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Hopper is small personal transport that can be used to quickly get around a station or taking short trips.
@@ -9,8 +9,8 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hopper)
 
-<img src="photos/20220724173249_1.jpg" alt="Hopper" width="400" /> <img src="photos/20220724173257_1.jpg" alt="Hopper" width="400" /> <img src="photos/20220724173314_1.jpg" alt="Hopper" width="400" />
-<img src="photos/20220724173327_1.jpg" alt="Hopper" width="400" />
+<img src="photos/20220724201746_1.jpg" alt="Hopper" width="400" /> <img src="photos/20220724201806_1.jpg" alt="Hopper" width="400" /> <img src="photos/20220724173314_1.jpg" alt="Hopper" width="400" />
+<img src="photos/20220724201752_1.jpg" alt="Hopper" width="400" />
 
 More photos in the [`photos` folder](photos)
 
@@ -28,11 +28,15 @@ The ship has the following features:
 - Four batteries
 - Four T2 triangle thrusters providing forward thrust
 - Four T2 manuever thrusters providing braking thrust
-- Eight T2 manuever thrusters
+- 14 T2 manuever thrusters
 
 ## Changelog
 
-### v1.0.1 (Current) - 24/07/2022
+### v1.1.0 (Current) - 24/07/2022
+
+- Added roll thrusters
+
+### v1.0.1 - 24/07/2022
 
 - Fixed centering speed of `FcuBackwards` lever
 
@@ -49,10 +53,6 @@ TIP: You can craft your own crates, generators (T2) and triangle thruster compon
 ## Download Blueprint
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/hopper/blueprints/hopper.fbe).
-
-## Known Issues
-
-- The ship cannot roll
 
 ## Usage
 
