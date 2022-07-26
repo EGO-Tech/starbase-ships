@@ -54,6 +54,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 ## Known Issues
 
+- Due to the shape of the ship (speculation), the ship sometimes twists and turns at full throttle. It will stabilize after you make corrections to its course
 - Currently there are no navigation features but will possibly add ISAN and Compass in the future if this ship becomes useful to Endos
 
 ## Usage
