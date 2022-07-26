@@ -1,0 +1,2 @@
+a=:au+:ad ifa<1thengoto1end :alarmOn=1 :alarm=1
+if:alarmOn thengoto2end :alarm=0 goto1
