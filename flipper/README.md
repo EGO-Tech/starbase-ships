@@ -1,7 +1,7 @@
 # Flipper
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Flipper is a ship for hauling a single T10 asteroid, designed to be used in the safe zone. It flies in one direction to easily load the asteroid and then you can flip around and fly load in the opposite direction, still with decent speed.
@@ -38,7 +38,15 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 23/07/2022
+### v1.1.0 (Current) - 27/07/2022
+
+- Replaced rotating FCU system with new FCU switching system with a second FCU and a slider to switch between the two units
+- Moved maneuver levers to above pilot seat
+- Added help chip with ship manual URL to pilot left console
+- Moved back maneuver thrusters to be further behind center of mass
+- Regrouped rear thrusters into more separate groups
+
+### v1.0.0 - 23/07/2022
 
 - Initial release
 
@@ -54,7 +62,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 
 ## Known Issues
 
-- Due to the shape of the ship (speculation), the ship sometimes twists and turns at full throttle. It will stabilize after you make corrections to its course
+- The ship sometimes twists and turns at full throttle
 - Currently there are no navigation features but will possibly add ISAN and Compass in the future if this ship becomes useful to Endos
 
 ## Usage
