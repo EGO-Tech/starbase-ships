@@ -1,7 +1,7 @@
 # Flipper
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.2.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Flipper is a ship for hauling a single T10 asteroid, designed to be used in the safe zone. It flies in one direction to easily load the asteroid and then you can flip around and fly load in the opposite direction, still with decent speed.
@@ -38,7 +38,13 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.0 (Current) - 27/07/2022
+### v1.2.0 (Current) - 01/08/2022
+
+- Added two tractor beams that will center the asteroid before locking
+- Updated load and approach scripts to support the tractor beams
+- Updated YOLOL rack label for timer
+
+### v1.1.0 - 27/07/2022
 
 - Replaced rotating FCU system with new FCU switching system with a second FCU and a slider to switch between the two units
 - Moved maneuver levers to above pilot seat
@@ -83,7 +89,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Distance`, `Reach` & `Range` | `Distance` & `Reach` are distances for center rangefinders. `Guide` or the green button toggles the rangefinders. The warning lights blink red when the surronding guide lasers detect an object. |
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
-| `Approach`, `Load` & `Cargo` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
+| `Approach`, `Load`, `Beams` & `Cargo` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 | `Timer` | See [Timer](#timer). |
 
 ### Managing Power and Fuel
@@ -117,9 +123,16 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 
 ### Loading Asteroids
 
-Approach an asteroid by pointing the center rangefinder at an asteroid and activating `Approach`. This will guide the ship to around 2m of the asteroid. `Cargo` will activate the cargo lock beams.
+Approach an asteroid by pointing the center rangefinder at an asteroid and activating `Approach`. This will guide the ship to around 2m of the asteroid.
+`Beams` activates tractor beams and `Cargo` will activate the cargo lock beams.
 
-All these can be done the automated `Load` function on **the pilot center console**. Point the rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach` and `Scan` as well as smartly activating the `Cargo` when the asteroid is in place.
+All these can be done the automated `Load` function on **the pilot center console**. Point the rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach` and `Beams` which will **center the asteroid**, as well as smartly activating the `Cargo` when the asteroid is in place.
+
+> **TIP: Faster Loading**
+>
+> You can turn off `Beams` once the beams are locked to skip asteroid centering and the `Cargo` will activate to lock the asteroid.
+>
+> _However this will make flying with the locked asteroid less stable._
 
 ### Other Stuff
 

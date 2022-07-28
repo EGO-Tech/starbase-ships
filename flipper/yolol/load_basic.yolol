@@ -1,2 +1,3 @@
-if:load<1thengoto1end :ap=1 :gd=1 if:m==0 or :m>3.5thengoto1end
-:cg=1 :load=0 :ap=0 goto1
+a=20000 if:load<1thengoto1end :ap=1 :gd=1 :beams=1
+if:tl1*:tl2<1thengoto2end :tpos=9
+if:beams*(:tfor<a+:m>4)thengoto3end :ap=0 :cg=1 :beams=0 :load=0 goto1
