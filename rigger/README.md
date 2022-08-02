@@ -1,4 +1,4 @@
-# Rigger
+# Rigger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.2.0&color=blue)](#changelog)
@@ -308,3 +308,7 @@ My idea was to have extension points where modules (more crates, warp core, more
 However if you decide to build any of these modules, you can add range finders in front of the module and name the distance fields `RFT`, `RTB`, ``RTR` or `RTL` for top, bottom, right and left modules respectively. These should automatically be supported by the crash avoidance system plus the guidance alert and visualisation.
 
 And I would love to see modules you have created, even if it is just a photo.
+
+## Designed by EGOTech
+
+![EGOTech](../others/egotech/logos/egotech_logo_light.png)

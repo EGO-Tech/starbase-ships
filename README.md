@@ -1,12 +1,17 @@
-# Starbase Ships
+# Starbase Ships by EGOTech
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 ![Linting](https://github.com/vinteo/starbase-ships/workflows/Linting/badge.svg)
 ![YOLOL](https://github.com/vinteo/starbase-ships/workflows/YOLOL/badge.svg)
 
-Blueprints and manuals for some ships for the game Starbase by Frozenbyte
+
+Blueprints and manuals for some ships for the game Starbase by Frozenbyte. Designed by EGOTech.
 
 Want to build your own ships? Try the [Welder Modular Ship Framework](https://vinteo.github.io/starbase-ship-welder/).
+
+## Designed by EGOTech
+
+![EGOTech](./others/egotech/logos/egotech_logo_light.png)
 
 ## Miners
 
