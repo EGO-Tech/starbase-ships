@@ -1,4 +1,4 @@
-# Rocker Duo
+# Rocker Duo by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
@@ -186,3 +186,7 @@ It is not very lucrative, but here is an estimated breakdown of 45Mv asteroids (
 | Ajatite/Charodium | 45Mv | 58k |
 | Valkite/Bastium | 45Mv | 27k |
 | Ice/Nhurgite | 45Mv | 56k |
+
+## Designed by EGOTech
+
+![EGOTech](../others/egotech/logos/egotech_logo_light.png)

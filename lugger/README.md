@@ -1,4 +1,4 @@
-# Lugger
+# Lugger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
@@ -237,3 +237,7 @@ You need to bolt a meter upgrade to the bench. The ship designer doesn't provide
 ### Why does NavGrid show an error?
 
 This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN. See [Resetting Navigation](#resetting-navigation).
+
+## Designed by EGOTech
+
+![EGOTech](../others/egotech/logos/egotech_logo_light.png)

@@ -1,4 +1,4 @@
-# Tourer
+# Tourer by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/static/v1?label=Version&message=2.0.0&color=blue)](#changelog)
@@ -151,3 +151,7 @@ Of course in-game tips are greatly appreciated.
 ### Can I sell ships based on this blueprint?
 
 No.
+
+## Designed by EGOTech
+
+![EGOTech](../others/egotech/logos/egotech_logo_light.png)

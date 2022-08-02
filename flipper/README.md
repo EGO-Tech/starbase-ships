@@ -1,4 +1,4 @@
-# Flipper
+# Flipper by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
@@ -151,3 +151,7 @@ Here is an estimated breakdown of 468Mv (T10) asteroids from the safe zone I got
 | Ajatite/Charodium | 486Mv | 631k |
 | Valkite/Bastium | 486Mv | 272k |
 | Ice/Nhurgite | 486Mv | 581k |
+
+## Designed by EGOTech
+
+![EGOTech](../others/egotech/logos/egotech_logo_light.png)
