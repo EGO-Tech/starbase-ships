@@ -124,7 +124,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 8,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. |
-| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
+| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
 | `Canopy` | Open and closes the cockpit glass canopy. |
 | `Hatch` | Open and closes the hatch below the ship. |
 | `Service` | Open and closes the service hatches on either side the ship for access to the fuel rods and ammo magazines. |

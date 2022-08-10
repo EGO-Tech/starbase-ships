@@ -106,7 +106,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Fuel Rod 1` & `Fuel Rod 2` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Shutdown` | Turns off fuel chambers. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 12,000,000 units. |
-| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
+| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
 | `PropTime` | Time and distance remaining of propellant based on current usage. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. |
 | `SafeZone` | Whether current location is in the safe zone. |

@@ -220,7 +220,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
 | `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `BackupRods` to set the number of backup rods available. As standard there are 16 extra rods. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
-| `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
+| `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
 | `Lights` | Turns on and off internal lights. |
 | `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteroids. |
 | `Canopy` | Opens or closes glass canopy. |
