@@ -1,0 +1,2 @@
+n="\n" a="Lifetime:"+n b="Trip:"+n
+if:av_res>0then:tav=0end :Avoids=n+a+:lav+n+n+b+:tav goto2

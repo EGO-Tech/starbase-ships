@@ -1,0 +1,3 @@
+k=1000 h=100 if:tow<1then:autogen=0 goto1end if:autogen<1thengoto1end
+e=:mass/k/k/20*h/k*k ife<1then:autogen=0 goto1end ife>h thene=h end
+:mineps=e :min_eps=1 :autogen=0 goto1
