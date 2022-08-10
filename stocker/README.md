@@ -139,7 +139,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Material Scanner` & `Materials` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
 | `Approach`, `Collect`, `Mine`, `Mining Lasers`, `Pulse`, `Eco`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
-| `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
+| `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#auto-pilot-and-crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `NavGrid`, `NavP`, `NavC` & `Attitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](#using-the-waypoint-system). |
 | `SafeZone` | Whether current location is in the safe zone. |
@@ -224,7 +224,7 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 | `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
-| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refuelling-propellant). |
+| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
 | `Lights` | Turns on and off internal lights. |
 | `Canopy` | Opens or closes glass canopy. |
 | `Hatch` | Opens or closes ship entry hatch. |
