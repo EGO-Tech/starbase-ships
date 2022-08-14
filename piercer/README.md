@@ -21,7 +21,8 @@ More photos in the [`photos` folder](photos)
 
 | Channel | Video |
 | --- | --- |
-| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - The Piercer by Egomaniac - Surgical mining!](https://www.youtube.com/watch?v=UJVmU2bdvLA&t=7s) |
+| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - The Piercer by Egomaniac - Surgical mining!](https://www.youtube.com/watch?v=UJVmU2bdvLA) |
+| [flexcreator](https://www.youtube.com/c/flexcreator) | [Moon Mining with Piercer \| Starbase](https://www.youtube.com/watch?v=obR1CmXiXhw) |
 
 ## Features
 
