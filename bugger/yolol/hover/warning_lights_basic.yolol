@@ -1,0 +1,2 @@
+if:guide>0thengoto2end :w1=0 :w2=0 :w3=0 :w4=0 goto1
+b=:hd :w1=:fr<b :w2=:fl<b :w3=:br<b :w4=:bl<b goto1+:guide
