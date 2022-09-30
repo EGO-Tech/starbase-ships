@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
-The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
+The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite maneuverable. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Jabber)
 
@@ -38,8 +38,8 @@ The ship has the following features:
 - Propellant time and fuel time panels
 - 20 batteries
 - Six T2 box and eight T2 triangle thrusters providing forward thrust
-- Eight T2 manuever thrusters providing braking thrust
-- 18 T2 manuever thrusters
+- Eight T2 maneuver thrusters providing braking thrust
+- 18 T2 maneuver thrusters
 - [ISAN Mono Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System)
 - Speedometer
 - Timer panel

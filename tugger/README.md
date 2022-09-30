@@ -34,15 +34,15 @@ The ship has the following features:
 - Transponder system with ping function
 - One resource bridge
 - Auto generator rate script with adjustable minimum rate
-- Button to automatically adjust the minimum generator rate acoording to towed mass
+- Button to automatically adjust the minimum generator rate according to towed mass
 - 24 T2 generators (with 48 T1 enhancers) with eight T2 fuel chambers and 16 spare rods on racks
 - Radiators and heat sink that provide more than adequate cooling
 - Six medium tanks with 24,000,000 units of propellant
 - Propellant time and fuel time panels
 - 144 batteries
 - 38 T2 triangle thrusters providing forward thrust
-- 16 T2 manuever thrusters providing braking thrust
-- 32 T2 manuever thrusters
+- 16 T2 maneuver thrusters providing braking thrust
+- 32 T2 maneuver thrusters
 - [Compass System by Firestar99](https://gitlab.com/Firestar99/yolol/-/tree/master/src/compass)
 - Speedometer
 - Timer panel

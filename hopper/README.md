@@ -27,8 +27,8 @@ The ship has the following features:
 - Two small tanks with 2,000,000 units of propellant
 - Four batteries
 - Four T2 triangle thrusters providing forward thrust
-- Four T2 manuever thrusters providing braking thrust
-- 14 T2 manuever thrusters
+- Four T2 maneuver thrusters providing braking thrust
+- 14 T2 maneuver thrusters
 
 ## Changelog
 
