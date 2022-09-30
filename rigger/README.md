@@ -38,14 +38,14 @@ The ship has the following features:
 - Two external and two internal resource bridges
 - Auto generator rate script with adjustable minimum rate
 - 16 T2 generators with six T2 fuel chambers and 16 spare rods on racks
-- Radiators and ehat sinks that provide more than adequate cooling
+- Radiators and heat sinks that provide more than adequate cooling
 - Eight medium and six small propellant tanks with 38,000,000 units of propellant
 - Estimated flight time of 6 hours and range of 3,000km
 - Propellant time and fuel time panels
 - 40 batteries
 - 32 T2 box and 16 T2 triangle thrusters providing forward thrust
 - Four T2 triangle thrusters providing braking thrust
-- 40 T2 manuever thrusters with plenty of space for more
+- 40 T2 maneuver thrusters with plenty of space for more
 - Basic crafting bench to craft refills (will need to bolt own meter upgrade for T2 refills)
 - Extra small propellant tank with its own resource bridge for emergency refueling
 - Totally unnecessary amounts of extra hardpoints (all cabled and piped) all over the ship

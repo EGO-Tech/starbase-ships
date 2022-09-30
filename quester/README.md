@@ -27,7 +27,7 @@ The ship has the following features:
 - Spacious interior with large main hall ready to be fitted
 - Two additional seats for co-pilots in a large open bridge
 - Workshop with all three crafting benches and three resource bridges
-- Medbay with a recontruction machine
+- Medbay with a reconstruction machine
 - 24 ore crates to store ore for refills
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
@@ -92,7 +92,6 @@ The ship has the following features:
 - Fixed centering speed for `FcuBackward` lever
 - Added missing `Fuel` variable to memory chip to fix fuel time panel
 - Added solar panels to generator room
-
 
 ### v1.0.0 - 22/12/2021
 

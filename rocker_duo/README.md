@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
-The Rocker Duo is a asteroid hauling ship that is bascially two [Rockers](../rocker) mashed together. It is designed to be used in the safe zone and haul small asteroids.
+The Rocker Duo is a asteroid hauling ship that is basically two [Rockers](../rocker) mashed together. It is designed to be used in the safe zone and haul small asteroids.
 It uses two tractor beams to position asteroids into two sets of five compartments of cargo lock beams in a circular pattern so it can hold up to ten asteroids.
 It has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids.
 
@@ -41,7 +41,7 @@ The ship has the following features:
 - Four small and four medium propellant tanks with 20,000,000 units of propellant
 - 80 batteries
 - 24 T2 box and 56 T2 triangle thrusters providing forward thrust
-- 124 T2 manuever thrusters
+- 124 T2 maneuver thrusters
 - Two tractor beams which will load asteroids into two sets of five compartments with cargo lock beams
 - Load automation that will load asteroids into the right container in the right order
 - Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
