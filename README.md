@@ -4,10 +4,11 @@
 ![Linting](https://github.com/vinteo/starbase-ships/workflows/Linting/badge.svg)
 ![YOLOL](https://github.com/vinteo/starbase-ships/workflows/YOLOL/badge.svg)
 
-
 Blueprints and manuals for some ships for the game Starbase by Frozenbyte. Designed by EGOTech.
 
 Want to build your own ships? Try the [Welder Modular Ship Framework](https://vinteo.github.io/starbase-ship-welder/).
+
+[![EGOTech Discord](https://discordapp.com/api/guilds/1013328685564178472/widget.png?style=banner2)](https://discord.gg/BKwVGvncmN)
 
 ## Designed by EGOTech
 
