@@ -1,0 +1,2 @@
+if:mine<1thengoto1end :lasers=1 :advance=1 :collect=1
+if:mine>0thengoto2end :lasers=0 :advance=0 :collect=0 goto1

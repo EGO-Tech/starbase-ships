@@ -23,6 +23,12 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://vi
 | <img src="shifter/photos/20211219204001_1.jpg" alt="Shifter" width="200" /> | [Shifter](shifter) | The Shifter is a 450 ore crate capacity mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](stocker). | v1.1.1 | 450 | 4 |
 | <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer](piercer) | The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations. | v1.1.0 | 342 | 4 |
 
+## Surface Miners
+
+| Ship | Name | Description | Version | Ore Crates | Mining Lasers
+|---|---|---|---|---|---|
+| <img src="bugger/images/rigger1.jpg" alt="Bugger" width="200" /> | [Bugger](bugger) | The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations, designed to work in conjunction with a moon base. | v1.0.0 | 448 | 10 |
+
 ## Asteroid Haulers
 
 | Ship | Name | Description | Version | Asteroid Capacity | Loading Speed |
