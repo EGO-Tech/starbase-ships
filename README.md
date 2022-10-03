@@ -27,7 +27,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://vi
 
 | Ship | Name | Description | Version | Ore Crates | Mining Lasers
 |---|---|---|---|---|---|
-| <img src="bugger/images/rigger1.jpg" alt="Bugger" width="200" /> | [Bugger](bugger) | The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations, designed to work in conjunction with a moon base. | v1.0.0 | 448 | 10 |
+| <img src="bugger/photos/20220924104458_1.jpg" alt="Bugger" width="200" /> | [Bugger](bugger) | The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations, designed to work in conjunction with a moon base. | v1.0.0 | 448 | 10 |
 
 ## Asteroid Haulers
 
