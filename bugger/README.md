@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
-The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations, designed to work in conjunction with a moon base.
+The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Bugger)
@@ -45,6 +45,7 @@ The ship has the following features:
 - Timer panel
 - Odometer panel
 - Many extra slots for YOLOL or memory chips
+- Top speed of 100m/s when empty
 
 ## Changelog
 
