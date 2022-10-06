@@ -1,12 +1,18 @@
 # Piercer X (Anorak Edition) by EGOTech
 
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=For%20Sale&color=brightgreen)](#purchase-blueprint)
 
 The Piercer X is a premium version of the [Piercer](../) with [T3 generators, fuel chambers, enhancers and thrusters](#comparison).
 
 The blueprint is available for [purchase](#purchase-blueprint).
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/Piercer%20X)
+
+<img src="photos/20221006153255_1.jpg" alt="Piercer X" width="400" />
+
+More photos in the [`photos` folder](photos)
 
 ## Comparison
 
