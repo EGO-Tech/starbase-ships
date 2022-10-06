@@ -5,7 +5,7 @@
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 This module is a QR code template that has individual plates that can be painted to generate scannable QR codes.
-It is bolted to a beam gram which you can weld to any ship.
+It is bolted to a beam frame which you can weld to any ship.
 
 ![QR Code Module](./images/qr_code1.png)
 
