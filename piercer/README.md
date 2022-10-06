@@ -7,6 +7,8 @@
 The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
+A premium version, the [Piercer X (Anorak Edition)](./premium/) is available for purchase on the [EGOTech Discord server](https://discord.gg/BKwVGvncmN).
+
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Piercer)
 
 <img src="photos/20220225204720_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225204729_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225204743_1.jpg" alt="Piercer" width="400" />
