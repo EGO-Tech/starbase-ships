@@ -21,13 +21,13 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://vi
 | <img src="rigger/images/rigger1.jpg" alt="Rigger" width="200" /> | [Rigger](rigger) | The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. | v1.2.0 | 100 | 2 |
 | <img src="stocker/photos/20211013183158_1.jpg" alt="Stocker" width="200" /> | [Stocker](stocker) | The Stocker is a 232 ore crate capacity mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](rigger). | v1.1.1 | 232 | 4 |
 | <img src="shifter/photos/20211219204001_1.jpg" alt="Shifter" width="200" /> | [Shifter](shifter) | The Shifter is a 450 ore crate capacity mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](stocker). | v1.1.1 | 450 | 4 |
-| <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer](piercer) | The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations. | v1.1.0 | 342 | 4 |
+| <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer](piercer) | The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations. <br /><br />Premium version [Piercer X (Anorak Edition)](piercer/premium/) available for purchase. | v1.1.0 | 342 | 4 |
 
 ## Surface Miners
 
 | Ship | Name | Description | Version | Ore Crates | Mining Lasers
 |---|---|---|---|---|---|
-| <img src="bugger/photos/20220924104458_1.jpg" alt="Bugger" width="200" /> | [Bugger](bugger) | The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship. | v1.0.0 | 448 | 10 |
+| <img src="bugger/photos/20220924104458_1.jpg" alt="Bugger" width="200" /> | [Bugger](bugger) | The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship. <br /><br />Premium version [Bugger X](bugger/premium/) available for purchase. | v1.0.0 | 448 | 10 |
 
 ## Asteroid Haulers
 
