@@ -1,7 +1,7 @@
 # Piercer by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.
@@ -61,7 +61,14 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.0 (Current) - 28/05/2022
+### v1.0.1 (Current) - 09/10/2022
+
+- Removed references to laser pulse in YOLOL
+- Removed one redundant memory chip
+- Corrected button style of NavGrid buttons
+- Added EGOTech logo
+
+### v1.1.0 - 28/05/2022
 
 - Moved beam to align with lower floor access
 - Added meter upgrade to basic crafting bench
