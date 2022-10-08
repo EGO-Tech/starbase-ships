@@ -24,6 +24,7 @@ More photos in the [`photos` folder](photos)
 | Fuel Chambers | T2 | T3 |
 | Enhancers | T2 | T3 |
 | Power Generation | 32,000eps | 58,500eps |
+| Laser Convergence | Approximation | Precise |
 
 ## Build Cost
 
@@ -39,7 +40,14 @@ The blueprint is available for purchase on the EGOTech Discord server.
 
 ## Changelog
 
-### v1.0.0 (Current) - 06/10/2022
+### v1.0.1 (Current) - 09/10/2022
+
+- Changed laser convergence to use professional chip for better accuracy
+- Removed references to laser pulse in YOLOL
+- Removed one redundant memory chip
+- Corrected naming of field in heat sinks to match `StoredHeat`
+
+### v1.0.0 - 06/10/2022
 
 - Initial release
 
