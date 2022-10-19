@@ -19,6 +19,7 @@ More photos in the [`photos` folder](photos)
 
 The ship has the following features:
 
+- 36 ore crates
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
 - Transponder system with ping function
