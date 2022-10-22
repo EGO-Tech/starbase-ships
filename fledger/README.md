@@ -1,7 +1,7 @@
 # Fledger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Fledger is a starter ship that is targeted towards aspiring mechanics that want to learn about how ships work. It starts with the basic machinery but has plenty of space for upgrades, allowing the ship to grow as the player progresses. With an exposed frame, upgrades and repairs should be easier than most ships.
@@ -37,6 +37,11 @@ The ship has the following features:
 - Top speed of 140 m/s empty
 
 ## Changelog
+
+### v1.0.1 (Current) - 22/10/2022
+
+- Fixed `Transponder` button on and off values
+- Added missing beam at the back of the ship
 
 ### v1.0.0 - 19/10/2022
 

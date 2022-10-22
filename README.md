@@ -62,7 +62,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://vi
 | Ship | Name | Description | Ore Crates | Version |
 |---|---|---|---|---|
 | <img src="sower/photos/20220311205426_1.jpg" alt="Sower" width="200" /> | [Sower](sower) | The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship. | 36 | v1.1.0 |
-| <img src="fledger/photos/20221019154127_1.jpg" alt="Fledger" width="200" /> | [Fledger](fledger) | The Fledger is a starter ship that is targeted towards aspiring mechanics that want to learn about how ships work. It starts with the basic machinery but has plenty of space for upgrades, allowing the ship to grow as the player progresses. With an exposed frame, upgrades and repairs should be easier than most ships. | 36 | v1.0.0 |
+| <img src="fledger/photos/20221019154127_1.jpg" alt="Fledger" width="200" /> | [Fledger](fledger) | The Fledger is a starter ship that is targeted towards aspiring mechanics that want to learn about how ships work. It starts with the basic machinery but has plenty of space for upgrades, allowing the ship to grow as the player progresses. With an exposed frame, upgrades and repairs should be easier than most ships. | 36 | v1.0.1 |
 
 ## Others
 
