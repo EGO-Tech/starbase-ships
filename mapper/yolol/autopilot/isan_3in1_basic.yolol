@@ -1,0 +1,13 @@
+a="origin_" b=a+"north" c=a+"south" d=a+"east" :kt=b goto2
+a+="west" e=160000 f=8*e g=f*3/13 h=2*e i=h*13/19 j=f*3/19 k=h*13/3
+l=1000000 m=l-:ke m*=m n=l-:kf n*=n o=l-:kg o*=o :kt=c
+p=q r=s t=u
+v=l-:ke v*=v w=l-:kf w*=w x=l-:kg x*=x :kt=d
+:ex=(m+v)/f+y/g-z/j :ey=v/h-m/i+(y+z)/k :ez=(y+z-m-v)/e
+y=l-:ke y*=y q=l-:kf q*=q s=l-:kg s*=s :kt=a
+:fx=(n+w)/f+p/g-aa/j :fy=w/h-n/i+(p+aa)/k :fz=(p+aa-n-w)/e
+z=l-:ke z*=z aa=l-:kf aa*=aa u=l-:kg u*=u :kt=b
+:gx=(o+x)/f+r/g-t/j :gy=x/h-o/i+(r+t)/k :gz=(r+t-o-x)/e goto3
+
+// based on ISAN v2.5 by Collective
+// Compass by Firestar99
