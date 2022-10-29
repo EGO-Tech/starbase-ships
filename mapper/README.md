@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
-The Mapper is an explorer ship with an estimated range of 13,000km capable at travelling at close to maximum speed. It has a navigation logger for logingg capital chip navigation chips.
+The Mapper is an explorer ship with an estimated range of 13,000km capable at travelling at close to maximum speed. It has a navigation logger for logging capital ship navigation chips.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Mapper)
@@ -21,7 +21,7 @@ More photos in the [`photos` folder](photos)
 
 The ship has the following features:
 
-- Basic crafting benchwith meter and monitor upgrade as well as tools bench
+- Basic crafting bench with meter and monitor upgrade as well as tools bench
 - 20 ore crates to store ore for refills
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
