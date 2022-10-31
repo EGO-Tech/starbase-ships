@@ -1,0 +1,1 @@
+:dpl=(:dpl+:dpls)*(:dpl>=-10)-:dpl>10+(:dpl<-10)*-10 goto1

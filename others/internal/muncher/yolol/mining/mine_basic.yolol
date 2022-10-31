@@ -1,0 +1,2 @@
+if:mine<1then:lasers=0 :rf=0 :dp1=0 :dp2=0 goto1end
+:rf=1 :lasers=1 goto1
