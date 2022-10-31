@@ -1,0 +1,10 @@
+if:lasers<1thengoto1end :collect=1
+if:lasers>0thengoto2end
+
+
+
+
+
+
+
+:collect=0 goto1
