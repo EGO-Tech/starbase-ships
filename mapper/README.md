@@ -175,7 +175,7 @@ On the pilot center console there is a `Timer` panel which acts as a timer. It w
 
 #### Odometer
 
-On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed (speedometer must be activated). To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.
+On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.
 
 ## Providing Feedback
 
