@@ -1,7 +1,7 @@
 # Bugger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.
@@ -52,7 +52,12 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.1 (Current) - 08/10/2022
+### v1.0.2 (Current) - 05/11/2022
+
+- Piped six heat sinks that where not piped
+- Removed now 12 redundant heat sinks
+
+### v1.0.1 - 08/10/2022
 
 - Added "feelers" to keep ship in hover mode while mining
 - Fixed `Shutdown` buttons' button style
