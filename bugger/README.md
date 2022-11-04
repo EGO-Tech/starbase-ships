@@ -54,7 +54,7 @@ The ship has the following features:
 
 ### v1.0.2 (Current) - 05/11/2022
 
-- Piped six heat sinks that where not piped
+- Piped six heat sinks that were not piped
 - Removed now 12 redundant heat sinks
 
 ### v1.0.1 - 08/10/2022
