@@ -1,7 +1,7 @@
 # Bugger X by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=For%20Sale&color=brightgreen)](#purchase-blueprint)
 
 The Bugger X is a premium version of the [Bugger](../) with [T3 enhancers and thrusters](#comparison).
@@ -40,7 +40,12 @@ The blueprint is available for purchase on the EGOTech Discord server.
 
 ## Changelog
 
-### v1.0.0 (Current) - 08/10/2022
+### v1.0.1 (Current) - 05/11/2022
+
+- Piped 12 heat sinks that were not piped
+- Removed now 11 redundant heat sinks
+
+### v1.0.0 - 08/10/2022
 
 - Initial release
 
