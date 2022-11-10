@@ -66,7 +66,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of 20%. |
 | `Transponder` | Turns on and off ship transponder |
-| `StoredBatteryPower` | Shows current battery charge of the 20 batteries, maximum of 10,000 units. |
+| `StoredBatteryPower` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `GeneratorUnitRate` | Current generator rate, maximum of 100%. |
 | `FuelChamberFuel` | Fuel remaining on fuel rods in fuel chambers, maximum of 300,000 units for each. |
 | `GasNetworkStoredResource` | Total propellant remaining in propellant tanks, maximum of 8,000,000 units. |

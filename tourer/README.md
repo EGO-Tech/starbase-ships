@@ -99,7 +99,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `ISAN2`, `Heading`, `Dest`, `DTW`, `Deltas`, `WP`, `Up`, `Down`, `Save` & `Home` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
 | `Timer` | See [Timer](#timer). |
 | `Odometer` | See [Odometer](#odometer). |
-| `Battery` | Shows current battery charge of the 11 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |

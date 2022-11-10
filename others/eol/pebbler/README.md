@@ -83,7 +83,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 | `Turtle` | Activates turtle mode which sets all thrust to a maximum limit of 20% of full thrust. |
 | `ID` | Toggle for the transponder. |
 | `Distance` | Distance for rangefinder. Green button toggles the rangefinder.|
-| `StoredBatteryPower` | Shows current battery charge of the 15 batteries, maximum of 10,000 units. |
+| `StoredBatteryPower` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `GeneratorUnitRate` | Current generator rate, maximum of 100%. |
 | `FuelRod1` | Total fuel remaining on top fuel rod, maximum of 300,000 units. |
 | `FuelRod2` | Total fuel remaining on bottom fuel rod, maximum of 300,000 units. |

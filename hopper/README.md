@@ -69,7 +69,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 | `Sloth` | Activates the low sensitvity mode by limiting all thrust to 20%. Using together with `Turtle` will result in even slower forward thrust. |
 | `Fuel` | Fuel remaining on fuel rod, maximum of 300,000 units. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 2,000,000 units. |
-| `Battery` | Shows current battery charge of the 20 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `ID` | Activates transponder |

@@ -88,7 +88,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 | Interface | Function |
 |---|---|
-| `Battery` | Shows current battery charge of the 20 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `MinEPS` & `Min_Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |

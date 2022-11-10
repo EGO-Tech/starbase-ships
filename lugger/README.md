@@ -187,7 +187,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 | `Generator` | Current generator rate, maximum of `Generator Limit`. |
 | `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
-| `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |

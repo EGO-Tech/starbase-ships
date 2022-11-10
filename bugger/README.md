@@ -63,7 +63,7 @@ The ship has the following features:
 - Fixed `Shutdown` buttons' button style
 - Moved pilot seat slightly forward
 
-### v1.0.0 (Current) - 03/10/2022
+### v1.0.0 - 03/10/2022
 
 - Initial release
 
@@ -124,7 +124,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Generator` | Current generator rate. |
 | `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
-| `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
 | `Lights` | Turns on and off internal lights. |

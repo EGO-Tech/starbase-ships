@@ -209,7 +209,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 
 | Interface | Function |
 |---|---|
-| `Battery` | Shows current battery charge of the 40 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |

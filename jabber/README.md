@@ -117,7 +117,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Shutdown` | Turns off fuel chambers. |
-| `Battery` | Shows current battery charge of the 20 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
 | `Fuel Rod Left` & `Fuel Rod Right` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |

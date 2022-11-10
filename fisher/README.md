@@ -145,7 +145,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 
 | Interface | Function |
 |---|---|
-| `Battery` | Shows current battery charge of the 136 batteries, maximum of 10,000 units. |
+| `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. |
 | `Fuel Rod 1` to `Fuel Rod 20` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
