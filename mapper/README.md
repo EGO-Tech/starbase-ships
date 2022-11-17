@@ -1,7 +1,7 @@
 # Mapper by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Mapper is an explorer ship with an estimated range of 13,000km capable at travelling at close to maximum speed. It has a navigation logger for logging capital ship navigation chips.
@@ -46,7 +46,12 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 23/10/2022
+### v1.0.1 (Current) - 18/11/2022
+
+- Fixed some typos on some YOLOL rack labels
+- Fixed top three center rangefinders not used in avoidance
+
+### v1.0.0 - 23/10/2022
 
 - Initial release
 
