@@ -1,0 +1,6 @@
+a=0
+b=1 c=10 if:lasers<1then:tr=0 a=0 goto2end
+a++ ifa<(c+1)then:tr=a*-b if:lasers<1thengoto2end goto3end a--
+a-- ifa>0then:tr=a*-b if:lasers<1thengoto2end goto4end
+a++ ifa<(c+1)then:tr=a*b if:lasers<1thengoto2end goto5end a--
+a-- ifa>0then:tr=a*b if:lasers<1thengoto2end goto6end goto3
