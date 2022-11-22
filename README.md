@@ -22,7 +22,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 | <img src="stocker/photos/20211013183158_1.jpg" alt="Stocker" width="200" /> | [Stocker](stocker)<br />![Free Blueprint][bp-free] | The Stocker is a 232 ore crate capacity mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](rigger). | v1.1.1 | 232 | 4 |
 | <img src="shifter/photos/20211219204001_1.jpg" alt="Shifter" width="200" /> | [Shifter](shifter)<br />![Free Blueprint][bp-free] | The Shifter is a 450 ore crate capacity mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](stocker). | v1.1.1 | 450 | 4 |
 | <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer](piercer)<br />![Free Blueprint][bp-free] | The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.  | v1.1.1 | 342 | 4 |
-| <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer X](piercer/premium/)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Piercer X (Anorak Edition)](piercer). | v1.0.1 | 342 | 4 |
+| <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer X](piercer/premium/)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Piercer](piercer). | v1.0.1 | 342 | 4 |
 
 ## Surface Miners
 
@@ -30,7 +30,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 |---|---|---|---|---|---|
 | <img src="bugger/photos/20220924104458_1.jpg" alt="Bugger" width="200" /> | [Bugger](bugger)<br />![Free Blueprint][bp-free] | The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship. | v1.0.2 | 448 | 10 |
 | <img src="bugger/photos/20220924104458_1.jpg" alt="Bugger" width="200" /> | [Bugger X](bugger/premium)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Bugger](bugger). | v1.0.1 | 448 | 10 |
-| <img src="crawler/photos/20221121192814_1.jpg" alt="Crawler" width="200" /> | [Crawler](crawler)<br />![Blueprint for Sale][bp-sale] | The Crawler is a 704 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is a larger version of the [Bugger](bugger) but uses a large generator system. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship. | v1.0.0 | 704 | 10 |
+| <img src="crawler/photos/20221121192814_1.jpg" alt="Crawler" width="200" /> | [Crawler](crawler)<br />![Blueprint for Sale][bp-sale] | The Crawler is a 704 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is a larger version of the [Bugger X](bugger/premium) but uses a large generator system. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship. | v1.0.0 | 704 | 10 |
 
 ## Asteroid Haulers
 

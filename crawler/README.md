@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=For%20Sale&color=brightgreen)](#purchase-blueprint)
 
-The Crawler is a 704 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is a larger version of the [Bugger](../bugger) but uses a large generator system. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.
+The Crawler is a 704 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is a larger version of the [Bugger X](../bugger/premium) but uses a large generator system. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.
 
 The blueprint is available for [purchase](#purchase-blueprint).
 
@@ -49,7 +49,7 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 - 23/11/2022
+### v1.0.0 (Current) - 23/11/2022
 
 - Initial release
 
