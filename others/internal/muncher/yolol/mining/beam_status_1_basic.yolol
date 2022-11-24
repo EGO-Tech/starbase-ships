@@ -1,5 +1,0 @@
-if:b1<1then:bd1="OFF" goto1end goto2+:bs1
-:bd1="Searching..." :w1=0 goto1
-:bd1="Locked!" :w1=0 goto1
-:w1++ :bd1="Waiting "+:w1/2.5+"s..." goto1
-:bd1="Scanning..." :w1=0 goto1

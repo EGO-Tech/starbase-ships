@@ -1,3 +1,0 @@
-if:lasers<1then:dr2=0 goto1end if:dp2>:dpl then:mine=0 goto1end a=:dpi
-if:dcr2==:dr2 then:dp2+=a :dr2+=90end if:dr2>180then:dp2+=a :dr2=0end
-goto1
