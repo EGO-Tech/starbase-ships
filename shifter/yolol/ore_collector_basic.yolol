@@ -1,3 +1,0 @@
-x=0.72 ry=-1.44 py=4.32 r=57.296 if:Collect<1then:op=0 goto1end
-a=:Distance ifa<1 or a>30thena=12end d=a+x :op=90-py/d*r
-:or1=ry/d*r :or2=-:or1 goto1

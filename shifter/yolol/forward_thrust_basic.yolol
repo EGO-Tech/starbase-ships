@@ -1,3 +1,0 @@
-t=158 a=32 b=2 c=4 d=46
-z=:t1*a+:t2*b+:t3*b+:t4*b+:t5*b+:t6*c+:t7*c+:t8*b+:t9+:t10*b+:t11*c
-z+=:t12*c+:t13*d+:t14*d+:t15*b+:t16+:t17*b :ForwardThrust=z/t goto2

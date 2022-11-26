@@ -1,1 +1,1 @@
-k=1000 a=9*k :rd=:gd*((:r8+:r9+:rb+:c9+:c0+:ca+:l8+:l9+:lb)<a) goto1
+k=1000 a=8*k :rd=:gd*((:r8+:r9+:rb+:c0+:ca+:l8+:l9+:lb)<a) goto1

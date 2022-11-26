@@ -182,6 +182,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. Activating `Rotate` will rotate the laser drill.
 
 The laser drill has three modes.
+
 - `Fixed` mode will keep all lasers converged to the asteroid detected by the center range finder.
 - `Manual` mode allows adjustment of the `Drill Pitch`. The pitch range is from `-15` to `20` degrees.
 - `Auto` mode will activate `Rotate` and progressively increase the drill pitch with the rotations
