@@ -1,0 +1,3 @@
+b=90 c=180 a=0.5*(:dms>0) if:lasers*:rot thengoto2end :dr1=0 goto1
+if:dcr1==:dr1 then:dp1+=a :dr1+=b end if:dr1>c then:dp1+=a :dr1=0end
+goto1

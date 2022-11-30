@@ -1,21 +1,22 @@
 # Shifter by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=2.0.0&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
-The Shifter is a 450 ore crate capacity mining ship with a spacious interior allowing for multi crew operations. The controls, tools and features are similar to the [Stocker](../stocker).
+The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Shifter)
 
 The Shifter (v1.1.0) is also available to buy in game at Central Showroom of Rando 1 Ship Shop at stations with Rando ship shops.
 
-<img src="photos/20211219204020_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211219204001_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218213931_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20211219204038_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218215740_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214039_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20211218214052_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214101_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214110_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20211218214125_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214135_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214145_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20211218214158_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214218_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214228_1.jpg" alt="Shifter" width="400" />
+<img src="photos/20221126225543_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126225621_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218213931_1.jpg" alt="Shifter" width="400" />
+<img src="photos/20221126225605_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218215740_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214039_1.jpg" alt="Shifter" width="400" />
+<img src="photos/20211218214052_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126230428_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214110_1.jpg" alt="Shifter" width="400" />
+<img src="photos/20211218214125_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126230407_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126230358_1.jpg" alt="Shifter" width="400" />
+<img src="photos/20221126230420_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126225335_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214228_1.jpg" alt="Shifter" width="400" />
+<img src="photos/20221126234439_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126234347_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126234422_1.jpg" alt="Shifter" width="400" />
 
 More photos in the [`photos` folder](photos)
 
@@ -29,28 +30,27 @@ The ship has the following features:
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
 - Transponder system with ping function
-- Four mining lasers on turrets that point towards asteroids with pulse and sweeping
-- Two ore collectors that point towards asteroids
+- Two automated rotating drills with four mining lasers each
+- Six ore collectors
 - Material scanner with display of materials in stacks
 - Approach and auto mine functions
 - Two external and four internal resource bridges
 - Auto generator rate script with adjustable minimum rate
-- 32 T2 generators with 12 T2 fuel chambers and 48 spare rods on racks
+- 36 T2 generators (with 40 T1 and 16 T2 enhancers) with 12 T2 fuel chambers and 48 spare rods on racks
 - Radiators and heat sinks that provide more than adequate cooling
 - Nine large propellant tanks with 108,000,000 units of propellant
 - Estimated flight time of 4 hours and range of 2,000km
 - Propellant time and fuel time panels
-- 96 batteries
+- 216 batteries
 - 42 T2 box and 124 T2 triangle thrusters providing forward thrust
 - 48 T2 triangle thrusters providing braking thrust
-- 72 T2 triangle thrusters for maneuvers
+- Eight T2 maneuver and 72 T2 triangle thrusters for maneuvers
 - Basic crafting bench to craft refills with meter upgrade plus the other two benches
-- Asteroid belt and moon atmosphere furnaces
 - Extra two small propellant tank with its own resource bridge for emergency refueling
 - Two extra hardpoints (all cabled and piped)
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
 - [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 36 rangefinders
+- Warning lights and alarm for obstacle detection and avoidance, powered by 35 rangefinders
 - Speedometer
 - Timer panel
 - Odometer panel
@@ -59,7 +59,31 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.1 (Current) - 27/05/2022
+### v2.0.0 (Current) - 01/12/2022
+
+- Added EGOTech logo decal
+- Removed chamber numbering plates to give way to enhancers
+- Added four more T2 generators, 40 T1 and 16 T2 enhancers, increasing power generation to 68,000eps
+- Added 22 more heat sinks
+- Added six more radiator bases and 12 extensions
+- Replaced sweeping mining lasers with two automated rotating drills with four mining lasers each
+- Swapped center rangefinder with lower rangefinder to be in line with the drills
+- Moved material scanner lower inside the ship to be more in line with the center rangefinder
+- Added 120 more batteries
+- Moved collectors and added four extra collectors behind the drills
+- Added windows to where collectors used to be
+- Updated dynamic generator script to take into account lasers
+- Added eight maneuver thrusters around drills
+- Remove belt and atmosphere furnaces
+- Increased default min generator rate to 90
+- Adjusted maximum backup rods to 48
+- Added avoidance safety chip to disable avoidance when laser drills are not in starting position
+- Moved a couple of guide rangefinders onto drill, disabled when drills are turned on
+- Removed forward thrust total chip
+- Split side thruster blocks into three blocks each for better balance
+- Changed other rear thruster groupings
+
+### v1.1.1 - 27/05/2022
 
 - Replaced speedometer by MoriWatari with new speedometer
 - Removed fast travel core
@@ -142,7 +166,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Guides` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Red` warning lights show location of obstacles (left, right and centre). |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Material Scanner` & `Materials` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
-| `Approach`, `Collect`, `Mine`, `Mining Lasers`, `Pulse`, `Eco`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
+| `Approach`, `Collect`, `Mine`, `Lasers`, `Rotate`, `Eco`, `Drill Mode` & `Drill Pitch` | Mining controls. See [Mining](#mining). |
 | `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#auto-pilot-and-crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `NavGrid`, `NavP`, `NavC` & `Attitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](#using-the-waypoint-system). |
@@ -184,6 +208,8 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 `Avoidance` will activate `Guides`. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom `Blue` warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
 It will also flash `Red` warning lights on the pilot center console according to the position of obstacle detected. If `Autopilot` is activated, it will readjust and continue its flight.
 
+**NOTE:** For safety, `Avoidance` will not activate if the mining lasers are turned on. Do not turn on `Avoidance`, `Autopilot` and `Nav` while lasers are turned on.
+
 `Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset by holding down the `Avoids` `Reset Trips` button.
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
@@ -199,12 +225,19 @@ The first time will show ISAN as offline, repeat clearing the value again to res
 
 ### Mining
 
-To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Mining Lasers` to turn on the mining lasers.
-`Pulse` will activate pulsing of the lasers while `Laser Sweep Height` and `Laser Sweep Depth` will adjust sweeping distances of the lasers. `Eco` mode will only use the top two lasers to conserve power if needed.
+To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 16 to 20m on `Distance`), activate `Lasers` to turn on the mining lasers. Activating `Rotate` will rotate the laser drill.
+
+The laser drill has three modes.
+
+- `Fixed` mode will keep all lasers converged to the asteroid detected by the center range finder.
+- `Manual` mode allows adjustment of the `Drill Pitch`. The pitch range is from `-15` to `20` degrees.
+- `Auto` mode will activate `Rotate` and progressively increase the drill pitch with the rotations
+
+`Drill Pitch` can only be adjusted in `Manual` mode. `Eco` mode will only use two lasers to conserve power.
 
 `Mine` is a button which will activate automated mining. Point the center range finder at an asteroid and activate. It will activate `Material Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
 
-`Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objects detected by the center range finder.
+`Collect` turns on the six ore collectors.
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
 
@@ -221,7 +254,7 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 108,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed. |
-| `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `Backup Rods` to set the number of backup rods available. As standard there are 20 extra rods. |
+| `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `Backup Rods` to set the number of backup rods available. As standard there are 48 extra rods. |
 | `Fuel Rod 1` to `Fuel Rod 12` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Generator` | Current generator rate, maximum of `Generator Limit`. |
 | `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
