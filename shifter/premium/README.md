@@ -10,7 +10,7 @@ The blueprint is available for [purchase](#purchase-blueprint).
 
 [Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/Shifter%20X)
 
-<img src="photos/20221006153255_1.jpg" alt="Shifter X" width="400" />
+<img src="photos/20221202233246_1.jpg" alt="Shifter X" width="400" />
 
 More photos in the [`photos` folder](photos)
 
