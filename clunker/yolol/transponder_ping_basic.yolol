@@ -1,0 +1,2 @@
+s=3 if:Ping<1thengoto1end i=0 :ponder=1 :idBlink=1
+ifi<s*5theni+=1 goto2end :Ping=0 :idBlink=0 :ponder=0 goto1
