@@ -63,7 +63,7 @@ The ship has the following features:
 
 - Added EGOTech logo decal
 - Removed chamber numbering plates to give way to enhancers
-- Added four more T2 generators, 40 T1 and 16 T2 enhancers, increasing power generation to 68,000eps
+- Added four more T2 generators, 40 T1 and 16 T2 enhancers, increasing power generation to 63,000eps
 - Added 22 more heat sinks
 - Added six more radiator bases and 12 extensions
 - Replaced sweeping mining lasers with two automated rotating drills with four mining lasers each

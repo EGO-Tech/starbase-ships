@@ -23,7 +23,7 @@ More photos in the [`photos` folder](photos)
 | Generators | T2 | T3 |
 | Fuel Chambers | T2 | T3 |
 | Enhancers | T1 & T2 | T1 & T2 |
-| Power Generation | 68,000eps | 77,000eps |
+| Power Generation | 63,000eps | 72,000eps |
 | Laser Convergence | Approximation | Precise |
 
 ## Build Cost
