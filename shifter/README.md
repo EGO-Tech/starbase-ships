@@ -1,7 +1,7 @@
 # Shifter by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=2.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=2.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations.
@@ -59,7 +59,14 @@ The ship has the following features:
 
 ## Changelog
 
-### v2.0.0 (Current) - 01/12/2022
+### v2.0.1 (Current) - 28/12/2022
+
+- Renamed `Material` panel to `Materials`
+- Fixed upper limit of laser pitch control
+- Added cruise safety chip
+- Added lasers safety chip
+
+### v2.0.0 - 01/12/2022
 
 - Added EGOTech logo decal
 - Removed chamber numbering plates to give way to enhancers
@@ -175,6 +182,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](#timer). |
 
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
+
 ### Using the Waypoint System
 
 ![Pilot Left Console](images/pilot_left_console.jpg)
@@ -240,6 +249,8 @@ The laser drill has three modes.
 `Collect` turns on the six ore collectors.
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
+
+**NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
 #### Ore Scanner
 
