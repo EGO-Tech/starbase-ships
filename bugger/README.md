@@ -162,7 +162,7 @@ Activate `Lasers` to turn on the mining lasers which will automatically sweep fr
 
 > TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
 
-**NOTE:** For safety, lasers will turn off whe total fuel is less that 2,000 units.
+**NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
 ### Other Stuff
 

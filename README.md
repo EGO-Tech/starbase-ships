@@ -22,8 +22,8 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 | <img src="stocker/photos/20211013183158_1.jpg" alt="Stocker" width="200" /> | [Stocker](stocker)<br />![Free Blueprint][bp-free] | The Stocker is a 232 ore crate capacity mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](rigger). | v1.1.1 | 232 | 4 |
 | <img src="shifter/photos/20221126225543_1.jpg" alt="Shifter" width="200" /> | [Shifter](shifter)<br />![Free Blueprint][bp-free] | The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations. | v2.0.0 | 450 | 8 |
 | <img src="shifter/premium/photos/20221202233246_1.jpg" alt="Shifter X" width="200" /> | [Shifter X](shifter/premium/)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Shifter](shifter) with T3 generators and thrusters. | v1.0.0 | 450 | 8 |
-| <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer](piercer)<br />![Free Blueprint][bp-free] | The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.  | v1.1.1 | 342 | 4 |
-| <img src="piercer/premium/photos/20221006153255_1.jpg" alt="Piercer" width="200" /> | [Piercer X](piercer/premium/)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Piercer](piercer) with T3 generators and thrusters. | v1.0.1 | 342 | 4 |
+| <img src="piercer/photos/20220225204743_1.jpg" alt="Piercer" width="200" /> | [Piercer](piercer)<br />![Free Blueprint][bp-free] | The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.  | v1.1.2 | 342 | 4 |
+| <img src="piercer/premium/photos/20221006153255_1.jpg" alt="Piercer" width="200" /> | [Piercer X](piercer/premium/)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Piercer](piercer) with T3 generators and thrusters. | v1.0.2 | 342 | 4 |
 
 ## Surface Miners
 

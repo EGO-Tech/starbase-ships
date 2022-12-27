@@ -1,7 +1,7 @@
 # Piercer X (Anorak Edition) by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=For%20Sale&color=brightgreen)](#purchase-blueprint)
 
 The Piercer X is a premium version of the [Piercer](../) with [T3 generators, fuel chambers, enhancers and thrusters](#comparison).
@@ -39,6 +39,13 @@ The blueprint is available for purchase on the EGOTech Discord server.
 [![EGOTech Discord](https://discordapp.com/api/guilds/1013328685564178472/widget.png?style=banner2)](https://discord.gg/BKwVGvncmN)
 
 ## Changelog
+
+### v1.0.2 (Current) - 27/12/2022
+
+- Renamed `Material` panel to `Materials`
+- Fixed upper limit of laser pitch control
+- Added cruise safety chip
+- Added lasers safety chip
 
 ### v1.0.1 (Current) - 09/10/2022
 
