@@ -30,7 +30,7 @@ More photos in the [`photos` folder](photos)
 
 ![Ship Build Cost](images/build_cost.png)
 
-TIP: You can craft your own crates, generators (T3), box and triangle thruster components (T3) and ship tools to reduce assembly cost.
+> TIP: You can craft your own crates, generators (T3), box and triangle thruster components (T3) and ship tools to reduce assembly cost.
 
 ## Purchase Blueprint
 

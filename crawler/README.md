@@ -57,7 +57,7 @@ The ship has the following features:
 
 ![Ship Build Cost](images/build_cost.png)
 
-TIP: You can craft your own crates, generators, box and triangle thruster components (T3) and ship tools to reduce assembly cost.
+> TIP: You can craft your own crates, generators, box and triangle thruster components (T3) and ship tools to reduce assembly cost.
 
 ## Purchase Blueprint
 
@@ -135,7 +135,7 @@ Activate `Lasers` to turn on the mining lasers which will automatically sweep fr
 
 `Mine` will activate automated mining, which will activate `Lasers`, `Advance` and `Collect`.
 
-TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
+> TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
 
 ### Other Stuff
 

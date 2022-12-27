@@ -51,7 +51,7 @@ The ship has the following features:
 
 ![Ship Build Cost](images/build_cost.png)
 
-TIP: You can craft your own crates, generators (T1) and triangle thruster components (T1) reduce assembly cost.
+> TIP: You can craft your own crates, generators (T1) and triangle thruster components (T1) reduce assembly cost.
 
 ## Download Blueprint
 
@@ -87,7 +87,7 @@ The beam structure of the ship allows for three rows of ore crates (two crates h
 
 ![Crates Upgrade](images/crates_upgrade.jpg)
 
-TIP: Make sure to add crates equally on both sides of the ship to maintain its balance.
+> TIP: Make sure to add crates equally on both sides of the ship to maintain its balance.
 
 ### Adding More Thrusters
 

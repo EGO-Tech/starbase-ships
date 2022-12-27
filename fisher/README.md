@@ -58,7 +58,7 @@ The ship has the following features:
 
 ![Ship Build Cost](images/build_cost.png)
 
-TIP: You can craft your own crates, generators (T3) and triangle thruster components (T2) to reduce assembly cost.
+> TIP: You can craft your own crates, generators (T3) and triangle thruster components (T2) to reduce assembly cost.
 
 ## Download Blueprint
 

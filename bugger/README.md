@@ -115,7 +115,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Timer` | See [Timer](#timer). |
 | `Odometer` | See [Odometer](#odometer). |
 
-> NOTE: For safety, firing full braking thrust will deactivate `Cruise`.
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Managing Power and Fuel
 
@@ -158,11 +158,11 @@ Activate `Lasers` to turn on the mining lasers which will automatically sweep fr
 
 `Collect` turns on the four ore collectors.
 
-> TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
-
 `Mine` will activate automated mining, which will activate `Lasers`, `Advance` and `Collect`.
 
-> NOTE: For safety, lasers will turn off whe total fuel is less that 2,000 units.
+> TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
+
+**NOTE:** For safety, lasers will turn off whe total fuel is less that 2,000 units.
 
 ### Other Stuff
 
