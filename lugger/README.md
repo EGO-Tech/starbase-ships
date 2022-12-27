@@ -1,7 +1,7 @@
 # Lugger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. However it is pretty much at its voxel limit so any additions or changes may be difficult without sacrificing crates.
@@ -49,7 +49,14 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.0 (Current) - 26/05/2022
+### v1.1.1 (Current) - 27/12/2022
+
+- Added Discord link to help chip
+- Added EGOTech logo decal
+- Added meter upgrade to basic crafting bench
+- Added cruise safety chip
+
+### v1.1.0 - 26/05/2022
 
 - Painted thrusters black and nozzles red
 - Removed useless `BackDoor` button and `Solar` panel from engineering console
@@ -131,6 +138,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](#timer). |
 | `Odometer` | See [Odometer](#odometer). |
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Using the Waypoint System
 
@@ -231,10 +240,6 @@ Of course in-game tips are greatly appreciated.
 ### Can I sell ships based on this blueprint?
 
 No.
-
-### Why can't the crafting bench craft T2 refills?
-
-You need to bolt a meter upgrade to the bench. The ship designer doesn't provide it so I couldn't add it to the blueprint.
 
 ### Why does NavGrid show an error?
 
