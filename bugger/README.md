@@ -1,7 +1,7 @@
 # Bugger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.3&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.
@@ -32,7 +32,6 @@ The ship has the following features:
 - Auto mine function that auto advances (with adjustable thrust and speed) ship for easy mining
 - "Feelers" to keep ship in hover mode while mining
 - Four ore collectors
-- Auto hover function
 - Two external and three internal resource bridges
 - Auto generator rate script with adjustable minimum rate
 - 36 T3 generators with 36 T2 enhancers fueled by 12 T3 fuel chambers and 24 spare rods on racks
@@ -52,7 +51,18 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.2 (Current) - 05/11/2022
+### v1.0.3 (Current) - 27/12/2022
+
+- Added Discord link to help chip
+- Added cruise safety chip
+- Added lasers safety chip
+- Added missing redundant ducts
+- Added some missing small plates
+- Added bolts to entry ramp so strength factor does not drop when open
+- Removed auto `Hover` function which didn't work well enough
+- Added side "feelers"
+
+### v1.0.2 - 05/11/2022
 
 - Piped six heat sinks that were not piped
 - Removed now 12 redundant heat sinks
@@ -71,15 +81,11 @@ The ship has the following features:
 
 ![Ship Build Cost](images/build_cost.png)
 
-TIP: You can craft your own crates, generators (T3), box and triangle thruster components (T2) and ship tools to reduce assembly cost.
+> TIP: You can craft your own crates, generators (T3), box and triangle thruster components (T2) and ship tools to reduce assembly cost.
 
 ## Download Blueprint
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/bugger/blueprints/bugger.fbe).
-
-## Known Issues
-
-- Hover doesn't work well if the ground is not flat or the ship is not aligned to the surface of the ground.
 
 ## Usage
 
@@ -100,8 +106,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
 | `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
-| `Hover`, `Hover Distance` | `Hover` will move ship up and down towards `Hover Distance`. |
-| `Guide`, `FrontRight`, `FrontLeft`, `BackRight` & `BackLeft` | `Guide` activates rangefinders at each corner of the base of the ship. Each repsective corner shows distance to the ground. `Red` warning lights flash when ground is less that `Hover Distance`. |
+| `Guide`, `Hover Distance`, `FrontRight`, `FrontLeft`, `BackRight` & `BackLeft` | `Guide` activates rangefinders at each corner of the base of the ship. Each repsective corner shows distance to the ground. `Red` warning lights flash when ground is less that `Hover Distance`. |
 | `Range` & `Distance` | Activates forward rangefinders, with `Distance` showing distance to object detected by center rangefinder. |
 | `Mine`, `Advance`, `Advance Thrust` & `Advance Time` | Mining controls. See [Mining](#mining). |
 | `SafeZone` | Whether current location is in the safe zone. |
@@ -109,6 +114,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](#timer). |
 | `Odometer` | See [Odometer](#odometer). |
+
+> NOTE: For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Managing Power and Fuel
 
@@ -145,17 +152,17 @@ Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to c
 
 ![Mining Console](images/mining_console.jpg)
 
-Align the ship to the ground and use `Hover` to automatically move the ship to within the `Hover Distance`.
-
 Activate `Lasers` to turn on the mining lasers which will automatically sweep from side to side. Activating `Advance` will slowly move the ship forward based on `Advance Time` and `Advance Thrust`. Adjust `Advance Time` (period to wait before each advance in seconds) and `Advance Thrust` (amount of forward thrust when advancing) if needed.
 
 > TIP: Increase `Advance Thrust` if needed as the ship gains more mass from filling up.
 
 `Collect` turns on the four ore collectors.
 
+> TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
+
 `Mine` will activate automated mining, which will activate `Lasers`, `Advance` and `Collect`.
 
-TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
+> NOTE: For safety, lasers will turn off whe total fuel is less that 2,000 units.
 
 ### Other Stuff
 
