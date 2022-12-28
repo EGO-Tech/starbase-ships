@@ -1,7 +1,7 @@
 # Crawler by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=For%20Sale&color=brightgreen)](#purchase-blueprint)
 
 The Crawler is a 704 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is a larger version of the [Bugger X](../bugger/premium) but uses a large generator system. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.
@@ -49,7 +49,12 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 23/11/2022
+### v1.0.1 (Current) - 28/12/2022
+
+- Added cruise safety chip
+- Added lasers safety chip
+
+### v1.0.0 - 23/11/2022
 
 - Initial release
 
@@ -92,6 +97,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](#timer). |
 | `Odometer` | See [Odometer](#odometer). |
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Managing Power and Fuel
 
@@ -136,6 +143,8 @@ Activate `Lasers` to turn on the mining lasers which will automatically sweep fr
 `Mine` will activate automated mining, which will activate `Lasers`, `Advance` and `Collect`.
 
 > TIP: Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
+
+**NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
 ### Other Stuff
 
