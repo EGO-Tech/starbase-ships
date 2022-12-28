@@ -1,7 +1,7 @@
 # Crawler X by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=For%20Sale&color=brightgreen)](#purchase-blueprint)
 
 The Crawler X is a premium version of the [Crawler](../) with [two large generators and 19 mining lasers](#comparison).
@@ -38,6 +38,11 @@ The blueprint is available for purchase on the EGOTech Discord server.
 [![EGOTech Discord](https://discordapp.com/api/guilds/1013328685564178472/widget.png?style=banner2)](https://discord.gg/BKwVGvncmN)
 
 ## Changelog
+
+### v1.0.1 (Current) - 28/12/2022
+
+- Added cruise safety chip
+- Added lasers safety chip
 
 ### v1.0.0 - 26/11/2022
 
