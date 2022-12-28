@@ -48,7 +48,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 | Ship | Name | Description | Version | Ore Crates |
 |---|---|---|---|---|
 | <img src="lugger/photos/20211225214407_1.jpg" alt="Lugger" width="200" /> | [Lugger](lugger)<br />![Free Blueprint][bp-free] | The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. | v1.1.1 | 832 |
-| <img src="clunker/photos/20221209152710_1.jpg" alt="Clunker" width="200" /> | [Clunker](clunker)<br />![Free Blueprint][bp-free] | The Clunker is a 948 crate hauler with two 13 ring plasma thrusters serving as its main engines to provide decent speed. The ship is no frills and with double the upwards thrust, it is mainly designed to haul ore between a capital ship and the moon surface. | v1.0.0 | 948 |
+| <img src="clunker/photos/20221209152710_1.jpg" alt="Clunker" width="200" /> | [Clunker](clunker)<br />![Free Blueprint][bp-free] | The Clunker is a 948 crate hauler with two 13 ring plasma thrusters serving as its main engines to provide decent speed. The ship is no frills and with double the upwards thrust, it is mainly designed to haul ore between a capital ship and the moon surface. | v1.0.1 | 948 |
 
 ## Salvagers
 

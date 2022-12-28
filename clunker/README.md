@@ -1,7 +1,7 @@
 # Clunker by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Clunker is a 948 crate hauler with two 13 ring plasma thrusters serving as its main engines to provide decent speed. The ship is no frills and with double the upwards thrust, it is mainly designed to haul ore between a capital ship and the moon surface.
@@ -38,7 +38,11 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 09/12/2022
+### v1.0.1 (Current) - 28/12/2022
+
+- Added cruise safety chip
+
+### v1.0.0 - 09/12/2022
 
 - Initial release
 
@@ -81,6 +85,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Managing Power and Fuel
 
