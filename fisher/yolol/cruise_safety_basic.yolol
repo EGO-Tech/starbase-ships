@@ -1,0 +1,1 @@
+if:fcubackward==100then:cruise=10end goto1
