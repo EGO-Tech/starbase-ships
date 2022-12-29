@@ -1,7 +1,7 @@
 # Stocker by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Stocker is a 232 ore crate capacity mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](../rigger). The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
@@ -31,7 +31,7 @@ The ship has the following features:
 - Standard Cruise function
 - Turtle and Sloth functions with adjustable rates
 - Transponder system with ping function
-- Four mining lasers on turrets that point towards asteroids with pulse and sweeping
+- Four mining lasers on turrets that point towards asteroids with sweeping
 - Two ore collectors that point towards asteroids
 - Material scanner that will point towards asteroids
 - Approach and auto mine functions
@@ -59,7 +59,15 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.1 (Current) - 27/05/2022
+### v1.1.2 (Current) - 29/12/2022
+
+- Added Discord link to help chip
+- Added cruise safety chip
+- Added laser safety chip
+- Added EGOTech logo decal
+- Removed laser pulse function
+
+### v1.1.1 - 27/05/2022
 
 - Replaced speedometer by MoriWatari with new speedometer
 - Removed fast travel core
@@ -106,7 +114,7 @@ The ship has the following features:
 
 ![Ship Build Cost](images/build_cost.png)
 
->TIP: You can craft your own crates, generators (T2), box and triangle thruster components (T2) and ship tools to reduce assembly cost.
+> TIP: You can craft your own crates, generators (T2), box and triangle thruster components (T2) and ship tools to reduce assembly cost.
 
 ## Download Blueprint
 
@@ -138,7 +146,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Guides` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Red` warning lights show location of obstacles (left, right and centre). |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Material Scanner` & `Materials` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
-| `Approach`, `Collect`, `Mine`, `Mining Lasers`, `Pulse`, `Eco`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
+| `Approach`, `Collect`, `Mine`, `Mining Lasers`, `Eco`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
 | `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#auto-pilot-and-crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `NavGrid`, `NavP`, `NavC` & `Attitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](#using-the-waypoint-system). |
@@ -146,6 +154,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](#timer). |
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Using the Waypoint System
 
@@ -191,17 +201,18 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 For v1.0.2 and below, do this by using your universal tool on the ISAN panel on the pilot console and clearing the value of the `_` field.
 The first time will show ISAN as offline, repeat clearing the value again to reset ISAN and NavGrid.
 
-
 ### Mining
 
 To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Mining Lasers` to turn on the mining lasers.
-`Pulse` will activate pulsing of the lasers while `Laser Sweep Height` and `Laser Sweep Depth` will adjust sweeping distances of the lasers. `Eco` mode will only use the top two lasers to conserve power if needed.
+`Laser Sweep Height` and `Laser Sweep Depth` will adjust sweeping distances of the lasers. `Eco` mode will only use the top two lasers to conserve power if needed.
 
 `Mine` is a button which will activate automated mining. Point the center range finder at an asteroid and activate. It will activate `Material Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
 
 `Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objects detected by the center range finder.
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
+
+**NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
 #### Ore Scanner
 
