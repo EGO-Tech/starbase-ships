@@ -1,7 +1,7 @@
 # Flipper by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Flipper is a ship for hauling a single T10 asteroid, designed to be used in the safe zone. It flies in one direction to easily load the asteroid and then you can flip around and fly load in the opposite direction, still with decent speed.
@@ -38,7 +38,15 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.1.0 (Current) - 27/07/2022
+### v1.1.1 (Current) - 29/12/2022
+
+- Added Discord link to help chip
+- Added cruise safety chip
+- Added EGOTech logo decal
+- Fixed max value for `Distance` panel
+- Fixed a YOLOL rack timer label
+
+### v1.1.0 - 27/07/2022
 
 - Replaced rotating FCU system with new FCU switching system with a second FCU and a slider to switch between the two units
 - Moved maneuver levers to above pilot seat
@@ -85,6 +93,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
 | `Approach`, `Load` & `Cargo` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 | `Timer` | See [Timer](#timer). |
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Managing Power and Fuel
 
