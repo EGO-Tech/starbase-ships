@@ -54,7 +54,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 
 | Ship | Name | Description | Version | Tow Capacity |
 |---|---|---|---|---|
-| <img src="tugger/photos/20220313170411_1.jpg" alt="Tugger" width="200" /> | [Tugger](tugger)<br />![Free Blueprint][bp-free] | The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. | v2.0.0 | 7,500,000kg |
+| <img src="tugger/photos/20220313170411_1.jpg" alt="Tugger" width="200" /> | [Tugger](tugger)<br />![Free Blueprint][bp-free] | The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. | v2.0.1 | 7,500,000kg |
 | <img src="fisher/photos/20220806140258_1.jpg" alt="Fisher" width="200" /> | [Fisher](fisher)<br />![Free Blueprint][bp-free] | The Fisher is a larger salvager ship with enough power generation to tow a ship of up to 20,000,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. It also has exposed frames to easily bolt on salvaged parts on each side. | v1.0.1 | 20,000,000kg |
 
 ## Fighters
