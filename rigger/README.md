@@ -1,7 +1,7 @@
 # Rigger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.2.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.2.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
@@ -31,7 +31,7 @@ The ship has the following features:
 - Standard Cruise function
 - Turtle and Sloth function with adjustable rates
 - Transponder system with ping function
-- Two mining lasers on turrets that point towards asteroids with pulse and sweeping
+- Two mining lasers on turrets that point towards asteroids with sweeping
 - Two ore collectors that point towards asteroids
 - Material scanner that will point towards asteroids
 - Approach and auto mine functions
@@ -61,7 +61,15 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.2.0 (Current, Ship Shop Version) - 23/05/2022
+### v1.2.1 (Current) - 29/12/2022
+
+- Added Discord link to help chip
+- Added cruise safety chip
+- Added laser safety chip
+- Added EGOTech logo decal
+- Removed laser pulse function
+
+### v1.2.0 (Ship Shop Version) - 23/05/2022
 
 - Painted thrusters black
 - Removed coolant cooling systems
@@ -153,11 +161,13 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Guides` & `Guidance` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner). |
-| `Approach`, `Collect`, `Mine`, `Lasers`, `Pulse`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
+| `Approach`, `Collect`, `Mine`, `Lasers`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
 | `Nav`, `Autopilot` & `Avoidance` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `ISAN2`, `Heading`, `Dest`, `DTW` & `Deltas` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
 | `G` Rotated | Compass display. Shows direction towards `Dest` waypoint, `+` is in front of ship while `O` is behind the ship. Best used when stationary. See [Compass](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md) for more informaton. |
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 ### Using the Waypoint System
 
@@ -191,13 +201,15 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 
 ### Mining
 
-To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. `Pulse` will activate pulsing of the lasers while `Laser Sweep Height` and `Laser Sweep Depth` will adjust sweeping distances of the lasers.
+To approach an asteroid, point the center range finder at an asteroid and activate `Approach`. Once in range (optimum range is 10 to 14m on `Distance`), activate `Lasers` to turn on the mining lasers. `Laser Sweep Height` and `Laser Sweep Depth` will adjust sweeping distances of the lasers.
 
 `Mine` is a button which will activate automated mining. Point the center range finder at an asteroid and activate. It will activate `Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
 
 `Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objects detected by the center range finder.
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
+
+**NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
 #### Ore Scanner
 

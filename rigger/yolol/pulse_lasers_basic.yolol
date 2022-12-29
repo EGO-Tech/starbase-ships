@@ -1,2 +1,0 @@
-if:lasers<1then:lsr=0 goto1end :lsr=1
-:lsr=1-:pulse goto1

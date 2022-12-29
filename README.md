@@ -18,7 +18,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 
 | Ship | Name | Description | Version | Ore Crates | Mining Lasers
 |---|---|---|---|---|---|
-| <img src="rigger/images/rigger1.jpg" alt="Rigger" width="200" /> | [Rigger](rigger)<br />![Free Blueprint][bp-free] | The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. | v1.2.0 | 100 | 2 |
+| <img src="rigger/images/rigger1.jpg" alt="Rigger" width="200" /> | [Rigger](rigger)<br />![Free Blueprint][bp-free] | The Rigger is a fast medium sized mining ship. Although it has a limited autopilot and crash avoidance systems, it is mainly designed to be used in the safe zone. | v1.2.1 | 100 | 2 |
 | <img src="stocker/photos/20211013183158_1.jpg" alt="Stocker" width="200" /> | [Stocker](stocker)<br />![Free Blueprint][bp-free] | The Stocker is a 232 ore crate capacity mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](rigger). | v1.1.2 | 232 | 4 |
 | <img src="shifter/photos/20221126225543_1.jpg" alt="Shifter" width="200" /> | [Shifter](shifter)<br />![Free Blueprint][bp-free] | The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations. | v2.0.1 | 450 | 8 |
 | <img src="shifter/premium/photos/20221202233246_1.jpg" alt="Shifter X" width="200" /> | [Shifter X](shifter/premium/)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Shifter](shifter) with T3 generators and thrusters. | v1.0.1 | 450 | 8 |
