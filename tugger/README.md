@@ -1,7 +1,7 @@
 # Tugger by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=2.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=2.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam.
@@ -50,6 +50,13 @@ The ship has the following features:
 - Top speed of 140 m/s while not towing
 
 ## Changelog
+
+### v2.0.1 (Current) - 29/12/2022
+
+- Added Discord link to help chip
+- Added cruise safety chip
+- Removed redundant speedometer chip
+- Added EGOTech logo decal
 
 ### v2.0.0 - 25/05/2022
 
@@ -104,6 +111,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `Canopy` | Open and closes the cockpit glass canopy. |
 | `Chair` | Spins the pilot chair between forward facing and backwards facing. |
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
 #### Managing Power
 
