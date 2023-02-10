@@ -1,7 +1,7 @@
 # Clunker by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Clunker is a 948 crate hauler with two 13 ring plasma thrusters serving as its main engines to provide decent speed. The ship is no frills and with double the upwards thrust, it is mainly designed to haul ore between a capital ship and the moon surface.
@@ -38,7 +38,11 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.1 (Current) - 28/12/2022
+### v1.0.2 (Current) - 11/02/2023
+
+- Added `FuelTime` and `PropTime` panels
+
+### v1.0.1 - 28/12/2022
 
 - Added cruise safety chip
 
