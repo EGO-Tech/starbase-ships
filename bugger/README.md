@@ -19,6 +19,12 @@ A premium version, the [Bugger X](./premium/) is available for purchase on the [
 
 More photos in the [`photos` folder](photos)
 
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [Flames_Yue](https://www.youtube.com/@flames_yue550) | [EGOTech Bugger Surface Miner Showcase](https://www.youtube.com/watch?v=EQRorkcg8d8) |
+
 ## Features
 
 The ship has the following features:
