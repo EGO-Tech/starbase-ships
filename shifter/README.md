@@ -20,6 +20,12 @@ The Shifter (v1.1.0) is also available to buy in game at Central Showroom of Ran
 
 More photos in the [`photos` folder](photos)
 
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [Flames_Yue](https://www.youtube.com/@flames_yue550) | [EGOTech Shifter Asteroid Miner Showcase](https://www.youtube.com/watch?v=xvv7hNlfqLY) |
+
 ## Features
 
 The ship has the following features:
