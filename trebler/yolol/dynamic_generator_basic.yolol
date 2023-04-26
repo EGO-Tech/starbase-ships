@@ -1,0 +1,2 @@
+:GenRate=:MinEPS*((:Min_EPS+:lasers+:mine)>0)+(10000-:Battery)/50
+goto1

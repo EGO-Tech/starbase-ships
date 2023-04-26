@@ -1,0 +1,4 @@
+n="\n" q=n+n s=1728 k=" stks"+q o=" Ore" c=" Crystal" d="Scanning..."
+i=0 r=q if:scr<1then:scan=q+"SCANNER OFF" goto2end :scn=1 r+=d t=q
+ifi<:sr then:ix=i a=:vl/s/100*100 b=:mt-c-o t+=b+n+a+k i++ goto3end
+ift!=q thenr=t end :scan=r goto2
