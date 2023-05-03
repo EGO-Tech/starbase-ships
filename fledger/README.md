@@ -15,6 +15,12 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 More photos in the [`photos` folder](photos)
 
+## Videos
+
+| Channel | Video |
+| --- | --- |
+| [FarPointe](https://www.youtube.com/@FarPointe) | [Starbase 1-50 (Playlist of live streams)](https://www.youtube.com/playlist?list=PL4vREYUd0Y3G-39Cus-3uXTXr4AF7dc2-) |
+
 ## Features
 
 The ship has the following features:
