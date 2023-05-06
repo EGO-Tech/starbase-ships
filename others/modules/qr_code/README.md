@@ -11,7 +11,7 @@ It is bolted to a beam frame which you can weld to any ship.
 
 ## Download Blueprint
 
-The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/others/modules/qr_code/blueprints/qr_code.fbe).
+The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/qr_code/blueprints/qr_code.fbe).
 
 ## Using the Module
 

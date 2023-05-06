@@ -13,7 +13,7 @@ The drill is bolted to a large hardpoint with a beam frame that can be welded to
 
 ## Download Blueprint
 
-The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/others/modules/4_laser_drill/blueprints/4_laser_drill.fbe).
+The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/4_laser_drill/blueprints/4_laser_drill.fbe).
 
 ## Using the Module
 
