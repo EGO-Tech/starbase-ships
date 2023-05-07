@@ -15,7 +15,7 @@ It has a valid ship frame so it can be used in a station or capital ship hangar 
 
 ## Download Blueprint
 
-The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/others/modules/ore_stash/blueprints/ore_stash.fbe).
+The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/ore_stash/blueprints/ore_stash.fbe).
 
 ## Using the Module
 

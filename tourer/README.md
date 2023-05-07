@@ -70,7 +70,7 @@ The ship has the following features:
 
 ## Download Blueprint
 
-The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/tourer/blueprints/tourer.fbe).
+The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/blueprints/tourer.fbe).
 
 ## Known Issues
 

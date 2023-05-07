@@ -84,7 +84,7 @@ The ship has the following features:
 
 ## Download Blueprint
 
-The blueprint file is available in the `blueprints` folder [here](https://github.com/vinteo/starbase-ships/raw/main/jabber/blueprints/jabber.fbe).
+The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/blueprints/jabber.fbe).
 
 ## Known Issues
 
