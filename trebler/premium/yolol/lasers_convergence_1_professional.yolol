@@ -1,0 +1,6 @@
+x=1.68 y=-1.68 r=57.296 dd=9 s=10 m=14
+if:lasers<1thena=1 goto2end rd=:rd1 d=rd+x
+ifrd<1 or rd>m thend=dd+x end c=atan(y/d) ifc>s thenc=s end goto5+:dms
+goto2 // manual
+:dp1=c goto2 // fixed
+:rot=1 ifa>0then:dp1=c a=0end goto2 // auto
