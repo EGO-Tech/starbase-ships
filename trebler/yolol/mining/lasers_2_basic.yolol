@@ -1,0 +1,2 @@
+if:lasers<1then:lsr3=0 :lsr4=0 :dp2=0 :rf2=0 goto1end
+a=:dns>=0 :lsr3=a :lsr4=a-:leco :rf2=1 goto1

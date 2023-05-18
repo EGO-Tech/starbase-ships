@@ -1,7 +1,7 @@
 # Trebler by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 The Trebler is a 534 ore crate capacity mining ship with three automated rotating laser drills for mining operations. It is designed to be a short range, high capacity and high efficiency miner used out of a capital ship.
@@ -50,6 +50,11 @@ The ship has the following features:
 
 ## Changelog
 
+### v1.0.1 (Current) - 10/10/2023
+
+- Added four forward facing rangefinders as extra guides
+- Added switch to use one, two or three drills at a time.
+
 ### v1.0.0 - 26/04/2023
 
 - Initial release
@@ -83,9 +88,10 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
 | `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
+| `Guides` | Activates four forward facing rangefinders as guides. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
-| `Material Scanner` & `Materials` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
-| `Approach`, `Collect`, `Mine`, `Lasers`, `Rotate`, `Eco`, `Drill Mode` & `Drill Pitch` | Mining controls. See [Mining](#mining). |
+| `Scanner` & `Materials` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
+| `Approach`, `Collect`, `Mine`, `Lasers`, `Rotate`, `Eco`, `Drill Mode`, `Drill Pitch` & `Drill Count` | Mining controls. See [Mining](#mining). |
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
@@ -104,7 +110,7 @@ The laser drill has three modes.
 - `Manual` mode allows adjustment of the `Drill Pitch`. The pitch range is from `-15` to `20` degrees.
 - `Auto` mode will activate `Rotate` and progressively increase the drill pitch with the rotations
 
-`Drill Pitch` can only be adjusted in `Manual` mode. `Eco` mode will only use two lasers to conserve power.
+`Drill Pitch` can only be adjusted in `Manual` mode. `Eco` mode will only use two lasers to conserve power. `Drill Count` controls whether one, two or three drills are activated when mining.
 
 `Mine` is a button which will activate automated mining. Point the center range finder at an asteroid and activate. It will activate `Material Scanner` and `Approach`, and once in range it will automatically activate `Lasers`.
 
