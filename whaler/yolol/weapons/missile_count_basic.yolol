@@ -1,0 +1,13 @@
+l="Locked" if:lch thengoto1end a=0 b=0 c=0 d=0
+e=:s1 :s1=1 a+=:ms1==l :s1=2 a+=:ms1==l z/=:lch :s1=e goto1
+:s1=3 a+=:ms1==l :s1=4 a+=:ms1==l :s1=5 a+=:ms1==l z/=:lch :s1=e goto1
+:m1=a :s1=e z/=:lch goto1
+f=:s2 :s2=1 b+=:ms2==l :s2=2 b+=:ms2==l z/=:lch :s2=f goto1
+:s2=3 b+=:ms2==l :s2=4 b+=:ms2==l :s2=5 b+=:ms2==l z/=:lch :s2=f goto1
+:m2=b :s2=f z/=:lch goto1
+g=:s3 :s3=1 c+=:ms3==l :s3=2 c+=:ms3==l z/=:lch :s3=g goto1
+:s3=3 c+=:ms3==l :s3=4 c+=:ms3==l :s3=5 c+=:ms3==l z/=:lch :s3=g goto1
+:m3=c :s3=g z/=:lch goto1
+h=:s4 :s4=1 d+=:ms4==l :s4=2 d+=:ms4==l z/=:lch :s4=h goto1
+:s4=3 d+=:ms4==l :s4=4 d+=:ms4==l :s4=5 d+=:ms4==l z/=:lch :s4=h goto1
+:m4=d :s4=h goto1

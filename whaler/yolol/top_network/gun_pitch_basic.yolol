@@ -1,0 +1,1 @@
+if:cbt<1then:mnp=0 goto1end :tp5=:RP/3 if:tp5<5then:tp5=5end goto1

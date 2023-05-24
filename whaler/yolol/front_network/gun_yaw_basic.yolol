@@ -1,0 +1,1 @@
+if:cbt<1thengoto1end :lasers=0 :tp1=:RY/4.5 :tp2=-:tp1 goto1

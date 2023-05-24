@@ -1,0 +1,1 @@
+if:cbt<1thengoto1end :tow=0 :mnp=10 :tr4=:RY/3+180*(:ch==180) goto1

@@ -34,7 +34,7 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 | <img src="bugger/photos/20220924104458_1.jpg" alt="Bugger" width="200" /> | [Bugger](bugger)<br />![Free Blueprint][bp-free] | The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship. | v1.0.3 | 448 | 10 |
 | <img src="bugger/premium/photos/20221007194831_1.jpg" alt="Bugger" width="200" /> | [Bugger X](bugger/premium)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Bugger](bugger). | v1.0.2 | 448 | 10 |
 | <img src="crawler/photos/20221121192814_1.jpg" alt="Crawler" width="200" /> | [Crawler](crawler)<br />![Blueprint for Sale][bp-sale] | The Crawler is a 704 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is a larger version of the [Bugger X](bugger/premium) but uses a large generator system. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship. | v1.0.1 | 704 | 10 |
-| <img src="crawler/premium/photos/20221125195354_1.jpg" alt="Crawler" width="200" /> | [Crawler X](crawler/premium)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Crawler](crawler) with two large generators and 19 mining lasers. | v1.0.1 | 640 | 19 |
+| <img src="crawler/premium/photos/20221125195354_1.jpg" alt="Crawler X" width="200" /> | [Crawler X](crawler/premium)<br />![Blueprint for Sale][bp-sale] | The premium version of the [Crawler](crawler) with two large generators and 19 mining lasers. | v1.0.1 | 640 | 19 |
 
 ## Asteroid Haulers
 
@@ -72,13 +72,24 @@ Want to build your own ships? Try the [Welder Modular Ship Framework](https://eg
 | <img src="sower/photos/20220311205426_1.jpg" alt="Sower" width="200" /> | [Sower](sower)<br />![Free Blueprint][bp-free] | The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship. | 36 | v1.1.0 |
 | <img src="fledger/photos/20221019154127_1.jpg" alt="Fledger" width="200" /> | [Fledger](fledger)<br />![Free Blueprint][bp-free] | The Fledger is a starter ship that is targeted towards aspiring mechanics that want to learn about how ships work. It starts with the basic machinery but has plenty of space for upgrades, allowing the ship to grow as the player progresses. With an exposed frame, upgrades and repairs should be easier than most ships. | 36 | v1.0.1 |
 
-## Others
+## Command Ships
 
 | Ship | Name | Description | Version |
 |---|---|---|---|
 | <img src="quester/photos/20211222182319_1.jpg" alt="Quester" width="200" /> | [Quester](quester)<br />![Free Blueprint][bp-free] | The Quester multi purpose command or explorer ship that is fitted with a medbay with a reconstruction machine and a workshop with all three crafting benches. It also has a large main hall that is designed to be large enough to fit the capital ship nav logger (not included in blueprint). However the owner is free to fit the hall for whatever purpose that is desired. | v1.1.1 |
+| <img src="whaler/photos/20230624195310_1.jpg" alt="Whaler" width="200" /> | [Whaler](whaler)<br />![Blueprint for Sale][bp-sale] | The Whaler is a multi purpose showcase command ship capable of mining, towing, cargo hauling, ore furnacing and combat. Although the Whaler is combat capable with missiles, laser guns, plasma guns and autocannon turrets, it has more of a role playing aspect as it is untested in real situations. | v1.0.0 |
+
+## Transports
+
+| Ship | Name | Description | Version |
+|---|---|---|---|
 | <img src="tourer/photos/20220605013233_1.jpg" alt="Tourer" width="200" /> | [Tourer](tourer)<br />![Free Blueprint][bp-free] | The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo. | v2.0.0 |
 | <img src="hopper/photos/20220724201746_1.jpg" alt="Hopper" width="200" /> | [Hopper](hopper)<br />![Free Blueprint][bp-free] | The Hopper is small personal transport that can be used to quickly get around a station or taking short trips. | v1.1.0 |
+
+## Others
+
+| Ship | Name | Description | Version |
+|---|---|---|---|
 | <img src="mapper/photos/20221022105027_1.jpg" alt="Mapper" width="200" /> | [Mapper](mapper)<br />![Free Blueprint][bp-free] | The Mapper is an explorer ship with an estimated range of 13,000km capable at travelling at close to maximum speed. It has a navigation logger for logging capital ship navigation chips. | v1.0.3 |
 
 ## License

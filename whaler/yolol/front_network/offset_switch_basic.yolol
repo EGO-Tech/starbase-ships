@@ -1,0 +1,1 @@
+:offset=(:offset+:oss)*(:offset>=0)-:offset>20 goto1
