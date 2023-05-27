@@ -1,4 +1,4 @@
-x=1.68 y=-1.68 r=57.296 dd=10 s=10 m=14
+x=1.68 y=-1.68 r=57.296 dd=9 s=10 m=14
 if:lasers<1thena=1 goto2end rd=:rd3 d=rd+x
 ifrd<1 or rd>m thend=dd+x end c=y/d*r ifc>s thenc=s end goto5+:dms
 goto2 // manual
