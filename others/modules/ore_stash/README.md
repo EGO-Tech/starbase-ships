@@ -5,7 +5,7 @@
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=Free%20Download&color=brightgreen)](#download-blueprint)
 
 This module is a simple 1928 ore crate module to store ore, with a resource bridge at the center on each side.
-It has a valid ship frame so it can be used in a station or capital ship hangar to expand its storage.
+It has a valid ship frame so it can be used in a station or capital ship hangar (minimum 16x16x16) to expand its storage.
 
 ![Ore Stash Module](./images/ore_stash1.png)
 
