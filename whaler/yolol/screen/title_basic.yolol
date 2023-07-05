@@ -1,0 +1,20 @@
+if:loadtitle<1thengoto10end :tc=1 :ts=:tss+2 a=:ts :tox1=0
+:tox2=a :tox3=2*a :tox4=3*a :tox5=4*a :loadtitle=0 :ta=:tas
+:tt=:titleText b=:tt c=0 goto1
+
+
+
+
+
+
+:title=:tt goto14+:ta*3
+b-- :tox1++ :tox2++ :tox3++ :tox4++ :tox5++ goto13 // scroll
+a=:ts b=:tt :tox1=0 :tox2=a :tox3=2*a :tox4=3*a :tox5=4*a goto1
+c++ d=24-:ts*5 ifc>=d thenc=0 goto12end goto1
+goto1 // static
+
+
+:tc=1 // blink
+
+
+:title=:tt goto1
