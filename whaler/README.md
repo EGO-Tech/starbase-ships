@@ -41,7 +41,7 @@ The ship has the following standard features:
 - Propellant time and fuel time panels
 - Five ring plasma thruster, 18 T3 box and 112 T3 triangle thrusters providing forward thrust
 - 52 T3 triangle thrusters providing braking thrust
-- 64 T3 triangle thrusters for maneuvers
+- 72 T3 triangle thrusters for maneuvers
 - 96 batteries
 - Front facing mining seat with two mining lasers and two collectors on turrets with mouse aim support
 - Material scanner with display of materials in stacks in mining seat
