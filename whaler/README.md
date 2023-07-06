@@ -76,7 +76,7 @@ For combat the ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 27/07/2023
+### v1.0.0 (Current) - 06/07/2023
 
 - Initial release
 
