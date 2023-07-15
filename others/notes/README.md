@@ -34,6 +34,9 @@
 
 à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø š ù ú û ü ý ÿ ž þ
 
+## Display Colours
+
+![Audio Device](images/starbase_colours.png)
 
 ## Audio Device
 
