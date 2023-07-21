@@ -24,6 +24,7 @@ More photos in the [`photos` folder](photos)
 | Channel | Video |
 | --- | --- |
 | [Flames_Yue](https://www.youtube.com/@flames_yue550) | [EGOTech Bugger Surface Miner Showcase](https://www.youtube.com/watch?v=EQRorkcg8d8) |
+| [Jimma Games](https://www.youtube.com/@jimmagames5907) | [Bugger - Starbase Planet Miner](https://www.youtube.com/watch?v=8SPuTrapSbo) |
 
 ## Features
 
