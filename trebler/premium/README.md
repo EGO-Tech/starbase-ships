@@ -1,7 +1,7 @@
 # Trebler X by EGOTech
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)](#changelog)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](#changelog)
 [![Blueprint](https://img.shields.io/static/v1?label=Blueprint&message=For%20Sale&color=brightgreen)](#purchase-blueprint)
 
 The Trebler X is a premium version of the [Trebler](../) with [T3 generators, fuel chambers, enhancers and thrusters plus three extra mining lasers](#comparison).
@@ -44,7 +44,12 @@ The blueprint is available for purchase on the EGOTech Discord server.
 
 ## Changelog
 
-### v1.0.0 (Current) - 12/05/2023
+### v1.0.1 (Current) - 10/10/2023
+
+- Added four forward facing rangefinders as extra guides
+- Added switch to use one, two or three drills at a time.
+
+### v1.0.0 - 12/05/2023
 
 - Initial release
 
