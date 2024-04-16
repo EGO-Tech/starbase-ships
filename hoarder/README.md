@@ -39,9 +39,7 @@ The ship has the following features:
 
 ## Changelog
 
-### v1.0.0 (Current) - 03/11/2023
-
-- Initial release
+View changelog [here](CHANGELOG.md)
 
 ## Build Cost
 
