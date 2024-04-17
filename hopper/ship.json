@@ -1,0 +1,188 @@
+{
+  "name": "Hopper",
+  "version": "1.1.0",
+  "path": "hopper",
+  "blueprints": [
+    {
+      "filename": "hopper.fbe",
+      "path": "blueprints/hopper.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper.fbe",
+      "version": "1.1.0",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "hopper_v1.0.1.fbe",
+      "path": "blueprints/hopper_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "hopper_v1.0.0.fbe",
+      "path": "blueprints/hopper_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20220724173249_1.jpg",
+      "path": "photos/20220724173249_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/photos/20220724173249_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220724173257_1.jpg",
+      "path": "photos/20220724173257_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/photos/20220724173257_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220724173314_1.jpg",
+      "path": "photos/20220724173314_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/photos/20220724173314_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220724173327_1.jpg",
+      "path": "photos/20220724173327_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/photos/20220724173327_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220724201746_1.jpg",
+      "path": "photos/20220724201746_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/photos/20220724201746_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220724201752_1.jpg",
+      "path": "photos/20220724201752_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/photos/20220724201752_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220724201806_1.jpg",
+      "path": "photos/20220724201806_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/photos/20220724201806_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "hopper1.jpg",
+      "path": "images/hopper1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/hopper1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hopper2.jpg",
+      "path": "images/hopper2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/hopper2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hopper3.jpg",
+      "path": "images/hopper3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/hopper3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hopper4.jpg",
+      "path": "images/hopper4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/hopper4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_console.jpg",
+      "path": "images/pilot_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/pilot_console.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 2431,
+        "stacks": 1.4
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 1711,
+        "stacks": 1
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 38,
+        "stacks": 0
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 4833,
+        "stacks": 2.8
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 5350,
+        "stacks": 3.1
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 83,
+        "stacks": 0
+      },
+      {
+        "ore": "Ice",
+        "kv": 2000,
+        "stacks": 1.2
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 2726,
+        "stacks": 1.6
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 7324,
+        "stacks": 4.2
+      },
+      {
+        "ore": "Total ore",
+        "kv": 26496,
+        "stacks": 15.3
+      }
+    ],
+    "cost": {
+      "assembly": 19196,
+      "manufacturing": 27869,
+      "total": 65
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hopper"
+    }
+  ]
+}

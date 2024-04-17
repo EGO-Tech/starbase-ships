@@ -1,0 +1,372 @@
+{
+  "name": "Fisher",
+  "version": "1.0.1",
+  "path": "fisher",
+  "blueprints": [
+    {
+      "filename": "fisher.fbe",
+      "path": "blueprints/fisher.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/blueprints/fisher.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "fisher_v1.0.0.fbe",
+      "path": "blueprints/fisher_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/blueprints/fisher_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20220806125932_1.jpg",
+      "path": "photos/20220806125932_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806125932_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806125938_1.jpg",
+      "path": "photos/20220806125938_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806125938_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806125944_1.jpg",
+      "path": "photos/20220806125944_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806125944_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806130410_1.jpg",
+      "path": "photos/20220806130410_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806130410_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140258_1.jpg",
+      "path": "photos/20220806140258_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140258_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140306_1.jpg",
+      "path": "photos/20220806140306_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140306_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140327_1.jpg",
+      "path": "photos/20220806140327_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140327_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140348_1.jpg",
+      "path": "photos/20220806140348_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140348_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140420_1.jpg",
+      "path": "photos/20220806140420_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140420_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140436_1.jpg",
+      "path": "photos/20220806140436_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140436_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140520_1.jpg",
+      "path": "photos/20220806140520_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140520_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140521_1.jpg",
+      "path": "photos/20220806140521_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140521_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806140524_1.jpg",
+      "path": "photos/20220806140524_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806140524_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220806141009_1.jpg",
+      "path": "photos/20220806141009_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220806141009_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220810151220_1.jpg",
+      "path": "photos/20220810151220_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220810151220_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220810151310_1.jpg",
+      "path": "photos/20220810151310_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220810151310_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220810151313_1.jpg",
+      "path": "photos/20220810151313_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220810151313_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220810151323_1.jpg",
+      "path": "photos/20220810151323_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220810151323_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220810151327_1.jpg",
+      "path": "photos/20220810151327_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220810151327_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220810152636_1.jpg",
+      "path": "photos/20220810152636_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/photos/20220810152636_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "fisher1.jpg",
+      "path": "images/fisher1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher10.jpg",
+      "path": "images/fisher10.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher10.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher11.jpg",
+      "path": "images/fisher11.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher11.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher12.jpg",
+      "path": "images/fisher12.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher12.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher13.jpg",
+      "path": "images/fisher13.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher13.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher14.jpg",
+      "path": "images/fisher14.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher14.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher15.jpg",
+      "path": "images/fisher15.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher15.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher2.jpg",
+      "path": "images/fisher2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher3.jpg",
+      "path": "images/fisher3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher4.jpg",
+      "path": "images/fisher4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher5.jpg",
+      "path": "images/fisher5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher6.jpg",
+      "path": "images/fisher6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher7.jpg",
+      "path": "images/fisher7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher8.jpg",
+      "path": "images/fisher8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "fisher9.jpg",
+      "path": "images/fisher9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/fisher9.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_back_console.jpg",
+      "path": "images/pilot_back_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_back_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_left_console.jpg",
+      "path": "images/pilot_left_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_left_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_right_console.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 94221,
+        "stacks": 54.5
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 9713,
+        "stacks": 5.6
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 49378,
+        "stacks": 28.6
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 172301,
+        "stacks": 99.7
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 127118,
+        "stacks": 73.6
+      },
+      {
+        "ore": "Corazium Ore",
+        "kv": 7425,
+        "stacks": 4.3
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 19507,
+        "stacks": 11.3
+      },
+      {
+        "ore": "Glass",
+        "kv": 6093,
+        "stacks": 3.5
+      },
+      {
+        "ore": "Ice",
+        "kv": 144000,
+        "stacks": 83.3
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 6487,
+        "stacks": 3.8
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 12106,
+        "stacks": 7
+      },
+      {
+        "ore": "Lukium Ore",
+        "kv": 15481,
+        "stacks": 9
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 133476,
+        "stacks": 77.2
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 102449,
+        "stacks": 59.3
+      },
+      {
+        "ore": "Ymrium Ore",
+        "kv": 22882,
+        "stacks": 13.2
+      },
+      {
+        "ore": "Total ore",
+        "kv": 922636,
+        "stacks": 533.9
+      }
+    ],
+    "cost": {
+      "assembly": 402,
+      "manufacturing": 387,
+      "total": 1111788
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Fisher"
+    }
+  ]
+}

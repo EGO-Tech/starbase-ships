@@ -1,0 +1,344 @@
+{
+  "name": "Rigger",
+  "version": "1.2.3",
+  "path": "rigger",
+  "blueprints": [
+    {
+      "filename": "rigger.fbe",
+      "path": "blueprints/rigger.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger.fbe",
+      "version": "1.2.3",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "rigger_v1.2.2.fbe",
+      "path": "blueprints/rigger_v1.2.2.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.2.2.fbe",
+      "version": "1.2.2",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rigger_v1.2.1.fbe",
+      "path": "blueprints/rigger_v1.2.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.2.1.fbe",
+      "version": "1.2.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rigger_v1.2.0.fbe",
+      "path": "blueprints/rigger_v1.2.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.2.0.fbe",
+      "version": "1.2.0",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rigger_v1.1.2.fbe",
+      "path": "blueprints/rigger_v1.1.2.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.1.2.fbe",
+      "version": "1.1.2",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rigger_v1.1.1.fbe",
+      "path": "blueprints/rigger_v1.1.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.1.1.fbe",
+      "version": "1.1.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rigger_v1.1.0.fbe",
+      "path": "blueprints/rigger_v1.1.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.1.0.fbe",
+      "version": "1.1.0",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rigger_v1.0.1.fbe",
+      "path": "blueprints/rigger_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rigger_v1.0.0.fbe",
+      "path": "blueprints/rigger_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20210923105932_1.jpg",
+      "path": "photos/20210923105932_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923105932_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923105948_1.jpg",
+      "path": "photos/20210923105948_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923105948_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110024_1.jpg",
+      "path": "photos/20210923110024_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110024_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110033_1.jpg",
+      "path": "photos/20210923110033_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110033_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110205_1.jpg",
+      "path": "photos/20210923110205_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110205_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110243_1.jpg",
+      "path": "photos/20210923110243_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110243_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110319_1.jpg",
+      "path": "photos/20210923110319_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110319_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110334_1.jpg",
+      "path": "photos/20210923110334_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110334_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110428_1.jpg",
+      "path": "photos/20210923110428_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110428_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110438_1.jpg",
+      "path": "photos/20210923110438_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110438_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110452_1.jpg",
+      "path": "photos/20210923110452_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110452_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110509_1.jpg",
+      "path": "photos/20210923110509_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110509_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20210923110537_1.jpg",
+      "path": "photos/20210923110537_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110537_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_left_console.jpg",
+      "path": "images/pilot_left_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/pilot_left_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger1.jpg",
+      "path": "images/rigger1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger2.jpg",
+      "path": "images/rigger2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger3.jpg",
+      "path": "images/rigger3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger4.jpg",
+      "path": "images/rigger4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger5.jpg",
+      "path": "images/rigger5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger6.jpg",
+      "path": "images/rigger6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger7.jpg",
+      "path": "images/rigger7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger8.jpg",
+      "path": "images/rigger8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rigger9.jpg",
+      "path": "images/rigger9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/rigger9.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [
+    {
+      "channel": {
+        "text": "Krawll Unchained",
+        "url": "https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A"
+      },
+      "video": {
+        "text": "Starbase - Community Ship Showcase - 3 Ships by \"Egomaniac\" ( The moon Crasher) 😉😁",
+        "url": "https://www.youtube.com/watch?v=RXAccUqcWhI"
+      }
+    },
+    {
+      "channel": {
+        "text": "Softwerker",
+        "url": "https://www.youtube.com/channel/UCLOj9FpWzNuFhsqv1g16lEw"
+      },
+      "video": {
+        "text": "Ship Shop Tour: Rando 7 (Teil 1/X) 🦾 Let's Play Starbase [S2E81] [German/Deutsch]",
+        "url": "https://www.youtube.com/watch?v=-yPhVYfb0b8"
+      }
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 63319,
+        "stacks": 36.6
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 11852,
+        "stacks": 6.9
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 1075,
+        "stacks": 0.6
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 102361,
+        "stacks": 59.2
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 85145,
+        "stacks": 49.3
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 10414,
+        "stacks": 6
+      },
+      {
+        "ore": "Glass",
+        "kv": 243,
+        "stacks": 0.1
+      },
+      {
+        "ore": "Ice",
+        "kv": 39000,
+        "stacks": 22.6
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 244,
+        "stacks": 0.1
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 27258,
+        "stacks": 15.8
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 64014,
+        "stacks": 37
+      },
+      {
+        "ore": "Total ore",
+        "kv": 404924,
+        "stacks": 234.3
+      }
+    ],
+    "cost": {
+      "assembly": 282520,
+      "manufacturing": 386278
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rigger"
+    }
+  ]
+}

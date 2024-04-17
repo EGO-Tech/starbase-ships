@@ -1,0 +1,316 @@
+{
+  "name": "Tourer",
+  "version": "2.0.0",
+  "path": "tourer",
+  "blueprints": [
+    {
+      "filename": "tourer.fbe",
+      "path": "blueprints/tourer.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/blueprints/tourer.fbe",
+      "version": "2.0.0",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "tourer_v1.0.1.fbe",
+      "path": "blueprints/tourer_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/blueprints/tourer_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "tourer_v1.0.0.fbe",
+      "path": "blueprints/tourer_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/blueprints/tourer_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20220126152111_1.jpg",
+      "path": "photos/20220126152111_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152111_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152139_1.jpg",
+      "path": "photos/20220126152139_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152139_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152148_1.jpg",
+      "path": "photos/20220126152148_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152148_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152154_1.jpg",
+      "path": "photos/20220126152154_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152154_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152207_1.jpg",
+      "path": "photos/20220126152207_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152207_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152219_1.jpg",
+      "path": "photos/20220126152219_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152219_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152226_1.jpg",
+      "path": "photos/20220126152226_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152226_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152239_1.jpg",
+      "path": "photos/20220126152239_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152239_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152309_1.jpg",
+      "path": "photos/20220126152309_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152309_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126152316_1.jpg",
+      "path": "photos/20220126152316_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126152316_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220126154303_1.jpg",
+      "path": "photos/20220126154303_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220126154303_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220605013216_1.jpg",
+      "path": "photos/20220605013216_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220605013216_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220605013223_1.jpg",
+      "path": "photos/20220605013223_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220605013223_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220605013233_1.jpg",
+      "path": "photos/20220605013233_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220605013233_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220605013238_1.jpg",
+      "path": "photos/20220605013238_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220605013238_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220605013301_1.jpg",
+      "path": "photos/20220605013301_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/photos/20220605013301_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer1.jpg",
+      "path": "images/tourer1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer10.jpg",
+      "path": "images/tourer10.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer10.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer11.jpg",
+      "path": "images/tourer11.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer11.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer12.jpg",
+      "path": "images/tourer12.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer12.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer13.jpg",
+      "path": "images/tourer13.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer13.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer14.jpg",
+      "path": "images/tourer14.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer14.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer2.jpg",
+      "path": "images/tourer2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer3.jpg",
+      "path": "images/tourer3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer4.jpg",
+      "path": "images/tourer4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer5.jpg",
+      "path": "images/tourer5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer6.jpg",
+      "path": "images/tourer6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer7.jpg",
+      "path": "images/tourer7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer8.jpg",
+      "path": "images/tourer8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tourer9.jpg",
+      "path": "images/tourer9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/tourer9.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 12172,
+        "stacks": 7
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 8236,
+        "stacks": 4.8
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 686,
+        "stacks": 0.4
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 27177,
+        "stacks": 15.7
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 17791,
+        "stacks": 10.3
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 355,
+        "stacks": 0.2
+      },
+      {
+        "ore": "Glass",
+        "kv": 16182,
+        "stacks": 9.4
+      },
+      {
+        "ore": "Ice",
+        "kv": 12000,
+        "stacks": 6.9
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 804,
+        "stacks": 0.5
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 1343,
+        "stacks": 0.8
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 8176,
+        "stacks": 4.7
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 18092,
+        "stacks": 10.5
+      },
+      {
+        "ore": "Total ore",
+        "kv": 123013,
+        "stacks": 71.2
+      }
+    ],
+    "cost": {
+      "assembly": 79223,
+      "total": 540
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Tourer"
+    }
+  ]
+}

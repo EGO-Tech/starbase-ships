@@ -1,0 +1,138 @@
+{
+  "name": "Shifter X",
+  "version": "1.0.1",
+  "path": "shifter/premium",
+  "blueprints": [],
+  "photos": [
+    {
+      "filename": "20221202233246_1.jpg",
+      "path": "photos/20221202233246_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/photos/20221202233246_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/CHANGELOG.md"
+  },
+  "cost": 500000,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "shifter-x1.jpg",
+      "path": "images/shifter-x1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/images/shifter-x1.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 139061,
+        "stacks": 80.5
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 17581,
+        "stacks": 10.2
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 25450,
+        "stacks": 14.7
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 415701,
+        "stacks": 240.6
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 319308,
+        "stacks": 184.8
+      },
+      {
+        "ore": "Corazium Ore",
+        "kv": 2055,
+        "stacks": 1.2
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 46229,
+        "stacks": 26.8
+      },
+      {
+        "ore": "Glass",
+        "kv": 7905,
+        "stacks": 4.6
+      },
+      {
+        "ore": "Ice",
+        "kv": 110000,
+        "stacks": 63.7
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 4530,
+        "stacks": 2.6
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 91885,
+        "stacks": 53.2
+      },
+      {
+        "ore": "Lukium Ore",
+        "kv": 9288,
+        "stacks": 5.4
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 151202,
+        "stacks": 87.5
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 219214,
+        "stacks": 126.9
+      },
+      {
+        "ore": "Xhalium Ore",
+        "kv": 9452,
+        "stacks": 5.5
+      },
+      {
+        "ore": "Ymrium Ore",
+        "kv": 153168,
+        "stacks": 88.6
+      },
+      {
+        "ore": "Total ore",
+        "kv": 1722028,
+        "stacks": 996.5
+      }
+    ],
+    "cost": {
+      "assembly": 492755,
+      "manufacturing": 1917889,
+      "total": 2410643
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/Shifter%20X"
+    }
+  ]
+}

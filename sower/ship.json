@@ -1,0 +1,293 @@
+{
+  "name": "Sower",
+  "version": "1.1.0",
+  "path": "sower",
+  "blueprints": [
+    {
+      "filename": "sower.fbe",
+      "path": "blueprints/sower.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/blueprints/sower.fbe",
+      "version": "1.1.0",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "sower_v1.0.1.fbe",
+      "path": "blueprints/sower_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/blueprints/sower_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "sower_v1.0.0.fbe",
+      "path": "blueprints/sower_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/blueprints/sower_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20220311205326_1.jpg",
+      "path": "photos/20220311205326_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205326_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205337_1.jpg",
+      "path": "photos/20220311205337_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205337_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205426_1.jpg",
+      "path": "photos/20220311205426_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205426_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205457_1.jpg",
+      "path": "photos/20220311205457_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205457_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205507_1.jpg",
+      "path": "photos/20220311205507_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205507_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205529_1.jpg",
+      "path": "photos/20220311205529_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205529_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205552_1.jpg",
+      "path": "photos/20220311205552_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205552_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205607_1.jpg",
+      "path": "photos/20220311205607_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205607_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205615_1.jpg",
+      "path": "photos/20220311205615_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205615_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205630_1.jpg",
+      "path": "photos/20220311205630_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205630_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205636_1.jpg",
+      "path": "photos/20220311205636_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205636_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205648_1.jpg",
+      "path": "photos/20220311205648_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205648_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205718_1.jpg",
+      "path": "photos/20220311205718_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205718_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205733_1.jpg",
+      "path": "photos/20220311205733_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205733_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311205738_1.jpg",
+      "path": "photos/20220311205738_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311205738_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311211208_1.jpg",
+      "path": "photos/20220311211208_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311211208_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311211209_1.jpg",
+      "path": "photos/20220311211209_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311211209_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311211210_1.jpg",
+      "path": "photos/20220311211210_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311211210_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311211238_1.jpg",
+      "path": "photos/20220311211238_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311211238_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311211254_1.jpg",
+      "path": "photos/20220311211254_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311211254_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220311211254_2.jpg",
+      "path": "photos/20220311211254_2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/photos/20220311211254_2.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower1.jpg",
+      "path": "images/sower1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower2.jpg",
+      "path": "images/sower2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower3.jpg",
+      "path": "images/sower3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower4.jpg",
+      "path": "images/sower4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower5.jpg",
+      "path": "images/sower5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower6.jpg",
+      "path": "images/sower6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower7.jpg",
+      "path": "images/sower7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower8.jpg",
+      "path": "images/sower8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "sower9.jpg",
+      "path": "images/sower9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/images/sower9.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Ajatite Ore",
+        "kv": 4080,
+        "stacks": 2.4
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 53130,
+        "stacks": 30.7
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 20149,
+        "stacks": 11.7
+      },
+      {
+        "ore": "Ice",
+        "kv": 12000,
+        "stacks": 6.9
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 14120,
+        "stacks": 8.2
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 22346,
+        "stacks": 12.9
+      },
+      {
+        "ore": "Total ore",
+        "kv": 125824,
+        "stacks": 72.8
+      }
+    ],
+    "cost": {
+      "assembly": 94950,
+      "manufacturing": 133067,
+      "total": 228017
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Sower"
+    }
+  ]
+}

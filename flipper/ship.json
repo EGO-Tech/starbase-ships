@@ -1,0 +1,292 @@
+{
+  "name": "Flipper",
+  "version": "1.1.1",
+  "path": "flipper",
+  "blueprints": [
+    {
+      "filename": "flipper.fbe",
+      "path": "blueprints/flipper.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/blueprints/flipper.fbe",
+      "version": "1.1.1",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "flipper_v1.1.0.fbe",
+      "path": "blueprints/flipper_v1.1.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/blueprints/flipper_v1.1.0.fbe",
+      "version": "1.1.0",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "flipper_v1.0.0.fbe",
+      "path": "blueprints/flipper_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/blueprints/flipper_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20220721142810_1.jpg",
+      "path": "photos/20220721142810_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721142810_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721142813_1.jpg",
+      "path": "photos/20220721142813_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721142813_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721142836_1.jpg",
+      "path": "photos/20220721142836_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721142836_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721142846_1.jpg",
+      "path": "photos/20220721142846_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721142846_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721142859_1.jpg",
+      "path": "photos/20220721142859_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721142859_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721142916_1.jpg",
+      "path": "photos/20220721142916_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721142916_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721142946_1.jpg",
+      "path": "photos/20220721142946_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721142946_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721143001_1.jpg",
+      "path": "photos/20220721143001_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721143001_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721143439_1.jpg",
+      "path": "photos/20220721143439_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721143439_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721143450_1.jpg",
+      "path": "photos/20220721143450_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721143450_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721144658_1.jpg",
+      "path": "photos/20220721144658_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721144658_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721144704_1.jpg",
+      "path": "photos/20220721144704_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721144704_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721145832_1.jpg",
+      "path": "photos/20220721145832_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721145832_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721154312_1.jpg",
+      "path": "photos/20220721154312_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721154312_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220721154313_1.jpg",
+      "path": "photos/20220721154313_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/photos/20220721154313_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "flipper1.jpg",
+      "path": "images/flipper1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper2.jpg",
+      "path": "images/flipper2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper3.jpg",
+      "path": "images/flipper3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper4.jpg",
+      "path": "images/flipper4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper5.jpg",
+      "path": "images/flipper5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper6.jpg",
+      "path": "images/flipper6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper7.jpg",
+      "path": "images/flipper7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper8.jpg",
+      "path": "images/flipper8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "flipper9.jpg",
+      "path": "images/flipper9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/flipper9.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console_1.jpg",
+      "path": "images/pilot_center_console_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/pilot_center_console_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console_2.jpg",
+      "path": "images/pilot_center_console_2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/pilot_center_console_2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "scanner.jpg",
+      "path": "images/scanner.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/scanner.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 64348,
+        "stacks": 37.2
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 16093,
+        "stacks": 9.3
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 1013,
+        "stacks": 0.6
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 83551,
+        "stacks": 48.4
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 133769,
+        "stacks": 77.4
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 2143,
+        "stacks": 1.2
+      },
+      {
+        "ore": "Ice",
+        "kv": 48000,
+        "stacks": 27.8
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 19,
+        "stacks": 0
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 2065,
+        "stacks": 1.2
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 102142,
+        "stacks": 59.1
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 67081,
+        "stacks": 38.8
+      },
+      {
+        "ore": "Total ore",
+        "kv": 520222,
+        "stacks": 301.1
+      }
+    ],
+    "cost": {
+      "total": 703659
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Flipper"
+    }
+  ]
+}
