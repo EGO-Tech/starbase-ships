@@ -1,0 +1,143 @@
+{
+  "name": "Piercer X (Anorak Edition)",
+  "version": "1.0.2",
+  "path": "piercer/premium",
+  "blueprints": [],
+  "photos": [
+    {
+      "filename": "20221006153255_1.jpg",
+      "path": "photos/20221006153255_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/premium/photos/20221006153255_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/premium/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/premium/CHANGELOG.md"
+  },
+  "cost": 500000,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/premium/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "piercer-x1.jpg",
+      "path": "images/piercer-x1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/premium/images/piercer-x1.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 106677,
+        "stacks": 61.7
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 11227,
+        "stacks": 6.5
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 25944,
+        "stacks": 15
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 265261,
+        "stacks": 153.5
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 221326,
+        "stacks": 128.1
+      },
+      {
+        "ore": "Corazium Ore",
+        "kv": 76,
+        "stacks": 0
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 28492,
+        "stacks": 16.5
+      },
+      {
+        "ore": "Glass",
+        "kv": 2644,
+        "stacks": 1.5
+      },
+      {
+        "ore": "Ice",
+        "kv": 144000,
+        "stacks": 83.3
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 5540,
+        "stacks": 3.2
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 73289,
+        "stacks": 42.4
+      },
+      {
+        "ore": "Lukium Ore",
+        "kv": 17540,
+        "stacks": 10.2
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 83098,
+        "stacks": 48.1
+      },
+      {
+        "ore": "Ukonium Ore",
+        "kv": 7378,
+        "stacks": 4.3
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 153443,
+        "stacks": 88.8
+      },
+      {
+        "ore": "Xhalium Ore",
+        "kv": 7136,
+        "stacks": 4.1
+      },
+      {
+        "ore": "Ymrium Ore",
+        "kv": 121180,
+        "stacks": 70.1
+      },
+      {
+        "ore": "Total ore",
+        "kv": 1274252,
+        "stacks": 737.4
+      }
+    ],
+    "cost": {
+      "assembly": 272628,
+      "manufacturing": 760,
+      "total": 1680388
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/Piercer%20X"
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "name": "Whaler",
+  "version": "1.0.0",
+  "path": "whaler",
+  "blueprints": [],
+  "photos": [
+    {
+      "filename": "20230624195310_1.jpg",
+      "path": "photos/20230624195310_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195310_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195326_1.jpg",
+      "path": "photos/20230624195326_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195326_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195348_1.jpg",
+      "path": "photos/20230624195348_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195348_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195410_1.jpg",
+      "path": "photos/20230624195410_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195410_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195441_1.jpg",
+      "path": "photos/20230624195441_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195441_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195506_1.jpg",
+      "path": "photos/20230624195506_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195506_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195521_1.jpg",
+      "path": "photos/20230624195521_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195521_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195546_1.jpg",
+      "path": "photos/20230624195546_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195546_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195605_1.jpg",
+      "path": "photos/20230624195605_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195605_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195615_1.jpg",
+      "path": "photos/20230624195615_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195615_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195621_1.jpg",
+      "path": "photos/20230624195621_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195621_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195733_1.jpg",
+      "path": "photos/20230624195733_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195733_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195743_1.jpg",
+      "path": "photos/20230624195743_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195743_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195755_1.jpg",
+      "path": "photos/20230624195755_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195755_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195814_1.jpg",
+      "path": "photos/20230624195814_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195814_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195835_1.jpg",
+      "path": "photos/20230624195835_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195835_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195909_1.jpg",
+      "path": "photos/20230624195909_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195909_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195919_1.jpg",
+      "path": "photos/20230624195919_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195919_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195930_1.jpg",
+      "path": "photos/20230624195930_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195930_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195937_1.jpg",
+      "path": "photos/20230624195937_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195937_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624195948_1.jpg",
+      "path": "photos/20230624195948_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195948_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200006_1.jpg",
+      "path": "photos/20230624200006_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200006_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200023_1.jpg",
+      "path": "photos/20230624200023_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200023_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200032_1.jpg",
+      "path": "photos/20230624200032_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200032_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200036_1.jpg",
+      "path": "photos/20230624200036_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200036_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200038_1.jpg",
+      "path": "photos/20230624200038_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200038_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200043_1.jpg",
+      "path": "photos/20230624200043_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200043_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200056_1.jpg",
+      "path": "photos/20230624200056_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200056_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200205_1.jpg",
+      "path": "photos/20230624200205_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200205_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200233_1.jpg",
+      "path": "photos/20230624200233_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200233_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200237_1.jpg",
+      "path": "photos/20230624200237_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200237_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200250_1.jpg",
+      "path": "photos/20230624200250_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200250_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200259_1.jpg",
+      "path": "photos/20230624200259_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200259_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200305_1.jpg",
+      "path": "photos/20230624200305_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200305_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200320_1.jpg",
+      "path": "photos/20230624200320_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200320_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200335_1.jpg",
+      "path": "photos/20230624200335_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200335_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200343_1.jpg",
+      "path": "photos/20230624200343_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200343_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200347_1.jpg",
+      "path": "photos/20230624200347_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200347_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200357_1.jpg",
+      "path": "photos/20230624200357_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200357_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200406_1.jpg",
+      "path": "photos/20230624200406_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200406_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200421_1.jpg",
+      "path": "photos/20230624200421_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200421_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200434_1.jpg",
+      "path": "photos/20230624200434_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200434_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200446_1.jpg",
+      "path": "photos/20230624200446_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200446_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200459_1.jpg",
+      "path": "photos/20230624200459_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200459_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200509_1.jpg",
+      "path": "photos/20230624200509_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200509_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200534_1.jpg",
+      "path": "photos/20230624200534_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200534_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200611_1.jpg",
+      "path": "photos/20230624200611_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200611_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200620_1.jpg",
+      "path": "photos/20230624200620_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200620_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200727_1.jpg",
+      "path": "photos/20230624200727_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200727_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20230624200728_1.jpg",
+      "path": "photos/20230624200728_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200728_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/CHANGELOG.md"
+  },
+  "cost": 500000,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "large_display.jpg",
+      "path": "images/large_display.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/large_display.jpg",
+      "description": ""
+    },
+    {
+      "filename": "mining_console.jpg",
+      "path": "images/mining_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/mining_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_left_console.jpg",
+      "path": "images/pilot_left_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_left_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_top_console.jpg",
+      "path": "images/pilot_top_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_top_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "screen_console.jpg",
+      "path": "images/screen_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/screen_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "tow_beam_console.jpg",
+      "path": "images/tow_beam_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/tow_beam_console.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 194168,
+        "stacks": 112.4
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 104461,
+        "stacks": 60.5
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 159785,
+        "stacks": 92.5
+      },
+      {
+        "ore": "Baltium Alloy",
+        "kv": 3744,
+        "stacks": 2.2
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 412345,
+        "stacks": 238.6
+      },
+      {
+        "ore": "Bastonium Alloy",
+        "kv": 136,
+        "stacks": 0.1
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 375703,
+        "stacks": 217.4
+      },
+      {
+        "ore": "Corazium Ore",
+        "kv": 12307,
+        "stacks": 7.1
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 50245,
+        "stacks": 29.1
+      },
+      {
+        "ore": "Glass",
+        "kv": 32366,
+        "stacks": 18.7
+      },
+      {
+        "ore": "Ice",
+        "kv": 167136,
+        "stacks": 96.7
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 22359,
+        "stacks": 12.9
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 188686,
+        "stacks": 109.2
+      },
+      {
+        "ore": "Lukium Ore",
+        "kv": 66738,
+        "stacks": 38.6
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 130063,
+        "stacks": 75.3
+      },
+      {
+        "ore": "Surtrite Crystal",
+        "kv": 48256,
+        "stacks": 27.9
+      },
+      {
+        "ore": "Ukonium Ore",
+        "kv": 10215,
+        "stacks": 5.9
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 337350,
+        "stacks": 195.2
+      },
+      {
+        "ore": "Xhalium Ore",
+        "kv": 8171,
+        "stacks": 4.7
+      },
+      {
+        "ore": "Ymrium Ore",
+        "kv": 214747,
+        "stacks": 124.3
+      },
+      {
+        "ore": "Total ore",
+        "kv": null,
+        "stacks": 1469.3
+      }
+    ],
+    "cost": {
+      "assembly": 601364,
+      "manufacturing": 4644021,
+      "total": 5245385
+    }
+  },
+  "links": []
+}

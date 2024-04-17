@@ -1,0 +1,142 @@
+{
+  "name": "Trebler X",
+  "version": "1.0.1",
+  "path": "trebler/premium",
+  "blueprints": [],
+  "photos": [
+    {
+      "filename": "20230507173014_1.jpg",
+      "path": "photos/20230507173014_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/photos/20230507173014_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/CHANGELOG.md"
+  },
+  "cost": 750000,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "trebler-x1.jpg",
+      "path": "images/trebler-x1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/images/trebler-x1.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 109797,
+        "stacks": 63.5
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 10276,
+        "stacks": 5.9
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 39456,
+        "stacks": 22.8
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 394022,
+        "stacks": 228
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 281728,
+        "stacks": 163
+      },
+      {
+        "ore": "Corazium Ore",
+        "kv": 113,
+        "stacks": 0.1
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 66852,
+        "stacks": 38.7
+      },
+      {
+        "ore": "Glass",
+        "kv": 1532,
+        "stacks": 0.9
+      },
+      {
+        "ore": "Ice",
+        "kv": 48000,
+        "stacks": 27.8
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 8750,
+        "stacks": 5.1
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 79332,
+        "stacks": 45.9
+      },
+      {
+        "ore": "Lukium Ore",
+        "kv": 26159,
+        "stacks": 15.1
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 205635,
+        "stacks": 119
+      },
+      {
+        "ore": "Ukonium Ore",
+        "kv": 11918,
+        "stacks": 6.9
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 199754,
+        "stacks": 115.6
+      },
+      {
+        "ore": "Xhalium Ore",
+        "kv": 8549,
+        "stacks": 4.9
+      },
+      {
+        "ore": "Ymrium Ore",
+        "kv": 135178,
+        "stacks": 78.2
+      },
+      {
+        "ore": "Total ore",
+        "kv": 1627051,
+        "stacks": 941.6
+      }
+    ],
+    "cost": {
+      "manufacturing": 1741976,
+      "total": 2054294
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/Trebler%20X"
+    }
+  ]
+}

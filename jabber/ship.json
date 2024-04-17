@@ -1,0 +1,293 @@
+{
+  "name": "Jabber",
+  "version": "1.1.0",
+  "path": "jabber",
+  "blueprints": [
+    {
+      "filename": "jabber.fbe",
+      "path": "blueprints/jabber.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/blueprints/jabber.fbe",
+      "version": "1.1.0",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "jabber_v1.0.2.fbe",
+      "path": "blueprints/jabber_v1.0.2.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/blueprints/jabber_v1.0.2.fbe",
+      "version": "1.0.2",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "jabber_v1.0.1.fbe",
+      "path": "blueprints/jabber_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/blueprints/jabber_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "jabber_v1.0.0.fbe",
+      "path": "blueprints/jabber_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/blueprints/jabber_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20220107210816_1.jpg",
+      "path": "photos/20220107210816_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107210816_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107210817_1.jpg",
+      "path": "photos/20220107210817_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107210817_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211217_1.jpg",
+      "path": "photos/20220107211217_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211217_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211227_1.jpg",
+      "path": "photos/20220107211227_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211227_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211236_1.jpg",
+      "path": "photos/20220107211236_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211236_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211306_1.jpg",
+      "path": "photos/20220107211306_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211306_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211332_1.jpg",
+      "path": "photos/20220107211332_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211332_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211342_1.jpg",
+      "path": "photos/20220107211342_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211342_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211405_1.jpg",
+      "path": "photos/20220107211405_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211405_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211432_1.jpg",
+      "path": "photos/20220107211432_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211432_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211502_1.jpg",
+      "path": "photos/20220107211502_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211502_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211527_1.jpg",
+      "path": "photos/20220107211527_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211527_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20220107211549_1.jpg",
+      "path": "photos/20220107211549_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211549_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "jabber1.jpg",
+      "path": "images/jabber1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber2.jpg",
+      "path": "images/jabber2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber3.jpg",
+      "path": "images/jabber3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber4.jpg",
+      "path": "images/jabber4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber5.jpg",
+      "path": "images/jabber5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber6.jpg",
+      "path": "images/jabber6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber7.jpg",
+      "path": "images/jabber7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber8.jpg",
+      "path": "images/jabber8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "jabber9.jpg",
+      "path": "images/jabber9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/jabber9.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/pilot_center_console.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [
+    {
+      "channel": {
+        "text": "Krawll Unchained",
+        "url": "https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A"
+      },
+      "video": {
+        "text": "Starbase - Community Ship Showcase - Vinteo's first \"Small Fighter\" !",
+        "url": "https://www.youtube.com/watch?v=9_0CvLgVGqY"
+      }
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 30361,
+        "stacks": 17.6
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 9722,
+        "stacks": 5.6
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 371,
+        "stacks": 0.2
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 21333,
+        "stacks": 12.3
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 43585,
+        "stacks": 25.2
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 357,
+        "stacks": 0.2
+      },
+      {
+        "ore": "Glass",
+        "kv": 3417,
+        "stacks": 2
+      },
+      {
+        "ore": "Ice",
+        "kv": 8000,
+        "stacks": 4.6
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 132,
+        "stacks": 0.1
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 43,
+        "stacks": 0
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 13635,
+        "stacks": 7.9
+      },
+      {
+        "ore": "Surtrite Crystal",
+        "kv": 27477,
+        "stacks": 15.9
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 32011,
+        "stacks": 18.5
+      },
+      {
+        "ore": "Total ore",
+        "kv": 190444,
+        "stacks": 110.2
+      }
+    ],
+    "cost": {
+      "assembly": 65694,
+      "manufacturing": 907518,
+      "total": 973212
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Jabber"
+    }
+  ]
+}

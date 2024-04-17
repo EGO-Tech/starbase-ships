@@ -1,0 +1,399 @@
+{
+  "name": "Hexxer",
+  "version": "1.1.0",
+  "path": "hexxer",
+  "blueprints": [
+    {
+      "filename": "hexxer.fbe",
+      "path": "blueprints/hexxer.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/blueprints/hexxer.fbe",
+      "version": "1.1.0",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "hexxer_v1.0.1.fbe",
+      "path": "blueprints/hexxer_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/blueprints/hexxer_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "hexxer_v1.0.0.fbe",
+      "path": "blueprints/hexxer_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/blueprints/hexxer_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20211130200338_1.jpg",
+      "path": "photos/20211130200338_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200338_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130200345_1.jpg",
+      "path": "photos/20211130200345_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200345_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130200359_1.jpg",
+      "path": "photos/20211130200359_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200359_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130200410_1.jpg",
+      "path": "photos/20211130200410_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200410_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130200423_1.jpg",
+      "path": "photos/20211130200423_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200423_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130200911_1.jpg",
+      "path": "photos/20211130200911_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200911_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130200923_1.jpg",
+      "path": "photos/20211130200923_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200923_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130200933_1.jpg",
+      "path": "photos/20211130200933_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130200933_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130201044_1.jpg",
+      "path": "photos/20211130201044_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130201044_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130201053_1.jpg",
+      "path": "photos/20211130201053_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130201053_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202009_1.jpg",
+      "path": "photos/20211130202009_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202009_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202029_1.jpg",
+      "path": "photos/20211130202029_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202029_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202058_1.jpg",
+      "path": "photos/20211130202058_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202058_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202523_1.jpg",
+      "path": "photos/20211130202523_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202523_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202528_1.jpg",
+      "path": "photos/20211130202528_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202528_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202553_1.jpg",
+      "path": "photos/20211130202553_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202553_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202557_1.jpg",
+      "path": "photos/20211130202557_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202557_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202601_1.jpg",
+      "path": "photos/20211130202601_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202601_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202716_1.jpg",
+      "path": "photos/20211130202716_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202716_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202726_1.jpg",
+      "path": "photos/20211130202726_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202726_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202735_1.jpg",
+      "path": "photos/20211130202735_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202735_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202742_1.jpg",
+      "path": "photos/20211130202742_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202742_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202752_1.jpg",
+      "path": "photos/20211130202752_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202752_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130202952_1.jpg",
+      "path": "photos/20211130202952_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130202952_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130203000_1.jpg",
+      "path": "photos/20211130203000_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130203000_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130203152_1.jpg",
+      "path": "photos/20211130203152_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130203152_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130203155_1.jpg",
+      "path": "photos/20211130203155_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130203155_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130203157_1.jpg",
+      "path": "photos/20211130203157_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130203157_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130215537_1.jpg",
+      "path": "photos/20211130215537_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130215537_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130215539_1.jpg",
+      "path": "photos/20211130215539_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130215539_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211130215541_1.jpg",
+      "path": "photos/20211130215541_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/photos/20211130215541_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "hexxer1.jpg",
+      "path": "images/hexxer1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer2.jpg",
+      "path": "images/hexxer2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer3.jpg",
+      "path": "images/hexxer3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer4.jpg",
+      "path": "images/hexxer4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer5.jpg",
+      "path": "images/hexxer5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer6.jpg",
+      "path": "images/hexxer6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer7.jpg",
+      "path": "images/hexxer7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer8.jpg",
+      "path": "images/hexxer8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "hexxer9.jpg",
+      "path": "images/hexxer9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/hexxer9.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_left_console.jpg",
+      "path": "images/pilot_left_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/pilot_left_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "scanner.jpg",
+      "path": "images/scanner.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/scanner.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [
+    {
+      "channel": {
+        "text": "CrispyChestnuts",
+        "url": "https://www.youtube.com/channel/UCZuFhUb3UwEfSiUvIZJJ55Q"
+      },
+      "video": {
+        "text": "Crispy demos the Hexxer by Egomaniac",
+        "url": "https://www.youtube.com/watch?v=dbKt1CyBivc"
+      }
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 38400,
+        "stacks": 22.2
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 18386,
+        "stacks": 10.6
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 994,
+        "stacks": 0.6
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 55771,
+        "stacks": 32.3
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 55533,
+        "stacks": 32.1
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 1948,
+        "stacks": 1.1
+      },
+      {
+        "ore": "Ice",
+        "kv": 16000,
+        "stacks": 9.3
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 19,
+        "stacks": 0
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 7226,
+        "stacks": 4.2
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 35414,
+        "stacks": 20.5
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 42161,
+        "stacks": 24.4
+      },
+      {
+        "ore": "Total ore",
+        "kv": 271853,
+        "stacks": 157.3
+      }
+    ],
+    "cost": {
+      "assembly": 161269
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hexxer"
+    }
+  ]
+}

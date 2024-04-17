@@ -1,0 +1,417 @@
+{
+  "name": "Rocker",
+  "version": "1.1.0",
+  "path": "rocker",
+  "blueprints": [
+    {
+      "filename": "rocker.fbe",
+      "path": "blueprints/rocker.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker.fbe",
+      "version": "1.1.0",
+      "description": "",
+      "current": true
+    },
+    {
+      "filename": "rocker_v1.0.5.fbe",
+      "path": "blueprints/rocker_v1.0.5.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker_v1.0.5.fbe",
+      "version": "1.0.5",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rocker_v1.0.4.fbe",
+      "path": "blueprints/rocker_v1.0.4.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker_v1.0.4.fbe",
+      "version": "1.0.4",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rocker_v1.0.3.fbe",
+      "path": "blueprints/rocker_v1.0.3.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker_v1.0.3.fbe",
+      "version": "1.0.3",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rocker_v1.0.2.fbe",
+      "path": "blueprints/rocker_v1.0.2.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker_v1.0.2.fbe",
+      "version": "1.0.2",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rocker_v1.0.1.fbe",
+      "path": "blueprints/rocker_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
+    },
+    {
+      "filename": "rocker_v1.0.0.fbe",
+      "path": "blueprints/rocker_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
+    }
+  ],
+  "photos": [
+    {
+      "filename": "20211002134507_1.jpg",
+      "path": "photos/20211002134507_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134507_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002134515_1.jpg",
+      "path": "photos/20211002134515_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134515_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002134528_1.jpg",
+      "path": "photos/20211002134528_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134528_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002134538_1.jpg",
+      "path": "photos/20211002134538_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134538_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002134623_1.jpg",
+      "path": "photos/20211002134623_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134623_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002134643_1.jpg",
+      "path": "photos/20211002134643_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134643_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002134647_1.jpg",
+      "path": "photos/20211002134647_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134647_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002135729_1.jpg",
+      "path": "photos/20211002135729_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002135729_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002135734_1.jpg",
+      "path": "photos/20211002135734_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002135734_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002135829_1.jpg",
+      "path": "photos/20211002135829_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002135829_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002135839_1.jpg",
+      "path": "photos/20211002135839_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002135839_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002140030_1.jpg",
+      "path": "photos/20211002140030_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002140030_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002140119_1.jpg",
+      "path": "photos/20211002140119_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002140119_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002140236_1.jpg",
+      "path": "photos/20211002140236_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002140236_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002140505_1.jpg",
+      "path": "photos/20211002140505_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002140505_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002140517_1.jpg",
+      "path": "photos/20211002140517_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002140517_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002140653_1.jpg",
+      "path": "photos/20211002140653_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002140653_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002140755_1.jpg",
+      "path": "photos/20211002140755_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002140755_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002141046_1.jpg",
+      "path": "photos/20211002141046_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002141046_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002141207_1.jpg",
+      "path": "photos/20211002141207_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002141207_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002141225_1.jpg",
+      "path": "photos/20211002141225_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002141225_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002141237_1.jpg",
+      "path": "photos/20211002141237_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002141237_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002141428_1.jpg",
+      "path": "photos/20211002141428_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002141428_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002141445_1.jpg",
+      "path": "photos/20211002141445_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002141445_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002144144_1.jpg",
+      "path": "photos/20211002144144_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002144144_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20211002144204_1.jpg",
+      "path": "photos/20211002144204_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002144204_1.jpg",
+      "description": ""
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/README.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/CHANGELOG.md"
+  },
+  "cost": 0,
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker1.jpg",
+      "path": "images/rocker1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker2.jpg",
+      "path": "images/rocker2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker3.jpg",
+      "path": "images/rocker3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker4.jpg",
+      "path": "images/rocker4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker5.jpg",
+      "path": "images/rocker5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker6.jpg",
+      "path": "images/rocker6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker7.jpg",
+      "path": "images/rocker7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker8.jpg",
+      "path": "images/rocker8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "rocker9.jpg",
+      "path": "images/rocker9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/rocker9.jpg",
+      "description": ""
+    },
+    {
+      "filename": "scanner.jpg",
+      "path": "images/scanner.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/images/scanner.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [
+    {
+      "channel": {
+        "text": "CrispyChestnuts",
+        "url": "https://www.youtube.com/channel/UCZuFhUb3UwEfSiUvIZJJ55Q"
+      },
+      "video": {
+        "text": "Crispy demos the Rocker Duo (and Rocker) by Egomaniac",
+        "url": "https://www.youtube.com/watch?v=SI1ndXVzCmE"
+      }
+    },
+    {
+      "channel": {
+        "text": "Krawll Unchained",
+        "url": "https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A"
+      },
+      "video": {
+        "text": "Starbase - Community Ship Showcase - 3 Ships by \"Egomaniac\" ( The moon Crasher) 😉😁",
+        "url": "https://www.youtube.com/watch?v=RXAccUqcWhI"
+      }
+    },
+    {
+      "channel": {
+        "text": "Softwerker",
+        "url": "https://www.youtube.com/channel/UCLOj9FpWzNuFhsqv1g16lEw"
+      },
+      "video": {
+        "text": "Ship Shop Tour: Rando 7 (Teil 2/X) 🦾 Let's Play Starbase [S2E82] [German/Deutsch]",
+        "url": "https://www.youtube.com/watch?v=L_w0D9E99cg"
+      }
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "Aegisium Ore",
+        "kv": 23928,
+        "stacks": 13.8
+      },
+      {
+        "ore": "Ajatite Ore",
+        "kv": 15715,
+        "stacks": 9.1
+      },
+      {
+        "ore": "Arkanium Ore",
+        "kv": 634,
+        "stacks": 0.4
+      },
+      {
+        "ore": "Bastium Ore",
+        "kv": 42599,
+        "stacks": 24.7
+      },
+      {
+        "ore": "Charodium Ore",
+        "kv": 42337,
+        "stacks": 24.5
+      },
+      {
+        "ore": "Exorium Ore",
+        "kv": 1222,
+        "stacks": 0.7
+      },
+      {
+        "ore": "Ice",
+        "kv": 10000,
+        "stacks": 5.8
+      },
+      {
+        "ore": "Karnite Crystal",
+        "kv": 19,
+        "stacks": 0
+      },
+      {
+        "ore": "Kutonium Ore",
+        "kv": 6452,
+        "stacks": 3.7
+      },
+      {
+        "ore": "Nhurgite Crystal",
+        "kv": 27244,
+        "stacks": 15.8
+      },
+      {
+        "ore": "Vokarium Ore",
+        "kv": 32594,
+        "stacks": 18.9
+      },
+      {
+        "ore": "Total ore",
+        "kv": 202743,
+        "stacks": 117.3
+      }
+    ],
+    "cost": {
+      "assembly": 134715,
+      "manufacturing": 217718,
+      "total": 352433
+    }
+  },
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker"
+    }
+  ]
+}
