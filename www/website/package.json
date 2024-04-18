@@ -1,0 +1,29 @@
+{
+  "name": "starbase-ships-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "pre-build": "npx rollup node_modules/@nordhealth/components/lib/index.js --format umd --name 'nordCompoments' --file _includes/assets/js/nord-components.js",
+    "build": "npm run pre-build && npx @11ty/eleventy",
+    "start": "npm run pre-build && npx @11ty/eleventy --serve",
+    "dryrun": "npm run pre-build && npx @11ty/eleventy --dryrun",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/starbase-ships/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nordhealth/ag-theme-nord": "^2.0.3",
+    "@nordhealth/color": "^2.0.13",
+    "@nordhealth/components": "^3.9.0",
+    "@nordhealth/css": "^3.2.0",
+    "@nordhealth/fonts": "^3.0.0",
+    "@nordhealth/icons": "^3.3.0",
+    "@nordhealth/themes": "^8.0.2",
+    "@nordhealth/tokens": "^7.1.0",
+    "eleventy-plugin-svg-contents": "^0.7.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "rollup": "^4.14.3"
+  }
+}
