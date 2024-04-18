@@ -1,0 +1,83 @@
+---
+title: Starbase Ships by EGOTech
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="css/nord.min.css">
+    <link rel="stylesheet" href="css/nord-dark.css">
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <script src="js/nord-components.js"></script>
+  </head>
+  <body class="n-reset">
+    <nord-layout padding="none" persist-nav-state sticky>
+      <nord-navigation slot="nav">
+        <nord-nav-group heading="Ships">
+          <nord-nav-item>
+            Coming Soon
+            <nord-nav-group slot="subnav">
+              <nord-nav-item>Coming Soon</nord-nav-item>
+            </nord-nav-group>
+          </nord-nav-item>
+        </nord-nav-group>
+      </nord-navigation>
+      <nord-header slot="header">
+        <nord-stack direction="horizontal">
+          <a href="{{ '/' | url }}">
+            <nord-avatar size="xl" src="images/logos/egotech_logo_dark.png" name="EGOTech" variant="square">B</nord-avatar>
+          </a>
+          <h1>Starbase Ships by EGOTech</h1>
+        </nord-stack>
+      </nord-header>
+
+      {{ content | safe }}
+
+      <nord-footer slot="footer" size="m">
+        <nord-stack gap="l">
+          <section class="n-grid-2">
+            <div>
+              <section class="n-grid-2 n-margin-be-xxl">
+                <nord-stack gap="s">
+                  <nord-stack direction="horizontal" gap="s">
+                    Information
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <span class="nordicon n-size-icon-l">{{ "/node_modules/@nordhealth/icons/lib/assets/interface-chat.svg" | svgContents | safe }}</span>
+                    <a href="https://discord.gg/BKwVGvncmN">Discord</a>
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <span class="nordicon n-size-icon-l">{{ "/node_modules/@nordhealth/icons/lib/assets/generic-github.svg" | svgContents | safe }}</span>
+                    <a href="https://github.com/EGO-Tech/starbase-ships">GitHub</a>
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <span class="nordicon n-size-icon-l">{{ "/node_modules/@nordhealth/icons/lib/assets/file-invoice.svg" | svgContents | safe }}</span>
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">License</a>
+                  </nord-stack>
+                </nord-stack>
+                <nord-stack gap="s">
+                  <nord-stack direction="horizontal" gap="s">
+                    More
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Starbase</a>
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Frozenbyte</a>
+                  </nord-stack>
+                </nord-stack>
+              </section>
+            </div>
+            <div>
+              <p>Copyright &copy; {{year}} Vincent Teo</p>
+              <p>Built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://nordhealth.design/">Nord.</a></p>
+            </div>
+          </section>
+        </nord-stack>
+      </nord-footer>
+    </nord-layout>
+  </body>
+</html>
