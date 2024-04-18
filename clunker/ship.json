@@ -2,6 +2,12 @@
   "name": "Clunker",
   "version": "1.0.2",
   "path": "clunker",
+  "types": [
+    {
+      "type": "hauler",
+      "order": 2
+    }
+  ],
   "blueprints": [
     {
       "filename": "clunker.fbe",
@@ -267,5 +273,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Clunker"
     }
-  ]
+  ],
+  "saleType": "free"
 }

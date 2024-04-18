@@ -2,6 +2,16 @@
   "name": "Rigger",
   "version": "1.2.3",
   "path": "rigger",
+  "types": [
+    {
+      "type": "miner",
+      "order": 1
+    },
+    {
+      "type": "starter",
+      "order": 3
+    }
+  ],
   "blueprints": [
     {
       "filename": "rigger.fbe",
@@ -340,5 +350,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rigger"
     }
-  ]
+  ],
+  "saleType": "free"
 }

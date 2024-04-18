@@ -2,6 +2,12 @@
   "name": "Mapper",
   "version": "1.0.3",
   "path": "mapper",
+  "types": [
+    {
+      "type": "explorer",
+      "order": 1
+    }
+  ],
   "blueprints": [
     {
       "filename": "mapper.fbe",
@@ -329,5 +335,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Mapper"
     }
-  ]
+  ],
+  "saleType": "free"
 }

@@ -2,6 +2,12 @@
   "name": "Bugger X",
   "version": "1.0.2",
   "path": "bugger/premium",
+  "types": [
+    {
+      "type": "surface-miner",
+      "order": 2
+    }
+  ],
   "blueprints": [],
   "photos": [
     {
@@ -134,5 +140,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Bugger%20X"
     }
-  ]
+  ],
+  "saleType": "for-sale"
 }

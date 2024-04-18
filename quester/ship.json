@@ -2,6 +2,16 @@
   "name": "Quester",
   "version": "1.1.1",
   "path": "quester",
+  "types": [
+    {
+      "type": "command-ship",
+      "order": 1
+    },
+    {
+      "type": "explorer",
+      "order": 2
+    }
+  ],
   "blueprints": [
     {
       "filename": "quester.fbe",
@@ -505,5 +515,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Quester"
     }
-  ]
+  ],
+  "saleType": "free"
 }

@@ -5,7 +5,7 @@
   "scripts": {
     "pre-build": "npx rollup node_modules/@nordhealth/components/lib/index.js --format umd --name 'nordCompoments' --file _includes/assets/js/nord-components.js",
     "build": "npm run pre-build && npx @11ty/eleventy",
-    "start": "npm run pre-build && npx @11ty/eleventy --serve",
+    "start": "DEBUG=Eleventy* npm run pre-build && npx @11ty/eleventy --serve",
     "dryrun": "npm run pre-build && npx @11ty/eleventy --dryrun",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/starbase-ships/",
     "test": "echo \"Error: no test specified\" && exit 1"

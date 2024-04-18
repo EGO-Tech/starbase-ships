@@ -2,6 +2,12 @@
   "name": "Trebler",
   "version": "1.0.1",
   "path": "trebler",
+  "types": [
+    {
+      "type": "miner",
+      "order": 7
+    }
+  ],
   "blueprints": [
     {
       "filename": "trebler.fbe",
@@ -364,5 +370,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Trebler"
     }
-  ]
+  ],
+  "saleType": "free"
 }

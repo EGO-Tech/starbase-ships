@@ -50,7 +50,7 @@ const getShipDirectories = (source) =>
         };
         accessSync(
           path.join(premiumShipPath.fullPath, readmePath),
-          constants.F_OK,
+          constants.F_OK
         );
         return [shipPath, premiumShipPath];
       } catch {
@@ -67,7 +67,7 @@ const getShipBlueprints = (source, { currentVersion, relPath }) => {
     return _(
       readdirSync(path.join(source, blueprintsPath), {
         withFileTypes: true,
-      }),
+      })
     )
       .map((dir) => {
         const noExt = path.basename(dir.name, '.fbe');
@@ -91,7 +91,7 @@ const getShipPhotos = (source, { relPath, photosPath }) => {
     return _(
       readdirSync(path.join(source, photosPath), {
         withFileTypes: true,
-      }),
+      })
     )
       .map((dir) => {
         return {
@@ -125,8 +125,8 @@ const getShipVideos = (table) =>
     try {
       json = JSON.parse(
         readFileSync(
-          path.join(fullPath, nconf.get('ships:jsonFile')),
-        ).toString(),
+          path.join(fullPath, nconf.get('ships:jsonFile'))
+        ).toString()
       );
     } catch {
       json = {};
@@ -167,6 +167,8 @@ const getShipVideos = (table) =>
     } else {
       json.cost ??= 500000;
     }
+    json.saleType =
+      !json.cost && !_.isEmpty(json.blueprints) ? 'free' : 'for-sale';
 
     // Photos & Images
     const photosPath = nconf.get('ships:paths:photos');
@@ -205,7 +207,7 @@ const getShipVideos = (table) =>
     const lines = _(text).split('\n').compact().value();
     const materials = _(lines)
       .map((line) =>
-        line.match(/([A-z\s]+) ([0-9\s]+) kv \(([0-9\.]+) stacks\)/),
+        line.match(/([a-zA-Z\s]+) ([0-9\s]+) kv \(([0-9\.]+) stacks\)/)
       )
       .compact()
       .map(([_text, ore, kv, stacks]) => ({
@@ -228,7 +230,7 @@ const getShipVideos = (table) =>
 
     writeFileSync(
       path.join(fullPath, nconf.get('ships:jsonFile')),
-      JSON.stringify(json, null, 2),
+      `${JSON.stringify(json, null, 2)}\n`
     );
   });
 })();

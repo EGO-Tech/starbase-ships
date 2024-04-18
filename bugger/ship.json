@@ -2,6 +2,12 @@
   "name": "Bugger",
   "version": "1.0.3",
   "path": "bugger",
+  "types": [
+    {
+      "type": "surface-miner",
+      "order": 1
+    }
+  ],
   "blueprints": [
     {
       "filename": "bugger.fbe",
@@ -519,5 +525,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Bugger"
     }
-  ]
+  ],
+  "saleType": "free"
 }

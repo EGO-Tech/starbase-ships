@@ -2,6 +2,12 @@
   "name": "Trebler X",
   "version": "1.0.1",
   "path": "trebler/premium",
+  "types": [
+    {
+      "type": "miner",
+      "order": 8
+    }
+  ],
   "blueprints": [],
   "photos": [
     {
@@ -138,5 +144,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Trebler%20X"
     }
-  ]
+  ],
+  "saleType": "for-sale"
 }

@@ -2,6 +2,12 @@
   "name": "Fisher",
   "version": "1.0.1",
   "path": "fisher",
+  "types": [
+    {
+      "type": "salvager",
+      "order": 2
+    }
+  ],
   "blueprints": [
     {
       "filename": "fisher.fbe",
@@ -368,5 +374,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Fisher"
     }
-  ]
+  ],
+  "saleType": "free"
 }

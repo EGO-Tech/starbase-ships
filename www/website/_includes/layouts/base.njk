@@ -16,13 +16,25 @@ title: Starbase Ships by EGOTech
   <body class="n-reset">
     <nord-layout padding="none" persist-nav-state sticky>
       <nord-navigation slot="nav">
-        <nord-nav-group heading="Ships">
-          <nord-nav-item>
-            Coming Soon
-            <nord-nav-group slot="subnav">
-              <nord-nav-item>Coming Soon</nord-nav-item>
-            </nord-nav-group>
-          </nord-nav-item>
+        <nord-nav-group heading="Ships For Sale">
+          {% for ship in ships.bySaleType['for-sale'] %}
+            <nord-nav-item>
+              {{ship.name}}
+              <nord-nav-group slot="subnav">
+                <nord-nav-item>Coming Soon</nord-nav-item>
+              </nord-nav-group>
+            </nord-nav-item>
+          {% endfor %}
+        </nord-nav-group>
+        <nord-nav-group heading="Free Ships">
+          {% for ship in ships.bySaleType['free'] %}
+            <nord-nav-item>
+              {{ship.name}}
+              <nord-nav-group slot="subnav">
+                <nord-nav-item>Coming Soon</nord-nav-item>
+              </nord-nav-group>
+            </nord-nav-item>
+          {% endfor %}
         </nord-nav-group>
       </nord-navigation>
       <nord-header slot="header">

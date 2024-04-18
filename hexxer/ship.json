@@ -2,6 +2,12 @@
   "name": "Hexxer",
   "version": "1.1.0",
   "path": "hexxer",
+  "types": [
+    {
+      "type": "asteroid-hauler",
+      "order": 3
+    }
+  ],
   "blueprints": [
     {
       "filename": "hexxer.fbe",
@@ -395,5 +401,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hexxer"
     }
-  ]
+  ],
+  "saleType": "free"
 }
