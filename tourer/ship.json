@@ -2,6 +2,12 @@
   "name": "Tourer",
   "version": "2.0.0",
   "path": "tourer",
+  "types": [
+    {
+      "type": "transport",
+      "order": 2
+    }
+  ],
   "blueprints": [
     {
       "filename": "tourer.fbe",
@@ -312,5 +318,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Tourer"
     }
-  ]
+  ],
+  "saleType": "free"
 }

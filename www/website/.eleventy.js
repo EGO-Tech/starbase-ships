@@ -1,4 +1,39 @@
+const _ = require('lodash');
+const path = require('path');
 const svgContents = require('eleventy-plugin-svg-contents');
+const { accessSync, constants, readdirSync } = require('fs');
+
+const basePath = path.join(__dirname, '../../');
+
+const getShipsData = () =>
+  _(readdirSync(basePath, { withFileTypes: true }))
+    .map((dir) => {
+      const shipFile = path.join(basePath, dir.name, 'ship.json');
+      try {
+        accessSync(shipFile, constants.F_OK);
+      } catch {
+        return [];
+      }
+
+      const ship = require(shipFile);
+      try {
+        const premiumShipFile = path.join(
+          basePath,
+          dir.name,
+          'premium',
+          'ship.json'
+        );
+        accessSync(premiumShipFile, constants.F_OK);
+        const premiumShip = require(premiumShipFile);
+        return [ship, premiumShip];
+      } catch {
+        return [ship];
+      }
+    })
+    .flatten()
+    .compact()
+    .orderBy('name')
+    .value();
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(svgContents);
@@ -14,4 +49,5 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addGlobalData('year', () => new Date().getFullYear());
+  eleventyConfig.addGlobalData('ships', () => getShipsData());
 };

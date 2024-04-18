@@ -2,6 +2,12 @@
   "name": "Piercer",
   "version": "1.1.2",
   "path": "piercer",
+  "types": [
+    {
+      "type": "miner",
+      "order": 3
+    }
+  ],
   "blueprints": [
     {
       "filename": "piercer.fbe",
@@ -474,5 +480,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Piercer"
     }
-  ]
+  ],
+  "saleType": "free"
 }

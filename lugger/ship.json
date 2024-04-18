@@ -2,6 +2,12 @@
   "name": "Lugger",
   "version": "1.1.1",
   "path": "lugger",
+  "types": [
+    {
+      "type": "hauler",
+      "order": 1
+    }
+  ],
   "blueprints": [
     {
       "filename": "lugger.fbe",
@@ -398,5 +404,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Lugger"
     }
-  ]
+  ],
+  "saleType": "free"
 }

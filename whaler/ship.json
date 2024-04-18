@@ -2,6 +2,12 @@
   "name": "Whaler",
   "version": "1.0.0",
   "path": "whaler",
+  "types": [
+    {
+      "type": "command-ship",
+      "order": 2
+    }
+  ],
   "blueprints": [],
   "photos": [
     {
@@ -485,5 +491,6 @@
       "total": 5245385
     }
   },
-  "links": []
+  "links": [],
+  "saleType": "for-sale"
 }

@@ -2,6 +2,12 @@
   "name": "Shifter X",
   "version": "1.0.1",
   "path": "shifter/premium",
+  "types": [
+    {
+      "type": "miner",
+      "order": 6
+    }
+  ],
   "blueprints": [],
   "photos": [
     {
@@ -134,5 +140,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Shifter%20X"
     }
-  ]
+  ],
+  "saleType": "for-sale"
 }

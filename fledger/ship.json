@@ -2,6 +2,12 @@
   "name": "Fledger",
   "version": "1.0.1",
   "path": "fledger",
+  "types": [
+    {
+      "type": "starter",
+      "order": 2
+    }
+  ],
   "blueprints": [
     {
       "filename": "fledger.fbe",
@@ -412,5 +418,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Fledger"
     }
-  ]
+  ],
+  "saleType": "free"
 }

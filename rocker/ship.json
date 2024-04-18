@@ -2,6 +2,12 @@
   "name": "Rocker",
   "version": "1.1.0",
   "path": "rocker",
+  "types": [
+    {
+      "type": "asteroid-hauler",
+      "order": 1
+    }
+  ],
   "blueprints": [
     {
       "filename": "rocker.fbe",
@@ -413,5 +419,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker"
     }
-  ]
+  ],
+  "saleType": "free"
 }

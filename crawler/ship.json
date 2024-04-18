@@ -2,6 +2,12 @@
   "name": "Crawler",
   "version": "1.0.1",
   "path": "crawler",
+  "types": [
+    {
+      "type": "surface-miner",
+      "order": 3
+    }
+  ],
   "blueprints": [],
   "photos": [
     {
@@ -295,5 +301,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Crawler"
     }
-  ]
+  ],
+  "saleType": "for-sale"
 }

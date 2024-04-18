@@ -2,6 +2,12 @@
   "name": "Shifter",
   "version": "2.0.1",
   "path": "shifter",
+  "types": [
+    {
+      "type": "miner",
+      "order": 5
+    }
+  ],
   "blueprints": [
     {
       "filename": "shifter.fbe",
@@ -533,5 +539,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Shifter"
     }
-  ]
+  ],
+  "saleType": "free"
 }

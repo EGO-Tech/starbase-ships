@@ -2,6 +2,12 @@
   "name": "Flipper",
   "version": "1.1.1",
   "path": "flipper",
+  "types": [
+    {
+      "type": "asteroid-hauler",
+      "order": 4
+    }
+  ],
   "blueprints": [
     {
       "filename": "flipper.fbe",
@@ -288,5 +294,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Flipper"
     }
-  ]
+  ],
+  "saleType": "free"
 }

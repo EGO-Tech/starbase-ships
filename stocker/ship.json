@@ -2,6 +2,12 @@
   "name": "Stocker",
   "version": "1.1.2",
   "path": "stocker",
+  "types": [
+    {
+      "type": "miner",
+      "order": 2
+    }
+  ],
   "blueprints": [
     {
       "filename": "stocker.fbe",
@@ -454,5 +460,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Stocker"
     }
-  ]
+  ],
+  "saleType": "free"
 }

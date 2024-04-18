@@ -2,6 +2,12 @@
   "name": "Sower",
   "version": "1.1.0",
   "path": "sower",
+  "types": [
+    {
+      "type": "starter",
+      "order": 1
+    }
+  ],
   "blueprints": [
     {
       "filename": "sower.fbe",
@@ -289,5 +295,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Sower"
     }
-  ]
+  ],
+  "saleType": "free"
 }

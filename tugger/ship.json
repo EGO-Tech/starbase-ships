@@ -2,6 +2,12 @@
   "name": "Tugger",
   "version": "2.0.1",
   "path": "tugger",
+  "types": [
+    {
+      "type": "salvager",
+      "order": 1
+    }
+  ],
   "blueprints": [
     {
       "filename": "tugger.fbe",
@@ -335,5 +341,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Tugger"
     }
-  ]
+  ],
+  "saleType": "free"
 }

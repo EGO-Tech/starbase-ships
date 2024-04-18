@@ -2,6 +2,12 @@
   "name": "Piercer X (Anorak Edition)",
   "version": "1.0.2",
   "path": "piercer/premium",
+  "types": [
+    {
+      "type": "miner",
+      "order": 4
+    }
+  ],
   "blueprints": [],
   "photos": [
     {
@@ -139,5 +145,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Piercer%20X"
     }
-  ]
+  ],
+  "saleType": "for-sale"
 }

@@ -2,6 +2,12 @@
   "name": "Hoarder",
   "version": "1.0.0",
   "path": "hoarder",
+  "types": [
+    {
+      "type": "hauler",
+      "order": 2
+    }
+  ],
   "blueprints": [
     {
       "filename": "hoarder.fbe",
@@ -184,5 +190,6 @@
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hoarder"
     }
-  ]
+  ],
+  "saleType": "free"
 }
