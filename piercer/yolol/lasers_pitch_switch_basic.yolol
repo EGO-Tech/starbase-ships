@@ -1,3 +1,0 @@
-a=0.5 b=-15 c=20 d=-1
-:dp+=:dps*a*(:dms==d) if:dp<b then:dp=b elseif:dp>c then:dp=c endend
-goto2

@@ -1,4 +1,0 @@
-if:l7<1thengoto1end if:cb6>0then:l7=0 goto1end :b2=1
-if:tbl2<1thengoto1end :tbp2=6.5 :tbh2=0 :Approach=0
-if:tbf2>100thengoto3end :tbr2-=30 if:tbr2>-120thengoto3end
-if:tbf2>100thengoto4end :cb7=1 :b2=0 :tbr2=0 :tbh2=-15 :l7=0 goto1

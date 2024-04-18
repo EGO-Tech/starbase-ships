@@ -1,2 +1,0 @@
-k=1000 a=(12+:range)*k c=:distance*:range
-:rm=:gd*((:r4+:r5+:r6+:r7+:c5+:c6+:c7+:d1+:l4+:l5+:l6+:l7+c)<a) goto1

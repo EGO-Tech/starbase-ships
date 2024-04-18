@@ -1,2 +1,0 @@
-k=1000 a=4*k
-:wa=:gd*((:c9+:ca+:cb+:cd)<a) :wb=:gd*((:c8+:c0+:ca+:cc)<a) goto2

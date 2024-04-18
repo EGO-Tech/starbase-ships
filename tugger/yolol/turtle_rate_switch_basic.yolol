@@ -1,1 +1,0 @@
-:TurtleRate=(:TurtleRate+:trs)*(:TurtleRate>=0)-:TurtleRate>100 goto1

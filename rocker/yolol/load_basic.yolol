@@ -1,6 +1,0 @@
-if:load<1thengoto1end :Approach=1 :Scan=1
-if:cb1<1 and :cb2<1 and :cb3<1then:load3=1 :load=0 goto1end
-if:cb1<1 and :cb2<1then:load2=1 :load=0 goto1end
-if:cb4<1 and :cb5<1then:load4=1 :load=0 goto1end
-if:cb1<1then:load1=1 :load=0 goto1end
-if:cb5<1then:load5=1 :load=0 goto1end

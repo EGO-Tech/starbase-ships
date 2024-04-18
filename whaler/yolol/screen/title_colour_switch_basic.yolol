@@ -1,1 +1,0 @@
-:tcl=(:tcl+:tcs)*(:tcl>=0)-:tcl>360 goto1

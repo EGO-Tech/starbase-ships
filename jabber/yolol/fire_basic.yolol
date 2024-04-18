@@ -1,2 +1,0 @@
-:fire1=0 :fire2=0 if:fire<1thengoto1end :fire1=:fire :fire2=0
-:fire1=0 :fire2=:fire goto1

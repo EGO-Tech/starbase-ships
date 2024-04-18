@@ -1,1 +1,0 @@
-if:tow<1 or :ch!=0thengoto1end :combat=0 :mnp=-90 :tp3=:RP/4.5 goto1

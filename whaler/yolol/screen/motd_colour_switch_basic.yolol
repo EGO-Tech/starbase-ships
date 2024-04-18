@@ -1,1 +1,0 @@
-:mcl=(:mcl+:mcs)*(:mcl>=0)-:mcl>360 goto1

@@ -1,4 +1,0 @@
-pd=16 e=3 x=pd+e k=999
-if:mine<1thenn=0 goto2end if:Distance>k then:mine=0end l=n+3 gotol
-:Approach=1 :scr=1 n=1
-rd=:Distance d=rd+e ifd<1 or rd>x thengoto2end :lasers=1 :mine=0 goto2

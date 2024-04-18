@@ -1,1 +1,0 @@
-if:Turtle<100then:Turtle=:TurtleRate end goto1

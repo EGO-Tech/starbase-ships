@@ -1,6 +1,0 @@
-{
-  "[yolol]": {
-    "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": false
-  }
-}

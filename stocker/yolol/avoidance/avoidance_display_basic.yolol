@@ -1,2 +1,0 @@
-n="\n" p="Clear panel value to reset trip" a="Lifetime: " b="Trip: "
-if:Avoids==""then:tav=0end :Avoids=n+a+:lav+n+b+:tav+n+p goto2

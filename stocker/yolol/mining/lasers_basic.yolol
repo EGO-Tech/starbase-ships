@@ -1,1 +1,0 @@
-if:lasers<1then:lsr1=0 :lsr2=0 goto1end :lsr1=1 :lsr2=1-:leco goto1

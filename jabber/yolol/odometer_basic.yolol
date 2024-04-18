@@ -1,5 +1,0 @@
-n="\n" p="Clear panel value to reset trip" k=1000 u="km" t="Trip:"+n
-if:Odometer==""then:odometer=n+"Reseting..." :odo_t=0end
-s=:sp ifs>150thens=150end :odo_l+=s/k :odo_t+=s/k
-if:Odometer==""thengoto1end :Odometer=n+:odo_l+u+n+t+:odo_t+u+n+p
-goto1

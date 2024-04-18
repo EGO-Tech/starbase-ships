@@ -1,1 +1,0 @@
-if:av*((:dcr1+:dcp1+:dcr2+:dcp2)!=0)then:av=0 :nav=0 :apt=0end goto1

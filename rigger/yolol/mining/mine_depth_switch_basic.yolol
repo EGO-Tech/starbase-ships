@@ -1,1 +1,0 @@
-:MineHeight=(:MineHeight+:mhs)*(:MineHeight>=0)-:MineHeight>:mhm goto1

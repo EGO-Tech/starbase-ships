@@ -1,3 +1,0 @@
-if:load4<1thengoto1end if:cb4>0then:load4=0 :tb4=0 goto1end :tb4=1
-if:tb4_loc<1thengoto1end :tb4_pos=4 :Approach=0
-if:tb4_for>100thengoto3end :cb4=1 :tb4=0 :load4=0 goto1

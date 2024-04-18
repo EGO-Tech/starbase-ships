@@ -1,9 +1,0 @@
-if:advance<1thengoto1end
-if:advance>0thengoto3end :fcuforward=0 goto1
-:fcuforward=:ar
-
-
-
-
-:fcuforward=0 :acw=:at*5
-goto2

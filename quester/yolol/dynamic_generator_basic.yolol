@@ -1,2 +1,0 @@
-eps=30000 r=eps*100
-:GenRate=:MinEPS*:Min_EPS+(10000-:Battery)/50-:sol/r*(:sol>0) goto1

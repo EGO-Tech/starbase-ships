@@ -1,2 +1,0 @@
-a=1 b=-15 c=20 d=-1 if:dms>d thengoto1end :dp1+=:dps*a
-if:dp1<b then:dp1=b elseif:dp1>c then:dp1=c endend :dp2=:dp1 goto1

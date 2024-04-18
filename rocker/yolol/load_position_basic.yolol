@@ -1,2 +1,0 @@
-if:tb_loc>0thengoto1end a=:l_pos b=(:cb1<1)*(:cb2<1)*(a>0)*a
-c=90*(b+(:cb4<1)*(:cb5<1)*(a<0)*a) :l_pos*=c!=0 :tb_rot=c goto1

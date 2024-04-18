@@ -1,3 +1,0 @@
-x=1.44 ry=-0.96 py=-2.4 r=57.296 if:Collect<1thengoto1end
-if:Distance<1thengoto1end d=:Distance+x :op=py/d*r
-:or1=ry/d*r :or2=-:or1 goto1

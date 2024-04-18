@@ -1,6 +1,0 @@
-x=1.68 y=-1.92 z=13 s=20 m=999
-if:lasers<1thena=1 goto2end b=:Distance d=b+x
-ifb<1 or b>m thend=z+x end c=atan(y/d) ifc>s thenc=s end goto5+:dms
-goto2 // manual
-:dp=c goto2 // fixed
-:rot=1 ifa>0then:dp=c a=0end goto2 // auto

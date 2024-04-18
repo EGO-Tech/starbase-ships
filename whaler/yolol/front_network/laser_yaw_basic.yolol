@@ -1,1 +1,0 @@
-if:lasers<1thengoto1end :combat=0 a=:RY/4.5 :tp1=a-:o :tp2=-a-:o goto1

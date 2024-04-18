@@ -1,1 +1,0 @@
-:hd=(:hd+:hds)*(:hd>=0)-:hd>30 goto1

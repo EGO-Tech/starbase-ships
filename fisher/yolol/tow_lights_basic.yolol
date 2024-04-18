@@ -1,7 +1,0 @@
-if:tlights<1thengoto1end :tlight=1
-
-
-:tlight=0
-
-
-goto1

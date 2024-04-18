@@ -1,2 +1,0 @@
-if:load<1thengoto1end :ap=1 :gd=1 if:m==0 or :m>3.5thengoto1end
-:cg=1 :load=0 :ap=0 goto1

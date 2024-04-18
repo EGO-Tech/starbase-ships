@@ -1,2 +1,0 @@
-a=180
-if:cbt<1thengoto1end :mnp=10+10*(:ch==0) :tr5=:RY/3+a*(:ch==a) goto2

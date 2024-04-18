@@ -1,2 +1,0 @@
-n="\n" x="X: " y="Y: " z="Z: "
-:Target=n+n+x+:wx+n+y+:wy+n+z+:wz goto2
