@@ -64,13 +64,6 @@ View changelog [here](CHANGELOG.md)
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker.fbe).
 
-## Known Issues
-
-- Loading of asteroids are rather slow, especially the larger ones.
-- When asteroids are loaded more on one side, the ship can become unbalanced and thrust efficiency drops
-- Ship yaw is not very good.
-- Currently there are no navigation features but will possibly add ISAN and Compass in the future if this ship becomes useful to Endos
-
 ## Usage
 
 ### Flying the Ship

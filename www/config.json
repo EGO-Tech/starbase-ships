@@ -11,7 +11,8 @@
       "photos": "photos",
       "premium": "premium",
       "readme": "README.md",
-      "changelog": "CHANGELOG.md"
+      "changelog": "CHANGELOG.md",
+      "knownIssues": "KNOWN_ISSUES.md"
     }
   }
 }

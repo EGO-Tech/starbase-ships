@@ -28,6 +28,7 @@ const shipsUrl = nconf.get('ships:url');
 const shipsRepoUrl = nconf.get('ships:repo');
 const readmePath = nconf.get('ships:paths:readme');
 const changelogPath = nconf.get('ships:paths:changelog');
+const knownIssuesPath = nconf.get('ships:paths:knownIssues');
 const premiumPath = nconf.get('ships:paths:premium');
 const buildCostPath = nconf.get('ships:paths:buildCost');
 
@@ -154,6 +155,16 @@ const getShipVideos = (table) =>
       path: changelogPath,
       url: `${shipsUrl}/${relPath}/${changelogPath}`,
     };
+
+    try {
+      accessSync(path.join(fullPath, knownIssuesPath), constants.F_OK);
+      json.knownIssues = {
+        path: knownIssuesPath,
+        url: `${shipsUrl}/${relPath}/${knownIssuesPath}`,
+      };
+    } catch {
+      delete json.knownIssues;
+    }
 
     // Blueprints & Cost (Default: 500,000)
     const blueprints = getShipBlueprints(fullPath, {

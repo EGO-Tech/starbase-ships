@@ -53,12 +53,6 @@ View changelog [here](CHANGELOG.md)
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/blueprints/tourer.fbe).
 
-## Known Issues
-
-- The ship has yet to be tested with a full capacity of Endos
-- The ship is quite slow
-- The ship rolls slightly when flying straight empty
-
 ## Usage
 
 To enter the ship, there is a button for `Door` next to the cockpit of the ship. Once inside you can also open and close the cockpit glass `Canopy`. Buttons for these are available in the pilot right side console

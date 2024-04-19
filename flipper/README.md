@@ -50,11 +50,6 @@ View changelog [here](CHANGELOG.md)
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/blueprints/flipper.fbe).
 
-## Known Issues
-
-- The ship sometimes twists and turns at full throttle
-- Currently there are no navigation features but will possibly add ISAN and Compass in the future if this ship becomes useful to Endos
-
 ## Usage
 
 ### Flying the Ship
