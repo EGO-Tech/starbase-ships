@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="/starbase-ships/css/nord.min.css">
     <link rel="stylesheet" href="/starbase-ships/css/nord-dark.css">
     <link rel="stylesheet" href="/starbase-ships/css/fonts/fonts.css">
+    <link rel="stylesheet" href="/starbase-ships/css/splide.min.css">
     <link rel="stylesheet" href="/starbase-ships/css/custom.css">
     <script src="/starbase-ships/js/nord-components.js"></script>
+    <script src="/starbase-ships/js/splide.min.js"></script>
   </head>
   <body class="n-reset">
     <nord-layout padding="none" persist-nav-state sticky>
@@ -150,6 +152,7 @@
 <nord-header slot="header">
   <nord-stack direction="horizontal" wrap>
     <nord-button-group>
+      <nord-button href="#ship-photos" size="s" variant="plain">Photos</nord-button>
       
       <nord-button href="#build-cost" size="s" variant="plain">Build Cost</nord-button>
       
@@ -177,6 +180,55 @@
   
 </nord-stack>
 
+  <nord-stack id="ship-photos" style="max-width: 1200px;">
+    <nord-card padding="none">
+      <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            
+              <li class="splide__slide"><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125195354_1.jpg" alt="20221125195354_1.jpg" /></li>
+            
+              <li class="splide__slide"><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125155925_1.jpg" alt="20221125155925_1.jpg" /></li>
+            
+              <li class="splide__slide"><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125195417_1.jpg" alt="20221125195417_1.jpg" /></li>
+            
+          </ul>
+        </div>
+      </section>
+      <section id="thumbnail-carousel" class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            
+              <li class="splide__slide"><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125195354_1.jpg" alt="20221125195354_1.jpg" /></li>
+            
+              <li class="splide__slide"><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125155925_1.jpg" alt="20221125155925_1.jpg" /></li>
+            
+              <li class="splide__slide"><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125195417_1.jpg" alt="20221125195417_1.jpg" /></li>
+            
+          </ul>
+        </div>
+      </section>
+      <script>
+        const main = new Splide('#main-carousel');
+        const thumbnails = new Splide('#thumbnail-carousel', {
+          fixedWidth: 200,
+          gap       : 0,
+          rewind    : true,
+          pagination: false,
+          isNavigation: true,
+          breakpoints: {
+            600: {
+              fixedWidth : 60,
+            },
+          },
+        });
+
+        main.sync( thumbnails );
+        main.mount();
+        thumbnails.mount();
+      </script>
+    </nord-card>
+  </nord-stack>
   
   <nord-stack id="build-cost">
     <h1>Build Cost</h1>
