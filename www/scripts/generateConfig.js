@@ -143,6 +143,7 @@ const getShipVideos = (table) =>
     const version = getShipVersion(markdown);
     json.name ??= name;
     json.version ??= version;
+    json.slug ??= _.kebabCase(json.name);
     json.path = relPath;
     json.readme = {
       path: readmePath,

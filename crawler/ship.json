@@ -302,5 +302,6 @@
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Crawler"
     }
   ],
-  "saleType": "for-sale"
+  "saleType": "for-sale",
+  "slug": "crawler"
 }

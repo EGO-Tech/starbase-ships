@@ -336,5 +336,6 @@
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Mapper"
     }
   ],
-  "saleType": "free"
+  "saleType": "free",
+  "slug": "mapper"
 }

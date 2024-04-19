@@ -1,0 +1,22 @@
+---
+layout: layouts/base
+pagination:
+  data: ships.list
+  size: 1
+  alias: ship
+permalink: "ships/{{ ship.slug }}/"
+---
+
+<nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
+  <nord-stack>
+    <h1>
+      <span class="n-font-size-xxxl">{{ ship.name }}</span>
+      <nord-badge>v{{ ship.version }}</nord-badge>
+    </h1>
+  </nord-stack>
+  <nord-stack>
+  </nord-stack>
+  <nord-stack id="changelog">
+    {% renderFile '../../' + ship.path +'/' + ship.changelog.path %}
+  </nord-stack>
+</nord-stack>

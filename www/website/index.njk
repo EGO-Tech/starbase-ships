@@ -16,7 +16,7 @@ layout: layouts/base
     <nord-card padding="none" style="margin: 0 auto; max-width: 900px">
       <nord-stack direction="horizontal" justify-content="center" align-items="stretch">
         <nord-stack direction="horizontal" justify-content="center" align-items="stretch">
-          <img src="images/logos/egotech_logo_dark_transparent.png" alt="EGOTech Logo" />
+          <img src="{{ 'images/logos/egotech_logo_dark_transparent.png' | url }}" alt="EGOTech Logo" />
         </nord-stack>
         <nord-divider direction="vertical"></nord-divider>
         <nord-stack direction="vertical" align-items="stretch" class="n-padding-i-l n-padding-b-l">
@@ -42,12 +42,11 @@ layout: layouts/base
       <h1 id="{{shipType.id}}">{{shipType.label}}</h1>
       <nord-stack direction="horizontal" wrap>
       {% for ship in ships.byType[shipType.id] %}
-        <nord-card padding="m" style="width: 435px">
+        <nord-card padding="m" style="width: 435px;">
           <h1 slot="header">{{ship.name}}</h1>
           <span slot="header-end">
             <nord-badge>v{{ship.version}}</nord-badge>
           </span>
-          Coming Soon
           <div slot="footer">
             <nord-stack direction="horizontal" wrap>
               {% if ship.saleType === 'free' %}
@@ -55,6 +54,11 @@ layout: layouts/base
               {% else %}
                 <nord-badge variant="info">For Sale</nord-badge>
               {% endif %}
+            </nord-stack>
+          </div>
+          <div slot="footer" class="n-margin-bs-l">
+            <nord-stack>
+              <nord-button variant="primary" href="{{ '/ships/' + ship.slug + '/' | url }}" expand>View</nord-button>
             </nord-stack>
           </div>
         </nord-card>
