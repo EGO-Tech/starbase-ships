@@ -197,5 +197,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "hoarder"
+  "slug": "hoarder",
+  "description": "The Hoarder is a 1436 crate hauler and is a no frills ship, designed specifically to haul ore between nearby capital ships and/or stations with its short range and low speed.",
+  "shortDescription": "The Hoarder is a 1436 crate hauler and is a no frills ship, designed specifically to haul ore between nearby capital ships and/or stations with its short range and low speed."
 }

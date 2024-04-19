@@ -55,7 +55,7 @@ layout: layouts/base
             {% endfor %}
           </nord-stack>
           <nord-stack class="n-padding-i-m n-padding-b-m">
-            <p>{{ ship.shortDescription | nl2br }}</p>
+            <p>{{ ship.shortDescription | nl2br | safe }}</p>
           </nord-stack>
           <div slot="footer">
             {% include 'shipTags.njk' %}

@@ -147,5 +147,7 @@
     }
   ],
   "saleType": "for-sale",
-  "slug": "shifter-x"
+  "slug": "shifter-x",
+  "description": "The Shifter X is a premium version of the Shifter with T3 generators, fuel chambers and thrusters.",
+  "shortDescription": "The premium version of the Shifter with T3 generators and thrusters."
 }

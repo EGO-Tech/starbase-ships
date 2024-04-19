@@ -152,5 +152,7 @@
     }
   ],
   "saleType": "for-sale",
-  "slug": "piercer-x"
+  "slug": "piercer-x",
+  "description": "The Piercer X is a premium version of the Piercer with T3 generators, fuel chambers, enhancers and thrusters.",
+  "shortDescription": "The premium version of the Piercer with T3 generators, fuel chambers, enhancers and thrusters."
 }

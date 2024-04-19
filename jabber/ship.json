@@ -302,5 +302,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "jabber"
+  "slug": "jabber",
+  "description": "The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite maneuverable.",
+  "shortDescription": "The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable."
 }

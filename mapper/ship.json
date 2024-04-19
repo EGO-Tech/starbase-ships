@@ -343,5 +343,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "mapper"
+  "slug": "mapper",
+  "description": "The Mapper is an explorer ship with an estimated range of 13,000km capable at travelling at close to maximum speed. It has a navigation logger for logging capital ship navigation chips.",
+  "shortDescription": "The Mapper is an explorer ship with an estimated range of 13,000km capable at travelling at close to maximum speed. It has a navigation logger for logging capital ship navigation chips."
 }

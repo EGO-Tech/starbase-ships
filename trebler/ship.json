@@ -377,5 +377,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "trebler"
+  "slug": "trebler",
+  "description": "The Trebler is a 534 ore crate capacity mining ship with three automated rotating laser drills for mining operations. It is designed to be a short range, high capacity and high efficiency miner used out of a capital ship.",
+  "shortDescription": "The Trebler is a 534 ore crate capacity mining ship with three automated rotating laser drills for mining operations. It is designed to be a short range, high capacity and high efficiency miner used out of a capital ship."
 }
