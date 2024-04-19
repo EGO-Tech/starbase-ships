@@ -33,6 +33,11 @@ title: Starbase Ships by EGOTech
             </nord-nav-item>
           {% endfor %}
         </nord-nav-group>
+        <nord-nav-group heading="EGOTech Information">
+          <nord-nav-item {% if current === 'faq' %}active{% endif %} href="{{ '/pages/faq' | url }}">
+            FAQ
+          </nord-nav-item>
+        </nord-nav-group>
       </nord-navigation>
       <nord-header slot="header">
         <nord-stack direction="horizontal">
