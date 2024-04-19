@@ -14,7 +14,8 @@
       "filename": "20221007194831_1.jpg",
       "path": "photos/20221007194831_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/premium/photos/20221007194831_1.jpg",
-      "description": ""
+      "description": "",
+      "featured": true
     }
   ],
   "readme": {

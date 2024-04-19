@@ -44,6 +44,13 @@
   ],
   "photos": [
     {
+      "filename": "20220225204743_1.jpg",
+      "path": "photos/20220225204743_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/photos/20220225204743_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
       "filename": "20220222222156_1.jpg",
       "path": "photos/20220222222156_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/photos/20220222222156_1.jpg",
@@ -95,12 +102,6 @@
       "filename": "20220225204729_1.jpg",
       "path": "photos/20220225204729_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/photos/20220225204729_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20220225204743_1.jpg",
-      "path": "photos/20220225204743_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/photos/20220225204743_1.jpg",
       "description": ""
     },
     {

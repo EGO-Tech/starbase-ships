@@ -44,6 +44,13 @@
   ],
   "photos": [
     {
+      "filename": "20220107211217_1.jpg",
+      "path": "photos/20220107211217_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211217_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
       "filename": "20220107210816_1.jpg",
       "path": "photos/20220107210816_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107210816_1.jpg",
@@ -53,12 +60,6 @@
       "filename": "20220107210817_1.jpg",
       "path": "photos/20220107210817_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107210817_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20220107211217_1.jpg",
-      "path": "photos/20220107211217_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/photos/20220107211217_1.jpg",
       "description": ""
     },
     {

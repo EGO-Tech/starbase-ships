@@ -42,11 +42,21 @@ layout: layouts/base
       <h1 id="{{shipType.id}}">{{shipType.label}}</h1>
       <nord-stack direction="horizontal" wrap>
       {% for ship in ships.byType[shipType.id] %}
-        <nord-card padding="m" style="width: 435px;">
+        <nord-card padding="none" style="width: 435px;">
           <h1 slot="header">{{ship.name}}</h1>
           <span slot="header-end">
             <nord-badge>v{{ship.version}}</nord-badge>
           </span>
+          <nord-stack>
+            {% for photo in ship.photos %}
+              {% if photo.featured %}
+                <img src="{{photo.url}}" alt="{{photo.description or photo.filename}}" />
+              {% endif %}
+            {% endfor %}
+          </nord-stack>
+          <nord-stack class="n-padding-i-m n-padding-b-m">
+            <p>{{ ship.shortDescription | nl2br }}</p>
+          </nord-stack>
           <div slot="footer">
             {% include 'shipTags.njk' %}
           </div>

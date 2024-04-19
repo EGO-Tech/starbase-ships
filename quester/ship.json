@@ -72,6 +72,13 @@
   ],
   "photos": [
     {
+      "filename": "20211222182319_1.jpg",
+      "path": "photos/20211222182319_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/quester/photos/20211222182319_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
       "filename": "20211222181830_1.jpg",
       "path": "photos/20211222181830_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/quester/photos/20211222181830_1.jpg",
@@ -213,12 +220,6 @@
       "filename": "20211222182251_1.jpg",
       "path": "photos/20211222182251_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/quester/photos/20211222182251_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20211222182319_1.jpg",
-      "path": "photos/20211222182319_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/quester/photos/20211222182319_1.jpg",
       "description": ""
     },
     {

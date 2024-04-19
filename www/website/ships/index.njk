@@ -10,6 +10,7 @@ permalink: "ships/{{ ship.slug }}/"
 <nord-header slot="header">
   <nord-stack direction="horizontal" wrap>
     <nord-button-group>
+      <nord-button href="#ship-photos" size="s" variant="plain">Photos</nord-button>
       {% if ship.videos.length %}
         <nord-button href="#ship-videos" size="s" variant="plain">Videos</nord-button>
       {% endif %}
@@ -32,6 +33,47 @@ permalink: "ships/{{ ship.slug }}/"
     </h1>
   </nord-stack>
   {% include 'shipTags.njk' %}
+  <nord-stack id="ship-photos" style="max-width: 1200px;">
+    <nord-card padding="none">
+      <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {% for photo in ship.photos %}
+              <li class="splide__slide"><img src="{{photo.url}}" alt="{{photo.description or photo.filename}}" /></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      <section id="thumbnail-carousel" class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {% for photo in ship.photos %}
+              <li class="splide__slide"><img src="{{photo.url}}" alt="{{photo.description or photo.filename}}" /></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      <script>
+        const main = new Splide('#main-carousel');
+        const thumbnails = new Splide('#thumbnail-carousel', {
+          fixedWidth: 200,
+          gap       : 0,
+          rewind    : true,
+          pagination: false,
+          isNavigation: true,
+          breakpoints: {
+            600: {
+              fixedWidth : 60,
+            },
+          },
+        });
+
+        main.sync( thumbnails );
+        main.mount();
+        thumbnails.mount();
+      </script>
+    </nord-card>
+  </nord-stack>
   {% if ship.videos.length %}
     <nord-stack id="ship-videos">
       <h1>Videos</h1>

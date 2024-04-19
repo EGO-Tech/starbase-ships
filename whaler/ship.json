@@ -14,7 +14,8 @@
       "filename": "20230624195310_1.jpg",
       "path": "photos/20230624195310_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624195310_1.jpg",
-      "description": ""
+      "description": "",
+      "featured": true
     },
     {
       "filename": "20230624195326_1.jpg",

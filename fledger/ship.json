@@ -31,7 +31,8 @@
       "filename": "20221019154127_1.jpg",
       "path": "photos/20221019154127_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/photos/20221019154127_1.jpg",
-      "description": ""
+      "description": "",
+      "featured": true
     },
     {
       "filename": "20221019154135_1.jpg",

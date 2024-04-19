@@ -11,6 +11,13 @@
   "blueprints": [],
   "photos": [
     {
+      "filename": "20221121192814_1.jpg",
+      "path": "photos/20221121192814_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/photos/20221121192814_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
       "filename": "20221121180702_1.jpg",
       "path": "photos/20221121180702_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/photos/20221121180702_1.jpg",
@@ -44,12 +51,6 @@
       "filename": "20221121180820_1.jpg",
       "path": "photos/20221121180820_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/photos/20221121180820_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20221121192814_1.jpg",
-      "path": "photos/20221121192814_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/photos/20221121192814_1.jpg",
       "description": ""
     },
     {

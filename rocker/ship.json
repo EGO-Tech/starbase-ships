@@ -72,7 +72,8 @@
       "filename": "20211002134507_1.jpg",
       "path": "photos/20211002134507_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/photos/20211002134507_1.jpg",
-      "description": ""
+      "description": "",
+      "featured": true
     },
     {
       "filename": "20211002134515_1.jpg",
