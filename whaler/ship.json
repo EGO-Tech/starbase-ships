@@ -319,7 +319,7 @@
     "path": "CHANGELOG.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/CHANGELOG.md"
   },
-  "cost": 500000,
+  "cost": 20000000,
   "images": [
     {
       "filename": "build_cost.png",
@@ -481,7 +481,7 @@
       },
       {
         "ore": "Total ore",
-        "kv": null,
+        "kv": 2538982,
         "stacks": 1469.3
       }
     ],
@@ -491,7 +491,12 @@
       "total": 5245385
     }
   },
-  "links": [],
+  "links": [
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/whaler"
+    }
+  ],
   "saleType": "for-sale",
   "slug": "whaler"
 }

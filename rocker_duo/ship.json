@@ -15,7 +15,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/blueprints/rocker_duo.fbe",
       "version": "1.1.0",
       "description": "",
-      "current": true
+      "current": true,
+      "shipShop": true
     },
     {
       "filename": "rocker_duo_v1.0.2.fbe",
@@ -443,14 +444,19 @@
       }
     ],
     "cost": {
+      "assembly": 267345,
       "manufacturing": 433869,
-      "total": 214
+      "total": 701214
     }
   },
   "links": [
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker%20Duo"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/rocker_duo"
     }
   ],
   "saleType": "free",

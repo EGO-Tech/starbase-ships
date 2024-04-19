@@ -31,7 +31,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/blueprints/stocker_v1.1.0.fbe",
       "version": "1.1.0",
       "description": "",
-      "current": false
+      "current": false,
+      "shipShop": true
     },
     {
       "filename": "stocker_v1.0.4.fbe",
@@ -459,6 +460,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Stocker"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/stocker"
     }
   ],
   "saleType": "free",

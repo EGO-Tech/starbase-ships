@@ -1,3 +1,6 @@
-#changelog ul li {
-  margin-left: 40px;
+#changelog,
+#ship-links {
+  ul li {
+    margin-left: 40px;
+  }
 }

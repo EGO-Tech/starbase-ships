@@ -1,0 +1,11 @@
+<nord-stack direction="horizontal" gap="s" wrap >
+  {% if ship.saleType === 'free' %}
+    <nord-badge variant="success">Free</nord-badge>
+  {% else %}
+    <nord-badge variant="info">For Sale</nord-badge>
+    <nord-badge variant="info">{{ship.cost.toLocaleString()}} Credits</nord-badge>
+  {% endif %}
+  {% for type in ship.types %}
+    <a href="{{ '/#' + type.type | url }}"><nord-badge variant="warning">{{ships.types.byId[type.type].name}}</nord-badge></a>
+  {% endfor %}
+</nord-stack>

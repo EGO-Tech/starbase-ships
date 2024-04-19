@@ -18,16 +18,16 @@ title: Starbase Ships by EGOTech
     <nord-layout padding="none" persist-nav-state sticky>
       <nord-navigation slot="nav">
         <nord-nav-group heading="Ships For Sale">
-          {% for ship in ships.bySaleType['for-sale'] %}
-            <nord-nav-item href="{{ '/ships/' + ship.slug + '/' | url }}">
-              {{ship.name}}
+          {% for shipForSale in ships.bySaleType['for-sale'] %}
+            <nord-nav-item {% if shipForSale.slug === ship.slug %}active{% endif %} href="{{ '/ships/' + shipForSale.slug + '/' | url }}">
+              {{shipForSale.name}}
             </nord-nav-item>
           {% endfor %}
         </nord-nav-group>
         <nord-nav-group heading="Free Ships">
-          {% for ship in ships.bySaleType['free'] %}
-            <nord-nav-item href="{{ '/ships/' + ship.slug + '/' | url }}">
-              {{ship.name}}
+          {% for shipFree in ships.bySaleType['free'] %}
+            <nord-nav-item {% if shipFree.slug === ship.slug %}active{% endif %} href="{{ '/ships/' + shipFree.slug + '/' | url }}">
+              {{shipFree.name}}
             </nord-nav-item>
           {% endfor %}
         </nord-nav-group>

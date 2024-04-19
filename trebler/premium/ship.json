@@ -135,6 +135,7 @@
       }
     ],
     "cost": {
+      "assembly": 312319,
       "manufacturing": 1741976,
       "total": 2054294
     }
@@ -143,6 +144,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Trebler%20X"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/trebler/premium"
     }
   ],
   "saleType": "for-sale",

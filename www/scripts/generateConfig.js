@@ -25,6 +25,7 @@ import '../config.js';
 
 const shipsPath = path.join(nconf.get('basePath'), nconf.get('ships:path'));
 const shipsUrl = nconf.get('ships:url');
+const shipsRepoUrl = nconf.get('ships:repo');
 const readmePath = nconf.get('ships:paths:readme');
 const changelogPath = nconf.get('ships:paths:changelog');
 const premiumPath = nconf.get('ships:paths:premium');
@@ -195,8 +196,12 @@ const getShipVideos = (table) =>
 
     // Links
     const link = getShipLink(markdown, 'Starbase Ship Shop Page');
+    const githubLink = {
+      text: 'Ship GitHub Page',
+      url: `${shipsRepoUrl}/${json.path}`,
+    };
     json.links = _(json.links)
-      .unionBy(_.compact([link]), 'url')
+      .unionBy(_.compact([link, githubLink]), 'url')
       .sortBy('order')
       .value();
 
@@ -207,22 +212,22 @@ const getShipVideos = (table) =>
     } = await worker.recognize(path.join(fullPath, buildCostPath));
     const lines = _(text).split('\n').compact().value();
     const materials = _(lines)
-      .map((line) =>
-        line.match(/([a-zA-Z\s]+) ([0-9\s]+) kv \(([0-9\.]+) stacks\)/)
-      )
+      .map((line) => line.match(/([a-zA-Z\s]+) ([0-9\s]+) kv \(([0-9\.]+) st/))
       .compact()
       .map(([_text, ore, kv, stacks]) => ({
         ore,
-        kv: +kv.replace(/\s/, ''),
-        stacks: +stacks,
+        kv: +kv.replace(/\s/g, ''),
+        stacks: +stacks.replace(/\s/g, ''),
       }))
       .value();
     const cost = _(lines)
-      .map((line) => line.match(/(.*) ([0-9\s]+) N/))
+      .map((line) =>
+        line.match(/([a-zA-Z\s\.]+) ([0-9\s]+)( ©| A| I| N| M| \\|$)/)
+      )
       .compact()
       .map(([_text, type, credits]) => [
         _.toLower(type.split(/(\.\.\.|\s)/)[0]),
-        +credits,
+        +credits.replace(/\s/g, ''),
       ])
       .fromPairs()
       .value();

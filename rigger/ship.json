@@ -43,7 +43,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.2.0.fbe",
       "version": "1.2.0",
       "description": "",
-      "current": false
+      "current": false,
+      "shipShop": true
     },
     {
       "filename": "rigger_v1.1.2.fbe",
@@ -342,13 +343,18 @@
     ],
     "cost": {
       "assembly": 282520,
-      "manufacturing": 386278
+      "manufacturing": 386278,
+      "total": 668797
     }
   },
   "links": [
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rigger"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/rigger"
     }
   ],
   "saleType": "free",

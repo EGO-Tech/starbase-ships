@@ -136,7 +136,7 @@
     ],
     "cost": {
       "assembly": 272628,
-      "manufacturing": 760,
+      "manufacturing": 1407760,
       "total": 1680388
     }
   },
@@ -144,6 +144,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Piercer%20X"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/piercer/premium"
     }
   ],
   "saleType": "for-sale",

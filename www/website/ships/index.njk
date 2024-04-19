@@ -7,6 +7,23 @@ pagination:
 permalink: "ships/{{ ship.slug }}/"
 ---
 
+<nord-header slot="header">
+  <nord-stack direction="horizontal" wrap>
+    <nord-button-group>
+      {% if ship.videos.length %}
+        <nord-button href="#ship-videos" size="s" variant="plain">Videos</nord-button>
+      {% endif %}
+      <nord-button href="#build-cost" size="s" variant="plain">Build Cost</nord-button>
+      {% if ship.saleType === 'free' %}
+        <nord-button href="#download" size="s" variant="plain">Download</nord-button>
+      {% else %}
+        <nord-button href="#purchase" size="s" variant="plain">Purchase</nord-button>
+      {% endif %}
+      <nord-button href="#ship-links" size="s" variant="plain">Links</nord-button>
+      <nord-button href="#changelog" size="s" variant="plain">Changelog</nord-button>
+  </nord-button-group>
+  </nord-stack>
+</nord-header>
 <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
   <nord-stack>
     <h1>
@@ -14,7 +31,137 @@ permalink: "ships/{{ ship.slug }}/"
       <nord-badge>v{{ ship.version }}</nord-badge>
     </h1>
   </nord-stack>
+  {% include 'shipTags.njk' %}
+  {% if ship.videos.length %}
+    <nord-stack id="ship-videos">
+      <h1>Videos</h1>
+      <nord-stack direction="horizontal">
+        {% for video in ship.videos %}
+          <nord-card padding="none" style="width: 560px">
+            <h1 slot="header">{{video.video.text}}</h1>
+            <div style=overflow:hidden;resize:none;max-width:100%;>
+              <div id=embed-google-map style="height:100%; width:100%;max-width:100%;">
+                <iframe src="{{video.video.url.replace('watch?v=', 'embed/')}}?loop=1&modestbranding=1" width=560 height=315 frameborder=0 allowfullscreen> </iframe>
+              </div>
+            </div>
+            <small slot="footer">
+              Channel: <a href="{{video.channel.url}}">{{video.channel.text}}</a>
+            </small>
+          </nord-card>
+        {% endfor %}
+      </nord-stack>
+    </nord-stack>
+  {% endif %}
+  <nord-stack id="build-cost">
+    <h1>Build Cost</h1>
+    <nord-stack direction="horizontal">
+      <nord-card padding="none" style="width: 400px">
+        <h2 slot="header">Material Cost</h2>
+        <nord-table density="condensed">
+          <table style="width: 400px">
+            <thead>
+              <tr>
+                <th>Material</th>
+                <th class="n-table-align-right">Volume (kv)</th>
+                <th class="n-table-align-right">Stacks</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for material in ship.buildCost.materials %}
+                <tr class="{% if loop.index === ship.buildCost.materials.length %}n-font-weight-strong n-color-surface-lowered{% endif %}">
+                  <td>{{material.ore}}</td>
+                  <td class="n-table-align-right">{{material.kv.toLocaleString()}}</td>
+                  <td class="n-table-align-right">{{material.stacks.toLocaleString()}}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </nord-table>
+      </nord-card>
+      <nord-card padding="none" style="width: 400px">
+        <h2 slot="header">Credits Cost</h2>
+        <nord-table density="condensed">
+          <table style="width: 400px">
+            <thead>
+              <tr>
+                <th></th>
+                <th class="n-table-align-right">Credits</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Assembly</td>
+                <td class="n-table-align-right">{{ship.buildCost.cost.assembly.toLocaleString()}}</td>
+              </tr>
+              <tr>
+                <td>Manufacturing</td>
+                <td class="n-table-align-right">{{ship.buildCost.cost.manufacturing.toLocaleString()}}</td>
+              </tr>
+              <tr class="n-font-weight-strong n-color-surface-lowered">
+                <td>Total</td>
+                <td class="n-table-align-right">{{ship.buildCost.cost.total.toLocaleString()}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </nord-table>
+      </nord-card>
+    </nord-stack>
+  </nord-stack>
   <nord-stack>
+    {% if ship.saleType === 'free' %}
+      <h1 id="download">Download Blueprint</h1>
+      <nord-button href="{{ship.blueprints[0].url}}" variant="primary">
+        <span slot="start" class="nordicon n-size-icon-m">{{ "/node_modules/@nordhealth/icons/lib/assets/interface-download.svg" | svgContents | safe }}</span>
+        Download v{{ship.version}} (current)
+      </nord-button>
+      <nord-card padding="none" style="width: 400px">
+        <h2 slot="header">All Blueprints</h2>
+        <nord-table density="condensed" striped>
+          <table style="width: 400px">
+            <thead>
+              <tr>
+                <th>Version</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for blueprint in ship.blueprints %}
+                <tr>
+                  <td>v{{blueprint.version}}</td>
+                  <td>
+                    {% if loop.index === 1 %}<nord-badge variant="warning">Current</nord-badge>{% endif %}
+                    {% if blueprint.shipShop %}<nord-badge>Ship Shop Version</nord-badge>{% endif %}
+                  </td>
+                  <td class="n-table-align-right">
+                    <nord-button size="s" href="{{blueprint.url}}">
+                      <span slot="start" class="nordicon n-size-icon-s">{{ "/node_modules/@nordhealth/icons/lib/assets/interface-download.svg" | svgContents | safe }}</span>
+                      Download
+                    </nord-button>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </nord-table>
+      </nord-card>
+    {% else %}
+      <h1 id="purchase">Purchase Blueprint</h1>
+      <nord-banner variant="info" style="width: 300px">Price: {{ ship.cost.toLocaleString() }} Credits</nord-banner>
+      <p ></p>
+      <p>To purchase the blueprint, join the EGOTech Discord Server.</p>
+      <a href="https://discord.gg/BKwVGvncmN">
+        <img alt="EGOTech Discord Server" src="https://camo.githubusercontent.com/a52557e3b6648630b7bf1f530c22745e510cbed885cff0c1e11fccb64e9c61da/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f313031333332383638353536343137383437322f7769646765742e706e673f7374796c653d62616e6e657232" />
+      </a>
+    {% endif %}
+  </nord-stack>
+  <nord-stack id="ship-links">
+    <h1>Links</h1>
+    <ul>
+      {% for link in ship.links %}
+        <li><a href="{{link.url}}">{{link.text}}</a></li>
+      {% endfor %}
+    </ul>
   </nord-stack>
   <nord-stack id="changelog">
     {% renderFile '../../' + ship.path +'/' + ship.changelog.path %}

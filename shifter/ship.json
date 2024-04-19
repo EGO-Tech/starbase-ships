@@ -39,7 +39,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/blueprints/shifter_v1.1.0.fbe",
       "version": "1.1.0",
       "description": "",
-      "current": false
+      "current": false,
+      "shipShop": true
     },
     {
       "filename": "shifter_v1.0.4.fbe",
@@ -524,12 +525,12 @@
       },
       {
         "ore": "Total ore",
-        "kv": null,
+        "kv": 1433159,
         "stacks": 829.4
       }
     ],
     "cost": {
-      "assembly": 206,
+      "assembly": 498206,
       "manufacturing": 1319916,
       "total": 1818122
     }
@@ -538,6 +539,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Shifter"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/shifter"
     }
   ],
   "saleType": "free",

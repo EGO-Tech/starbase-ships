@@ -408,8 +408,8 @@
       }
     ],
     "cost": {
-      "assembly": 280,
-      "manufacturing": 548,
+      "assembly": 144280,
+      "manufacturing": 187548,
       "total": 331828
     }
   },
@@ -417,6 +417,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Fledger"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/fledger"
     }
   ],
   "saleType": "free",

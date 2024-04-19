@@ -130,7 +130,7 @@
       }
     ],
     "cost": {
-      "assembly": 878,
+      "assembly": 267878,
       "manufacturing": 1585900,
       "total": 1853778
     }
@@ -139,6 +139,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Bugger%20X"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/bugger/premium"
     }
   ],
   "saleType": "for-sale",

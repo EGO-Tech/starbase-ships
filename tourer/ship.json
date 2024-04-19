@@ -310,13 +310,18 @@
     ],
     "cost": {
       "assembly": 79223,
-      "total": 540
+      "manufacturing": 108317,
+      "total": 187540
     }
   },
   "links": [
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Tourer"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/tourer"
     }
   ],
   "saleType": "free",

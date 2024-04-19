@@ -2,6 +2,7 @@
   "ships": {
     "path": "..",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main",
+    "repo": "https://github.com/EGO-Tech/starbase-ships/tree/main",
     "jsonFile": "ship.json",
     "paths": {
       "blueprints": "blueprints",

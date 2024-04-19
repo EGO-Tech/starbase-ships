@@ -286,6 +286,8 @@
       }
     ],
     "cost": {
+      "assembly": 154687,
+      "manufacturing": 548973,
       "total": 703659
     }
   },
@@ -293,6 +295,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Flipper"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/flipper"
     }
   ],
   "saleType": "free",

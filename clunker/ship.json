@@ -260,6 +260,11 @@
         "ore": "Ymrium Ore",
         "kv": 313113,
         "stacks": 181.2
+      },
+      {
+        "ore": "Total ore",
+        "kv": 2593100,
+        "stacks": 1500.6
       }
     ],
     "cost": {
@@ -272,6 +277,10 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Clunker"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/clunker"
     }
   ],
   "saleType": "free",
