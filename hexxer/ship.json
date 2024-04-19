@@ -417,5 +417,9 @@
   "knownIssues": {
     "path": "KNOWN_ISSUES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/KNOWN_ISSUES.md"
+  },
+  "faq": {
+    "path": "FAQ.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/FAQ.md"
   }
 }

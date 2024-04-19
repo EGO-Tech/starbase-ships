@@ -349,5 +349,9 @@
   "knownIssues": {
     "path": "KNOWN_ISSUES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/mapper/KNOWN_ISSUES.md"
+  },
+  "faq": {
+    "path": "FAQ.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/mapper/FAQ.md"
   }
 }

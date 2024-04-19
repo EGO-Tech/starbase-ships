@@ -29,6 +29,7 @@ const shipsRepoUrl = nconf.get('ships:repo');
 const readmePath = nconf.get('ships:paths:readme');
 const changelogPath = nconf.get('ships:paths:changelog');
 const knownIssuesPath = nconf.get('ships:paths:knownIssues');
+const faqPath = nconf.get('ships:paths:faq');
 const premiumPath = nconf.get('ships:paths:premium');
 const buildCostPath = nconf.get('ships:paths:buildCost');
 
@@ -164,6 +165,16 @@ const getShipVideos = (table) =>
       };
     } catch {
       delete json.knownIssues;
+    }
+
+    try {
+      accessSync(path.join(fullPath, faqPath), constants.F_OK);
+      json.faq = {
+        path: faqPath,
+        url: `${shipsUrl}/${relPath}/${faqPath}`,
+      };
+    } catch {
+      delete json.faq;
     }
 
     // Blueprints & Cost (Default: 500,000)

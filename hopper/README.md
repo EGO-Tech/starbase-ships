@@ -74,12 +74,6 @@ I would also love to see any modifications or improvements you have made, so fee
 
 Of course in-game tips are greatly appreciated.
 
-## Frequently Asked Questions
-
-### Can I sell ships based on this blueprint?
-
-No.
-
 ## Designed by EGOTech
 
 ![EGOTech](../others/egotech/logos/egotech_logo_light.png)

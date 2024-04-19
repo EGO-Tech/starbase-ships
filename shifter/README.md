@@ -236,20 +236,6 @@ I would also love to see any modifications or improvements you have made, so fee
 
 Of course in-game tips are greatly appreciated.
 
-## Frequently Asked Questions
-
-### Can I sell ships based on this blueprint?
-
-No.
-
-### Will changing all thruster nozzles to T3 versions increase speed?
-
-Yes, only slightly, by about an additional 2m/s. For all thrusters (including maneuver and braking thrusters), this is at a cost of 3.6 stacks of Ymrium and 14.3 Kutonium as well of 120K credits for assembly.
-
-### Why does NavGrid show an error?
-
-This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN. See [Resetting Navigation](#resetting-navigation).
-
 ## Designed by EGOTech
 
 ![EGOTech](../others/egotech/logos/egotech_logo_light.png)

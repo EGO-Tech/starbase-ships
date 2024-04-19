@@ -147,23 +147,6 @@ I would also love to see any modifications or improvements you have made, so fee
 
 Of course in-game tips are greatly appreciated.
 
-## Frequently Asked Questions
-
-### Can I sell ships based on this blueprint?
-
-No.
-
-### How much can I make from hauling safe zone asteroids?
-
-It is not very lucrative, but here is an estimated breakdown of 45Mv asteroids (with a rough breakdown of 35Mv shell and 10Mv core) from the safe zone I got during testing.
-
-| Material | Volume | Credits |
-| --- | --- | --- |
-| Ice/Vokarium | 45Mv | 36k |
-| Ajatite/Charodium | 45Mv | 58k |
-| Valkite/Bastium | 45Mv | 27k |
-| Ice/Nhurgite | 45Mv | 56k |
-
 ## Designed by EGOTech
 
 ![EGOTech](../others/egotech/logos/egotech_logo_light.png)
