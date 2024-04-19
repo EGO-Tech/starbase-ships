@@ -4,3 +4,18 @@
     margin-left: 40px;
   }
 }
+
+/* stylelint-disable selector-class-pattern */
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+.splide__slide {
+  opacity: 0.6;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+}
+/* stylelint-enable selector-class-pattern */

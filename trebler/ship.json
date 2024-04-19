@@ -28,6 +28,13 @@
   ],
   "photos": [
     {
+      "filename": "20230426173418_1.jpg",
+      "path": "photos/20230426173418_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/photos/20230426173418_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
       "filename": "20230426144101_1.jpg",
       "path": "photos/20230426144101_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/photos/20230426144101_1.jpg",
@@ -55,12 +62,6 @@
       "filename": "20230426144254_1.jpg",
       "path": "photos/20230426144254_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/photos/20230426144254_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20230426173418_1.jpg",
-      "path": "photos/20230426173418_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/photos/20230426173418_1.jpg",
       "description": ""
     },
     {

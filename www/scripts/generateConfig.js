@@ -177,7 +177,7 @@ const getShipVideos = (table) =>
     const photos = getShipPhotos(fullPath, { relPath, photosPath });
     json.photos = _(json.photos)
       .unionBy(photos, 'filename')
-      .sortBy('order')
+      .sortBy(({ featured, order }) => (featured ? 0 : order))
       .value();
 
     const imagesPath = nconf.get('ships:paths:images');

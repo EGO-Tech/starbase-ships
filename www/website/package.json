@@ -19,6 +19,7 @@
     "@nordhealth/icons": "^3.3.0",
     "@nordhealth/themes": "^8.0.2",
     "@nordhealth/tokens": "^7.1.0",
+    "@splidejs/splide": "^4.1.4",
     "eleventy-plugin-svg-contents": "^0.7.0",
     "lodash": "^4.17.21"
   },

@@ -43,9 +43,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     './node_modules/@nordhealth/css/lib/nord.min.css': 'css/nord.min.css',
     './node_modules/@nordhealth/themes/lib/nord-dark.css': 'css/nord-dark.css',
+    './node_modules/@splidejs/splide/dist/css/splide.min.css':
+      'css/splide.min.css',
     './node_modules/@nordhealth/fonts/lib/': 'css/fonts',
 
     './_includes/assets/js/nord-components.js': 'js/nord-components.js',
+    './node_modules/@splidejs/splide/dist/js/splide.min.js': 'js/splide.min.js',
+
     './_includes/assets/css/custom.css': 'css/custom.css',
 
     '../../others/egotech/logos': 'images/logos',
