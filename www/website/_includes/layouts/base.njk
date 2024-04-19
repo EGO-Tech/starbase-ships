@@ -8,31 +8,26 @@ title: Starbase Ships by EGOTech
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="css/nord.min.css">
-    <link rel="stylesheet" href="css/nord-dark.css">
-    <link rel="stylesheet" href="css/fonts/fonts.css">
-    <script src="js/nord-components.js"></script>
+    <link rel="stylesheet" href="{{ '/css/nord.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/nord-dark.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/fonts/fonts.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/custom.css' | url }}">
+    <script src="{{ '/js/nord-components.js' | url }}"></script>
   </head>
   <body class="n-reset">
     <nord-layout padding="none" persist-nav-state sticky>
       <nord-navigation slot="nav">
         <nord-nav-group heading="Ships For Sale">
-          {% for ship in ships.bySaleType['for-sale'] %}
-            <nord-nav-item>
-              {{ship.name}}
-              <nord-nav-group slot="subnav">
-                <nord-nav-item>Coming Soon</nord-nav-item>
-              </nord-nav-group>
+          {% for shipForSale in ships.bySaleType['for-sale'] %}
+            <nord-nav-item {% if shipForSale.slug === ship.slug %}active{% endif %} href="{{ '/ships/' + shipForSale.slug + '/' | url }}">
+              {{shipForSale.name}}
             </nord-nav-item>
           {% endfor %}
         </nord-nav-group>
         <nord-nav-group heading="Free Ships">
-          {% for ship in ships.bySaleType['free'] %}
-            <nord-nav-item>
-              {{ship.name}}
-              <nord-nav-group slot="subnav">
-                <nord-nav-item>Coming Soon</nord-nav-item>
-              </nord-nav-group>
+          {% for shipFree in ships.bySaleType['free'] %}
+            <nord-nav-item {% if shipFree.slug === ship.slug %}active{% endif %} href="{{ '/ships/' + shipFree.slug + '/' | url }}">
+              {{shipFree.name}}
             </nord-nav-item>
           {% endfor %}
         </nord-nav-group>
@@ -40,7 +35,7 @@ title: Starbase Ships by EGOTech
       <nord-header slot="header">
         <nord-stack direction="horizontal">
           <a href="{{ '/' | url }}">
-            <nord-avatar size="xl" src="images/logos/egotech_logo_dark.png" name="EGOTech" variant="square">B</nord-avatar>
+            <nord-avatar size="xl" src="{{ '/images/logos/egotech_logo_dark.png' | url }}" name="EGOTech" variant="square">B</nord-avatar>
           </a>
           <h1>Starbase Ships by EGOTech</h1>
         </nord-stack>
@@ -55,7 +50,7 @@ title: Starbase Ships by EGOTech
               <section class="n-grid-2 n-margin-be-xxl">
                 <nord-stack gap="s">
                   <nord-stack direction="horizontal" gap="s">
-                    Information
+                    EGOTech
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
                     <span class="nordicon n-size-icon-l">{{ "/node_modules/@nordhealth/icons/lib/assets/interface-chat.svg" | svgContents | safe }}</span>
@@ -72,7 +67,7 @@ title: Starbase Ships by EGOTech
                 </nord-stack>
                 <nord-stack gap="s">
                   <nord-stack direction="horizontal" gap="s">
-                    More
+                    Starbase Game
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
                     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Starbase</a>

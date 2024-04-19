@@ -326,6 +326,7 @@
       }
     ],
     "cost": {
+      "assembly": 223933,
       "manufacturing": 455057,
       "total": 678990
     }
@@ -334,7 +335,12 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Mapper"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/mapper"
     }
   ],
-  "saleType": "free"
+  "saleType": "free",
+  "slug": "mapper"
 }

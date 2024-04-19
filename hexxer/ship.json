@@ -15,7 +15,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/blueprints/hexxer.fbe",
       "version": "1.1.0",
       "description": "",
-      "current": true
+      "current": true,
+      "shipShop": true
     },
     {
       "filename": "hexxer_v1.0.1.fbe",
@@ -393,14 +394,21 @@
       }
     ],
     "cost": {
-      "assembly": 161269
+      "assembly": 161269,
+      "manufacturing": 300768,
+      "total": 462037
     }
   },
   "links": [
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hexxer"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/hexxer"
     }
   ],
-  "saleType": "free"
+  "saleType": "free",
+  "slug": "hexxer"
 }

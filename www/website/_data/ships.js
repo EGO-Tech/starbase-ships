@@ -2,8 +2,8 @@ const _ = require('lodash');
 
 const shipTypes = [
   { id: 'miner', name: 'Miner', label: 'Miners' },
-  { id: 'surface-miner', name: 'Miner', label: 'Surface Miners' },
-  { id: 'starter', name: 'Starter Ship', label: 'Starter Ship' },
+  { id: 'surface-miner', name: 'Surface Miner', label: 'Surface Miners' },
+  { id: 'starter', name: 'Starter Ship', label: 'Starter Ships' },
   {
     id: 'asteroid-hauler',
     name: 'Asteroid Hauler',
@@ -18,6 +18,7 @@ const shipTypes = [
 ];
 
 module.exports = ({ ships }) => {
+  console.log(ships[0].changelog);
   return {
     list: ships,
     types: { list: shipTypes, byId: _.keyBy(shipTypes, 'id') },

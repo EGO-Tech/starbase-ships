@@ -1,6 +1,7 @@
 const _ = require('lodash');
 const path = require('path');
 const svgContents = require('eleventy-plugin-svg-contents');
+const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const { accessSync, constants, readdirSync } = require('fs');
 
 const basePath = path.join(__dirname, '../../');
@@ -37,6 +38,7 @@ const getShipsData = () =>
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(svgContents);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   eleventyConfig.addPassthroughCopy({
     './node_modules/@nordhealth/css/lib/nord.min.css': 'css/nord.min.css',
@@ -44,6 +46,7 @@ module.exports = function (eleventyConfig) {
     './node_modules/@nordhealth/fonts/lib/': 'css/fonts',
 
     './_includes/assets/js/nord-components.js': 'js/nord-components.js',
+    './_includes/assets/css/custom.css': 'css/custom.css',
 
     '../../others/egotech/logos': 'images/logos',
   });

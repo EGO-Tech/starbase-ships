@@ -501,11 +501,12 @@
       },
       {
         "ore": "Total ore",
-        "kv": null,
+        "kv": 1263481,
         "stacks": 731.2
       }
     ],
     "cost": {
+      "assembly": 467323,
       "manufacturing": 1181891,
       "total": 1649213
     }
@@ -514,7 +515,12 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Quester"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/quester"
     }
   ],
-  "saleType": "free"
+  "saleType": "free",
+  "slug": "quester"
 }

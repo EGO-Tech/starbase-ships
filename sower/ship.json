@@ -294,7 +294,12 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Sower"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/sower"
     }
   ],
-  "saleType": "free"
+  "saleType": "free",
+  "slug": "sower"
 }

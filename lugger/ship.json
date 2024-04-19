@@ -392,9 +392,15 @@
         "ore": "Ymrium Ore",
         "kv": 193023,
         "stacks": 111.7
+      },
+      {
+        "ore": "Total ore",
+        "kv": 2464802,
+        "stacks": 1426.4
       }
     ],
     "cost": {
+      "assembly": 402153,
       "manufacturing": 2641321,
       "total": 3043474
     }
@@ -403,7 +409,12 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Lugger"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/lugger"
     }
   ],
-  "saleType": "free"
+  "saleType": "free",
+  "slug": "lugger"
 }

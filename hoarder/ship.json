@@ -180,7 +180,7 @@
       }
     ],
     "cost": {
-      "assembly": 484,
+      "assembly": 450484,
       "manufacturing": 1376033,
       "total": 1826516
     }
@@ -189,7 +189,12 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hoarder"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/hoarder"
     }
   ],
-  "saleType": "free"
+  "saleType": "free",
+  "slug": "hoarder"
 }

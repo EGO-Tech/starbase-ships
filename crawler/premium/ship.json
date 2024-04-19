@@ -150,6 +150,11 @@
         "ore": "Ymrium Ore",
         "kv": 285926,
         "stacks": 165.5
+      },
+      {
+        "ore": "Total ore",
+        "kv": 2206390,
+        "stacks": 1276.8
       }
     ],
     "cost": {
@@ -162,7 +167,12 @@
     {
       "text": "Starbase Ship Shop Page",
       "url": "https://sb-creators.org/makers/Egomaniac/ship/Crawler%20X"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/crawler/premium"
     }
   ],
-  "saleType": "for-sale"
+  "saleType": "for-sale",
+  "slug": "crawler-x"
 }
