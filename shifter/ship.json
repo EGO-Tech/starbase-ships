@@ -549,5 +549,9 @@
   "saleType": "free",
   "slug": "shifter",
   "description": "The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations.\n\nThe Shifter is also available to buy in game at Central Showroom of Rando 1 Ship Shop at stations with Rando ship shops.",
-  "shortDescription": "The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations."
+  "shortDescription": "The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations.",
+  "knownIssues": {
+    "path": "KNOWN_ISSUES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/KNOWN_ISSUES.md"
+  }
 }

@@ -419,5 +419,9 @@
   "saleType": "free",
   "slug": "lugger",
   "description": "The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. However it is pretty much at its voxel limit so any additions or changes may be difficult without sacrificing crates.",
-  "shortDescription": "The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed."
+  "shortDescription": "The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed.",
+  "knownIssues": {
+    "path": "KNOWN_ISSUES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/KNOWN_ISSUES.md"
+  }
 }

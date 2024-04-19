@@ -489,5 +489,9 @@
   "saleType": "free",
   "slug": "piercer",
   "description": "The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.",
-  "shortDescription": "The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations."
+  "shortDescription": "The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.",
+  "knownIssues": {
+    "path": "KNOWN_ISSUES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/KNOWN_ISSUES.md"
+  }
 }

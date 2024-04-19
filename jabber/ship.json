@@ -304,5 +304,9 @@
   "saleType": "free",
   "slug": "jabber",
   "description": "The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite maneuverable.",
-  "shortDescription": "The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable."
+  "shortDescription": "The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite manoeuvrable.",
+  "knownIssues": {
+    "path": "KNOWN_ISSUES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/KNOWN_ISSUES.md"
+  }
 }

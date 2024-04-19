@@ -77,13 +77,6 @@ View changelog [here](CHANGELOG.md)
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/blueprints/shifter.fbe).
 
-## Known Issues
-
-- There is limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
-- Autopilot doesn't seem to point ship directly to destination (a bit off), use in conjunction with NavGrid.
-- Right/left strafe will spin the ship slightly as well.
-- There may be a slight drift when crates start to fill, especially at low speeds.
-
 ## Usage
 
 To enter the ship, there is are buttons on either side of the body of the ship that will open `Doors`. Once inside you can also open and close the cockpit glass `Canopy`. Buttons for these are available in the pilot left side console and also on the ceiling above the pilot seat.

@@ -62,12 +62,6 @@ View changelog [here](CHANGELOG.md)
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/blueprints/jabber.fbe).
 
-## Known Issues
-
-- The ship has practically no armour
-- I have pretty much zero combat experience and this is my first fighter
-- This ship has not been tested in combat at all
-
 ## Usage
 
 To enter the ship, there is a button in front the cockpit that will open the glass `Canopy`. There is also a button for `Hatch` below the ship. Buttons for these are available in the pilot console.

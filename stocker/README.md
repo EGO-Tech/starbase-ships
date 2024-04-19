@@ -71,11 +71,6 @@ View changelog [here](CHANGELOG.md)
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/blueprints/stocker.fbe).
 
-## Known Issues
-
-- There is limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
-- Autopilot doesn't seem to point ship directly to destination (a bit off), use in conjunction with NavGrid.
-
 ## Usage
 
 To enter the ship, there is a button on top of the center of the ship that will open a `Hatch`. Once inside you can also open and close the cockpit glass `Canopy`. The pilot `Chair` can be rotated around for easy access. Buttons for these are available in the pilot side consoles and also on the ceiling above the pilot seat.

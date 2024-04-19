@@ -73,12 +73,6 @@ View changelog [here](CHANGELOG.md)
 
 The blueprint file is available in the `blueprints` folder [here](https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger.fbe).
 
-## Known Issues
-
-- There is very limited coverage of range finders for the crash avoidance system. It also hasn't been tested extensively. **Use at your own risk!**
-- Autopilot doesn't seem to point ship directly to destination (a bit off), the parameters of the system probably need to be adjusted and tested more.
-- Testing has been limited, it has mainly been tested in the safe zone and only by myself.
-
 ## Usage
 
 Summary of the ship functions can be found on the YOLOL chips bolted behind the pilot chair. Swipe down on the lock to read each one. More detailed usage instructions are available below.

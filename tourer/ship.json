@@ -328,5 +328,9 @@
   "saleType": "free",
   "slug": "tourer",
   "description": "The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo.",
-  "shortDescription": "The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo."
+  "shortDescription": "The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo.",
+  "knownIssues": {
+    "path": "KNOWN_ISSUES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/KNOWN_ISSUES.md"
+  }
 }

@@ -90,10 +90,6 @@ The blueprint is available for purchase on the EGOTech Discord server.
 
 [![EGOTech Discord](https://discordapp.com/api/guilds/1013328685564178472/widget.png?style=banner2)](https://discord.gg/BKwVGvncmN)
 
-## Known Issues
-
-- Due to turret bug, the four autocannon ammo storages cannot feed the turret autocannons, so these ammo storages are not currently used by the ship.
-
 ## Usage
 
 To enter the ship, there is are buttons on each side of the front of the ship that will open a `Door` on either side.
@@ -158,7 +154,7 @@ Press `C` to activate mouse aim mode and press `Fire` to fire the autocannons. T
 
 All turret seats have displays for autocannon heat and power levels.
 
-**NOTE:** Each seat currently has it own ammo storage on the autocannons as the turrets are bugged (See [Known Issues](#known-issues)).
+**NOTE:** Each seat currently has it own ammo storage on the autocannons as the turrets are bugged (See [Known Issues](KNOWN_ISSUES.md)).
 
 #### Reloading
 
@@ -166,7 +162,7 @@ Access the bottom compartment of the ship using the access hatches inside the sh
 
 For the laser guns, access to the magazines is available through small hatches in the cockpit so the magazines can be optionally swapped.
 
-The gun turrets currently can only be reloaded by swapping the magazines on the autocannons (See [Known Issues](#known-issues)).
+The gun turrets currently can only be reloaded by swapping the magazines on the autocannons (See [Known Issues](KNOWN_ISSUES.md)).
 
 Access to the missile launches is available through doors at the front of each side pod from inside the ship, which allows the loading of the missiles onto the launchers. Deactivate `Lock` to rearm the launchers and then reactivate `Lock` once done.
 

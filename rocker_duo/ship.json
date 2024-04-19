@@ -463,5 +463,9 @@
   "saleType": "free",
   "slug": "rocker-duo",
   "description": "The Rocker Duo is a asteroid hauling ship that is basically two Rockers mashed together. It is designed to be used in the safe zone and haul small asteroids. It uses two tractor beams to position asteroids into two sets of five compartments of cargo lock beams in a circular pattern so it can hold up to ten asteroids. It has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids.\n\nLoading of asteroids is the slowest compared to the Rocker and Hexxer but it can hold the most asteroids (10 vs 5 or 6).\n\nThe Rocker Duo is also available to buy in game at Central Showroom of Rando 2 Ship Shop at stations with Rando ship shops.",
-  "shortDescription": "The Rocker Duo is a asteroid hauling ship that is bascially two Rockers mashed together. It is designed to be used in the safe zone and haul small asteroids. It uses two tractor beams to position asteroids into two sets of five compartments of cargo lock beams in a circular pattern so it can hold up to ten asteroids."
+  "shortDescription": "The Rocker Duo is a asteroid hauling ship that is bascially two Rockers mashed together. It is designed to be used in the safe zone and haul small asteroids. It uses two tractor beams to position asteroids into two sets of five compartments of cargo lock beams in a circular pattern so it can hold up to ten asteroids.",
+  "knownIssues": {
+    "path": "KNOWN_ISSUES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/KNOWN_ISSUES.md"
+  }
 }
