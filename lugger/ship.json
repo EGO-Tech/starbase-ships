@@ -417,5 +417,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "lugger"
+  "slug": "lugger",
+  "description": "The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. However it is pretty much at its voxel limit so any additions or changes may be difficult without sacrificing crates.",
+  "shortDescription": "The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed."
 }

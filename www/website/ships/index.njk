@@ -74,6 +74,9 @@ permalink: "ships/{{ ship.slug }}/"
       </script>
     </nord-card>
   </nord-stack>
+  <nord-stack id="features" style="max-width: 1200px;">
+    <p>{{ ship.description | nl2br | safe }}</p>
+  </nord-stack>
   {% if ship.videos.length %}
     <nord-stack id="ship-videos">
       <h1>Videos</h1>

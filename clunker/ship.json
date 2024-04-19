@@ -285,5 +285,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "clunker"
+  "slug": "clunker",
+  "description": "The Clunker is a 948 crate hauler with two 13 ring plasma thrusters serving as its main engines to provide decent speed. The ship is no frills and with double the upwards thrust, it is mainly designed to haul ore between a capital ship and the moon surface.",
+  "shortDescription": "The Clunker is a 948 crate hauler with two 13 ring plasma thrusters serving as its main engines to provide decent speed. The ship is no frills and with double the upwards thrust, it is mainly designed to haul ore between a capital ship and the moon surface."
 }

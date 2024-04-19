@@ -499,5 +499,7 @@
     }
   ],
   "saleType": "for-sale",
-  "slug": "whaler"
+  "slug": "whaler",
+  "description": "The Whaler is a multi purpose showcase command ship capable of mining, towing, cargo hauling, ore furnacing and combat. Although the Whaler is combat capable with missiles, laser guns, plasma guns and autocannon turrets, it has more of a role playing aspect as it is untested in real situations.",
+  "shortDescription": "The Whaler is a multi purpose showcase command ship capable of mining, towing, cargo hauling, ore furnacing and combat. Although the Whaler is combat capable with missiles, laser guns, plasma guns and autocannon turrets, it has more of a role playing aspect as it is untested in real situations."
 }

@@ -197,5 +197,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "hopper"
+  "slug": "hopper",
+  "description": "The Hopper is small personal transport that can be used to quickly get around a station or taking short trips.",
+  "shortDescription": "The Hopper is small personal transport that can be used to quickly get around a station or taking short trips."
 }

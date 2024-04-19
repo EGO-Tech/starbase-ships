@@ -427,5 +427,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "rocker"
+  "slug": "rocker",
+  "description": "The Rocker is an asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses a tractor beam to position asteroids into five compartments of cargo lock beams in a circular pattern. It has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids.\n\nThe Rocker is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.",
+  "shortDescription": "The Rocker is an asteroid hauling ship. It is designed to be used in the safe zone and haul small asteroids. It uses a tractor beam to position asteroids into five compartments of cargo lock beams in a circular pattern. It has load automation to approach and load asteroids in the right order as well as a material scanner that gives estimated credits for selling the asteroids."
 }

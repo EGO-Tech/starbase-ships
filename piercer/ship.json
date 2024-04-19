@@ -487,5 +487,7 @@
     }
   ],
   "saleType": "free",
-  "slug": "piercer"
+  "slug": "piercer",
+  "description": "The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations.",
+  "shortDescription": "The Piercer is a 342 ore crate capacity mining ship with an automated rotating laser drill for mining operations."
 }
