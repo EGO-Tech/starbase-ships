@@ -1,4 +1,4 @@
-nord-stack#ship-page h1:not(#ship-name):not([slot='header']) {
+nord-stack#ship-page h1:not(#ship-name, [slot="header"]) {
   padding-top: 60px;
 }
 
