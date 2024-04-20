@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="/css/custom.css">
     <script src="/js/nord-components.js"></script>
     <script src="/js/splide.min.js"></script>
+    <script>
+      const gaEvent = (event, params) => {
+        gtag(event, params);
+      }
+    </script>
   </head>
   <body class="n-reset">
     <nord-layout padding="none" persist-nav-state sticky>
@@ -390,7 +395,7 @@
   <nord-stack>
     
       <h1 id="download">Download Blueprint</h1>
-      <nord-button href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper.fbe" variant="primary">
+      <nord-button href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper.fbe" variant="primary" onclick="gaEvent('download', { ship: 'Hopper', version: '1.1.0' })">
         <span slot="start" class="nordicon n-size-icon-m"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
         Download v1.1.0 (current)
       </nord-button>
@@ -414,7 +419,7 @@
                     
                   </td>
                   <td class="n-table-align-right">
-                    <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper.fbe">
+                    <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper.fbe" onclick="gaEvent('download', { ship: 'Hopper', version: '1.1.0' })">
                       <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
                       Download
                     </nord-button>
@@ -428,7 +433,7 @@
                     
                   </td>
                   <td class="n-table-align-right">
-                    <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper_v1.0.1.fbe">
+                    <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper_v1.0.1.fbe" onclick="gaEvent('download', { ship: 'Hopper', version: '1.0.1' })">
                       <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
                       Download
                     </nord-button>
@@ -442,7 +447,7 @@
                     
                   </td>
                   <td class="n-table-align-right">
-                    <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper_v1.0.0.fbe">
+                    <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/blueprints/hopper_v1.0.0.fbe" onclick="gaEvent('download', { ship: 'Hopper', version: '1.0.0' })">
                       <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
                       Download
                     </nord-button>

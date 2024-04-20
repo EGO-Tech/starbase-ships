@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="/css/custom.css">
     <script src="/js/nord-components.js"></script>
     <script src="/js/splide.min.js"></script>
+    <script>
+      const gaEvent = (event, params) => {
+        gtag(event, params);
+      }
+    </script>
   </head>
   <body class="n-reset">
     <nord-layout padding="none" persist-nav-state sticky>
