@@ -27,6 +27,11 @@ title: Starbase Ships by EGOTech
     <link rel="stylesheet" href="{{ '/css/custom.css' | url }}">
     <script src="{{ '/js/nord-components.js' | url }}"></script>
     <script src="{{ '/js/splide.min.js' | url }}"></script>
+    <script>
+      const gaEvent = (event, params) => {
+        gtag(event, params);
+      }
+    </script>
   </head>
   <body class="n-reset">
     <nord-layout padding="none" persist-nav-state sticky>
