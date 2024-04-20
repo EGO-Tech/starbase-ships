@@ -1,5 +1,6 @@
 ---
 title: Starbase Ships by EGOTech
+currentTitle: Home
 ---
 
 <!doctype html>
@@ -7,7 +8,7 @@ title: Starbase Ships by EGOTech
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>{{ title }} - {{ ship.name if ship else currentTitle }}</title>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
