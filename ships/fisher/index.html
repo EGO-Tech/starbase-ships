@@ -174,16 +174,17 @@
 <nord-header slot="header">
   <nord-stack direction="horizontal" wrap>
     <nord-button-group>
-      <nord-button href="#ship-photos" size="s" variant="plain">Photos</nord-button>
+      <nord-button href="#ship-photos" size="s" variant="default">Photos</nord-button>
+      <nord-button href="#description" size="s" variant="default">Features</nord-button>
       
-      <nord-button href="#build-cost" size="s" variant="plain">Build Cost</nord-button>
+      <nord-button href="#build-cost" size="s" variant="default">Build Cost</nord-button>
       
-        <nord-button href="#download" size="s" variant="plain">Download</nord-button>
+        <nord-button href="#download" size="s" variant="primary">Download</nord-button>
       
       
-      <nord-button href="#faq" size="s" variant="plain">FAQ</nord-button>
-      <nord-button href="#ship-links" size="s" variant="plain">Links</nord-button>
-      <nord-button href="#changelog" size="s" variant="plain">Changelog</nord-button>
+      <nord-button href="#faq" size="s" variant="default">FAQ</nord-button>
+      <nord-button href="#ship-links" size="s" variant="default">Links</nord-button>
+      <nord-button href="#changelog" size="s" variant="default">Changelog</nord-button>
   </nord-button-group>
   </nord-stack>
 </nord-header>
@@ -337,8 +338,40 @@
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="features" style="max-width: 1200px;">
+  <nord-stack id="description" style="max-width: 1200px;">
     <p>The Fisher is a larger salvager ship with enough power generation to tow a ship of up to 20,000,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. It also has exposed frames to easily bolt on salvaged parts on each side.</p>
+  </nord-stack>
+  <nord-stack id="features">
+    <h1>Features</h1>
+<ul>
+<li>Back facing tow beam for towing ships, with a towing capacity of 20,000,000kg</li>
+<li>Spinning pilot chair to view out generous sized back window</li>
+<li>Standard Cruise function</li>
+<li>Turtle and Sloth functions with adjustable rates</li>
+<li>Transponder system with ping function</li>
+<li>One external and two internal resource bridges</li>
+<li>Auto generator rate script with adjustable minimum rate</li>
+<li>Button to automatically adjust the minimum generator rate according to towed mass</li>
+<li>Frames on either side of the ship to bolt on salvages parts</li>
+<li>23 ore crates</li>
+<li>60 T3 generators (with 60 T2 enhancers) with 20 T3 fuel chambers and 40 spare rods on racks</li>
+<li>Radiators and heat sink that provide more than adequate cooling</li>
+<li>12 large tanks with 144,000,000 units of propellant</li>
+<li>Propellant time and fuel time panels</li>
+<li>196 batteries</li>
+<li>72 T2 triangle thrusters and 24 T2 box thrusters providing forward thrust</li>
+<li>24 T2 maneuver thrusters providing braking thrust</li>
+<li>32 T2 maneuver thrusters</li>
+<li>Basic crafting bench to craft refills plus the tools bench</li>
+<li><a href="https://github.com/pcbennion/starbase-navgrid">NavGrid by StandPeter</a></li>
+<li><a href="https://github.com/fixerid/sb-projects/tree/main/NavCas">NavCas by fixerid</a>, using custom avoidance system and ISAN 3 in 1 from <a href="https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md">Compass by Firestar99</a>, with ability to load target from NavGrid</li>
+<li>Warning lights and alarm for obstacle detection and avoidance, powered by 27 rangefinders</li>
+<li>Speedometer</li>
+<li>Timer panel</li>
+<li>Odometer panel</li>
+<li>Top speed of 140 m/s while not towing</li>
+</ul>
+
   </nord-stack>
   
   <nord-stack id="build-cost">
