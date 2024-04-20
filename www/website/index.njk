@@ -45,7 +45,7 @@ layout: layouts/base
         <nord-card padding="none" style="width: 435px;">
           <h1 slot="header">{{ship.name}}</h1>
           <span slot="header-end">
-            <nord-badge>v{{ship.version}}</nord-badge>
+            {% include 'shipVersion.njk' %}
           </span>
           <nord-stack>
             {% for photo in ship.photos %}

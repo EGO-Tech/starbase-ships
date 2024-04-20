@@ -1,0 +1,6 @@
+<nord-stack direction="horizontal" gap="s">
+  {% if ship.new %}
+    <nord-badge variant="danger">NEW</nord-badge>
+  {% endif %}
+  <nord-badge>v{{ ship.version }}</nord-badge>
+</nord-stack>

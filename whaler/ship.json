@@ -2,6 +2,7 @@
   "name": "Whaler",
   "version": "1.0.0",
   "path": "whaler",
+  "new": true,
   "types": [
     {
       "type": "command-ship",
