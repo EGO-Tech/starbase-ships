@@ -313,5 +313,15 @@
   "faq": {
     "path": "FAQ.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/FAQ.md"
-  }
+  },
+  "features": [
+    {
+      "label": "Asteroid Capacity",
+      "value": "1 x T10"
+    },
+    {
+      "label": "Loading Speed",
+      "value": "Fast"
+    }
+  ]
 }

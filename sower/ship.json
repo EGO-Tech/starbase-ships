@@ -304,5 +304,15 @@
   "saleType": "free",
   "slug": "sower",
   "description": "The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship.",
-  "shortDescription": "The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship."
+  "shortDescription": "The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship.",
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 36
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 0
+    }
+  ]
 }

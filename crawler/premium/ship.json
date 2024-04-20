@@ -177,5 +177,15 @@
   "saleType": "for-sale",
   "slug": "crawler-x",
   "description": "The Crawler X is a premium version of the Crawler with two large generators and 19 mining lasers.",
-  "shortDescription": "The premium version of the Crawler with two large generators and 19 mining lasers."
+  "shortDescription": "The premium version of the Crawler with two large generators and 19 mining lasers.",
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 640
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 19
+    }
+  ]
 }

@@ -308,5 +308,11 @@
   "knownIssues": {
     "path": "KNOWN_ISSUES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/KNOWN_ISSUES.md"
-  }
+  },
+  "features": [
+    {
+      "label": "Laser Cannons",
+      "value": 4
+    }
+  ]
 }

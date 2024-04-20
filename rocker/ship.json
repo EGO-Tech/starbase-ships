@@ -437,5 +437,15 @@
   "faq": {
     "path": "FAQ.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/FAQ.md"
-  }
+  },
+  "features": [
+    {
+      "label": "Asteroid Capacity",
+      "value": "5 x T7"
+    },
+    {
+      "label": "Loading Speed",
+      "value": "Slow"
+    }
+  ]
 }

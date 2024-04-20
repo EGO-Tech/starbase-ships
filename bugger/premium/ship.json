@@ -149,5 +149,15 @@
   "saleType": "for-sale",
   "slug": "bugger-x",
   "description": "The Bugger X is a premium version of the Bugger with T3 enhancers and thrusters.",
-  "shortDescription": "The Bugger X is a premium version of the Bugger with T3 enhancers and thrusters."
+  "shortDescription": "The Bugger X is a premium version of the Bugger with T3 enhancers and thrusters.",
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 448
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 10
+    }
+  ]
 }

@@ -351,5 +351,12 @@
   "saleType": "free",
   "slug": "tugger",
   "description": "The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam.",
-  "shortDescription": "The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam."
+  "shortDescription": "The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam.",
+  "features": [
+    {
+      "label": "Tow Capacity",
+      "value": 7500000,
+      "unit": "kg"
+    }
+  ]
 }
