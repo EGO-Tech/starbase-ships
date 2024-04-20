@@ -41,6 +41,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   eleventyConfig.addPassthroughCopy({
+    './_includes/assets/CNAME': 'CNAME',
+
     './node_modules/@nordhealth/css/lib/nord.min.css': 'css/nord.min.css',
     './node_modules/@nordhealth/themes/lib/nord-dark.css': 'css/nord-dark.css',
     './node_modules/@splidejs/splide/dist/css/splide.min.css':
