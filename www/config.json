@@ -12,6 +12,7 @@
       "premium": "premium",
       "readme": "README.md",
       "featureList": "FEATURES.md",
+      "usage": "USAGE.md",
       "changelog": "CHANGELOG.md",
       "knownIssues": "KNOWN_ISSUES.md",
       "faq": "FAQ.md"

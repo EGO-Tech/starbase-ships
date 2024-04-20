@@ -420,5 +420,9 @@
   "featureList": {
     "path": "FEATURES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/USAGE.md"
   }
 }
