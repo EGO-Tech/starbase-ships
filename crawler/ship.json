@@ -325,5 +325,27 @@
       "label": "Mining Lasers",
       "value": 10
     }
+  ],
+  "tags": [
+    {
+      "id": "mining-laser",
+      "label": "Mining Laser"
+    },
+    {
+      "id": "large-generator",
+      "label": "Large Generator"
+    },
+    {
+      "id": "basic-bench",
+      "label": "Basic Crafting Bench"
+    },
+    {
+      "id": "advanced-bench",
+      "label": "Advanced Crafting Bench"
+    },
+    {
+      "id": "tools-bench",
+      "label": "Tools Crafting Bench"
+    }
   ]
 }

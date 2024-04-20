@@ -437,5 +437,11 @@
       "label": "Mining Lasers",
       "value": 0
     }
+  ],
+  "tags": [
+    {
+      "id": "basic-bench",
+      "label": "Basic Crafting Bench"
+    }
   ]
 }

@@ -298,5 +298,15 @@
       "value": 948,
       "unit": ""
     }
+  ],
+  "tags": [
+    {
+      "id": "plasma-thruster",
+      "label": "Plasma Thruster"
+    },
+    {
+      "id": "large-generator",
+      "label": "Large Generator"
+    }
   ]
 }

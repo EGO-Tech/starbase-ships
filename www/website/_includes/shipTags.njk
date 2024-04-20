@@ -8,4 +8,7 @@
   {% for type in ship.types %}
     <a href="{{ '/#' + type.type | url }}"><nord-badge variant="warning">{{ships.types.byId[type.type].name}}</nord-badge></a>
   {% endfor %}
+  {% for tag in ship.tags %}
+    <nord-badge variant="highlight">{{tag.label}}</nord-badge>
+  {% endfor %}
 </nord-stack>

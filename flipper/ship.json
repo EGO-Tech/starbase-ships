@@ -323,5 +323,15 @@
       "label": "Loading Speed",
       "value": "Fast"
     }
+  ],
+  "tags": [
+    {
+      "id": "cargo-lock-beam",
+      "label": "Cargo Lock Beam"
+    },
+    {
+      "id": "large-asteroid-hold",
+      "label": "Large Asteroid Hold"
+    }
   ]
 }

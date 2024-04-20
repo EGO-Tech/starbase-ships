@@ -314,5 +314,15 @@
       "label": "Laser Cannons",
       "value": 4
     }
+  ],
+  "tags": [
+    {
+      "id": "laser-cannon",
+      "label": "Laser Cannon"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    }
   ]
 }

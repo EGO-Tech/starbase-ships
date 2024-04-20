@@ -164,5 +164,23 @@
       "label": "Mining Lasers",
       "value": 12
     }
+  ],
+  "tags": [
+    {
+      "id": "mining-laser",
+      "label": "Mining Laser"
+    },
+    {
+      "id": "mining-laser-drill",
+      "label": "Mining Laser Drill"
+    },
+    {
+      "id": "basic-bench",
+      "label": "Basic Crafting Bench"
+    },
+    {
+      "id": "tools-bench",
+      "label": "Tools Crafting Bench"
+    }
   ]
 }

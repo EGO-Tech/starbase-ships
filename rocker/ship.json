@@ -447,5 +447,19 @@
       "label": "Loading Speed",
       "value": "Slow"
     }
+  ],
+  "tags": [
+    {
+      "id": "cargo-lock-beam",
+      "label": "Cargo Lock Beam"
+    },
+    {
+      "id": "tractor-beam",
+      "label": "Tractor Beam"
+    },
+    {
+      "id": "small-asteroid-hold",
+      "label": "Small Asteroid Hold"
+    }
   ]
 }
