@@ -16,6 +16,17 @@ nord-stack#ship-page h1:not(#ship-name, [slot="header"]) {
   white-space: normal;
 }
 
+.material-icon {
+  overflow: hidden;
+  width: 20px;
+  height: 24px;
+
+  img {
+    max-inline-size: none;
+    height: 24px;
+  }
+}
+
 /* stylelint-disable selector-class-pattern */
 .splide__slide img {
   width: 100%;
