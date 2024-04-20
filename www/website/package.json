@@ -7,7 +7,7 @@
     "build": "npm run pre-build && npx @11ty/eleventy",
     "start": "DEBUG=Eleventy* npm run pre-build && npx @11ty/eleventy --serve",
     "dryrun": "npm run pre-build && npx @11ty/eleventy --dryrun",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/starbase-ships/",
+    "build-ghpages": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
