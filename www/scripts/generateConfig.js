@@ -132,7 +132,7 @@ const getShipVideos = (table) =>
         ).toString()
       );
     } catch {
-      json = {};
+      json = { new: true };
     }
 
     const readme = readFileSync(path.join(fullPath, readmePath)).toString();

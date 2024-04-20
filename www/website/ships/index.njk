@@ -33,7 +33,7 @@ permalink: "ships/{{ ship.slug }}/"
   <nord-stack>
     <h1>
       <span class="n-font-size-xxxl">{{ ship.name }}</span>
-      <nord-badge>v{{ ship.version }}</nord-badge>
+      {% include 'shipVersion.njk' %}
     </h1>
   </nord-stack>
   {% include 'shipTags.njk' %}
