@@ -186,12 +186,6 @@ I would also love to see any modifications or improvements you have made, so fee
 
 Of course in-game tips are greatly appreciated.
 
-## Frequently Asked Questions
-
-### Can I sell ships based on this blueprint?
-
-No.
-
 ### Why does NavGrid show an error?
 
 This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN. See [Resetting Navigation](#resetting-navigation).

@@ -44,13 +44,3 @@ View changelog [here](CHANGELOG.md)
 ## Usage
 
 Please refer to the manual for the [Crawler](../).
-
-## Frequently Asked Questions
-
-### Can I sell ships based on this blueprint?
-
-No.
-
-### Can I share this blueprint or its derivatives?
-
-No.

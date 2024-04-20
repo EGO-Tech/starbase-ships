@@ -214,53 +214,6 @@ I would also love to see any modifications or improvements you have made, so fee
 
 Of course in-game tips are greatly appreciated.
 
-## Frequently Asked Questions
-
-### Why is the blueprint free?
-
-This is only the second ever ship I have designed and honestly I don't think it is good enough to be sold. There are many talented ship designers with ships that look much better and seem to work much better. But I have spent countless hours on the ship and I decided to just share it so my time wouldn't all go to waste and I am not the only one using the ship.
-Also a lot of the systems I used are based on work shared for free by other generous people.
-
-Finally, I am hoping to get feedback from the community and learn from it, so hopefully I will be able to design better ships in the future.
-
-### Can I sell ships based on this blueprint?
-
-No.
-
-### I just printed the ship, why can't I control the ship (version <= 1.0.1)?
-
-If using version 1.0.1 and earlier, please read the note [here](#flying-the-ship).
-
-### Why does it need so much Aegisium?
-
-I converted all external plates to Aegisium for weight and armor, you can use other materials like Bastium for these plates by editing the blueprint in the ship designer.
-
-### Why is the compass panel label G?
-
-~~I ran out of single character global variables while both the C and K are used by the ISAN and waypoint system which I was hoping to keep unmodified. I haven't used any digits though, so potentially one of those could be used. Suggestions welcomed.~~
-
-As of version 1.0.1, I managed to free up a lot of global variables, but decided to keep it as it is. In fact with the panel rotated (see below), if you look closely enough the rotated `G` kinda looks like a compass pointing north (up/forward) :P
-
-### Why is the compass panel rotated (version > 1.0.1)?
-
- The original Compass uses front and right receivers, but this ship uses front and bottom receivers. For ease of future upgrades, I just rotated the panel instead of making changes to the original Compass code.
-
-### Why are there so many extra hardpoints?
-
-I don't know, I went a bit crazy there, but you can use them to add whatever you want, including weapons.
-
-### Why can't the crafting bench craft T2 refills?
-
-You need to bolt a meter upgrade to the bench.
-
-### What are the square points with decals on the top, bottom and sides of the ship?
-
-My idea was to have extension points where modules (more crates, warp core, more propellant, etc) can be attached. The plates there can be removed and there are beams with ducts available for module connection. However no modules have been created yet and this has not been tested.
-
-However if you decide to build any of these modules, you can add range finders in front of the module and name the distance fields `RFT`, `RTB`, ``RTR` or `RTL` for top, bottom, right and left modules respectively. These should automatically be supported by the crash avoidance system plus the guidance alert and visualisation.
-
-And I would love to see modules you have created, even if it is just a photo.
-
 ## Designed by EGOTech
 
 ![EGOTech](../others/egotech/logos/egotech_logo_light.png)
