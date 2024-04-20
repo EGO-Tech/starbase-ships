@@ -405,67 +405,80 @@
   "buildCost": {
     "materials": [
       {
-        "ore": "Aegisium Ore",
+        "ore": "aegisium",
+        "label": "Aegisium Ore",
         "kv": 111422,
         "stacks": 64.5
       },
       {
-        "ore": "Ajatite Ore",
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
         "kv": 17404,
         "stacks": 10.1
       },
       {
-        "ore": "Arkanium Ore",
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
         "kv": 3077,
         "stacks": 1.8
       },
       {
-        "ore": "Bastium Ore",
+        "ore": "bastium",
+        "label": "Bastium Ore",
         "kv": 284359,
         "stacks": 164.6
       },
       {
-        "ore": "Charodium Ore",
+        "ore": "charodium",
+        "label": "Charodium Ore",
         "kv": 190415,
         "stacks": 110.2
       },
       {
-        "ore": "Exorium Ore",
+        "ore": "exorium",
+        "label": "Exorium Ore",
         "kv": 20061,
         "stacks": 11.6
       },
       {
-        "ore": "Glass",
+        "ore": "glass",
+        "label": "Glass",
         "kv": 2644,
         "stacks": 1.5
       },
       {
-        "ore": "Ice",
+        "ore": "ice",
+        "label": "Ice",
         "kv": 144000,
         "stacks": 83.3
       },
       {
-        "ore": "Karnite Crystal",
+        "ore": "karnite",
+        "label": "Karnite Crystal",
         "kv": 235,
         "stacks": 0.1
       },
       {
-        "ore": "Kutonium Ore",
+        "ore": "kutonium",
+        "label": "Kutonium Ore",
         "kv": 260,
         "stacks": 0.2
       },
       {
-        "ore": "Nhurgite Crystal",
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
         "kv": 83098,
         "stacks": 48.1
       },
       {
-        "ore": "Vokarium Ore",
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
         "kv": 137322,
         "stacks": 79.5
       },
       {
-        "ore": "Total ore",
+        "ore": "total",
+        "label": "Total ore",
         "kv": 994298,
         "stacks": 575.4
       }

@@ -436,72 +436,86 @@
   "buildCost": {
     "materials": [
       {
-        "ore": "Aegisium Ore",
+        "ore": "aegisium",
+        "label": "Aegisium Ore",
         "kv": 157327,
         "stacks": 91
       },
       {
-        "ore": "Ajatite Ore",
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
         "kv": 51432,
         "stacks": 29.8
       },
       {
-        "ore": "Arkanium Ore",
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
         "kv": 29502,
         "stacks": 17.1
       },
       {
-        "ore": "Bastium Ore",
+        "ore": "bastium",
+        "label": "Bastium Ore",
         "kv": 250058,
         "stacks": 144.7
       },
       {
-        "ore": "Charodium Ore",
+        "ore": "charodium",
+        "label": "Charodium Ore",
         "kv": 232923,
         "stacks": 134.8
       },
       {
-        "ore": "Exorium Ore",
+        "ore": "exorium",
+        "label": "Exorium Ore",
         "kv": 14294,
         "stacks": 8.3
       },
       {
-        "ore": "Glass",
+        "ore": "glass",
+        "label": "Glass",
         "kv": 50923,
         "stacks": 29.5
       },
       {
-        "ore": "Ice",
+        "ore": "ice",
+        "label": "Ice",
         "kv": 234000,
         "stacks": 135.4
       },
       {
-        "ore": "Karnite Crystal",
+        "ore": "karnite",
+        "label": "Karnite Crystal",
         "kv": 465,
         "stacks": 0.3
       },
       {
-        "ore": "Kutonium Ore",
+        "ore": "kutonium",
+        "label": "Kutonium Ore",
         "kv": 30406,
         "stacks": 17.6
       },
       {
-        "ore": "Nhurgite Crystal",
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
         "kv": 49093,
         "stacks": 28.4
       },
       {
-        "ore": "Vokarium Ore",
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
         "kv": 151065,
         "stacks": 87.4
       },
       {
-        "ore": "Ymrium Ore",
+        "ore": "ymrium",
+        "label": "Ymrium Ore",
         "kv": 11993,
         "stacks": 6.9
       },
       {
-        "ore": "Total ore",
+        "ore": "total",
+        "label": "Total ore",
         "kv": 1263481,
         "stacks": 731.2
       }

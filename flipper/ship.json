@@ -226,62 +226,74 @@
   "buildCost": {
     "materials": [
       {
-        "ore": "Aegisium Ore",
+        "ore": "aegisium",
+        "label": "Aegisium Ore",
         "kv": 64348,
         "stacks": 37.2
       },
       {
-        "ore": "Ajatite Ore",
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
         "kv": 16093,
         "stacks": 9.3
       },
       {
-        "ore": "Arkanium Ore",
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
         "kv": 1013,
         "stacks": 0.6
       },
       {
-        "ore": "Bastium Ore",
+        "ore": "bastium",
+        "label": "Bastium Ore",
         "kv": 83551,
         "stacks": 48.4
       },
       {
-        "ore": "Charodium Ore",
+        "ore": "charodium",
+        "label": "Charodium Ore",
         "kv": 133769,
         "stacks": 77.4
       },
       {
-        "ore": "Exorium Ore",
+        "ore": "exorium",
+        "label": "Exorium Ore",
         "kv": 2143,
         "stacks": 1.2
       },
       {
-        "ore": "Ice",
+        "ore": "ice",
+        "label": "Ice",
         "kv": 48000,
         "stacks": 27.8
       },
       {
-        "ore": "Karnite Crystal",
+        "ore": "karnite",
+        "label": "Karnite Crystal",
         "kv": 19,
         "stacks": 0
       },
       {
-        "ore": "Kutonium Ore",
+        "ore": "kutonium",
+        "label": "Kutonium Ore",
         "kv": 2065,
         "stacks": 1.2
       },
       {
-        "ore": "Nhurgite Crystal",
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
         "kv": 102142,
         "stacks": 59.1
       },
       {
-        "ore": "Vokarium Ore",
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
         "kv": 67081,
         "stacks": 38.8
       },
       {
-        "ore": "Total ore",
+        "ore": "total",
+        "label": "Total ore",
         "kv": 520222,
         "stacks": 301.1
       }

@@ -45,92 +45,110 @@
   "buildCost": {
     "materials": [
       {
-        "ore": "Aegisium Ore",
+        "ore": "aegisium",
+        "label": "Aegisium Ore",
         "kv": 109797,
         "stacks": 63.5
       },
       {
-        "ore": "Ajatite Ore",
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
         "kv": 10276,
         "stacks": 5.9
       },
       {
-        "ore": "Arkanium Ore",
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
         "kv": 39456,
         "stacks": 22.8
       },
       {
-        "ore": "Bastium Ore",
+        "ore": "bastium",
+        "label": "Bastium Ore",
         "kv": 394022,
         "stacks": 228
       },
       {
-        "ore": "Charodium Ore",
+        "ore": "charodium",
+        "label": "Charodium Ore",
         "kv": 281728,
         "stacks": 163
       },
       {
-        "ore": "Corazium Ore",
+        "ore": "corazium",
+        "label": "Corazium Ore",
         "kv": 113,
         "stacks": 0.1
       },
       {
-        "ore": "Exorium Ore",
+        "ore": "exorium",
+        "label": "Exorium Ore",
         "kv": 66852,
         "stacks": 38.7
       },
       {
-        "ore": "Glass",
+        "ore": "glass",
+        "label": "Glass",
         "kv": 1532,
         "stacks": 0.9
       },
       {
-        "ore": "Ice",
+        "ore": "ice",
+        "label": "Ice",
         "kv": 48000,
         "stacks": 27.8
       },
       {
-        "ore": "Karnite Crystal",
+        "ore": "karnite",
+        "label": "Karnite Crystal",
         "kv": 8750,
         "stacks": 5.1
       },
       {
-        "ore": "Kutonium Ore",
+        "ore": "kutonium",
+        "label": "Kutonium Ore",
         "kv": 79332,
         "stacks": 45.9
       },
       {
-        "ore": "Lukium Ore",
+        "ore": "lukium",
+        "label": "Lukium Ore",
         "kv": 26159,
         "stacks": 15.1
       },
       {
-        "ore": "Nhurgite Crystal",
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
         "kv": 205635,
         "stacks": 119
       },
       {
-        "ore": "Ukonium Ore",
+        "ore": "ukonium",
+        "label": "Ukonium Ore",
         "kv": 11918,
         "stacks": 6.9
       },
       {
-        "ore": "Vokarium Ore",
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
         "kv": 199754,
         "stacks": 115.6
       },
       {
-        "ore": "Xhalium Ore",
+        "ore": "xhalium",
+        "label": "Xhalium Ore",
         "kv": 8549,
         "stacks": 4.9
       },
       {
-        "ore": "Ymrium Ore",
+        "ore": "ymrium",
+        "label": "Ymrium Ore",
         "kv": 135178,
         "stacks": 78.2
       },
       {
-        "ore": "Total ore",
+        "ore": "total",
+        "label": "Total ore",
         "kv": 1627051,
         "stacks": 941.6
       }

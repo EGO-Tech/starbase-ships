@@ -244,8 +244,9 @@ const getShipVideos = (table) =>
     const materials = _(lines)
       .map((line) => line.match(/([a-zA-Z\s]+) ([0-9\s]+) kv \(([0-9\.]+) st/))
       .compact()
-      .map(([_text, ore, kv, stacks]) => ({
-        ore,
+      .map(([_text, label, kv, stacks]) => ({
+        ore: label.replace(/( Ore| Crystal| Alloy)/i, '').toLowerCase(),
+        label,
         kv: +kv.replace(/\s/g, ''),
         stacks: +stacks.replace(/\s/g, ''),
       }))

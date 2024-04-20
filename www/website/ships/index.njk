@@ -115,6 +115,7 @@ permalink: "ships/{{ ship.slug }}/"
           <table style="width: 400px">
             <thead>
               <tr>
+                <th></th>
                 <th>Material</th>
                 <th class="n-table-align-right">Volume (kv)</th>
                 <th class="n-table-align-right">Stacks</th>
@@ -123,7 +124,14 @@ permalink: "ships/{{ ship.slug }}/"
             <tbody>
               {% for material in ship.buildCost.materials %}
                 <tr class="{% if loop.index === ship.buildCost.materials.length %}n-font-weight-strong n-color-surface-lowered{% endif %}">
-                  <td>{{material.ore}}</td>
+                  <td style="padding-right: 0">
+                    {% if material.ore !== 'total' %}
+                      <div class="material-icon">
+                        <img src="{{ ('/images/materials/' + material.ore + '.png') | url }}" alt="{{ material.label }}" />
+                      </div>
+                    {% endif %}
+                  </td>
+                  <td>{{material.label}}</td>
                   <td class="n-table-align-right">{{material.kv.toLocaleString()}}</td>
                   <td class="n-table-align-right">{{material.stacks.toLocaleString()}}</td>
                 </tr>
