@@ -7,29 +7,6 @@
 The Hopper is small personal transport that can be used to quickly get around a station or taking short trips.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hopper)
-
-<img src="photos/20220724201746_1.jpg" alt="Hopper" width="400" /> <img src="photos/20220724201806_1.jpg" alt="Hopper" width="400" /> <img src="photos/20220724173314_1.jpg" alt="Hopper" width="400" />
-<img src="photos/20220724201752_1.jpg" alt="Hopper" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- Standard Cruise function
-- Turtle and Sloth functions
-- One resource bridge
-- Auto generator rate script with adjustable minimum rate
-- Three T2 generators with one T2 fuel chamber
-- Radiator and heat sink that provide more than adequate cooling
-- Two small tanks with 2,000,000 units of propellant
-- Four batteries
-- Four T2 triangle thrusters providing forward thrust
-- Four T2 maneuver thrusters providing braking thrust
-- 14 T2 maneuver thrusters
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

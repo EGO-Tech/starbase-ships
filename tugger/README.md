@@ -7,48 +7,6 @@
 The Tugger is a small tug ship with enough power generation to tow a ship of up to 7,500,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-Special thanks to `bambu666` for helping me test this ship and providing feedback.
-
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Tugger)
-
-<img src="photos/20220313170411_1.jpg" alt="Tugger" width="400" /> <img src="photos/20220313170427_1.jpg" alt="Tugger" width="400" /> <img src="photos/20220313170438_1.jpg" alt="Tugger" width="400" />
-<img src="photos/20220313170522_1.jpg" alt="Tugger" width="400" /> <img src="photos/20220313165527_1.jpg" alt="Tugger" width="400" /> <img src="photos/20220313165517_1.jpg" alt="Tugger" width="400" />
-<img src="photos/20220313165449_1.jpg" alt="Tugger" width="400" /> <img src="photos/20220313170605_1.jpg" alt="Tugger" width="400" /> <img src="photos/20220313170609_1.jpg" alt="Tugger" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - The Tugger by "Egomaniac" - New "Towing mechanic"](https://www.youtube.com/watch?v=I1Zl2mli1YQ) |
-
-## Features
-
-The ship has the following features:
-
-- Back facing tow beam for towing ships, with a towing capacity of 7,500,000kg
-- Spinning pilot chair to view out the back of the ship through generous sized back window
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- One resource bridge
-- Auto generator rate script with adjustable minimum rate
-- Button to automatically adjust the minimum generator rate according to towed mass
-- 24 T2 generators (with 48 T1 enhancers) with eight T2 fuel chambers and 16 spare rods on racks
-- Radiators and heat sink that provide more than adequate cooling
-- Six medium tanks with 24,000,000 units of propellant
-- Propellant time and fuel time panels
-- 144 batteries
-- 38 T2 triangle thrusters providing forward thrust
-- 16 T2 maneuver thrusters providing braking thrust
-- 32 T2 maneuver thrusters
-- [Compass System by Firestar99](https://gitlab.com/Firestar99/yolol/-/tree/master/src/compass)
-- Speedometer
-- Timer panel
-- Odometer panel
-- Top speed of 140 m/s while not towing
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

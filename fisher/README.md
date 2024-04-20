@@ -7,47 +7,6 @@
 The Fisher is a larger salvager ship with enough power generation to tow a ship of up to 20,000,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. It also has exposed frames to easily bolt on salvaged parts on each side.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Fisher)
-
-<img src="photos/20220806140258_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806140306_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806140327_1.jpg" alt="Fisher" width="400" />
-<img src="photos/20220806140348_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806140420_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806141009_1.jpg" alt="Fisher" width="400" />
-<img src="photos/20220810151220_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220810151313_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220810152636_1.jpg" alt="Fisher" width="400" />
-<img src="photos/20220806140520_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806140436_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806125932_1.jpg" alt="Fisher" width="400" />
-<img src="photos/20220806125938_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806125944_1.jpg" alt="Fisher" width="400" /> <img src="photos/20220806130410_1.jpg" alt="Fisher" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- Back facing tow beam for towing ships, with a towing capacity of 20,000,000kg
-- Spinning pilot chair to view out generous sized back window
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- One external and two internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- Button to automatically adjust the minimum generator rate according to towed mass
-- Frames on either side of the ship to bolt on salvages parts
-- 23 ore crates
-- 60 T3 generators (with 60 T2 enhancers) with 20 T3 fuel chambers and 40 spare rods on racks
-- Radiators and heat sink that provide more than adequate cooling
-- 12 large tanks with 144,000,000 units of propellant
-- Propellant time and fuel time panels
-- 196 batteries
-- 72 T2 triangle thrusters and 24 T2 box thrusters providing forward thrust
-- 24 T2 maneuver thrusters providing braking thrust
-- 32 T2 maneuver thrusters
-- Basic crafting bench to craft refills plus the tools bench
-- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 27 rangefinders
-- Speedometer
-- Timer panel
-- Odometer panel
-- Top speed of 140 m/s while not towing
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

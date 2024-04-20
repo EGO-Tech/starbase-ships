@@ -461,5 +461,9 @@
       "id": "small-asteroid-hold",
       "label": "Small Asteroid Hold"
     }
-  ]
+  ],
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/FEATURES.md"
+  }
 }

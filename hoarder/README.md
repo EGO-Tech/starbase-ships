@@ -7,36 +7,6 @@
 The Hoarder is a 1436 crate hauler and is a no frills ship, designed specifically to haul ore between nearby capital ships and/or stations with its short range and low speed.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hoarder)
-
-<img src="photos/20231103135119_1.jpg" alt="Hoarder" width="400" /> <img src="photos/20231103135048_1.jpg" alt="Hoarder" width="400" /> <img src="photos/20231103134753_1.jpg" alt="Hoarder" width="400" />
-<img src="photos/20231103134837_1.jpg" alt="Hoarder" width="400" /> <img src="photos/20231103135106_1.jpg" alt="Hoarder" width="400" /> <img src="photos/20231103134942_1.jpg" alt="Hoarder" width="400" />
-<img src="photos/20231103134925_1.jpg" alt="Hoarder" width="400" /> <img src="photos/20231103154937_1.jpg" alt="Hoarder" width="400" /> <img src="photos/20231103154943_1.jpg" alt="Hoarder" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- 1436 crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Auto generator rate script with adjustable minimum rate
-- 12 T2 generators enhanced with two T1 enhancers each with 12 T2 fuel chambers
-- Radiators that provide more than adequate cooling
-- Two large propellant tanks with 24,000,000 units of propellant
-- 60 batteries
-- Eight T2 box and 112 T2 triangle thrusters providing forward thrust
-- 44 T2 triangle thrusters providing braking thrust
-- 80 T2 triangle thrusters for maneuvers
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 75m/s empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

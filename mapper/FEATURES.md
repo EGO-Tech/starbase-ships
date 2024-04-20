@@ -1,0 +1,24 @@
+# Features
+
+- Basic crafting bench with meter and monitor upgrade as well as tools bench
+- 20 ore crates to store ore for refills
+- Standard Cruise function
+- Turtle and Sloth functions with adjustable rates
+- Transponder system with ping function
+- Two external and two internal resource bridges
+- Auto generator rate script with adjustable minimum rate
+- 18 T2 generators with six T2 fuel chambers and 12 spare rods on racks
+- 22 large propellant tanks with 264,000,000 units of propellant
+- Estimated propellant time of 26 hours and range of 13,000km
+- Propellant time and fuel time panels
+- 32 batteries
+- 30 T2 box and 16 T2 triangle thrusters providing forward thrust
+- Eight T2 triangle thrusters providing braking thrust
+- 48 T2 triangle thrusters for maneuvers
+- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
+- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
+- Warning lights and alarm for obstacle detection and avoidance, powered by 44 rangefinders
+- Speedometer
+- Timer panel
+- Odometer panel
+- Top speed of 145m/s

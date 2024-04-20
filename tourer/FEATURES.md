@@ -1,0 +1,23 @@
+# Features
+
+- Seating for 16 passengers
+- Cargo lock frame to store cargo
+- Standard Cruise function
+- Turtle and Sloth functions with adjustable rates
+- Transponder system with ping function
+- One resource bridge
+- Auto generator rate script with adjustable minimum rate
+- Six T2 generators with two T2 fuel chambers and two spare rods on racks
+- Radiators and heat sink that provide more than adequate cooling
+- Three medium tanks with 12,000,000 units of propellant
+- Propellant time and fuel time panels
+- 11 batteries
+- 24 T2 triangle thrusters providing forward thrust
+- 10 T2 maneuver thrusters providing braking thrust
+- 35 T2 maneuver thrusters
+- [ISAN Mono Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System)
+- Speedometer
+- Timer panel
+- Odometer panel
+- Service hatches for easy access to fuel
+- Top speed of 130 m/s empty

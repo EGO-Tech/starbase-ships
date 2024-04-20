@@ -342,5 +342,9 @@
       "id": "cargo-lock-frame",
       "label": "Cargo Lock Frame"
     }
-  ]
+  ],
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/FEATURES.md"
+  }
 }

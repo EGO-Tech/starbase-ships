@@ -368,5 +368,9 @@
       "id": "isan",
       "label": "ISAN"
     }
-  ]
+  ],
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/FEATURES.md"
+  }
 }

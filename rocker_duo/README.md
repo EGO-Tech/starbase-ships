@@ -12,43 +12,6 @@ Loading of asteroids is the slowest compared to the [Rocker](../rocker) and [Hex
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker%20Duo)
-
-The Rocker Duo (v1.1.0) is also available to buy in game at Central Showroom of Rando 2 Ship Shop at stations with Rando ship shops.
-
-<img src="photos/20211203214550_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214558_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214608_1.jpg" alt="Rocker Duo" width="400" />
-<img src="photos/20211203214624_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214644_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214700_1.jpg" alt="Rocker Duo" width="400" />
-<img src="photos/20211203214726_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203214728_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203223957_1.jpg" alt="Rocker Duo" width="400" />
-<img src="photos/20211203224519_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203224735_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203224915_1.jpg" alt="Rocker Duo" width="400" />
-<img src="photos/20211203225207_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203225319_1.jpg" alt="Rocker Duo" width="400" /> <img src="photos/20211203225320_1.jpg" alt="Rocker Duo" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [CrispyChestnuts](https://www.youtube.com/channel/UCZuFhUb3UwEfSiUvIZJJ55Q) | [Crispy demos the Rocker Duo (and Rocker) by Egomaniac](https://www.youtube.com/watch?v=SI1ndXVzCmE) |
-
-## Features
-
-The ship has the following features:
-
-- Standard Cruise function
-- Turtle and Sloth function with adjustable rates
-- 24 T2 generators with eight T2 fuel chambers and 16 spare rods on racks
-- Radiators that provide more than adequate cooling
-- Four small and four medium propellant tanks with 20,000,000 units of propellant
-- 80 batteries
-- 24 T2 box and 56 T2 triangle thrusters providing forward thrust
-- 124 T2 maneuver thrusters
-- Two tractor beams which will load asteroids into two sets of five compartments with cargo lock beams
-- Load automation that will load asteroids into the right container in the right order
-- Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
-- Rangefinder to help judge forward distance and for approach
-- Resource bridge for refueling
-- Pretty much max speed 150m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

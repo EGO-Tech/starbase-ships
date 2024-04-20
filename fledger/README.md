@@ -7,41 +7,6 @@
 The Fledger is a starter ship that is targeted towards aspiring mechanics that want to learn about how ships work. It starts with the basic machinery but has plenty of space for upgrades, allowing the ship to grow as the player progresses. With an exposed frame, upgrades and repairs should be easier than most ships.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Fledger)
-
-<img src="photos/20221019154127_1.jpg" alt="Fledger" width="400" /> <img src="photos/20221019154135_1.jpg" alt="Fledger" width="400" /> <img src="photos/20221019154158_1.jpg" alt="Fledger" width="400" />
-<img src="photos/20221019154259_1.jpg" alt="Fledger" width="400" /> <img src="photos/20221019154208_1.jpg" alt="Fledger" width="400" /> <img src="photos/20221019154224_1.jpg" alt="Fledger" width="400" />
-<img src="photos/20221019154315_1.jpg" alt="Fledger" width="400" /> <img src="photos/20221019154333_1.jpg" alt="Fledger" width="400" /> <img src="photos/20221019154503_1.jpg" alt="Fledger" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [FarPointe](https://www.youtube.com/@FarPointe) | [Starbase 1-50 (Playlist of live streams)](https://www.youtube.com/playlist?list=PL4vREYUd0Y3G-39Cus-3uXTXr4AF7dc2-) |
-
-## Features
-
-The ship has the following features:
-
-- 36 ore crates with designated space for up to 148 crates
-- Standard Cruise and Turtle function
-- Two resource bridge
-- Auto generator rate script
-- 12 T1 generators with four T1 fuel chambers and nine spare rods on racks
-- Radiators and heat sink that provide more than adequate cooling
-- Eight small tanks with 8,000,000 units of propellant
-- 24 batteries
-- 16 T1 triangle and 16 T1 box thrusters providing forward thrust
-- Four T1 triangle thrusters providing braking thrust
-- 32 T1 maneuver thrusters
-- Basic crafting bench with space for other benches
-- Exposed frame for easy repairs
-- Lots of extra hardpoints for tools and upgrades
-- Plenty of space for extra machinery and devices
-- Top speed of 140 m/s empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

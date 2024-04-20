@@ -27,6 +27,7 @@ const shipsPath = path.join(nconf.get('basePath'), nconf.get('ships:path'));
 const shipsUrl = nconf.get('ships:url');
 const shipsRepoUrl = nconf.get('ships:repo');
 const readmePath = nconf.get('ships:paths:readme');
+const featuresPath = nconf.get('ships:paths:featureList');
 const changelogPath = nconf.get('ships:paths:changelog');
 const knownIssuesPath = nconf.get('ships:paths:knownIssues');
 const faqPath = nconf.get('ships:paths:faq');
@@ -151,6 +152,10 @@ const getShipVideos = (table) =>
     json.readme = {
       path: readmePath,
       url: `${shipsUrl}/${relPath}/${readmePath}`,
+    };
+    json.featureList = {
+      path: featuresPath,
+      url: `${shipsUrl}/${relPath}/${featuresPath}`,
     };
     json.changelog = {
       path: changelogPath,

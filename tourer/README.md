@@ -6,39 +6,6 @@
 
 The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Tourer)
-
-<img src="photos/20220605013238_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220605013301_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220605013223_1.jpg" alt="Tourer" width="400" />
-<img src="photos/20220605013233_1.jpg" alt="Tourer" width="400" />  <img src="photos/20220126152309_1.jpg" alt="Tourer" width="400" /> <img src="photos/20220126154303_1.jpg" alt="Tourer" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- Seating for 16 passengers
-- Cargo lock frame to store cargo
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- One resource bridge
-- Auto generator rate script with adjustable minimum rate
-- Six T2 generators with two T2 fuel chambers and two spare rods on racks
-- Radiators and heat sink that provide more than adequate cooling
-- Three medium tanks with 12,000,000 units of propellant
-- Propellant time and fuel time panels
-- 11 batteries
-- 24 T2 triangle thrusters providing forward thrust
-- 10 T2 maneuver thrusters providing braking thrust
-- 35 T2 maneuver thrusters
-- [ISAN Mono Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System)
-- Speedometer
-- Timer panel
-- Odometer panel
-- Service hatches for easy access to fuel
-- Top speed of 130 m/s empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

@@ -1,0 +1,28 @@
+# Features
+
+- Back facing tow beam for towing ships, with a towing capacity of 20,000,000kg
+- Spinning pilot chair to view out generous sized back window
+- Standard Cruise function
+- Turtle and Sloth functions with adjustable rates
+- Transponder system with ping function
+- One external and two internal resource bridges
+- Auto generator rate script with adjustable minimum rate
+- Button to automatically adjust the minimum generator rate according to towed mass
+- Frames on either side of the ship to bolt on salvages parts
+- 23 ore crates
+- 60 T3 generators (with 60 T2 enhancers) with 20 T3 fuel chambers and 40 spare rods on racks
+- Radiators and heat sink that provide more than adequate cooling
+- 12 large tanks with 144,000,000 units of propellant
+- Propellant time and fuel time panels
+- 196 batteries
+- 72 T2 triangle thrusters and 24 T2 box thrusters providing forward thrust
+- 24 T2 maneuver thrusters providing braking thrust
+- 32 T2 maneuver thrusters
+- Basic crafting bench to craft refills plus the tools bench
+- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
+- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
+- Warning lights and alarm for obstacle detection and avoidance, powered by 27 rangefinders
+- Speedometer
+- Timer panel
+- Odometer panel
+- Top speed of 140 m/s while not towing

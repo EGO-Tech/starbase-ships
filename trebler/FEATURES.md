@@ -1,0 +1,33 @@
+# Features
+
+- 534 ore crates
+- Standard Cruise function
+- Turtle and Sloth functions with adjustable rates
+- Transponder system with ping function
+- Three automated rotating drills with three mining lasers each
+- Nine ore collectors
+- Material scanner with display of materials in stacks
+- Approach and auto mine functions
+- One external and two internal resource bridges
+- Auto generator rate script with adjustable minimum rate
+- 36 T2 generators (with 36 T1 and 36 T2 enhancers) with 12 T2 fuel chambers and 24 spare rods on racks
+- Radiators and heat sinks that provide more than adequate cooling
+- Four large propellant tanks with 48,000,000 units of propellant
+- Estimated flight time of 2.5 hours and range of 1,200km
+- Propellant time and fuel time panels
+- 290 batteries
+- 142 T2 triangle thrusters providing forward thrust
+- 48 T2 triangle thrusters providing braking thrust
+- 64 T2 triangle thrusters for maneuvers
+- Basic crafting bench to craft refills with meter upgrade plus tools bench
+- Speedometer
+- Timer panel
+- Odometer panel
+- Many extra slots for YOLOL or memory chips
+- Top speed of 125m/s when empty
+
+<nord-banner style="max-width: 820px">
+
+A premium version, the [Trebler X](../trebler-x) is available for purchase.
+
+</nord-banner>

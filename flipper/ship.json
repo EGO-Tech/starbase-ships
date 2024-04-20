@@ -333,5 +333,9 @@
       "id": "large-asteroid-hold",
       "label": "Large Asteroid Hold"
     }
-  ]
+  ],
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/FEATURES.md"
+  }
 }

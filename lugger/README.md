@@ -7,46 +7,6 @@
 The Lugger is a 832 crate hauler with two 10 ring plasma thrusters serving as its main engines to provide decent speed. However it is pretty much at its voxel limit so any additions or changes may be difficult without sacrificing crates.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Lugger)
-
-<img src="photos/20211225214329_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214340_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214348_1.jpg" alt="Lugger" width="400" />
-<img src="photos/20211225214407_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214423_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214448_1.jpg" alt="Lugger" width="400" />
-<img src="photos/20211225222048_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214533_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214539_1.jpg" alt="Lugger" width="400" />
-<img src="photos/20211225214608_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214619_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214628_1.jpg" alt="Lugger" width="400" />
-<img src="photos/20211225214659_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214702_1.jpg" alt="Lugger" width="400" /> <img src="photos/20211225214718_1.jpg" alt="Lugger" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- 832 crates
-- Two additional seats for co-pilots in a large open bridge
-- All three crafting benches
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Two external and three internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- 30 T2 generators with 10 T2 fuel chambers and 20 spare rods on racks
-- Radiators that provide more than adequate cooling
-- 24 large propellant tanks with 288,000,000 units of propellant
-- Estimated propellant time of 7 hours and range of 3,500km
-- Propellant time and fuel time panels
-- 144 batteries
-- Two 10 ring plasma thrusters and 88 T2 triangle thrusters, all with T3 nozzles providing forward thrust
-- 36 T2 triangle thrusters with T3 nozzles providing braking thrust
-- 48 T2 triangle thrusters with T3 nozzles for maneuvers
-- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 44 rangefinders
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 145m/s empty, 125m/s full of lukium ore
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

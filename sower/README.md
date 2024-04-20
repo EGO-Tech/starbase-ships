@@ -7,34 +7,6 @@
 The Sower is a starter ship designed to only require safe zone ore to build. It is quite fast and cheap, and with 36 crates, it makes a decent ship to use to help with the grind towards a more advanced ship.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Sower)
-
-<img src="photos/20220311205426_1.jpg" alt="Sower" width="400" /> <img src="photos/20220311205552_1.jpg" alt="Sower" width="400" /> <img src="photos/20220311205529_1.jpg" alt="Sower" width="400" />
-<img src="photos/20220311205630_1.jpg" alt="Sower" width="400" /> <img src="photos/20220311211254_1.jpg" alt="Sower" width="400" /> <img src="photos/20220311205607_1.jpg" alt="Sower" width="400" />
-<img src="photos/20220311205615_1.jpg" alt="Sower" width="400" /> <img src="photos/20220311205733_1.jpg" alt="Sower" width="400" /> <img src="photos/20220311205738_1.jpg" alt="Sower" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- 36 ore crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- One resource bridge
-- Auto generator rate script with adjustable minimum rate
-- Six T1 generators with two T1 fuel chambers and four spare rods on racks
-- Radiators and heat sink that provide more than adequate cooling
-- 12 small tanks with 12,000,000 units of propellant
-- 20 batteries
-- 32 T1 triangle thrusters providing forward thrust
-- 16 T1 maneuver thrusters providing braking thrust
-- 32 T1 maneuver thrusters
-- ISAN Mono
-- Top speed of 140 m/s empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)
