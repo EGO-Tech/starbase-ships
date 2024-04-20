@@ -154,5 +154,15 @@
   "saleType": "for-sale",
   "slug": "trebler-x",
   "description": "The Trebler X is a premium version of the Trebler with T3 generators, fuel chambers, enhancers and thrusters plus three extra mining lasers.",
-  "shortDescription": "The premium version of the Trebler with T3 generators, fuel chambers, enhancers and thrusters plus three extra mining lasers."
+  "shortDescription": "The premium version of the Trebler with T3 generators, fuel chambers, enhancers and thrusters plus three extra mining lasers.",
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 534
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 12
+    }
+  ]
 }

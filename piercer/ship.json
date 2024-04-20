@@ -497,5 +497,15 @@
   "faq": {
     "path": "FAQ.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/FAQ.md"
-  }
+  },
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 342
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 4
+    }
+  ]
 }

@@ -369,5 +369,15 @@
   "faq": {
     "path": "FAQ.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/FAQ.md"
-  }
+  },
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 100
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 2
+    }
+  ]
 }

@@ -423,5 +423,12 @@
   "knownIssues": {
     "path": "KNOWN_ISSUES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/KNOWN_ISSUES.md"
-  }
+  },
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 832,
+      "unit": ""
+    }
+  ]
 }

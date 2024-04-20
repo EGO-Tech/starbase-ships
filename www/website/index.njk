@@ -47,11 +47,25 @@ layout: layouts/base
           <span slot="header-end">
             {% include 'shipVersion.njk' %}
           </span>
-          <nord-stack>
+          <nord-stack style="width: 435px; height: 220px; overflow: hidden;">
             {% for photo in ship.photos %}
               {% if photo.featured %}
                 <img src="{{photo.url}}" alt="{{photo.description or photo.filename}}" />
               {% endif %}
+            {% endfor %}
+          </nord-stack>
+          <nord-stack gap="none">
+            {% for feature in ship.features %}
+              <nord-stack direction="horizontal" align-items="stretch" class="n-padding-is-m n-padding-b-s n-border-be n-color-surface-raised">
+                <nord-stack>{{feature.label}}</nord-stack>
+                <nord-stack style="text-align: right;" class="n-padding-ie-m">
+                  {% if feature.unit !== undefined %}
+                    {{feature.value.toLocaleString()}} {{feature.unit}}
+                  {% else %}
+                    {{feature.value}}
+                  {% endif %}
+                </nord-stack>
+              </nord-stack>
             {% endfor %}
           </nord-stack>
           <nord-stack class="n-padding-i-m n-padding-b-m">
