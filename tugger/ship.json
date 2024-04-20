@@ -358,5 +358,15 @@
       "value": 7500000,
       "unit": "kg"
     }
+  ],
+  "tags": [
+    {
+      "id": "tow-beam",
+      "label": "Tow Beam"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    }
   ]
 }

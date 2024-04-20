@@ -314,5 +314,11 @@
       "label": "Mining Lasers",
       "value": 0
     }
+  ],
+  "tags": [
+    {
+      "id": "isan",
+      "label": "ISAN"
+    }
   ]
 }

@@ -332,5 +332,15 @@
   "knownIssues": {
     "path": "KNOWN_ISSUES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/KNOWN_ISSUES.md"
-  }
+  },
+  "tags": [
+    {
+      "id": "isan",
+      "label": "ISAN"
+    },
+    {
+      "id": "cargo-lock-frame",
+      "label": "Cargo Lock Frame"
+    }
+  ]
 }

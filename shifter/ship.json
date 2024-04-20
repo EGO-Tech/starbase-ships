@@ -567,5 +567,39 @@
       "label": "Mining Lasers",
       "value": 8
     }
+  ],
+  "tags": [
+    {
+      "id": "mining-laser",
+      "label": "Mining Laser"
+    },
+    {
+      "id": "mining-laser-drill",
+      "label": "Mining Laser Drill"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    },
+    {
+      "id": "auto-pilot",
+      "label": "Auto Pilot"
+    },
+    {
+      "id": "asteroid-avoidance",
+      "label": "Asteroid Avoidance"
+    },
+    {
+      "id": "basic-bench",
+      "label": "Basic Crafting Bench"
+    },
+    {
+      "id": "advanced-bench",
+      "label": "Advanced Crafting Bench"
+    },
+    {
+      "id": "tools-bench",
+      "label": "Tools Crafting Bench"
+    }
   ]
 }

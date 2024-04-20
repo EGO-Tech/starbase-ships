@@ -5,6 +5,10 @@
   "new": true,
   "types": [
     {
+      "type": "fighter",
+      "order": 2
+    },
+    {
       "type": "command-ship",
       "order": 2
     }
@@ -506,5 +510,55 @@
   "knownIssues": {
     "path": "KNOWN_ISSUES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/KNOWN_ISSUES.md"
-  }
+  },
+  "tags": [
+    {
+      "id": "plasma-thruster",
+      "label": "Plasma Thruster"
+    },
+    {
+      "id": "laser-cannon",
+      "label": "Laser Cannon"
+    },
+    {
+      "id": "auto-cannon",
+      "label": "Auto Cannon"
+    },
+    {
+      "id": "plasma-cannon",
+      "label": "Plasma Cannon"
+    },
+    {
+      "id": "rocket-launcher",
+      "label": "Rocket Launcher"
+    },
+    {
+      "id": "mining-laser",
+      "label": "Mining Laser"
+    },
+    {
+      "id": "tow-beam",
+      "label": "Tow Beam"
+    },
+    {
+      "id": "cargo-lock-frame",
+      "label": "Cargo Lock Frame"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    },
+    {
+      "id": "basic-bench",
+      "label": "Basic Crafting Bench"
+    },
+    {
+      "id": "advanced-bench",
+      "label": "Advanced Crafting Bench"
+    },
+    {
+      "id": "tools-bench",
+      "label": "Tools Crafting Bench"
+    }
+  ]
 }
