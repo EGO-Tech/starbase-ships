@@ -1,6 +1,7 @@
 const _ = require('lodash');
 const path = require('path');
 const svgContents = require('eleventy-plugin-svg-contents');
+const markdownItGithubHeading = require('markdown-it-github-headings');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const { accessSync, constants, readdirSync } = require('fs');
 
@@ -39,6 +40,13 @@ const getShipsData = () =>
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(svgContents);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
+
+  eleventyConfig.amendLibrary('md', (mdLib) =>
+    mdLib.use(markdownItGithubHeading, {
+      prefixHeadingIds: false,
+      enableHeadingLinkIcons: false,
+    })
+  );
 
   eleventyConfig.addPassthroughCopy({
     './_includes/assets/CNAME': 'CNAME',

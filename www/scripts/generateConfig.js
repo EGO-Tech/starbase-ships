@@ -17,7 +17,6 @@ import {
   getSection,
   getShipLink,
   getShipName,
-  getShipVersion,
 } from '../lib/helpers/mdast.js';
 import { createWorker } from 'tesseract.js';
 
@@ -28,6 +27,7 @@ const shipsUrl = nconf.get('ships:url');
 const shipsRepoUrl = nconf.get('ships:repo');
 const readmePath = nconf.get('ships:paths:readme');
 const featuresPath = nconf.get('ships:paths:featureList');
+const usagePath = nconf.get('ships:paths:usage');
 const changelogPath = nconf.get('ships:paths:changelog');
 const knownIssuesPath = nconf.get('ships:paths:knownIssues');
 const faqPath = nconf.get('ships:paths:faq');
@@ -144,9 +144,8 @@ const getShipVideos = (table) =>
 
     // Basic Details
     const name = getShipName(markdown);
-    const version = getShipVersion(markdown);
     json.name ??= name;
-    json.version ??= version;
+    json.version ??= '1.0.0';
     json.slug ??= _.kebabCase(json.name);
     json.path = relPath;
     json.readme = {
@@ -156,6 +155,10 @@ const getShipVideos = (table) =>
     json.featureList = {
       path: featuresPath,
       url: `${shipsUrl}/${relPath}/${featuresPath}`,
+    };
+    json.usage = {
+      path: usagePath,
+      url: `${shipsUrl}/${relPath}/${usagePath}`,
     };
     json.changelog = {
       path: changelogPath,

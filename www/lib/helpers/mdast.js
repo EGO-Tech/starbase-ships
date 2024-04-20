@@ -11,7 +11,7 @@ export const getSection = (mdast, value) => {
   const heading = _.find(
     mdast.children,
     ({ type, depth, children }) =>
-      type === 'heading' && depth === 2 && _.some(children, { value }),
+      type === 'heading' && depth === 2 && _.some(children, { value })
   );
   if (!heading) return;
   const index = mdast.children.indexOf(heading);
@@ -20,18 +20,6 @@ export const getSection = (mdast, value) => {
 
 export const getShipName = (mdast) =>
   getTitle(mdast).replace(/ by EGOTech/, '');
-
-export const getShipVersion = (mdast) => {
-  const url = new URL(
-    _.first(
-      _.find(_.find(mdast.children, { type: 'paragraph' }).children, {
-        type: 'link',
-        url: '#changelog',
-      }).children,
-    ).url,
-  );
-  return url.searchParams.get('message');
-};
 
 export const getLink = (link) =>
   link && {
@@ -48,8 +36,8 @@ export const getShipLink = (mdast, text) =>
           type === 'paragraph' &&
           _.some(
             children,
-            (link) => link.type === 'link' && getLink(link).text === text,
-          ),
-      ),
-    ),
+            (link) => link.type === 'link' && getLink(link).text === text
+          )
+      )
+    )
   );

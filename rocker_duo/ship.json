@@ -499,5 +499,9 @@
   "featureList": {
     "path": "FEATURES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/USAGE.md"
   }
 }

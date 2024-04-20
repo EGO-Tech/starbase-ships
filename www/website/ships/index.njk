@@ -21,6 +21,7 @@ permalink: "ships/{{ ship.slug }}/"
       {% else %}
         <nord-button href="#purchase" size="s" variant="primary">Purchase</nord-button>
       {% endif %}
+      <nord-button href="#usage" size="s" variant="default">Usage</nord-button>
       {% if ship.knownIssues %}
         <nord-button href="#known-issues" size="s" variant="default">Known Issues</nord-button>
       {% endif %}
@@ -30,9 +31,9 @@ permalink: "ships/{{ ship.slug }}/"
   </nord-button-group>
   </nord-stack>
 </nord-header>
-<nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
+<nord-stack id="ship-page" gap="l" class="n-padding-i-l n-padding-b-l">
   <nord-stack>
-    <h1>
+    <h1 id="ship-name">
       <span class="n-font-size-xxxl">{{ ship.name }}</span>
       {% include 'shipVersion.njk' %}
     </h1>
@@ -94,7 +95,7 @@ permalink: "ships/{{ ship.slug }}/"
             <h1 slot="header">{{video.video.text}}</h1>
             <div style=overflow:hidden;resize:none;max-width:100%;>
               <div id=embed-google-map style="height:100%; width:100%;max-width:100%;">
-                <iframe src="{{video.video.url.replace('watch?v=', 'embed/')}}?loop=1&modestbranding=1" width=560 height=315 frameborder=0 allowfullscreen> </iframe>
+                <iframe src="{{video.video.url.replace('watch?v=', 'embed/')}}" width=560 height=315 frameborder=0 allowfullscreen> </iframe>
               </div>
             </div>
             <small slot="footer">
@@ -213,6 +214,9 @@ permalink: "ships/{{ ship.slug }}/"
         <img alt="EGOTech Discord Server" src="https://camo.githubusercontent.com/a52557e3b6648630b7bf1f530c22745e510cbed885cff0c1e11fccb64e9c61da/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f313031333332383638353536343137383437322f7769646765742e706e673f7374796c653d62616e6e657232" />
       </a>
     {% endif %}
+  </nord-stack>
+  <nord-stack id="usage" style="max-width: 1200px;">
+    {% renderFile '../../' + ship.path +'/' + ship.usage.path %}
   </nord-stack>
   {% if ship.knownIssues %}
     <nord-stack id="known-issues">

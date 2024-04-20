@@ -197,5 +197,9 @@
   "featureList": {
     "path": "FEATURES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/USAGE.md"
   }
 }

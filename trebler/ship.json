@@ -411,5 +411,9 @@
   "featureList": {
     "path": "FEATURES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/USAGE.md"
   }
 }
