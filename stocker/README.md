@@ -6,57 +6,6 @@
 
 The Stocker is a 232 ore crate capacity mining ship. It is designed as a direct upgrade for those who have outgrown the [Rigger](../rigger). The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Stocker)
-
-The Stocker (v1.1.0) is also available to buy in game at Scenery Showroom of Rando 4 Ship Shop at stations with Rando ship shops.
-
-<img src="photos/20211013183139_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020215245_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020222134_1.jpg" alt="Stocker" width="400" />
-<img src="photos/20211020223238_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223324_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223540_1.jpg" alt="Stocker" width="400" />
-<img src="photos/20211020223639_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223656_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211020223717_1.jpg" alt="Stocker" width="400" />
-<img src="photos/20211022233219_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211022222641_1.jpg" alt="Stocker" width="400" /> <img src="photos/20211022222630_1.jpg" alt="Stocker" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - 3 Ships by "Egomaniac" ( The moon Crasher) 😉😁](https://www.youtube.com/watch?v=RXAccUqcWhI) |
-
-## Features
-
-The ship has the following features:
-
-- 232 ore crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Four mining lasers on turrets that point towards asteroids with sweeping
-- Two ore collectors that point towards asteroids
-- Material scanner that will point towards asteroids
-- Approach and auto mine functions
-- Two external and two internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- 32 T2 generators with 12 T2 fuel chambers and 20 spare rods on racks
-- Radiators and heat sinks that provide more than adequate cooling
-- 12 medium and 22 small propellant tanks with 70,000,000 units of propellant
-- Estimated flight time of 6 hours and range of 3,000km
-- Propellant time and fuel time panels
-- 104 batteries
-- 38 T2 box and 104 T2 triangle thrusters providing forward thrust
-- 32 T2 triangle thrusters providing braking thrust
-- 32 T2 triangle thrusters for maneuvers
-- Basic crafting bench to craft refills
-- Extra two small propellant tank with its own resource bridge for emergency refueling
-- Two extra hardpoints (all cabled and piped)
-- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 34 rangefinders
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips, with two subnetworks setup
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

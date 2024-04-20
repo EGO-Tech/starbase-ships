@@ -1,0 +1,23 @@
+# Features
+
+- Back facing tow beam for towing ships, with a towing capacity of 7,500,000kg
+- Spinning pilot chair to view out the back of the ship through generous sized back window
+- Standard Cruise function
+- Turtle and Sloth functions with adjustable rates
+- Transponder system with ping function
+- One resource bridge
+- Auto generator rate script with adjustable minimum rate
+- Button to automatically adjust the minimum generator rate according to towed mass
+- 24 T2 generators (with 48 T1 enhancers) with eight T2 fuel chambers and 16 spare rods on racks
+- Radiators and heat sink that provide more than adequate cooling
+- Six medium tanks with 24,000,000 units of propellant
+- Propellant time and fuel time panels
+- 144 batteries
+- 38 T2 triangle thrusters providing forward thrust
+- 16 T2 maneuver thrusters providing braking thrust
+- 32 T2 maneuver thrusters
+- [Compass System by Firestar99](https://gitlab.com/Firestar99/yolol/-/tree/master/src/compass)
+- Speedometer
+- Timer panel
+- Odometer panel
+- Top speed of 140 m/s while not towing

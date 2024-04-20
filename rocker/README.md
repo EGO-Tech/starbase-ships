@@ -9,47 +9,6 @@ It has load automation to approach and load asteroids in the right order as well
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-If you like safe zone asteroid hauling, please consider the [Rocker Duo](../rocker_duo) or the [Hexxer](../hexxer) as well.
-
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Rocker)
-
-The Rocker (v1.1.0) is also available to buy in game at Hangar Showroom 2 of Rando 7 Ship Shop at stations with Rando ship shops.
-
-<img src="photos/20211002134507_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134515_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134623_1.jpg" alt="Rocker" width="400" />
-<img src="photos/20211002134643_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002134647_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002135839_1.jpg" alt="Rocker" width="400" />
-<img src="photos/20211002140030_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002140236_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002140517_1.jpg" alt="Rocker" width="400" />
-<img src="photos/20211002140653_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002141207_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002141237_1.jpg" alt="Rocker" width="400" />
-<img src="photos/20211002141428_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002144144_1.jpg" alt="Rocker" width="400" /> <img src="photos/20211002144204_1.jpg" alt="Rocker" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [CrispyChestnuts](https://www.youtube.com/channel/UCZuFhUb3UwEfSiUvIZJJ55Q) | [Crispy demos the Rocker Duo (and Rocker) by Egomaniac](https://www.youtube.com/watch?v=SI1ndXVzCmE) |
-| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - 3 Ships by "Egomaniac" ( The moon Crasher) 😉😁](https://www.youtube.com/watch?v=RXAccUqcWhI) |
-| [Softwerker](https://www.youtube.com/channel/UCLOj9FpWzNuFhsqv1g16lEw) | [Ship Shop Tour: Rando 7 (Teil 2/X) 🦾 Let's Play Starbase [S2E82] [German/Deutsch]](https://www.youtube.com/watch?v=L_w0D9E99cg) |
-
-## Features
-
-The ship has the following features:
-
-- Standard Cruise function
-- Turtle and Sloth function with adjustable rates
-- 12 T2 generators with four T2 fuel chambers and eight spare rods on racks
-- Radiators that provide more than adequate cooling
-- Two small and two medium propellant tanks with 10,000,000 units of propellant
-- 40 batteries
-- 12 T2 box and 28 T2 triangle thrusters providing forward thrust
-- 56 T2 maneuver thrusters
-- Tractor beam which will load asteroids into five compartments with cargo lock beams
-- Load automation that will load asteroids into the right container in the right order
-- Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
-- Rangefinders to help judge forward distance and asteroid fit
-- Resource bridge for refueling
-- Pretty much max speed 150m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

@@ -12,41 +12,6 @@ If you like safe zone asteroid hauling, please consider the [Rocker](../rocker) 
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Hexxer)
-
-The Hexxer (v1.1.0) is also available to buy in game at Hangar Showroom 1 of Rando 1 Ship Shop at stations with Rando ship shops.
-
-<img src="photos/20211130202523_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130202716_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130202726_1.jpg" alt="Hexxer" width="400" />
-<img src="photos/20211130202735_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130202952_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130200338_1.jpg" alt="Hexxer" width="400" />
-<img src="photos/20211130200911_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130203152_1.jpg" alt="Hexxer" width="400" /> <img src="photos/20211130215537_1.jpg" alt="Hexxer" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [CrispyChestnuts](https://www.youtube.com/channel/UCZuFhUb3UwEfSiUvIZJJ55Q) | [Crispy demos the Hexxer by Egomaniac](https://www.youtube.com/watch?v=dbKt1CyBivc) |
-
-## Features
-
-The ship has the following features:
-
-- Standard Cruise function
-- Turtle and Sloth function with adjustable rates
-- 15 T2 generators with five T2 fuel chambers and 10 spare rods on racks
-- Four medium propellant tanks with 16,000,000 units of propellant
-- 52 batteries
-- 72 T2 triangle thrusters providing forward thrust
-- 32 T2 maneuver thrusters providing braking thrust
-- 48 T2 maneuver thrusters
-- Six tractors beam which will load asteroids into six compartments with cargo lock beams
-- Load automation that will load asteroids into the right container in the right order
-- Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
-- Rangefinder to help judge forward distance and for approach
-- Resource bridge for refueling
-- 148m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

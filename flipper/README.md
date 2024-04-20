@@ -11,31 +11,6 @@ If you like safe zone asteroid hauling, please consider the [Hexxer](../Hexxer),
 
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Flipper)
-
-<img src="photos/20220721142859_1.jpg" alt="Flipper" width="400" /> <img src="photos/20220721142846_1.jpg" alt="Flipper" width="400" /> <img src="photos/20220721142836_1.jpg" alt="Flipper" width="400" />
-<img src="photos/20220721142916_1.jpg" alt="Flipper" width="400" /> <img src="photos/20220721145832_1.jpg" alt="Flipper" width="400" /> <img src="photos/20220721154312_1.jpg" alt="Flipper" width="400" />
-<img src="photos/20220721143001_1.jpg" alt="Flipper" width="400" /> <img src="photos/20220721142810_1.jpg" alt="Flipper" width="400" /> <img src="photos/20220721142813_1.jpg" alt="Flipper" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- Standard Cruise function
-- Turtle and Sloth function with adjustable rates
-- 24 T2 generators with eight T2 fuel chambers and 16 spare rods on racks
-- Four large propellant tanks with 48,000,000 units of propellant
-- 150 batteries
-- 20 T2 box thrusters providing thrust in one direction when not loaded (110m/s top speed)
-- 60 T2 box thrusters providing thrust in other direction when loaded (120m/s top speed, max speed when unloaded)
-- 48 T2 maneuver thrusters
-- Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
-- Rangefinder guides to help judge forward distance and for approach
-- Load automation that will approach and load a single T10 asteroid
-- Resource bridge for refueling
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

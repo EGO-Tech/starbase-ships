@@ -8,52 +8,6 @@ The Quester multi purpose command or explorer ship that is fitted with a medbay 
 It also has a large main hall that is designed to be large enough to fit the capital ship nav logger (not included in blueprint). However the owner is free to fit the hall for whatever purpose that is desired.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Quester)
-
-<img src="photos/20211222181833_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182236_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222181901_1.jpg" alt="Quester" width="400" />
-<img src="photos/20211222181924_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182251_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182319_1.jpg" alt="Quester" width="400" />
-<img src="photos/20211222182348_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182004_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182009_1.jpg" alt="Quester" width="400" />
-<img src="photos/20211222182017_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182022_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182045_1.jpg" alt="Quester" width="400" />
-<img src="photos/20211222182105_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182117_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182127_1.jpg" alt="Quester" width="400" />
-<img src="photos/20211222182144_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182152_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182159_1.jpg" alt="Quester" width="400" />
-<img src="photos/20211222182433_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182436_1.jpg" alt="Quester" width="400" /> <img src="photos/20211222182444_1.jpg" alt="Quester" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- Spacious interior with large main hall ready to be fitted
-- Two additional seats for co-pilots in a large open bridge
-- Workshop with all three crafting benches and three resource bridges
-- Medbay with a reconstruction machine
-- 24 ore crates to store ore for refills
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Two external and four internal resource bridges
-- Solar panels which can generate up to 4,300 EPS of power
-- Auto generator rate script with adjustable minimum rate
-- 30 T2 generators with 10 T2 fuel chambers and 20 spare rods on racks
-- 16 large and 40 small propellant tanks with 232,000,000 units of propellant
-- Estimated propellant time of 13 hours and range of 6,500km
-- Propellant time and fuel time panels
-- 72 batteries
-- 36 T2 box and 124 T2 triangle thrusters, all with T3 nozzles providing forward thrust
-- 36 T2 triangle thrusters with T3 nozzles providing braking thrust
-- 48 T2 triangle thrusters with T3 nozzles for maneuvers
-- Extra two small propellant tank with its own resource bridge for emergency refueling
-- Eight extra hardpoints (all cabled and piped)
-- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 44 rangefinders
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 130m/s before main hall is fitted
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

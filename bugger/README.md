@@ -7,55 +7,6 @@
 The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-A premium version, the [Bugger X](./premium/) is available for purchase on the [EGOTech Discord server](https://discord.gg/BKwVGvncmN).
-
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Bugger)
-
-<img src="photos/20220924104458_1.jpg" alt="Bugger" width="400" /> <img src="photos/20220924104254_1.jpg" alt="Bugger" width="400" /> <img src="photos/20220924101255_1.jpg" alt="Bugger" width="400" />
-<img src="photos/20220924101305_1.jpg" alt="Bugger" width="400" /> <img src="photos/20221002164231_1.jpg" alt="Bugger" width="400" /> <img src="photos/20221002164258_1.jpg" alt="Bugger" width="400" />
-<img src="photos/20221002172634_1.jpg" alt="Bugger" width="400" /> <img src="photos/20221002160443_1.jpg" alt="Bugger" width="400" /> <img src="photos/20220924100450_1.jpg" alt="Bugger" width="400" />
-<img src="photos/20220924100440_1.jpg" alt="Bugger" width="400" /> <img src="photos/20220924100430_1.jpg" alt="Bugger" width="400" /> <img src="photos/20220924100412_1.jpg" alt="Bugger" width="400" />
-<img src="photos/20221003175305_1.jpg" alt="Bugger" width="400" /> <img src="photos/20221003175307_1.jpg" alt="Bugger" width="400" /> <img src="photos/20221003175237_1.jpg" alt="Bugger" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [Flames_Yue](https://www.youtube.com/@flames_yue550) | [EGOTech Bugger Surface Miner Showcase](https://www.youtube.com/watch?v=EQRorkcg8d8) |
-| [Jimma Games](https://www.youtube.com/@jimmagames5907) | [Bugger - Starbase Planet Miner](https://www.youtube.com/watch?v=8SPuTrapSbo) |
-
-## Features
-
-The ship has the following features:
-
-- 448 ore crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Separate mining seat for mining operations with view of lasers and ground
-- Row of 10 mining lasers that sweep from side to side
-- Auto mine function that auto advances (with adjustable thrust and speed) ship for easy mining
-- "Feelers" to keep ship in hover mode while mining
-- Four ore collectors
-- Two external and three internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- 36 T3 generators with 36 T2 enhancers fueled by 12 T3 fuel chambers and 24 spare rods on racks
-- Radiators and heat sinks that provide more than adequate cooling
-- Eight large propellant tanks with 96,000,000 units of propellant
-- Propellant time and fuel time panels
-- 182 batteries
-- 20 T2 box and 80 T2 triangle thrusters providing forward thrust
-- 32 T2 triangle thrusters providing braking thrust
-- 104 T2 triangle thrusters for maneuvers, with extra thrust upwards
-- Basic crafting bench to craft refills plus the tools and advanced bench
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 100m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

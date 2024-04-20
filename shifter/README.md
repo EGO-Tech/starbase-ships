@@ -7,62 +7,6 @@
 The Shifter is a 450 ore crate capacity mining ship with two automated rotating laser drills for mining operations plus a spacious interior allowing for multi crew operations.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Shifter)
-
-The Shifter (v1.1.0) is also available to buy in game at Central Showroom of Rando 1 Ship Shop at stations with Rando ship shops.
-
-<img src="photos/20221126225543_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126225621_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218213931_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20221126225605_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218215740_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214039_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20211218214052_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126230428_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214110_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20211218214125_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126230407_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126230358_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20221126230420_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126225335_1.jpg" alt="Shifter" width="400" /> <img src="photos/20211218214228_1.jpg" alt="Shifter" width="400" />
-<img src="photos/20221126234439_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126234347_1.jpg" alt="Shifter" width="400" /> <img src="photos/20221126234422_1.jpg" alt="Shifter" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [Flames_Yue](https://www.youtube.com/@flames_yue550) | [EGOTech Shifter Asteroid Miner Showcase](https://www.youtube.com/watch?v=xvv7hNlfqLY) |
-
-## Features
-
-The ship has the following features:
-
-- 450 ore crates
-- Spacious double level interior
-- Two additional seats for co-pilots
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Two automated rotating drills with four mining lasers each
-- Six ore collectors
-- Material scanner with display of materials in stacks
-- Approach and auto mine functions
-- Two external and four internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- 36 T2 generators (with 40 T1 and 16 T2 enhancers) with 12 T2 fuel chambers and 48 spare rods on racks
-- Radiators and heat sinks that provide more than adequate cooling
-- Nine large propellant tanks with 108,000,000 units of propellant
-- Estimated flight time of 4 hours and range of 2,000km
-- Propellant time and fuel time panels
-- 216 batteries
-- 42 T2 box and 124 T2 triangle thrusters providing forward thrust
-- 48 T2 triangle thrusters providing braking thrust
-- Eight T2 maneuver and 72 T2 triangle thrusters for maneuvers
-- Basic crafting bench to craft refills with meter upgrade plus the other two benches
-- Extra two small propellant tank with its own resource bridge for emergency refueling
-- Two extra hardpoints (all cabled and piped)
-- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 35 rangefinders
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 135m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

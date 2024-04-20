@@ -7,47 +7,6 @@
 The Trebler is a 534 ore crate capacity mining ship with three automated rotating laser drills for mining operations. It is designed to be a short range, high capacity and high efficiency miner used out of a capital ship.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Trebler)
-
-<img src="photos/20230426173418_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426173426_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426173435_1.jpg" alt="Trebler" width="400" />
-<img src="photos/20230426173454_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426173531_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426173627_1.jpg" alt="Trebler" width="400" />
-<img src="photos/20230426173948_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426173958_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426174021_1.jpg" alt="Trebler" width="400" />
-<img src="photos/20230426174440_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426174452_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426174620_1.jpg" alt="Trebler" width="400" />
-<img src="photos/20230426174746_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426144224_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426144211_1.jpg" alt="Trebler" width="400" />
-<img src="photos/20230426144254_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426144101_1.jpg" alt="Trebler" width="400" /> <img src="photos/20230426144105_1.jpg" alt="Trebler" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- 534 ore crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Three automated rotating drills with three mining lasers each
-- Nine ore collectors
-- Material scanner with display of materials in stacks
-- Approach and auto mine functions
-- One external and two internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- 36 T2 generators (with 36 T1 and 36 T2 enhancers) with 12 T2 fuel chambers and 24 spare rods on racks
-- Radiators and heat sinks that provide more than adequate cooling
-- Four large propellant tanks with 48,000,000 units of propellant
-- Estimated flight time of 2.5 hours and range of 1,200km
-- Propellant time and fuel time panels
-- 290 batteries
-- 142 T2 triangle thrusters providing forward thrust
-- 48 T2 triangle thrusters providing braking thrust
-- 64 T2 triangle thrusters for maneuvers
-- Basic crafting bench to craft refills with meter upgrade plus tools bench
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 125m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

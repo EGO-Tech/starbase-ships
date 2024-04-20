@@ -8,45 +8,6 @@ The Crawler is a 704 ore crate capacity mining ship with 10 sweeping mining lase
 
 The blueprint is available for [purchase](#purchase-blueprint).
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/Crawler)
-
-<img src="photos/20221121192814_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121192824_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121192840_1.jpg" alt="Crawler" width="400" />
-<img src="photos/20221121192956_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121192944_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121192935_1.jpg" alt="Crawler" width="400" />
-<img src="photos/20221121180820_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121180745_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121180757_1.jpg" alt="Crawler" width="400" />
-<img src="photos/20221121180719_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121180723_1.jpg" alt="Crawler" width="400" /> <img src="photos/20221121180702_1.jpg" alt="Crawler" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- 704 ore crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Separate mining seat for mining operations with view of lasers and ground
-- Row of 10 mining lasers that sweep from side to side
-- Auto mine function that auto advances (with adjustable thrust and speed) ship for easy mining
-- "Feelers" to keep ship in hover mode while mining
-- Four ore collectors
-- Two external and three internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- One large generator with processing unit and one large fuel tank
-- Radiators and heat sinks that provide more than adequate cooling
-- Six large propellant tanks with 72,000,000 units of propellant
-- Propellant time and fuel time panels
-- 234 batteries
-- 21 T3 box and 128 T3 triangle thrusters providing forward thrust
-- 52 T3 triangle thrusters providing braking thrust
-- 120 T3 triangle thrusters for maneuvers, with extra thrust upwards
-- Basic crafting bench to craft refills plus the tools and advanced bench
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 125m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

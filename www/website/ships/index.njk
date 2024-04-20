@@ -10,22 +10,23 @@ permalink: "ships/{{ ship.slug }}/"
 <nord-header slot="header">
   <nord-stack direction="horizontal" wrap>
     <nord-button-group>
-      <nord-button href="#ship-photos" size="s" variant="plain">Photos</nord-button>
+      <nord-button href="#ship-photos" size="s" variant="default">Photos</nord-button>
+      <nord-button href="#description" size="s" variant="default">Features</nord-button>
       {% if ship.videos.length %}
-        <nord-button href="#ship-videos" size="s" variant="plain">Videos</nord-button>
+        <nord-button href="#ship-videos" size="s" variant="default">Videos</nord-button>
       {% endif %}
-      <nord-button href="#build-cost" size="s" variant="plain">Build Cost</nord-button>
+      <nord-button href="#build-cost" size="s" variant="default">Build Cost</nord-button>
       {% if ship.saleType === 'free' %}
-        <nord-button href="#download" size="s" variant="plain">Download</nord-button>
+        <nord-button href="#download" size="s" variant="primary">Download</nord-button>
       {% else %}
-        <nord-button href="#purchase" size="s" variant="plain">Purchase</nord-button>
+        <nord-button href="#purchase" size="s" variant="primary">Purchase</nord-button>
       {% endif %}
       {% if ship.knownIssues %}
-        <nord-button href="#known-issues" size="s" variant="plain">Known Issues</nord-button>
+        <nord-button href="#known-issues" size="s" variant="default">Known Issues</nord-button>
       {% endif %}
-      <nord-button href="#faq" size="s" variant="plain">FAQ</nord-button>
-      <nord-button href="#ship-links" size="s" variant="plain">Links</nord-button>
-      <nord-button href="#changelog" size="s" variant="plain">Changelog</nord-button>
+      <nord-button href="#faq" size="s" variant="default">FAQ</nord-button>
+      <nord-button href="#ship-links" size="s" variant="default">Links</nord-button>
+      <nord-button href="#changelog" size="s" variant="default">Changelog</nord-button>
   </nord-button-group>
   </nord-stack>
 </nord-header>
@@ -78,8 +79,11 @@ permalink: "ships/{{ ship.slug }}/"
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="features" style="max-width: 1200px;">
+  <nord-stack id="description" style="max-width: 1200px;">
     <p>{{ ship.description | nl2br | safe }}</p>
+  </nord-stack>
+  <nord-stack id="features">
+    {% renderFile '../../' + ship.path +'/' + ship.featureList.path %}
   </nord-stack>
   {% if ship.videos.length %}
     <nord-stack id="ship-videos">

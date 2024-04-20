@@ -177,5 +177,9 @@
       "id": "tools-bench",
       "label": "Tools Crafting Bench"
     }
-  ]
+  ],
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/premium/FEATURES.md"
+  }
 }

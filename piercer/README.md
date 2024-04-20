@@ -9,56 +9,6 @@ The blueprint is provided for [free](#download-blueprint). All [feedback](#provi
 
 A premium version, the [Piercer X (Anorak Edition)](./premium/) is available for purchase on the [EGOTech Discord server](https://discord.gg/BKwVGvncmN).
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Piercer)
-
-<img src="photos/20220225204720_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225204729_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225204743_1.jpg" alt="Piercer" width="400" />
-<img src="photos/20220225205214_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225204821_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225210611_1.jpg" alt="Piercer" width="400" />
-<img src="photos/20220225210802_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225210746_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225205341_1.jpg" alt="Piercer" width="400" />
-<img src="photos/20220225204600_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225204616_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220225204632_1.jpg" alt="Piercer" width="400" />
-<img src="photos/20220222222156_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220222222201_1.jpg" alt="Piercer" width="400" /> <img src="photos/20220222222205_1.jpg" alt="Piercer" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - The Piercer by Egomaniac - Surgical mining!](https://www.youtube.com/watch?v=UJVmU2bdvLA) |
-| [flexcreator](https://www.youtube.com/c/flexcreator) | [Moon Mining with Piercer \| Starbase](https://www.youtube.com/watch?v=obR1CmXiXhw) |
-
-## Features
-
-The ship has the following features:
-
-- 342 ore crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- Automated rotating drill with four mining lasers
-- Four ore collectors
-- Material scanner with display of materials in stacks
-- Approach and auto mine functions
-- Two external and two internal resource bridges
-- Auto generator rate script with adjustable minimum rate
-- 32 T2 generators with 12 T2 fuel chambers and 24 spare rods on racks
-- Radiators and heat sinks that provide more than adequate cooling
-- 12 large propellant tanks with 144,000,000 units of propellant
-- Estimated flight time of 8 hours and range of 4000km
-- Propellant time and fuel time panels
-- 130 batteries
-- 32 T2 box and 104 T2 triangle thrusters providing forward thrust
-- 32 T2 triangle thrusters providing braking thrust
-- 48 T2 triangle thrusters for maneuvers
-- Basic crafting bench to craft refills plus the tools bench
-- [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 31 rangefinders
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Top speed of 140m/s when empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

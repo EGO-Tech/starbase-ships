@@ -7,35 +7,6 @@
 The Clunker is a 948 crate hauler with two 13 ring plasma thrusters serving as its main engines to provide decent speed. The ship is no frills and with double the upwards thrust, it is mainly designed to haul ore between a capital ship and the moon surface.
 The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Clunker)
-
-<img src="photos/20221209152710_1.jpg" alt="Clunker" width="400" /> <img src="photos/20221209152717_1.jpg" alt="Clunker" width="400" /> <img src="photos/20221209152728_1.jpg" alt="Clunker" width="400" />
-<img src="photos/20221209152745_1.jpg" alt="Clunker" width="400" /> <img src="photos/20221209152828_1.jpg" alt="Clunker" width="400" /> <img src="photos/20221209152923_1.jpg" alt="Clunker" width="400" />
-<img src="photos/20221209152606_1.jpg" alt="Clunker" width="400" /> <img src="photos/20221209152617_1.jpg" alt="Clunker" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Features
-
-The ship has the following features:
-
-- 948 crates
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Hover rangefinder guides point down on each corner of the ship
-- Transponder system with ping function
-- Auto generator rate script with adjustable minimum rate
-- One large generator with one large fuel tank and one large processing unit
-- Radiators that provide more than adequate cooling
-- Six large propellant tanks with 72,000,000 units of propellant
-- 72 batteries
-- Two 13 ring plasma thrusters and 56 T2 triangle thrusters providing forward thrust
-- 56 T2 triangle thrusters providing braking thrust
-- 120 T2 triangle thrusters for maneuvers
-- Speedometer
-- Many extra slots for YOLOL or memory chips
-- Top speed of 145m/s empty
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)

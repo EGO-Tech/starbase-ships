@@ -1,0 +1,25 @@
+# Features
+
+- Four lasers with visual indicators for ammo, heat and power
+- Cargo lock beam crosshair
+- Aegisium plating
+- Standard Cruise function
+- Turtle and Sloth functions with adjustable rates
+- Transponder system with ping function
+- One resource bridge
+- Auto generator rate script with adjustable minimum rate
+- Six T2 generators with two T2 fuel chambers and two spare rods on racks
+- Radiators and heat sinks that provide more than adequate cooling for sustained firing
+- Two medium with 8,000,000 units of propellant
+- Propellant time and fuel time panels
+- 20 batteries
+- Six T2 box and eight T2 triangle thrusters providing forward thrust
+- Eight T2 maneuver thrusters providing braking thrust
+- 18 T2 maneuver thrusters
+- [ISAN Mono Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System)
+- Speedometer
+- Timer panel
+- Odometer panel
+- Many extra slots for YOLOL or memory chips
+- Service hatches for easy access to fuel rods and weapon ammo
+- Top speed of 145m/s

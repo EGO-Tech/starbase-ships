@@ -6,48 +6,6 @@
 
 The Jabber is a fast light fighter with four lasers. Although it has very light armour, it is very fast and quite maneuverable. The blueprint is provided for [free](#download-blueprint). All [feedback](#providing-feedback) is welcome and in game tips (in-game name Egomaniac) are appreciated. However support will be limited but I will try my best.
 
-[Starbase Ship Shop Page](https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Jabber)
-
-<img src="photos/20220107211217_1.jpg" alt="Jabber" width="400" /> <img src="photos/20220107211227_1.jpg" alt="Jabber" width="400" /> <img src="photos/20220107211236_1.jpg" alt="Jabber" width="400" />
-<img src="photos/20220107211527_1.jpg" alt="Jabber" width="400" /> <img src="photos/20220107211332_1.jpg" alt="Jabber" width="400" /> <img src="photos/20220107211342_1.jpg" alt="Jabber" width="400" />
-<img src="photos/20220107211306_1.jpg" alt="Jabber" width="400" /> <img src="photos/20220107211502_1.jpg" alt="Jabber" width="400" /> <img src="photos/20220107210816_1.jpg" alt="Jabber" width="400" />
-
-More photos in the [`photos` folder](photos)
-
-## Videos
-
-| Channel | Video |
-| --- | --- |
-| [Krawll Unchained](https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A) | [Starbase - Community Ship Showcase - Vinteo's first "Small Fighter" !](https://www.youtube.com/watch?v=9_0CvLgVGqY) |
-
-## Features
-
-The ship has the following features:
-
-- Four lasers with visual indicators for ammo, heat and power
-- Cargo lock beam crosshair
-- Aegisium plating
-- Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
-- Transponder system with ping function
-- One resource bridge
-- Auto generator rate script with adjustable minimum rate
-- Six T2 generators with two T2 fuel chambers and two spare rods on racks
-- Radiators and heat sinks that provide more than adequate cooling for sustained firing
-- Two medium with 8,000,000 units of propellant
-- Propellant time and fuel time panels
-- 20 batteries
-- Six T2 box and eight T2 triangle thrusters providing forward thrust
-- Eight T2 maneuver thrusters providing braking thrust
-- 18 T2 maneuver thrusters
-- [ISAN Mono Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System)
-- Speedometer
-- Timer panel
-- Odometer panel
-- Many extra slots for YOLOL or memory chips
-- Service hatches for easy access to fuel rods and weapon ammo
-- Top speed of 145m/s
-
 ## Changelog
 
 View changelog [here](CHANGELOG.md)
