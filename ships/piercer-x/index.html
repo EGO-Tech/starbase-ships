@@ -181,6 +181,7 @@
       
         <nord-button href="#purchase" size="s" variant="primary">Purchase</nord-button>
       
+      <nord-button href="#usage" size="s" variant="default">Usage</nord-button>
       
       <nord-button href="#faq" size="s" variant="default">FAQ</nord-button>
       <nord-button href="#ship-links" size="s" variant="default">Links</nord-button>
@@ -188,9 +189,9 @@
   </nord-button-group>
   </nord-stack>
 </nord-header>
-<nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
+<nord-stack id="ship-page" gap="l" class="n-padding-i-l n-padding-b-l">
   <nord-stack>
-    <h1>
+    <h1 id="ship-name">
       <span class="n-font-size-xxxl">Piercer X (Anorak Edition)</span>
       <nord-stack direction="horizontal" gap="s">
   
@@ -269,7 +270,7 @@
     <p>The Piercer X is a premium version of the Piercer with T3 generators, fuel chambers, enhancers and thrusters.</p>
   </nord-stack>
   <nord-stack id="features">
-    <h1>Features</h1>
+    <h1><a id="features" class="anchor" href="#features" aria-hidden="true"></a>Features</h1>
 <p>The Piercer X has the same features as the <a href="../piercer#features">Piercer</a> except the following differences.</p>
 <nord-table style="max-width: 500px">
 <table>
@@ -496,6 +497,11 @@
       </a>
     
   </nord-stack>
+  <nord-stack id="usage" style="max-width: 1200px;">
+    <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
+<p>For usage instructions please refer to the <a href="../piercer#usage">usage instructions of the Piercer</a></p>
+
+  </nord-stack>
   
   <nord-stack id="faq">
     
@@ -514,22 +520,22 @@
     </ul>
   </nord-stack>
   <nord-stack id="changelog">
-    <h1>Changelog</h1>
-<h2>v1.0.2 (Current) - 27/12/2022</h2>
+    <h1><a id="changelog" class="anchor" href="#changelog" aria-hidden="true"></a>Changelog</h1>
+<h2><a id="v102-current---27122022" class="anchor" href="#v102-current---27122022" aria-hidden="true"></a>v1.0.2 (Current) - 27/12/2022</h2>
 <ul>
 <li>Renamed <code>Material</code> panel to <code>Materials</code></li>
 <li>Fixed upper limit of laser pitch control</li>
 <li>Added cruise safety chip</li>
 <li>Added lasers safety chip</li>
 </ul>
-<h2>v1.0.1 - 09/10/2022</h2>
+<h2><a id="v101---09102022" class="anchor" href="#v101---09102022" aria-hidden="true"></a>v1.0.1 - 09/10/2022</h2>
 <ul>
 <li>Changed laser convergence to use professional chip for better accuracy</li>
 <li>Removed references to laser pulse in YOLOL</li>
 <li>Removed one redundant memory chip</li>
 <li>Corrected naming of field in heat sinks to match <code>StoredHeat</code></li>
 </ul>
-<h2>v1.0.0 - 06/10/2022</h2>
+<h2><a id="v100---06102022" class="anchor" href="#v100---06102022" aria-hidden="true"></a>v1.0.0 - 06/10/2022</h2>
 <ul>
 <li>Initial release</li>
 </ul>

@@ -183,6 +183,7 @@
       
         <nord-button href="#download" size="s" variant="primary">Download</nord-button>
       
+      <nord-button href="#usage" size="s" variant="default">Usage</nord-button>
       
       <nord-button href="#faq" size="s" variant="default">FAQ</nord-button>
       <nord-button href="#ship-links" size="s" variant="default">Links</nord-button>
@@ -190,9 +191,9 @@
   </nord-button-group>
   </nord-stack>
 </nord-header>
-<nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
+<nord-stack id="ship-page" gap="l" class="n-padding-i-l n-padding-b-l">
   <nord-stack>
-    <h1>
+    <h1 id="ship-name">
       <span class="n-font-size-xxxl">Fledger</span>
       <nord-stack direction="horizontal" gap="s">
   
@@ -358,7 +359,7 @@
     <p>The Fledger is a starter ship that is targeted towards aspiring mechanics that want to learn about how ships work. It starts with the basic machinery but has plenty of space for upgrades, allowing the ship to grow as the player progresses. With an exposed frame, upgrades and repairs should be easier than most ships.</p>
   </nord-stack>
   <nord-stack id="features">
-    <h1>Features</h1>
+    <h1><a id="features" class="anchor" href="#features" aria-hidden="true"></a>Features</h1>
 <ul>
 <li>36 ore crates with designated space for up to 148 crates</li>
 <li>Standard Cruise and Turtle function</li>
@@ -388,7 +389,7 @@
             <h1 slot="header">Starbase 1-50 (Playlist of live streams)</h1>
             <div style=overflow:hidden;resize:none;max-width:100%;>
               <div id=embed-google-map style="height:100%; width:100%;max-width:100%;">
-                <iframe src="https://www.youtube.com/playlist?list=PL4vREYUd0Y3G-39Cus-3uXTXr4AF7dc2-?loop=1&modestbranding=1" width=560 height=315 frameborder=0 allowfullscreen> </iframe>
+                <iframe src="https://www.youtube.com/embed/kGP1VFeL5Xw" width=560 height=315 frameborder=0 allowfullscreen> </iframe>
               </div>
             </div>
             <small slot="footer">
@@ -550,6 +551,114 @@
       </nord-card>
     
   </nord-stack>
+  <nord-stack id="usage" style="max-width: 1200px;">
+    <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/pilot_center_console.jpg" alt="Pilot Console"></p>
+<nord-table style="max-width: 1200px">
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Cruise</code></td>
+<td>Activates cruise control, forward thrust will not reset to zero unless turned down.</td>
+</tr>
+<tr>
+<td><code>Turtle</code></td>
+<td>Activates turtle mode which sets forward thrust to a maximum limit of 20%.</td>
+</tr>
+<tr>
+<td><code>Transponder</code></td>
+<td>Turns on and off ship transponder</td>
+</tr>
+<tr>
+<td><code>StoredBatteryPower</code></td>
+<td>Shows current battery charge of the batteries, maximum of 10,000 units.</td>
+</tr>
+<tr>
+<td><code>GeneratorUnitRate</code></td>
+<td>Current generator rate, maximum of 100%.</td>
+</tr>
+<tr>
+<td><code>FuelChamberFuel</code></td>
+<td>Fuel remaining on fuel rods in fuel chambers, maximum of 300,000 units for each.</td>
+</tr>
+<tr>
+<td><code>GasNetworkStoredResource</code></td>
+<td>Total propellant remaining in propellant tanks, maximum of 8,000,000 units.</td>
+</tr>
+</tbody>
+</table>
+</nord-table>
+<p>Almost all devices are kept with default names and controls kept to a minimum intentionally.</p>
+<h2><a id="upgrading-the-ship" class="anchor" href="#upgrading-the-ship" aria-hidden="true"></a>Upgrading the Ship</h2>
+<p>The following are recommendations on how to add upgrades to the ship. However it is up to the owner how they want to do it, so be creative!</p>
+<h3><a id="cabling-piping-and-ducts" class="anchor" href="#cabling-piping-and-ducts" aria-hidden="true"></a>Cabling, Piping and Ducts</h3>
+<p>The ship is connected throughout on one network using ducts, with many redundant ducts. So running cable or pipe to any duct will connect the hardpoint or device to the the ship's network.</p>
+<h3><a id="adding-more-crates" class="anchor" href="#adding-more-crates" aria-hidden="true"></a>Adding More Crates</h3>
+<p>The beam structure of the ship allows for three rows of ore crates (two crates high) on each side of the ship. Snap the new crates to the piped and cabled ones at the back of the ship, bolt them in and you are good to go. There should be designated space for 148 crates but additional crates can be bolted to the frame. These additional crates will have to be cabled and piped separately.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/crates_upgrade.jpg" alt="Crates Upgrade"></p>
+<nord-banner style="max-width: 820px;" variant="info">
+<p><strong>TIP:</strong> Make sure to add crates equally on both sides of the ship to maintain its balance.</p>
+</nord-banner>
+<h3><a id="adding-more-thrusters" class="anchor" href="#adding-more-thrusters" aria-hidden="true"></a>Adding More Thrusters</h3>
+<p>As you add more crates you will need to add more thrust to keep up with the ship's mass. This can be done by either adding more thrusters or if you can afford it, replacing existing thrusters with higher tier thrusters. If adding new thrusters, make sure to name the thrusters by using the universal tool (<code>U</code> key) on the thruster body and giving it a unique name.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/naming_thrusters.jpg" alt="Naming Thrusters"></p>
+<p>Then add the thruster name to the main flight computer (located behind the pilot seat) with the universal tool.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/main_flight_computer.jpg" alt="Main Flight Computer"></p>
+<p>If replacing existing thrusters, you can use the same name of the old ones and their names should already be in the main flight computer.</p>
+<p>You can also group thrusters together by giving it the same name, thruster should only be grouped if they are close together and firing in the same direction.</p>
+<p>Triangle thrusters are automatically grouped together if they are snapped together and only need to be connected by one hardpoint. Only the thruster connected to the hardpoint needs to be named.</p>
+<h4><a id="forward-thrusters" class="anchor" href="#forward-thrusters" aria-hidden="true"></a>Forward Thrusters</h4>
+<p>The easiest way to add more forward thrust is to bolt on additional triangle thrusters to existing ones. These should just work once bolted on.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/rear_triangle_thrusters.jpg" alt="Rear Triangle Thrusters"></p>
+<p>Additonally there are extra hardpoints available to bolt on box thrusters. Of course you can add your own hardpoints (remember to cable and pipe them) and thrusters as well. A fully upgraded rear thruster wall would look like below.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/rear_upgraded.jpg" alt="Fully Upgraded Rear Thrusters"></p>
+<h4><a id="brakingbackwards-thrusters" class="anchor" href="#brakingbackwards-thrusters" aria-hidden="true"></a>Braking/Backwards Thrusters</h4>
+<p>Again, the easiest way to upgrade is to bolt on additional triangle thrusters to existing ones.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/front_triangle_thrusters.jpg" alt="Front Triangle Thrusters"></p>
+<p>Additional triangle thrusters can also be added to hardpoints on each side of the ship. These need to be named the same as they are connected together.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/side_triangle_thrusters.jpg" alt="Side Triangle Thrusters"></p>
+<p>Instead of triangle thrusters, maneuver thursters can also be used on the side hardpoints. These can be named separately if you wish.</p>
+<h4><a id="maneuver-thrusters" class="anchor" href="#maneuver-thrusters" aria-hidden="true"></a>Maneuver Thrusters</h4>
+<p>On each of the eight corners of the ships, there are additional hardpoints to add maneuver thrusters. These thrusters should be grouped together so name them the same as the existing ones.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/maneuver_upgraded.jpg" alt="Maneuver Thrusters"></p>
+<h3><a id="adding-more-propellant" class="anchor" href="#adding-more-propellant" aria-hidden="true"></a>Adding More Propellant</h3>
+<p>There is designated space on both sides of the ship to add either add two small tanks or one medium tank. At least one support of each tank needs to be piped. Cables are optional.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/small_tanks.jpg" alt="Small Tanks">
+<img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/medium_tank.jpg" alt="Medium Tank"></p>
+<p>You can also always add tanks to any other space of the ship, just need to pipe the supports.</p>
+<h3><a id="adding-more-power" class="anchor" href="#adding-more-power" aria-hidden="true"></a>Adding More Power</h3>
+<p>The core of the ship is designed for the ship's generator block. There is plenty of space to add more generators and fuel chambers to the exisiting block. There is also enough space to  duplicate and mirror the generator block on the other side facing the back of the ship.
+If connected to the existing block, they should work as the block is already piped and cabled with sockets. Just remember to add enough heat sinks.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/generator_block.jpg" alt="Generator Block"></p>
+<p>If really needed additional generator blocks can be added to the top and bottom of the ship as well, under the radiators. These need to be cabled and piped separately. Additional power can also be done by replacing existing generators with tier three ones or enhanced using enhancers, however keep heat generation and coolling in mind.</p>
+<h3><a id="adding-more-backup-fuel-rods" class="anchor" href="#adding-more-backup-fuel-rods" aria-hidden="true"></a>Adding More Backup Fuel Rods</h3>
+<p>The designated space of fuel rods can hold up to 15 racks and rods. Feel free to add extra racks and rods to any other space you deem suitable.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/fuel_racks.jpg" alt="Fuel Racks"></p>
+<h3><a id="adding-more-radiators" class="anchor" href="#adding-more-radiators" aria-hidden="true"></a>Adding More Radiators</h3>
+<p>There are hardpoints designated for more radiators on the top and bottom of the ship.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/radiators_upgraded.jpg" alt="Radiators"></p>
+<h3><a id="adding-more-batteries" class="anchor" href="#adding-more-batteries" aria-hidden="true"></a>Adding More Batteries</h3>
+<p>Additonal batteries can be added to the existing battery blocks on each side of the ship. Batteries connect when snapped together so it should just work. Again, you can add batteries to any where you can find space, just remember to cable them.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/batteries_upgraded.jpg" alt="Battery Block"></p>
+<h3><a id="adding-other-benches" class="anchor" href="#adding-other-benches" aria-hidden="true"></a>Adding Other Benches</h3>
+<p>There is space designated for the two other benches next to the basic crafting bench.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/benches.jpg" alt="Benches"></p>
+<h3><a id="adding-ship-tools" class="anchor" href="#adding-ship-tools" aria-hidden="true"></a>Adding Ship Tools</h3>
+<p>There are plenty of hardpoints on the front as well as top and bottom of the ship to add any ship tools you need like mining lasers, ore collectors, material scanners, navigation receivers and others. All these hardpoints are already cabled and piped. Additionally the two hardpoints on either side of the cockpit has space for advanced turrets.</p>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/advanced_turret.jpg" alt="Advanced Turret"></p>
+<h3><a id="adding-ship-controls-and-yolol" class="anchor" href="#adding-ship-controls-and-yolol" aria-hidden="true"></a>Adding Ship Controls and YOLOL</h3>
+<p>The cockpit has control tables in the centre and either side of the pilot seat. Feel free to add any other displays or controls you need. YOLOL and memory racks behind the pilot seat have plenty of space to add chips.</p>
+<p>There is only a single YOLOL chip on the ships which will only ramp up the generators when needed.</p>
+<h3><a id="plating" class="anchor" href="#plating" aria-hidden="true"></a>Plating</h3>
+<p>The ship is intentionally left bare, but feel free to spruce up your ship with plates and decorative pieces. Have fun with it!</p>
+
+  </nord-stack>
   
   <nord-stack id="faq">
     
@@ -568,13 +677,13 @@
     </ul>
   </nord-stack>
   <nord-stack id="changelog">
-    <h1>Changelog</h1>
-<h2>v1.0.1 (Current) - 22/10/2022</h2>
+    <h1><a id="changelog" class="anchor" href="#changelog" aria-hidden="true"></a>Changelog</h1>
+<h2><a id="v101-current---22102022" class="anchor" href="#v101-current---22102022" aria-hidden="true"></a>v1.0.1 (Current) - 22/10/2022</h2>
 <ul>
 <li>Fixed <code>Transponder</code> button on and off values</li>
 <li>Added missing beam at the back of the ship</li>
 </ul>
-<h2>v1.0.0 - 19/10/2022</h2>
+<h2><a id="v100---19102022" class="anchor" href="#v100---19102022" aria-hidden="true"></a>v1.0.0 - 19/10/2022</h2>
 <ul>
 <li>Initial release</li>
 </ul>

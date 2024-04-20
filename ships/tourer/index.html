@@ -181,6 +181,7 @@
       
         <nord-button href="#download" size="s" variant="primary">Download</nord-button>
       
+      <nord-button href="#usage" size="s" variant="default">Usage</nord-button>
       
         <nord-button href="#known-issues" size="s" variant="default">Known Issues</nord-button>
       
@@ -190,9 +191,9 @@
   </nord-button-group>
   </nord-stack>
 </nord-header>
-<nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
+<nord-stack id="ship-page" gap="l" class="n-padding-i-l n-padding-b-l">
   <nord-stack>
-    <h1>
+    <h1 id="ship-name">
       <span class="n-font-size-xxxl">Tourer</span>
       <nord-stack direction="horizontal" gap="s">
   
@@ -320,7 +321,7 @@
     <p>The Tourer is a ship that can be used to transport Endos in the style of a tour bus. It has seating for 16 passengers and a cargo lock frame for cargo.</p>
   </nord-stack>
   <nord-stack id="features">
-    <h1>Features</h1>
+    <h1><a id="features" class="anchor" href="#features" aria-hidden="true"></a>Features</h1>
 <ul>
 <li>Seating for 16 passengers</li>
 <li>Cargo lock frame to store cargo</li>
@@ -548,9 +549,140 @@
       </nord-card>
     
   </nord-stack>
+  <nord-stack id="usage" style="max-width: 1200px;">
+    <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
+<p>To enter the ship, there is a button for <code>Door</code> next to the cockpit of the ship. Once inside you can also open and close the cockpit glass <code>Canopy</code>. Buttons for these are available in the pilot right side console</p>
+<h2><a id="flying-the-ship" class="anchor" href="#flying-the-ship" aria-hidden="true"></a>Flying the Ship</h2>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/images/pilot_center_console.jpg" alt="Pilot Console"></p>
+<p>The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.</p>
+<nord-table style="max-width: 1200px">
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ForwardThrust</code></td>
+<td>Current forward thrust, maximum of 10,000 units</td>
+</tr>
+<tr>
+<td><code>Cruise</code></td>
+<td>Activates cruise control, forward thrust will not reset to zero unless turned down.</td>
+</tr>
+<tr>
+<td><code>Aim</code></td>
+<td>Reduces the response time of key presses for pitch and yaw.</td>
+</tr>
+<tr>
+<td><code>Turtle</code></td>
+<td>Activates turtle mode which sets forward thrust to a maximum limit of <code>TurtleRate</code> of full thrust.</td>
+</tr>
+<tr>
+<td><code>Sloth</code></td>
+<td>(Right Console) Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the <code>Sensitivity</code> switch to set the maximum thrust rate of sloth mode.</td>
+</tr>
+<tr>
+<td>Transponder <code>Toggle</code> &amp; <code>Ping</code></td>
+<td>Transponder controls, <code>Toggle</code> turns on and off ship transponder while <code>Ping</code> will activate transponder for three seconds</td>
+</tr>
+<tr>
+<td><code>ISAN2</code>, <code>Heading</code>, <code>Dest</code>, <code>DTW</code>, <code>Deltas</code>, <code>WP</code>, <code>Up</code>, <code>Down</code>, <code>Save</code> &amp; <code>Home</code></td>
+<td>See <a href="https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System">ISAN Waypoint System</a> for more informaton.</td>
+</tr>
+<tr>
+<td><code>Timer</code></td>
+<td>See <a href="#timer">Timer</a>.</td>
+</tr>
+<tr>
+<td><code>Odometer</code></td>
+<td>See <a href="#odometer">Odometer</a>.</td>
+</tr>
+<tr>
+<td><code>Battery</code></td>
+<td>Shows current battery charge of the batteries, maximum of 10,000 units.</td>
+</tr>
+<tr>
+<td><code>Generator</code></td>
+<td>Current generator rate, maximum of 100%.</td>
+</tr>
+<tr>
+<td><code>HeatTransferRate</code></td>
+<td>Current heat transfer rate of the heat sinks, maximum of 100%.</td>
+</tr>
+<tr>
+<td><code>Min Generator Limit</code> &amp; <code>Min Gen</code></td>
+<td>Toggle and sets minimum generator rate. See <a href="#managing-power">Managing Power</a>.</td>
+</tr>
+<tr>
+<td><code>Fuel Rod 1</code> &amp; <code>Fuel Rod 2</code></td>
+<td>Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each.</td>
+</tr>
+<tr>
+<td><code>Shutdown</code></td>
+<td>Turns off fuel chambers.</td>
+</tr>
+<tr>
+<td><code>Propellant</code></td>
+<td>Total propellant remaining in propellant tanks, maximum of 12,000,000 units.</td>
+</tr>
+<tr>
+<td><code>Flow In</code> &amp; <code>Flow Out</code></td>
+<td>Toggle flow modes of resource bridges. See <a href="#refueling-propellant">Refueling Propellant</a>.</td>
+</tr>
+<tr>
+<td><code>PropTime</code></td>
+<td>Time and distance remaining of propellant based on current usage.</td>
+</tr>
+<tr>
+<td><code>FuelTime</code></td>
+<td>Time and distance remaining of fuel based on current usage.</td>
+</tr>
+<tr>
+<td><code>SafeZone</code></td>
+<td>Whether current location is in the safe zone.</td>
+</tr>
+<tr>
+<td><code>StrengthFactor</code></td>
+<td>Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged.</td>
+</tr>
+<tr>
+<td><code>Cargo</code></td>
+<td>Activates cargo lock frame.</td>
+</tr>
+<tr>
+<td><code>Canopy</code></td>
+<td>Open and closes the cockpit glass canopy.</td>
+</tr>
+<tr>
+<td><code>Door</code></td>
+<td>Open and closes the door into the ship.</td>
+</tr>
+<tr>
+<td><code>Service</code></td>
+<td>Open and closes the service hatches on side of the ship for access to the fuel rods.</td>
+</tr>
+</tbody>
+</table>
+</nord-table>
+<h3><a id="managing-power" class="anchor" href="#managing-power" aria-hidden="true"></a>Managing Power</h3>
+<p>By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the <code>Min Generator Limit</code> value using the switch for the minimum rate and turning on <code>Min Gen</code>.</p>
+<p><code>Shutdown</code> will turn off the fuel chambers.</p>
+<p>Open the <code>Service</code> hatches for access to the fuel rods.</p>
+<h3><a id="refueling-propellant" class="anchor" href="#refueling-propellant" aria-hidden="true"></a>Refueling Propellant</h3>
+<p>The resource bridge at the front of the ship can be used for refuelling propellant. To refuel from another ship, turn off <code>Flow Out</code> on the pilot console and leave <code>Flow In</code> turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, <code>Flow Out</code> turned on and <code>Flow In</code> turned off.</p>
+<h2><a id="other-stuff" class="anchor" href="#other-stuff" aria-hidden="true"></a>Other Stuff</h2>
+<h3><a id="timer" class="anchor" href="#timer" aria-hidden="true"></a>Timer</h3>
+<p>On the pilot center console there is a <code>Timer</code> panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (<code>U</code> key) and clear the value of the <code>Timer</code> field.</p>
+<h3><a id="odometer" class="anchor" href="#odometer" aria-hidden="true"></a>Odometer</h3>
+<p>On the pilot right console there is a <code>Odometer</code> panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, use your universal tool (<code>U</code> key) and clear the value of the <code>Odometer</code> field.</p>
+
+  </nord-stack>
   
     <nord-stack id="known-issues">
-      <h1>Known Issues</h1>
+      <h1><a id="known-issues" class="anchor" href="#known-issues" aria-hidden="true"></a>Known Issues</h1>
 <ul>
 <li>The ship has yet to be tested with a full capacity of Endos</li>
 <li>The ship is quite slow</li>
@@ -576,8 +708,8 @@
     </ul>
   </nord-stack>
   <nord-stack id="changelog">
-    <h1>Changelog</h1>
-<h2>v2.0.0 (Current) - 05/06/2022</h2>
+    <h1><a id="changelog" class="anchor" href="#changelog" aria-hidden="true"></a>Changelog</h1>
+<h2><a id="v200-current---05062022" class="anchor" href="#v200-current---05062022" aria-hidden="true"></a>v2.0.0 (Current) - 05/06/2022</h2>
 <ul>
 <li>Painted thrusters black and nozzles red</li>
 <li>Added heat sink</li>
@@ -590,11 +722,11 @@
 <li>Added cargo lock frame in place of fast travel core</li>
 <li>Added speedometer</li>
 </ul>
-<h2>v1.0.1 - 24/02/2022</h2>
+<h2><a id="v101---24022022" class="anchor" href="#v101---24022022" aria-hidden="true"></a>v1.0.1 - 24/02/2022</h2>
 <ul>
 <li>Fixed incorrect values for <code>Aim</code> button</li>
 </ul>
-<h2>v1.0.0 - 26/01/2022</h2>
+<h2><a id="v100---26012022" class="anchor" href="#v100---26012022" aria-hidden="true"></a>v1.0.0 - 26/01/2022</h2>
 <ul>
 <li>Initial release</li>
 </ul>

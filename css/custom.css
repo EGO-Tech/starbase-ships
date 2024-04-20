@@ -1,10 +1,19 @@
+nord-stack#ship-page h1:not(#ship-name, [slot="header"]) {
+  padding-top: 60px;
+}
+
 #changelog,
 #features,
 #known-issues,
-#ship-links {
+#ship-links,
+#usage {
   ul li {
     margin-left: 40px;
   }
+}
+
+#usage nord-table td {
+  white-space: normal;
 }
 
 /* stylelint-disable selector-class-pattern */

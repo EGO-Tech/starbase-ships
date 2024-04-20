@@ -181,6 +181,7 @@
       
         <nord-button href="#download" size="s" variant="primary">Download</nord-button>
       
+      <nord-button href="#usage" size="s" variant="default">Usage</nord-button>
       
       <nord-button href="#faq" size="s" variant="default">FAQ</nord-button>
       <nord-button href="#ship-links" size="s" variant="default">Links</nord-button>
@@ -188,9 +189,9 @@
   </nord-button-group>
   </nord-stack>
 </nord-header>
-<nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
+<nord-stack id="ship-page" gap="l" class="n-padding-i-l n-padding-b-l">
   <nord-stack>
-    <h1>
+    <h1 id="ship-name">
       <span class="n-font-size-xxxl">Fisher</span>
       <nord-stack direction="horizontal" gap="s">
   
@@ -342,7 +343,7 @@
     <p>The Fisher is a larger salvager ship with enough power generation to tow a ship of up to 20,000,000kg at up to 50m/s. The pilot seat can be spun to face the back, looking out the back window for ease of locking on ships using the back facing tow beam. It also has exposed frames to easily bolt on salvaged parts on each side.</p>
   </nord-stack>
   <nord-stack id="features">
-    <h1>Features</h1>
+    <h1><a id="features" class="anchor" href="#features" aria-hidden="true"></a>Features</h1>
 <ul>
 <li>Back facing tow beam for towing ships, with a towing capacity of 20,000,000kg</li>
 <li>Spinning pilot chair to view out generous sized back window</li>
@@ -579,6 +580,237 @@
       </nord-card>
     
   </nord-stack>
+  <nord-stack id="usage" style="max-width: 1200px;">
+    <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
+<p>To enter the ship, there is a button on top of the ship that will open <code>Hatch</code>. Once inside you can also open and close the cockpit glass <code>Canopy</code>. Buttons for these are available in the pilot left side console.</p>
+<h2><a id="flying-the-ship" class="anchor" href="#flying-the-ship" aria-hidden="true"></a>Flying the Ship</h2>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_center_console.jpg" alt="Pilot Console"></p>
+<p>The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.</p>
+<nord-table style="max-width: 1200px">
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ForwardThrust</code></td>
+<td>Current forward thrust, maximum of 10,000 units</td>
+</tr>
+<tr>
+<td><code>Speed</code></td>
+<td>Current speed in metres per second.</td>
+</tr>
+<tr>
+<td><code>Range</code> &amp; <code>Distance</code></td>
+<td>Activates center rangefinder, with <code>Distance</code> showing distance to object.</td>
+</tr>
+<tr>
+<td><code>Cruise</code></td>
+<td>Activates cruise control, forward thrust will not reset to zero unless turned down.</td>
+</tr>
+<tr>
+<td><code>Aim</code></td>
+<td>Reduces the response time of key presses for pitch and yaw.</td>
+</tr>
+<tr>
+<td><code>Turtle</code></td>
+<td>Activates turtle mode which sets forward thrust to a maximum limit of <code>TurtleRate</code> of full thrust.</td>
+</tr>
+<tr>
+<td><code>Sloth</code></td>
+<td>(Right Console) Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the <code>Sensitivity</code> switch to set the maximum thrust rate of sloth mode.</td>
+</tr>
+<tr>
+<td>Transponder <code>Toggle</code> &amp; <code>Ping</code></td>
+<td>Transponder controls, <code>Toggle</code> turns on and off ship transponder while <code>Ping</code> will activate transponder for three seconds</td>
+</tr>
+<tr>
+<td><code>Nav</code>, <code>Autopilot</code>, <code>Avoidance</code> &amp; <code>Target</code></td>
+<td>Autopilot controls. See <a href="#auto-pilot-and-crash-avoidance">Autopilot and Crash Avoidance</a>.</td>
+</tr>
+<tr>
+<td><code>ISAN2</code></td>
+<td>Current ISAN coordinates of ship.</td>
+</tr>
+<tr>
+<td><code>NavGrid</code>, <code>NavP</code>, <code>NavC</code> &amp; <code>Attitude</code></td>
+<td><a href="https://github.com/pcbennion/starbase-navgrid">NavGrid</a> system, see <a href="#using-the-waypoint-system">Using the Waypoint System</a>.</td>
+</tr>
+<tr>
+<td><code>Tow Status</code>, <code>Tow Mass</code>, <code>Tow</code> &amp; <code>Auto Gen</code></td>
+<td>Towing controls, see <a href="#towing-ships">Towing ships</a>.</td>
+</tr>
+<tr>
+<td><code>Timer</code></td>
+<td>See <a href="#timer">Timer</a>.</td>
+</tr>
+<tr>
+<td><code>Odometer</code></td>
+<td>See <a href="#odometer">Odometer</a>.</td>
+</tr>
+<tr>
+<td><code>SafeZone</code></td>
+<td>Whether current location is in the safe zone.</td>
+</tr>
+<tr>
+<td><code>StrengthFactor</code></td>
+<td>Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged.</td>
+</tr>
+<tr>
+<td><code>Canopy</code></td>
+<td>Open and closes the cockpit glass canopy.</td>
+</tr>
+<tr>
+<td><code>Hatch</code></td>
+<td>Open and closes the hatch on top of the ship.</td>
+</tr>
+<tr>
+<td><code>Chair</code></td>
+<td>Spins the pilot chair between forward facing and backwards facing.</td>
+</tr>
+</tbody>
+</table>
+</nord-table>
+<nord-banner style="max-width: 820px;" variant="warning">
+<p><strong>NOTE:</strong> For safety, firing full braking thrust will deactivate <code>Cruise</code>.</p>
+</nord-banner>
+<h2><a id="using-the-waypoint-system" class="anchor" href="#using-the-waypoint-system" aria-hidden="true"></a>Using the Waypoint System</h2>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_left_console.jpg" alt="Pilot Left Console"></p>
+<h3><a id="viewing-and-selecting-waypoints" class="anchor" href="#viewing-and-selecting-waypoints" aria-hidden="true"></a>Viewing and Selecting Waypoints</h3>
+<p>This uses the <a href="https://github.com/pcbennion/starbase-navgrid">NavGrid</a> system. Use the <code>Down</code> and <code>Up</code> waypoints selectors to select waypoint. The selected waypoint information is shown on <code>NavP</code> and <code>NavC</code> panels.</p>
+<p>On the pilot center console, <code>NavGrid</code> will show the compass towards the selected waypoint while <code>Attitude</code> will show the ship's pitch, heading and roll directions. <code>NavGrid</code> is best used while not moving.</p>
+<h3><a id="editing-and-saving-waypoints" class="anchor" href="#editing-and-saving-waypoints" aria-hidden="true"></a>Editing and Saving Waypoints</h3>
+<p>Use <code>Set</code> to save waypoint of current location to the current selected waypoint position.</p>
+<p>To edit currently selected waypoint, use your <code>U</code> tool to add name, X, Y and Z values to <code>nName</code>, <code>nX</code>, <code>nY</code> and <code>nZ</code> respectively. Then use the <code>Save</code> button to save.</p>
+<nord-banner style="max-width: 820px;" variant="warning">
+<p><strong>NOTE:</strong> Waypoint 1 to 6 are presets and can not be over written.</p>
+</nord-banner>
+<h3><a id="loading-waypoint-to-auto-pilot" class="anchor" href="#loading-waypoint-to-auto-pilot" aria-hidden="true"></a>Loading Waypoint to Auto Pilot</h3>
+<p>Use <code>Load to Auto Pilot</code> to load curretnly selected waypoint to <code>Target</code> to be used with the auto pilot system.</p>
+<h2><a id="auto-pilot-and-crash-avoidance" class="anchor" href="#auto-pilot-and-crash-avoidance" aria-hidden="true"></a>Auto Pilot and Crash Avoidance</h2>
+<p>The ship uses a modified version of <a href="https://github.com/fixerid/sb-projects/tree/main/NavCas">NavCas</a> which uses the 3 in 1 ISAN from Compass. Waypoints are loaded from NavGrid waypoint system.</p>
+<p>Use while the ship is stationary. Activating <code>Nav</code> will start point the ship towards <code>Target</code> waypoint and deactivate itself when done. <code>Autopilot</code> will activate <code>Nav</code> and fly to within 5km of <code>Target</code> waypoint with <code>Avoidance</code> activated.</p>
+<nord-banner style="max-width: 820px;" variant="warning">
+<p><strong>NOTE:</strong> <code>Nav</code> may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The <code>dd</code> panel on the pilot left console shows debugging information for NavCas.</p>
+</nord-banner>
+<p><code>Avoidance</code> will activate <code>Guides</code>. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom <code>Blue</code> warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
+It will also flash <code>Red</code> warning lights on the pilot center console according to the position of obstacle detected. If <code>Autopilot</code> is activated, it will readjust and continue its flight.</p>
+<p><code>Avoids</code> will show the counters for number of avoidances. The <code>Trip</code> counter can be reset by holding down the <code>Avoids</code> <code>Reset Trips</code> button.</p>
+<nord-banner style="max-width: 820px;" variant="warning">
+<p><strong>NOTE:</strong> There is very limited coverage of range finders for the crash avoidance system. <strong>Use at your own risk!</strong></p>
+</nord-banner>
+<h2><a id="resetting-navigation" class="anchor" href="#resetting-navigation" aria-hidden="true"></a>Resetting Navigation</h2>
+<p>If ISAN or NavGrid is not working, it can be reset using the <code>Reset ISAN</code> button. Press once to take ISAN offline, then press again to reset.</p>
+<h3><a id="managing-power" class="anchor" href="#managing-power" aria-hidden="true"></a>Managing Power</h3>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_right_console.jpg" alt="Pilot Right Console"></p>
+<nord-table style="max-width: 1200px">
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Battery</code></td>
+<td>Shows current battery charge of the batteries, maximum of 10,000 units.</td>
+</tr>
+<tr>
+<td><code>Generator</code></td>
+<td>Current generator rate, maximum of 100%.</td>
+</tr>
+<tr>
+<td><code>Min Generator Limit</code> &amp; <code>Min Gen</code></td>
+<td>Toggle and sets minimum generator rate.</td>
+</tr>
+<tr>
+<td><code>Fuel Rod 1</code> to <code>Fuel Rod 20</code></td>
+<td>Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each.</td>
+</tr>
+<tr>
+<td><code>Shutdown</code></td>
+<td>Turns off fuel chambers.</td>
+</tr>
+<tr>
+<td><code>HeatTransferRate</code></td>
+<td>Current heat transfer rate of the heat sinks, maximum of 100%.</td>
+</tr>
+<tr>
+<td><code>Propellant</code></td>
+<td>Total propellant remaining in propellant tanks, maximum of 144,000,000 units.</td>
+</tr>
+<tr>
+<td><code>PropTime</code></td>
+<td>Time and distance remaining of propellant based on current usage. Distance is calculated from speed.</td>
+</tr>
+<tr>
+<td><code>FuelTime</code></td>
+<td>Time and distance remaining of fuel based on current usage. Distance is calculated from speed.</td>
+</tr>
+<tr>
+<td><code>WithBackup</code></td>
+<td>Same as FuelTime but takes into account backup rods available. Use the switch for <code>Backup Rods</code> to set the number of backup rods available. As standard there are 12 extra rods.</td>
+</tr>
+</tbody>
+</table>
+</nord-table>
+<p>By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the <code>Min Generator Limit</code> value using the switch for the minimum rate and turning on <code>Min Gen</code>.</p>
+<p><code>Shutdown</code> will turn off the fuel chambers.</p>
+<h3><a id="towing-ships" class="anchor" href="#towing-ships" aria-hidden="true"></a>Towing Ships</h3>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_back_console.jpg" alt="Pilot Back Console"></p>
+<nord-table style="max-width: 1200px">
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Tow Status</code></td>
+<td>Status of tow beam, <code>0</code> is off, <code>1</code> is on and <code>2</code> is locked on.</td>
+</tr>
+<tr>
+<td><code>Tow Mass</code></td>
+<td>Mass of locked on ship, in kilograms.</td>
+</tr>
+<tr>
+<td><code>Tow</code></td>
+<td>Activates the tow beam.</td>
+</tr>
+<tr>
+<td><code>Tow Lights</code></td>
+<td>Activates the red flashing lights at the bottom of the ship.</td>
+</tr>
+<tr>
+<td><code>Auto Gen</code></td>
+<td>Activates <code>Min Gen</code> with <code>Min Generator Rate</code> according to <code>Tow Mass</code>.</td>
+</tr>
+<tr>
+<td><code>BackRange</code> &amp; <code>Back Distance</code></td>
+<td>Activates the back facing rangefinders and displays the distance.</td>
+</tr>
+</tbody>
+</table>
+</nord-table>
+<p>The tow beam faces out the back of the ship so position the Fisher in front of, with the back facing the ship you wish to tow. Spin the <code>Chair</code> around to look out the back window and activate <code>Tow</code> to turn on the tow beam. Once the tow beam is locked on the ship, the <code>Tow Status</code> will be <code>2</code> and the mass of the locked ship will be shown as <code>Tow Mass</code> in kilograms.
+Activate <code>Auto Gen</code> which will then turn on <code>Min Gen</code> with a <code>Min Generator Rate</code> based off the <code>Tow Mass</code>. Wait till the generators reach the targeted rate before flying off.</p>
+<p>The Fisher has enough power generation to tow a ship of a mass of up to 20ktons or 20,000,000 kilograms. For large ships, it is recommended to turn on <code>Min Gen</code> to ramp up the generator before locking on and then activating <code>Auto Gen</code> once locked on to adjust the <code>Min Generator Rate</code> accordingly.</p>
+<nord-banner style="max-width: 820px;" variant="info">
+<p><strong>TIP:</strong> Remember to turn off <code>Min Gen</code> after towing to save on fuel.</p>
+</nord-banner>
+<h2><a id="other-stuff" class="anchor" href="#other-stuff" aria-hidden="true"></a>Other Stuff</h2>
+<h3><a id="timer" class="anchor" href="#timer" aria-hidden="true"></a>Timer</h3>
+<p>On the pilot left console there is a <code>Timer</code> panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (<code>U</code> key) and clear the value of the <code>Timer</code> field.</p>
+<h3><a id="odometer" class="anchor" href="#odometer" aria-hidden="true"></a>Odometer</h3>
+<p>On the pilot left console there is a <code>Odometer</code> panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, use your universal tool (<code>U</code> key) and clear the value of the <code>Odometer</code> field.</p>
+
+  </nord-stack>
   
   <nord-stack id="faq">
     
@@ -597,13 +829,13 @@
     </ul>
   </nord-stack>
   <nord-stack id="changelog">
-    <h1>Changelog</h1>
-<h2>v1.0.1 (Current) - 29/12/2022</h2>
+    <h1><a id="changelog" class="anchor" href="#changelog" aria-hidden="true"></a>Changelog</h1>
+<h2><a id="v101-current---29122022" class="anchor" href="#v101-current---29122022" aria-hidden="true"></a>v1.0.1 (Current) - 29/12/2022</h2>
 <ul>
 <li>Added Discord link to help chip</li>
 <li>Added cruise safety chip</li>
 </ul>
-<h2>v1.0.0 - 10/08/2022</h2>
+<h2><a id="v100---10082022" class="anchor" href="#v100---10082022" aria-hidden="true"></a>v1.0.0 - 10/08/2022</h2>
 <ul>
 <li>Initial release</li>
 </ul>

@@ -181,6 +181,7 @@
       
         <nord-button href="#download" size="s" variant="primary">Download</nord-button>
       
+      <nord-button href="#usage" size="s" variant="default">Usage</nord-button>
       
       <nord-button href="#faq" size="s" variant="default">FAQ</nord-button>
       <nord-button href="#ship-links" size="s" variant="default">Links</nord-button>
@@ -188,9 +189,9 @@
   </nord-button-group>
   </nord-stack>
 </nord-header>
-<nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
+<nord-stack id="ship-page" gap="l" class="n-padding-i-l n-padding-b-l">
   <nord-stack>
-    <h1>
+    <h1 id="ship-name">
       <span class="n-font-size-xxxl">Hopper</span>
       <nord-stack direction="horizontal" gap="s">
   
@@ -278,7 +279,7 @@
     <p>The Hopper is small personal transport that can be used to quickly get around a station or taking short trips.</p>
   </nord-stack>
   <nord-stack id="features">
-    <h1>Features</h1>
+    <h1><a id="features" class="anchor" href="#features" aria-hidden="true"></a>Features</h1>
 <ul>
 <li>Standard Cruise function</li>
 <li>Turtle and Sloth functions</li>
@@ -478,6 +479,68 @@
       </nord-card>
     
   </nord-stack>
+  <nord-stack id="usage" style="max-width: 1200px;">
+    <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
+<h2><a id="flying-the-ship" class="anchor" href="#flying-the-ship" aria-hidden="true"></a>Flying the Ship</h2>
+<p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/pilot_console.jpg" alt="Pilot Console"></p>
+<nord-table style="max-width: 1200px">
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ForwardThrust</code></td>
+<td>Current forward thrust, maximum of 10,000 units</td>
+</tr>
+<tr>
+<td><code>Cruise</code></td>
+<td>Activates cruise control, forward thrust will not reset to zero unless turned down.</td>
+</tr>
+<tr>
+<td><code>Aim</code></td>
+<td>Reduces the response time of key presses for pitch and yaw.</td>
+</tr>
+<tr>
+<td><code>Turtle</code></td>
+<td>Activates turtle mode which sets forward thrust to a maximum limit of 20% of full thrust.</td>
+</tr>
+<tr>
+<td><code>Sloth</code></td>
+<td>Activates the low sensitvity mode by limiting all thrust to 20%. Using together with <code>Turtle</code> will result in even slower forward thrust.</td>
+</tr>
+<tr>
+<td><code>Fuel</code></td>
+<td>Fuel remaining on fuel rod, maximum of 300,000 units.</td>
+</tr>
+<tr>
+<td><code>Propellant</code></td>
+<td>Total propellant remaining in propellant tanks, maximum of 2,000,000 units.</td>
+</tr>
+<tr>
+<td><code>Battery</code></td>
+<td>Shows current battery charge of the batteries, maximum of 10,000 units.</td>
+</tr>
+<tr>
+<td><code>Generator</code></td>
+<td>Current generator rate, maximum of 100%.</td>
+</tr>
+<tr>
+<td><code>HeatTransferRate</code></td>
+<td>Current heat transfer rate of the heat sinks, maximum of 100%.</td>
+</tr>
+<tr>
+<td><code>ID</code></td>
+<td>Activates transponder</td>
+</tr>
+</tbody>
+</table>
+</nord-table>
+
+  </nord-stack>
   
   <nord-stack id="faq">
     
@@ -496,16 +559,16 @@
     </ul>
   </nord-stack>
   <nord-stack id="changelog">
-    <h1>Changelog</h1>
-<h2>v1.1.0 (Current) - 24/07/2022</h2>
+    <h1><a id="changelog" class="anchor" href="#changelog" aria-hidden="true"></a>Changelog</h1>
+<h2><a id="v110-current---24072022" class="anchor" href="#v110-current---24072022" aria-hidden="true"></a>v1.1.0 (Current) - 24/07/2022</h2>
 <ul>
 <li>Added roll thrusters</li>
 </ul>
-<h2>v1.0.1 - 24/07/2022</h2>
+<h2><a id="v101---24072022" class="anchor" href="#v101---24072022" aria-hidden="true"></a>v1.0.1 - 24/07/2022</h2>
 <ul>
 <li>Fixed centering speed of <code>FcuBackwards</code> lever</li>
 </ul>
-<h2>v1.0.0 - 24/07/2022</h2>
+<h2><a id="v100---24072022" class="anchor" href="#v100---24072022" aria-hidden="true"></a>v1.0.0 - 24/07/2022</h2>
 <ul>
 <li>Initial release</li>
 </ul>
