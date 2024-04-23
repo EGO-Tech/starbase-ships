@@ -223,6 +223,16 @@
       "unit": ""
     }
   ],
+  "tags": [
+    {
+      "id": "t2-generator",
+      "label": "T2 Generators"
+    },
+    {
+      "id": "t2-thruster",
+      "label": "T2 Thrusters"
+    }
+  ],
   "featureList": {
     "path": "FEATURES.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hoarder/FEATURES.md"

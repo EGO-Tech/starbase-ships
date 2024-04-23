@@ -324,6 +324,14 @@
   ],
   "tags": [
     {
+      "id": "t1-generator",
+      "label": "T1 Generators"
+    },
+    {
+      "id": "t1-thruster",
+      "label": "T1 Thrusters"
+    },
+    {
       "id": "isan",
       "label": "ISAN"
     }
