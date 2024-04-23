@@ -409,6 +409,14 @@
   ],
   "tags": [
     {
+      "id": "t2-generator",
+      "label": "T2 Generators"
+    },
+    {
+      "id": "t2-thruster",
+      "label": "T2 Thrusters"
+    },
+    {
       "id": "tow-beam",
       "label": "Tow Beam"
     },

@@ -563,6 +563,14 @@
   ],
   "tags": [
     {
+      "id": "t2-generator",
+      "label": "T3 Generators"
+    },
+    {
+      "id": "t2-thruster",
+      "label": "T3 Thrusters"
+    },
+    {
       "id": "mining-laser",
       "label": "Mining Laser"
     },

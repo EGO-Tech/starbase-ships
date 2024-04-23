@@ -209,6 +209,10 @@
   ],
   "tags": [
     {
+      "id": "t3-thruster",
+      "label": "T3 Thrusters"
+    },
+    {
       "id": "mining-laser",
       "label": "Mining Laser"
     },
