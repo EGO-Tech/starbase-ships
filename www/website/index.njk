@@ -18,9 +18,11 @@ layout: layouts/base
       {% for shipType in ships.types.list %}
         <nord-button href="#{{shipType.id}}" size="s" variant="plain">{{shipType.label}}</nord-button>
       {% endfor %}
-      <nord-button id="search" size="s" variant="plain">
+
+      <nord-button id="search" aria-describedby="tt-search" size="s" variant="plain">
         <span slot="start" class="nordicon n-size-icon-m">{{ "/node_modules/@nordhealth/icons/lib/assets/navigation-search.svg" | svgContents | safe }}</span>
       </nord-button>
+      <nord-tooltip id="tt-search">Search ships by name and/or tags</nord-tooltip>
       <script>
         const button = document.querySelector("#search")
         button.addEventListener("click", () => {
