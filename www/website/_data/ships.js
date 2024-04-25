@@ -17,9 +17,21 @@ const shipTypes = [
   { id: 'explorer', name: 'Explorer', label: 'Explorers' },
 ];
 
-module.exports = ({ ships }) => {
+module.exports = (data) => {
+  const { ships } = data;
   return {
     list: ships,
+    search: _.map(ships, (ship) =>
+      _.pick(ship, [
+        'name',
+        'types',
+        'saleType',
+        'version',
+        'slug',
+        'tags',
+        'webPath',
+      ])
+    ),
     types: { list: shipTypes, byId: _.keyBy(shipTypes, 'id') },
     bySaleType: _.groupBy(ships, 'saleType'),
     byType: _(shipTypes)
