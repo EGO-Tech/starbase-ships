@@ -394,6 +394,10 @@
   ],
   "tags": [
     {
+      "id": "rando-shop",
+      "label": "Rando Ship Shop"
+    },
+    {
       "id": "t2-generator",
       "label": "T2 Generators"
     },
