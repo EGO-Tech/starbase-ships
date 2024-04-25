@@ -155,7 +155,13 @@
             </nord-nav-item>
           
         </nord-nav-group>
-        <nord-nav-group heading="EGOTech Information">
+        <nord-nav-group heading="Information">
+          <nord-nav-item  href="/pages/commissions">
+            Ship Commissions
+          </nord-nav-item>
+          <nord-nav-item  href="/pages/rentals">
+            Ship Rentals
+          </nord-nav-item>
           <nord-nav-item  href="/pages/faq">
             FAQ
           </nord-nav-item>
@@ -245,7 +251,7 @@
   
 </nord-stack>
 
-  <nord-stack id="ship-photos" style="max-width: 1200px;">
+  <nord-stack id="ship-photos" class="info-page">
     <nord-card padding="none">
       <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
@@ -482,7 +488,7 @@
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="description" style="max-width: 1200px;">
+  <nord-stack id="description" class="info-page">
     <p>The Whaler is a multi purpose showcase command ship capable of mining, towing, cargo hauling, ore furnacing and combat. Although the Whaler is combat capable with missiles, laser guns, plasma guns and autocannon turrets, it has more of a role playing aspect as it is untested in real situations.</p>
   </nord-stack>
   <nord-stack id="features">
@@ -874,14 +880,14 @@
       </a>
     
   </nord-stack>
-  <nord-stack id="usage" style="max-width: 1200px;">
+  <nord-stack id="usage" class="info-page">
     <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
 <p>To enter the ship, there is are buttons on each side of the front of the ship that will open a <code>Door</code> on either side.</p>
 <h2><a id="flying-the-ship" class="anchor" href="#flying-the-ship" aria-hidden="true"></a>Flying the Ship</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_top_console.jpg" alt="Pilot Top Console"></p>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_center_console.jpg" alt="Pilot Center Console"></p>
 <p>Both pilot seats have flight controls. The left lever on the main center console controls backwards thrust (braking) and the right lever controls forward thrust.</p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -977,7 +983,7 @@
 </tbody>
 </table>
 </nord-table>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> For safety, firing full braking thrust will deactivate <code>Cruise</code>.</p>
 </nord-banner>
 <h2><a id="combat" class="anchor" href="#combat" aria-hidden="true"></a>Combat</h2>
@@ -985,11 +991,11 @@
 <p><code>Combat</code> activates combat mode which charges the laser and plasma guns as well as opening hatches for all weapons including the missile launchers.</p>
 <p>Hold <code>Fire</code> to fire the laser and plasma guns. Use <code>Weapon Mode</code> to switch guns or use both.</p>
 <p>Hold <code>Launch</code> to launch missiles. Use <code>Missile Volley</code> to adjust how many missiles are launched at a time.</p>
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 <p><strong>NOTE:</strong> <code>Fire</code> and <code>Launch</code> buttons should be bound for the top pilot seat as the buttons are not readily available on the top pilot console.</p>
 </nord-banner>
 <p><code>LaserAmmo</code> &amp; <code>PlasmaAmmo</code> shows current ammo for each of the guns. The indicator lights on each side of the consoles show laser gun heat (red) and power (blue) levels. All gun heat and power levels can be seen on the main pilot left console. <code>Missile Pod 1</code> to <code>Missile Pod 4</code> show the current available missiles in each pod.</p>
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 <p><strong>TIP:</strong> Remember to turn off <code>Combat</code> after combat to save on fuel.</p>
 </nord-banner>
 <h3><a id="gun-turrets" class="anchor" href="#gun-turrets" aria-hidden="true"></a>Gun Turrets</h3>
@@ -997,7 +1003,7 @@
 <p>For all seats use <code>Combat</code> to activate combat mode which will charge the auto cannons and turn on the laser sights. For the front and bottom seats, this will also deactivate the mining lasers and tow beam respectively. For the top and bottom seats, use <code>Chair</code> to change to either face the front or back of the ship.</p>
 <p>Press <code>C</code> to activate mouse aim mode and press <code>Fire</code> to fire the autocannons. The red ligts are indicators that the laser sights have detected an object. For safety, the turrets have limited firing windows.</p>
 <p>All turret seats have displays for autocannon heat and power levels.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> Each seat currently has it own ammo storage on the autocannons as the turrets are bugged (See <a href="./#known-issues">Known Issues</a>).</p>
 </nord-banner>
 <h3><a id="reloading" class="anchor" href="#reloading" aria-hidden="true"></a>Reloading</h3>
@@ -1005,7 +1011,7 @@
 <p>For the laser guns, access to the magazines is available through small hatches in the cockpit so the magazines can be optionally swapped.</p>
 <p>The gun turrets currently can only be reloaded by swapping the magazines on the autocannons (See <a href="./#known-issues">Known Issues</a>).</p>
 <p>Access to the missile launches is available through doors at the front of each side pod from inside the ship, which allows the loading of the missiles onto the launchers. Deactivate <code>Lock</code> to rearm the launchers and then reactivate <code>Lock</code> once done.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> For missiles, the <code>Safety</code> should always be set to <code>1</code> and multipart missiles should also be locked by setting <code>MissileLock</code> on the fuel module to <code>1</code>.</p>
 </nord-banner>
 <h2><a id="using-the-waypoint-system" class="anchor" href="#using-the-waypoint-system" aria-hidden="true"></a>Using the Waypoint System</h2>
@@ -1016,7 +1022,7 @@
 <h3><a id="editing-and-saving-waypoints" class="anchor" href="#editing-and-saving-waypoints" aria-hidden="true"></a>Editing and Saving Waypoints</h3>
 <p>Use <code>Set</code> to save waypoint of current location to the current selected waypoint position.</p>
 <p>To edit currently selected waypoint, use your <code>U</code> tool to add name, X, Y and Z values to <code>nName</code>, <code>nX</code>, <code>nY</code> and <code>nZ</code> respectively. Then use the <code>Save</code> button to save.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> Waypoint 1 to 6 are presets and can not be over written.</p>
 </nord-banner>
 <h3><a id="loading-waypoint-to-auto-pilot" class="anchor" href="#loading-waypoint-to-auto-pilot" aria-hidden="true"></a>Loading Waypoint to Auto Pilot</h3>
@@ -1024,14 +1030,14 @@
 <h2><a id="auto-pilot" class="anchor" href="#auto-pilot" aria-hidden="true"></a>Auto Pilot</h2>
 <p>The ship uses a modified version of <a href="https://github.com/fixerid/sb-projects/tree/main/NavCas">NavCas</a> which uses the 3 in 1 ISAN from Compass. Waypoints are loaded from NavGrid waypoint system.</p>
 <p>Use while the ship is stationary. Activating <code>Nav</code> will start point the ship towards <code>Target</code> waypoint and deactivate itself when done. <code>Autopilot</code> will activate <code>Nav</code> and fly to within 5km of <code>Target</code> waypoint.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> <code>Nav</code> may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The <code>dd</code> panel on the pilot left console shows debugging information for NavCas.</p>
 </nord-banner>
 <h2><a id="resetting-navigation" class="anchor" href="#resetting-navigation" aria-hidden="true"></a>Resetting Navigation</h2>
 <p>If ISAN or NavGrid is not working, it can be reset using the <code>Reset ISAN</code> button. Press once to take ISAN offline, then press again to reset.</p>
 <h2><a id="managing-power-and-fuel" class="anchor" href="#managing-power-and-fuel" aria-hidden="true"></a>Managing Power and Fuel</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_right_console.jpg" alt="Pilot Right Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -1110,7 +1116,7 @@
 <p>Remember to turn <code>Flow In</code> and <code>Flow Out</code> back on if you are using the Endo to collect ore via any of the ship's resource bridges.</p>
 <h2><a id="mining" class="anchor" href="#mining" aria-hidden="true"></a>Mining</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/mining_console.jpg" alt="Mining Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -1140,7 +1146,7 @@
 </nord-table>
 <p>Activate the mining lasers using <code>Lasers</code>. Turn on mouse aim by pressing <code>C</code> and adjust the <code>Laser Convergence</code> using the switch. The higher the <code>Laser Convergence</code>, the tighter the convergence will be. <code>Collect</code> turns on the two ore collectors.</p>
 <p>If batteries start running out of charge while mining, turn on <code>Min Gen</code>. Continous use of the lasers and collectors at the same time requires a <code>Min Generator Limit</code> of around 20%.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> For safety, the autocannons will be disabled when the mining lasers are activated.</p>
 </nord-banner>
 <h3><a id="ore-scanner" class="anchor" href="#ore-scanner" aria-hidden="true"></a>Ore Scanner</h3>
@@ -1148,12 +1154,12 @@
 <h2><a id="storing-cargo" class="anchor" href="#storing-cargo" aria-hidden="true"></a>Storing Cargo</h2>
 <p>Use <code>Right Pod</code> and <code>Left Pod</code> on the pilot right console or the exterior buttons on each pod to open the cargo pod doors.</p>
 <p><code>Right Cargo</code> and <code>Left Cargo</code> on the pilot right console and on each frame activates the cargo lack frames.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> Make sure the cargo is secure before flying the ship.</p>
 </nord-banner>
 <h2><a id="towing-ships" class="anchor" href="#towing-ships" aria-hidden="true"></a>Towing Ships</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/tow_beam_console.jpg" alt="Tow Beam Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -1184,11 +1190,11 @@
 <p>The tow beam faces out the back of the ship so position the ship in front of, with the back facing the ship you wish to tow. From the bottom turret seat, disable <code>Chair</code> to face the back of the ship.</p>
 <p>Activate <code>Tow</code> to turn on the tow beam and press <code>C</code> to activate mouse aim. Once the tow beam is locked on the ship, the <code>Tow Status</code> will be <code>2</code> and the mass of the locked ship will be shown as <code>Tow Mass</code> in kilograms.</p>
 <p>Activate <code>Auto Gen</code> which will then turn on <code>Min Gen</code> with a <code>Min Generator Rate</code> based off the <code>Tow Mass</code>. Wait till the generators reach the targeted rate before flying off.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> When <code>Tow</code> is activated, the bottom turret autocannons will be disabled.</p>
 </nord-banner>
 <p>The Whaler has enough power generation to tow a ship of a mass of up to 15ktons or 15,000,000 kilograms. For large ships, it is recommended to turn on <code>Min Gen</code> to ramp up the generator before locking on and then activating <code>Auto Gen</code> once locked on to adjust the <code>Min Generator Rate</code> accordingly.</p>
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 <p><strong>TIP:</strong> Remember to turn off <code>Min Gen</code> after towing to save on fuel.</p>
 </nord-banner>
 <h2><a id="large-display-screens" class="anchor" href="#large-display-screens" aria-hidden="true"></a>Large Display Screens</h2>
@@ -1196,7 +1202,7 @@
 <p>There are three large display, one in each pod room on either side and one in the main area in the middle of the ship. These screen can show a title message and a message of the day (MOTD). Each screen can be turned on and off independently but they all show the same information.</p>
 <p>The screen messages can be changed using the console in front of the screen in the main area.</p>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/screen_console.jpg" alt="Screen Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -1275,7 +1281,7 @@
     
       <h1>Frequently Asked Questions</h1>
     
-    <nord-banner style="max-width: 820px;">For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
+    <nord-banner>For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
   </nord-stack>
   <nord-stack id="ship-links">
     <h1>Links</h1>

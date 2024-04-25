@@ -155,7 +155,13 @@
             </nord-nav-item>
           
         </nord-nav-group>
-        <nord-nav-group heading="EGOTech Information">
+        <nord-nav-group heading="Information">
+          <nord-nav-item  href="/pages/commissions">
+            Ship Commissions
+          </nord-nav-item>
+          <nord-nav-item  href="/pages/rentals">
+            Ship Rentals
+          </nord-nav-item>
           <nord-nav-item  href="/pages/faq">
             FAQ
           </nord-nav-item>
@@ -218,7 +224,7 @@
   
 </nord-stack>
 
-  <nord-stack id="ship-photos" style="max-width: 1200px;">
+  <nord-stack id="ship-photos" class="info-page">
     <nord-card padding="none">
       <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
@@ -359,7 +365,7 @@
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="description" style="max-width: 1200px;">
+  <nord-stack id="description" class="info-page">
     <p>The Fledger is a starter ship that is targeted towards aspiring mechanics that want to learn about how ships work. It starts with the basic machinery but has plenty of space for upgrades, allowing the ship to grow as the player progresses. With an exposed frame, upgrades and repairs should be easier than most ships.</p>
   </nord-stack>
   <nord-stack id="features">
@@ -601,10 +607,10 @@
       </nord-card>
     
   </nord-stack>
-  <nord-stack id="usage" style="max-width: 1200px;">
+  <nord-stack id="usage" class="info-page">
     <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/pilot_center_console.jpg" alt="Pilot Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -652,7 +658,7 @@
 <h3><a id="adding-more-crates" class="anchor" href="#adding-more-crates" aria-hidden="true"></a>Adding More Crates</h3>
 <p>The beam structure of the ship allows for three rows of ore crates (two crates high) on each side of the ship. Snap the new crates to the piped and cabled ones at the back of the ship, bolt them in and you are good to go. There should be designated space for 148 crates but additional crates can be bolted to the frame. These additional crates will have to be cabled and piped separately.</p>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/crates_upgrade.jpg" alt="Crates Upgrade"></p>
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 <p><strong>TIP:</strong> Make sure to add crates equally on both sides of the ship to maintain its balance.</p>
 </nord-banner>
 <h3><a id="adding-more-thrusters" class="anchor" href="#adding-more-thrusters" aria-hidden="true"></a>Adding More Thrusters</h3>
@@ -714,7 +720,7 @@ If connected to the existing block, they should work as the block is already pip
     
       <h1>Frequently Asked Questions</h1>
     
-    <nord-banner style="max-width: 820px;">For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
+    <nord-banner>For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
   </nord-stack>
   <nord-stack id="ship-links">
     <h1>Links</h1>

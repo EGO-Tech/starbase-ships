@@ -155,7 +155,13 @@
             </nord-nav-item>
           
         </nord-nav-group>
-        <nord-nav-group heading="EGOTech Information">
+        <nord-nav-group heading="Information">
+          <nord-nav-item  href="/pages/commissions">
+            Ship Commissions
+          </nord-nav-item>
+          <nord-nav-item  href="/pages/rentals">
+            Ship Rentals
+          </nord-nav-item>
           <nord-nav-item  href="/pages/faq">
             FAQ
           </nord-nav-item>
@@ -230,7 +236,7 @@
   
 </nord-stack>
 
-  <nord-stack id="ship-photos" style="max-width: 1200px;">
+  <nord-stack id="ship-photos" class="info-page">
     <nord-card padding="none">
       <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
@@ -407,7 +413,7 @@
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="description" style="max-width: 1200px;">
+  <nord-stack id="description" class="info-page">
     <p>The Quester multi purpose command or explorer ship that is fitted with a medbay with a reconstruction machine and a workshop with all three crafting benches. It also has a large main hall that is designed to be large enough to fit the capital ship nav logger (not included in blueprint). However the owner is free to fit the hall for whatever purpose that is desired.</p>
   </nord-stack>
   <nord-stack id="features">
@@ -804,13 +810,13 @@
       </nord-card>
     
   </nord-stack>
-  <nord-stack id="usage" style="max-width: 1200px;">
+  <nord-stack id="usage" class="info-page">
     <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
 <p>To enter the ship, there are buttons on either sides of the ship just behind the cockpit that will open <code>Doors</code>. There are also buttons which open <code>Backdoor</code> on either side towards the back of the ship.</p>
 <h2><a id="flying-the-ship" class="anchor" href="#flying-the-ship" aria-hidden="true"></a>Flying the Ship</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/quester/images/pilot_center_console.jpg" alt="Pilot Center Console"></p>
 <p>The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.</p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -890,7 +896,7 @@
 <h3><a id="editing-and-saving-waypoints" class="anchor" href="#editing-and-saving-waypoints" aria-hidden="true"></a>Editing and Saving Waypoints</h3>
 <p>Use <code>Set</code> to save waypoint of current location to the current selected waypoint position.</p>
 <p>To edit currently selected waypoint, use your <code>U</code> tool to add name, X, Y and Z values to <code>nName</code>, <code>nX</code>, <code>nY</code> and <code>nZ</code> respectively. Then use the <code>Save</code> button to save.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> Waypoint 1 to 6 are presets and can not be over written.</p>
 </nord-banner>
 <h3><a id="loading-waypoint-to-auto-pilot" class="anchor" href="#loading-waypoint-to-auto-pilot" aria-hidden="true"></a>Loading Waypoint to Auto Pilot</h3>
@@ -898,20 +904,20 @@
 <h2><a id="auto-pilot-and-crash-avoidance" class="anchor" href="#auto-pilot-and-crash-avoidance" aria-hidden="true"></a>Auto Pilot and Crash Avoidance</h2>
 <p>The ship uses a modified version of <a href="https://github.com/fixerid/sb-projects/tree/main/NavCas">NavCas</a> which uses the 3 in 1 ISAN from Compass. Waypoints are loaded from NavGrid waypoint system.</p>
 <p>Use while the ship is stationary. Activating <code>Nav</code> will start point the ship towards <code>Target</code> waypoint and deactivate itself when done. <code>Autopilot</code> will activate <code>Nav</code> and fly to within 5km of <code>Target</code> waypoint with <code>Avoidance</code> activated.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> <code>Nav</code> may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The <code>dd</code> panel on the pilot left console shows debugging information for NavCas.</p>
 </nord-banner>
 <p><code>Avoidance</code> will activate <code>Guides</code>. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom <code>Blue</code> warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
 It will also flash <code>Red</code> warning lights on the pilot center console according to the position of obstacle detected. If <code>Autopilot</code> is activated, it will readjust and continue its flight.</p>
 <p><code>Avoids</code> will show the counters for number of avoidances. The <code>Trip</code> counter can be reset by holding down the <code>Avoids</code> <code>Reset Trips</code> button.</p>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> There is very limited coverage of range finders for the crash avoidance system. <strong>Use at your own risk!</strong></p>
 </nord-banner>
 <h2><a id="resetting-navigation" class="anchor" href="#resetting-navigation" aria-hidden="true"></a>Resetting Navigation</h2>
 <p>If ISAN or NavGrid is not working, it can be reset using the <code>Reset ISAN</code> button. Press once to take ISAN offline, then press again to reset.</p>
 <h2><a id="managing-power-and-fuel" class="anchor" href="#managing-power-and-fuel" aria-hidden="true"></a>Managing Power and Fuel</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/quester/images/pilot_right_console.jpg" alt="Pilot Right Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -1018,7 +1024,7 @@ It will also flash <code>Red</code> warning lights on the pilot center console a
 <p>This usually happens after travelling to the moon via the warp gate where ISAN is not available. After returning, this can be fixed by reseting ISAN.</p>
 
     
-    <nord-banner style="max-width: 820px;">For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
+    <nord-banner>For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
   </nord-stack>
   <nord-stack id="ship-links">
     <h1>Links</h1>

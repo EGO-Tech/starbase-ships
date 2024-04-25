@@ -155,7 +155,13 @@
             </nord-nav-item>
           
         </nord-nav-group>
-        <nord-nav-group heading="EGOTech Information">
+        <nord-nav-group heading="Information">
+          <nord-nav-item  href="/pages/commissions">
+            Ship Commissions
+          </nord-nav-item>
+          <nord-nav-item  href="/pages/rentals">
+            Ship Rentals
+          </nord-nav-item>
           <nord-nav-item  href="/pages/faq">
             FAQ
           </nord-nav-item>
@@ -220,7 +226,7 @@
   
 </nord-stack>
 
-  <nord-stack id="ship-photos" style="max-width: 1200px;">
+  <nord-stack id="ship-photos" class="info-page">
     <nord-card padding="none">
       <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
@@ -317,7 +323,7 @@
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="description" style="max-width: 1200px;">
+  <nord-stack id="description" class="info-page">
     <p>The Flipper is a ship for hauling a single T10 asteroid, designed to be used in the safe zone. It flies in one direction to easily load the asteroid and then you can flip around and fly load in the opposite direction, still with decent speed. It has load automation to approach and load the asteroid as well as a material scanner that gives estimated credits for selling the asteroids.</p>
   </nord-stack>
   <nord-stack id="features">
@@ -615,13 +621,13 @@
       </nord-card>
     
   </nord-stack>
-  <nord-stack id="usage" style="max-width: 1200px;">
+  <nord-stack id="usage" class="info-page">
     <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
 <h2><a id="flying-the-ship" class="anchor" href="#flying-the-ship" aria-hidden="true"></a>Flying the Ship</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/pilot_center_console_1.jpg" alt="Pilot Console">
 <img src="https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/pilot_center_console_2.jpg" alt="Pilot Console"></p>
 <p>The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.</p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -669,12 +675,12 @@
 </tbody>
 </table>
 </nord-table>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> For safety, firing full braking thrust will deactivate <code>Cruise</code>.</p>
 </nord-banner>
 <h2><a id="managing-power-and-fuel" class="anchor" href="#managing-power-and-fuel" aria-hidden="true"></a>Managing Power and Fuel</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/images/pilot_right_console.jpg" alt="Pilot Right Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -753,7 +759,7 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
       <h1><a id="frequently-asked-questions" class="anchor" href="#frequently-asked-questions" aria-hidden="true"></a>Frequently Asked Questions</h1>
 <h2><a id="how-much-can-i-make-from-hauling-safe-zone-asteroids" class="anchor" href="#how-much-can-i-make-from-hauling-safe-zone-asteroids" aria-hidden="true"></a>How much can I make from hauling safe zone asteroids?</h2>
 <p>Here is an estimated breakdown of 468Mv (T10) asteroids from the safe zone I got during testing.</p>
-<nord-table style="max-width: 500px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -788,7 +794,7 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 </nord-table>
 
     
-    <nord-banner style="max-width: 820px;">For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
+    <nord-banner>For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
   </nord-stack>
   <nord-stack id="ship-links">
     <h1>Links</h1>

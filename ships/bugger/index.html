@@ -155,7 +155,13 @@
             </nord-nav-item>
           
         </nord-nav-group>
-        <nord-nav-group heading="EGOTech Information">
+        <nord-nav-group heading="Information">
+          <nord-nav-item  href="/pages/commissions">
+            Ship Commissions
+          </nord-nav-item>
+          <nord-nav-item  href="/pages/rentals">
+            Ship Rentals
+          </nord-nav-item>
           <nord-nav-item  href="/pages/faq">
             FAQ
           </nord-nav-item>
@@ -224,7 +230,7 @@
   
 </nord-stack>
 
-  <nord-stack id="ship-photos" style="max-width: 1200px;">
+  <nord-stack id="ship-photos" class="info-page">
     <nord-card padding="none">
       <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
@@ -421,7 +427,7 @@
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="description" style="max-width: 1200px;">
+  <nord-stack id="description" class="info-page">
     <p>The Bugger is a 448 ore crate capacity mining ship with 10 sweeping mining lasers drill for surface mining operations. It is designed to work in conjunction with a moon base and a separate hauler as it is not the quickest ship.</p>
   </nord-stack>
   <nord-stack id="features">
@@ -453,7 +459,7 @@
 <li>Many extra slots for YOLOL or memory chips</li>
 <li>Top speed of 100m/s when empty</li>
 </ul>
-<nord-banner style="max-width: 820px">
+<nord-banner>
 <p>A premium version, the <a href="../bugger-x">Bugger X</a> is available for purchase.</p>
 </nord-banner>
 
@@ -832,13 +838,13 @@
       </nord-card>
     
   </nord-stack>
-  <nord-stack id="usage" style="max-width: 1200px;">
+  <nord-stack id="usage" class="info-page">
     <h1><a id="usage" class="anchor" href="#usage" aria-hidden="true"></a>Usage</h1>
 <p>To enter the ship, there is a button on bottom of the ship that will open <code>Hatch</code>. Once inside you can also open and close the cockpit glass <code>Canopy</code>. Buttons for these are available in the pilot left side consoles.</p>
 <h2><a id="flying-the-ship" class="anchor" href="#flying-the-ship" aria-hidden="true"></a>Flying the Ship</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/images/pilot_center_console.jpg" alt="Pilot Center Console"></p>
 <p>The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.</p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -910,12 +916,12 @@
 </tbody>
 </table>
 </nord-table>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> For safety, firing full braking thrust will deactivate <code>Cruise</code>.</p>
 </nord-banner>
 <h2><a id="managing-power-and-fuel" class="anchor" href="#managing-power-and-fuel" aria-hidden="true"></a>Managing Power and Fuel</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/images/pilot_right_console.jpg" alt="Pilot Right Console"></p>
-<nord-table style="max-width: 1200px">
+<nord-table>
 <table>
 <thead>
 <tr>
@@ -991,15 +997,15 @@
 <h2><a id="mining" class="anchor" href="#mining" aria-hidden="true"></a>Mining</h2>
 <p><img src="https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/images/mining_console.jpg" alt="Mining Console"></p>
 <p>Activate <code>Lasers</code> to turn on the mining lasers which will automatically sweep from side to side. Activating <code>Advance</code> will slowly move the ship forward based on <code>Advance Time</code> and <code>Advance Thrust</code>. Adjust <code>Advance Time</code> (period to wait before each advance in seconds) and <code>Advance Thrust</code> (amount of forward thrust when advancing) if needed.</p>
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 <p><strong>TIP:</strong> Increase <code>Advance Thrust</code> if needed as the ship gains more mass from filling up.</p>
 </nord-banner>
 <p><code>Collect</code> turns on the four ore collectors.</p>
 <p><code>Mine</code> will activate automated mining, which will activate <code>Lasers</code>, <code>Advance</code> and <code>Collect</code>.</p>
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 <p><strong>TIP:</strong> Turn on <code>Min Gen</code> and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a <code>Min Generator Limit</code> of around 85%.</p>
 </nord-banner>
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 <p><strong>NOTE:</strong> For safety, lasers will turn off if the total fuel is less that 2,000 units.</p>
 </nord-banner>
 <h2><a id="other-stuff" class="anchor" href="#other-stuff" aria-hidden="true"></a>Other Stuff</h2>
@@ -1014,7 +1020,7 @@
     
       <h1>Frequently Asked Questions</h1>
     
-    <nord-banner style="max-width: 820px;">For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
+    <nord-banner>For more general questions, please check the FAQ <a href="/pages/faq">here</a>.</nord-banner>
   </nord-stack>
   <nord-stack id="ship-links">
     <h1>Links</h1>
