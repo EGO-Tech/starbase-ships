@@ -1,3 +1,7 @@
+.hide {
+  display: none;
+}
+
 #usage nord-table,
 nord-stack.info-page {
   max-width: 1200px;
