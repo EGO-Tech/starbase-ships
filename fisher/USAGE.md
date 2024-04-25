@@ -8,7 +8,7 @@ To enter the ship, there is a button on top of the ship that will open `Hatch`. 
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -34,7 +34,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -56,7 +56,7 @@ Use `Set` to save waypoint of current location to the current selected waypoint 
 
 To edit currently selected waypoint, use your `U` tool to add name, X, Y and Z values to `nName`, `nX`, `nY` and `nZ` respectively. Then use the `Save` button to save.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** Waypoint 1 to 6 are presets and can not be over written.
 
@@ -72,7 +72,7 @@ The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-proje
 
 Use while the ship is stationary. Activating `Nav` will start point the ship towards `Target` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Target` waypoint with `Avoidance` activated.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** `Nav` may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The `dd` panel on the pilot left console shows debugging information for NavCas.
 
@@ -83,7 +83,7 @@ It will also flash `Red` warning lights on the pilot center console according to
 
 `Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset by holding down the `Avoids` `Reset Trips` button.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
 
@@ -97,7 +97,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -122,7 +122,7 @@ By default the generator will only run and ramp up when the batteries need charg
 
 ![Pilot Back Console](https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/images/pilot_back_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -140,7 +140,7 @@ Activate `Auto Gen` which will then turn on `Min Gen` with a `Min Generator Rate
 
 The Fisher has enough power generation to tow a ship of a mass of up to 20ktons or 20,000,000 kilograms. For large ships, it is recommended to turn on `Min Gen` to ramp up the generator before locking on and then activating `Auto Gen` once locked on to adjust the `Min Generator Rate` accordingly.
 
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 
 **TIP:** Remember to turn off `Min Gen` after towing to save on fuel.
 

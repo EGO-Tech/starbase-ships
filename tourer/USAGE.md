@@ -8,7 +8,7 @@ To enter the ship, there is a button for `Door` next to the cockpit of the ship.
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

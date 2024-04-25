@@ -8,7 +8,7 @@ To enter the ship, there is are buttons on either side of the body of the ship t
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -33,7 +33,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -55,7 +55,7 @@ Use `Set` to save waypoint of current location to the current selected waypoint 
 
 To edit currently selected waypoint, use your `U` tool to add name, X, Y and Z values to `nName`, `nX`, `nY` and `nZ` respectively. Then use the `Save` button to save.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** Waypoint 1 to 6 are presets and can not be over written.
 
@@ -71,7 +71,7 @@ The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-proje
 
 Use while the ship is stationary. Activating `Nav` will start point the ship towards `Target` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Target` waypoint with `Avoidance` activated.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** `Nav` may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The `dd` panel on the pilot left console shows debugging information for NavCas.
 
@@ -80,7 +80,7 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 `Avoidance` will activate `Guides`. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom `Blue` warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
 It will also flash `Red` warning lights on the pilot center console according to the position of obstacle detected. If `Autopilot` is activated, it will readjust and continue its flight.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, `Avoidance` will not activate if the mining lasers are turned on. Do not turn on `Avoidance`, `Autopilot` and `Nav` while lasers are turned on.
 
@@ -88,7 +88,7 @@ It will also flash `Red` warning lights on the pilot center console according to
 
 `Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset by holding down the `Avoids` `Reset Trips` button.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. **Use at your own risk!**
 
@@ -121,7 +121,7 @@ The laser drill has three modes.
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
@@ -135,7 +135,7 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

@@ -8,7 +8,7 @@ To enter the ship, there is a button for `Canopy` on top of the ship. Button for
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -31,7 +31,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -41,7 +41,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -67,7 +67,7 @@ By default the generator will only run and ramp up when the batteries need charg
 
 ![Pilot Back Console](https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/images/pilot_back_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -84,7 +84,7 @@ Activate `Auto Gen` which will then turn on `Min Gen` with a `Min Generator Rate
 
 The Tugger has enough power generation to tow a ship of a mass of up to 7.5ktons or 7,500,000 kilograms. For large ships, it is recommended to turn on `Min Gen` to ramp up the generator before locking on and then activating `Auto Gen` once locked on to adjust the `Min Generator Rate` accordingly.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** Remember to turn off `Min Gen` after towing to save on fuel.
 

@@ -26,7 +26,7 @@
 - Many extra slots for YOLOL or memory chips
 - Top speed of 125m/s when empty
 
-<nord-banner style="max-width: 820px">
+<nord-banner>
 
 A premium version, the [Trebler X](../trebler-x) is available for purchase.
 

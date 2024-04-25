@@ -26,7 +26,7 @@
 - Many extra slots for YOLOL or memory chips
 - Top speed of 100m/s when empty
 
-<nord-banner style="max-width: 820px">
+<nord-banner>
 
 A premium version, the [Bugger X](../bugger-x) is available for purchase.
 

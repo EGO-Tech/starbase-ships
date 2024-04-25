@@ -2,7 +2,7 @@
 
 The Shifter X has the same features as the [Shifter](../shifter#features) except the following differences.
 
-<nord-table style="max-width: 500px">
+<nord-table>
 
 |   | Shifter | Shifter X |
 |---|---|---|

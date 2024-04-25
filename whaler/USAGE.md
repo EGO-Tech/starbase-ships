@@ -10,7 +10,7 @@ To enter the ship, there is are buttons on each side of the front of the ship th
 
 Both pilot seats have flight controls. The left lever on the main center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -38,7 +38,7 @@ Both pilot seats have flight controls. The left lever on the main center console
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -54,7 +54,7 @@ Hold `Fire` to fire the laser and plasma guns. Use `Weapon Mode` to switch guns 
 
 Hold `Launch` to launch missiles. Use `Missile Volley` to adjust how many missiles are launched at a time.
 
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 
 **NOTE:** `Fire` and `Launch` buttons should be bound for the top pilot seat as the buttons are not readily available on the top pilot console.
 
@@ -62,7 +62,7 @@ Hold `Launch` to launch missiles. Use `Missile Volley` to adjust how many missil
 
 `LaserAmmo` & `PlasmaAmmo` shows current ammo for each of the guns. The indicator lights on each side of the consoles show laser gun heat (red) and power (blue) levels. All gun heat and power levels can be seen on the main pilot left console. `Missile Pod 1` to `Missile Pod 4` show the current available missiles in each pod.
 
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 
 **TIP:** Remember to turn off `Combat` after combat to save on fuel.
 
@@ -78,7 +78,7 @@ Press `C` to activate mouse aim mode and press `Fire` to fire the autocannons. T
 
 All turret seats have displays for autocannon heat and power levels.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** Each seat currently has it own ammo storage on the autocannons as the turrets are bugged (See [Known Issues](./#known-issues)).
 
@@ -94,7 +94,7 @@ The gun turrets currently can only be reloaded by swapping the magazines on the 
 
 Access to the missile launches is available through doors at the front of each side pod from inside the ship, which allows the loading of the missiles onto the launchers. Deactivate `Lock` to rearm the launchers and then reactivate `Lock` once done.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For missiles, the `Safety` should always be set to `1` and multipart missiles should also be locked by setting `MissileLock` on the fuel module to `1`.
 
@@ -116,7 +116,7 @@ Use `Set` to save waypoint of current location to the current selected waypoint 
 
 To edit currently selected waypoint, use your `U` tool to add name, X, Y and Z values to `nName`, `nX`, `nY` and `nZ` respectively. Then use the `Save` button to save.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** Waypoint 1 to 6 are presets and can not be over written.
 
@@ -132,7 +132,7 @@ The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-proje
 
 Use while the ship is stationary. Activating `Nav` will start point the ship towards `Target` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Target` waypoint.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** `Nav` may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The `dd` panel on the pilot left console shows debugging information for NavCas.
 
@@ -146,7 +146,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -182,7 +182,7 @@ Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to c
 
 ![Mining Console](https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/mining_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -197,7 +197,7 @@ Activate the mining lasers using `Lasers`. Turn on mouse aim by pressing `C` and
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 20%.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, the autocannons will be disabled when the mining lasers are activated.
 
@@ -213,7 +213,7 @@ Use `Right Pod` and `Left Pod` on the pilot right console or the exterior button
 
 `Right Cargo` and `Left Cargo` on the pilot right console and on each frame activates the cargo lack frames.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** Make sure the cargo is secure before flying the ship.
 
@@ -223,7 +223,7 @@ Use `Right Pod` and `Left Pod` on the pilot right console or the exterior button
 
 ![Tow Beam Console](https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/tow_beam_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -240,7 +240,7 @@ Activate `Tow` to turn on the tow beam and press `C` to activate mouse aim. Once
 
 Activate `Auto Gen` which will then turn on `Min Gen` with a `Min Generator Rate` based off the `Tow Mass`. Wait till the generators reach the targeted rate before flying off.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** When `Tow` is activated, the bottom turret autocannons will be disabled.
 
@@ -248,7 +248,7 @@ Activate `Auto Gen` which will then turn on `Min Gen` with a `Min Generator Rate
 
 The Whaler has enough power generation to tow a ship of a mass of up to 15ktons or 15,000,000 kilograms. For large ships, it is recommended to turn on `Min Gen` to ramp up the generator before locking on and then activating `Auto Gen` once locked on to adjust the `Min Generator Rate` accordingly.
 
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 
 **TIP:** Remember to turn off `Min Gen` after towing to save on fuel.
 
@@ -264,7 +264,7 @@ The screen messages can be changed using the console in front of the screen in t
 
 ![Screen Console](https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/screen_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

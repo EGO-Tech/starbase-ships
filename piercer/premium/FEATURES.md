@@ -2,7 +2,7 @@
 
 The Piercer X has the same features as the [Piercer](../piercer#features) except the following differences.
 
-<nord-table style="max-width: 500px">
+<nord-table>
 
 |   | Piercer | Piercer X |
 |---|---|---|

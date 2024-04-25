@@ -6,7 +6,7 @@
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -26,7 +26,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -58,7 +58,7 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 
 ![Pilot Left Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/pilot_left_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

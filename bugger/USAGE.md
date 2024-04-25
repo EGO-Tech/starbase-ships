@@ -8,7 +8,7 @@ To enter the ship, there is a button on bottom of the ship that will open `Hatch
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -30,7 +30,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -40,7 +40,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -77,7 +77,7 @@ Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to c
 
 Activate `Lasers` to turn on the mining lasers which will automatically sweep from side to side. Activating `Advance` will slowly move the ship forward based on `Advance Time` and `Advance Thrust`. Adjust `Advance Time` (period to wait before each advance in seconds) and `Advance Thrust` (amount of forward thrust when advancing) if needed.
 
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 
 **TIP:** Increase `Advance Thrust` if needed as the ship gains more mass from filling up.
 
@@ -87,13 +87,13 @@ Activate `Lasers` to turn on the mining lasers which will automatically sweep fr
 
 `Mine` will activate automated mining, which will activate `Lasers`, `Advance` and `Collect`.
 
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 
 **TIP:** Turn on `Min Gen` and allow the generators to ramp up before starting to mine. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 85%.
 
 </nord-banner>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
