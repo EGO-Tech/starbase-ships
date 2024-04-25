@@ -33,6 +33,14 @@ module.exports = (data) => {
       ])
     ),
     types: { list: shipTypes, byId: _.keyBy(shipTypes, 'id') },
+    tags: {
+      list: _(ships)
+        .map('tags')
+        .flatten()
+        .uniqBy('id')
+        .orderBy('label')
+        .value(),
+    },
     bySaleType: _.groupBy(ships, 'saleType'),
     byType: _(shipTypes)
       .keyBy('id')
