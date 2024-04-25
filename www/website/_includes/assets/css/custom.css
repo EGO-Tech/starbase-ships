@@ -1,3 +1,23 @@
+#usage nord-table,
+nord-stack.info-page {
+  max-width: 1200px;
+}
+
+#features,
+#faq {
+  nord-table {
+    max-width: 500px;
+  }
+}
+
+#ship-page,
+#features,
+#usage {
+  nord-banner {
+    max-width: 820px;
+  }
+}
+
 nord-stack#ship-page h1:not(#ship-name, [slot="header"]) {
   padding-top: 60px;
 }

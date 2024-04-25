@@ -2,7 +2,7 @@
 
 The Trebler X has the same features as the [Trebler](../trebler#features) except the following differences.
 
-<nord-table style="max-width: 500px">
+<nord-table>
 
 |   | Trebler | Trebler X |
 |---|---|---|

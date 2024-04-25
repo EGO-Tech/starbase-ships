@@ -33,7 +33,7 @@
 - Many extra slots for YOLOL or memory chips
 - Top speed of 135m/s when empty
 
-<nord-banner style="max-width: 820px">
+<nord-banner>
 
 A premium version, the [Shifter X](../shifter-x) is available for purchase.
 

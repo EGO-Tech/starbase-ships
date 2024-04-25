@@ -8,7 +8,7 @@ To enter the ship, there is a button on right side of the front of the ship that
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -27,7 +27,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -37,7 +37,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hoarder/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

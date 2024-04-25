@@ -2,7 +2,7 @@
 
 ![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/pilot_center_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -32,7 +32,7 @@ The beam structure of the ship allows for three rows of ore crates (two crates h
 
 ![Crates Upgrade](https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/images/crates_upgrade.jpg)
 
-<nord-banner style="max-width: 820px;" variant="info">
+<nord-banner variant="info">
 
 **TIP:** Make sure to add crates equally on both sides of the ship to maintain its balance.
 

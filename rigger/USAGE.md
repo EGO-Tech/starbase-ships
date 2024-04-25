@@ -6,7 +6,7 @@ To enter the ship, there is a button above the cockpit that will open a `Hatch`.
 
 ## Flying the Ship
 
-<nord-banner style="max-width: 820px;" variant="danger">
+<nord-banner variant="danger">
 
 ~~**IMPORTANT:** Before flying the ship you should bind your keys by using the `V` key while sitting on the pilot chair. You will to bind keys for FWD+/FWD- (for forward thrust, usually SHIFT and CTRL), YAW+/YAW- (for yaw, usually E and Q) and PCH+/PCH- (for pitch, usually S and W).~~ No longer needed as of v1.1.0.
 
@@ -16,7 +16,7 @@ To enter the ship, there is a button above the cockpit that will open a `Hatch`.
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -38,7 +38,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -68,7 +68,7 @@ The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-proje
 
 Use while the ship is stationary. Activating `Nav` will start point the ship towards `Dest` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Dest` waypoint with `Avoidance` activated.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** `Nav` needs to be tuned more for accuracy. I recommend using it in conjunction with the compass.
 
@@ -76,7 +76,7 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 
 `Avoidance` will activate `Guides`. If the guides detect objects it will pitch the ship down and cut forward thrust. If `Autopilot` is activated, it will readjust and continue its flight.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** There is very limited coverage of range finders for the crash avoidance system. It also hasn't been tested extensively. **Use at your own risk!**
 
@@ -92,7 +92,7 @@ To approach an asteroid, point the center range finder at an asteroid and activa
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
@@ -106,7 +106,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

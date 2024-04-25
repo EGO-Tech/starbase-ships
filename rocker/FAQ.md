@@ -4,7 +4,7 @@
 
 It is not very lucrative, but here is an estimated breakdown of 45Mv asteroids (with a rough breakdown of 35Mv shell and 10Mv core) from the safe zone I got during testing.
 
-<nord-table style="max-width: 500px">
+<nord-table>
 
 | Material | Volume | Credits |
 | --- | --- | --- |

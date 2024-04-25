@@ -8,7 +8,7 @@ To enter the ship, there is a button in front the cockpit that will open the gla
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -41,7 +41,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 ## Combat
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

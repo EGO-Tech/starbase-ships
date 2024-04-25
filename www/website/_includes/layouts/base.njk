@@ -51,7 +51,13 @@ currentTitle: Home
             </nord-nav-item>
           {% endfor %}
         </nord-nav-group>
-        <nord-nav-group heading="EGOTech Information">
+        <nord-nav-group heading="Information">
+          <nord-nav-item {% if current === 'commissions' %}active{% endif %} href="{{ '/pages/commissions' | url }}">
+            Ship Commissions
+          </nord-nav-item>
+          <nord-nav-item {% if current === 'rentals' %}active{% endif %} href="{{ '/pages/rentals' | url }}">
+            Ship Rentals
+          </nord-nav-item>
           <nord-nav-item {% if current === 'faq' %}active{% endif %} href="{{ '/pages/faq' | url }}">
             FAQ
           </nord-nav-item>

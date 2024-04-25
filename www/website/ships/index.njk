@@ -39,7 +39,7 @@ permalink: "ships/{{ ship.slug }}/"
     </h1>
   </nord-stack>
   {% include 'shipTags.njk' %}
-  <nord-stack id="ship-photos" style="max-width: 1200px;">
+  <nord-stack id="ship-photos" class="info-page">
     <nord-card padding="none">
       <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
@@ -80,7 +80,7 @@ permalink: "ships/{{ ship.slug }}/"
       </script>
     </nord-card>
   </nord-stack>
-  <nord-stack id="description" style="max-width: 1200px;">
+  <nord-stack id="description" class="info-page">
     <p>{{ ship.description | nl2br | safe }}</p>
   </nord-stack>
   <nord-stack id="features">
@@ -223,7 +223,7 @@ permalink: "ships/{{ ship.slug }}/"
       </a>
     {% endif %}
   </nord-stack>
-  <nord-stack id="usage" style="max-width: 1200px;">
+  <nord-stack id="usage" class="info-page">
     {% renderFile '../../' + ship.path +'/' + ship.usage.path %}
   </nord-stack>
   {% if ship.knownIssues %}
@@ -237,7 +237,7 @@ permalink: "ships/{{ ship.slug }}/"
     {% else %}
       <h1>Frequently Asked Questions</h1>
     {% endif %}
-    <nord-banner style="max-width: 820px;">For more general questions, please check the FAQ <a href="{{ '/pages/faq' | url}}">here</a>.</nord-banner>
+    <nord-banner>For more general questions, please check the FAQ <a href="{{ '/pages/faq' | url}}">here</a>.</nord-banner>
   </nord-stack>
   <nord-stack id="ship-links">
     <h1>Links</h1>

@@ -2,7 +2,7 @@
 
 The Crawler X has the same features as the [Crawler](../crawler#features) except the following differences.
 
-<nord-table style="max-width: 500px">
+<nord-table>
 
 |   | Crawler | Crawler X |
 |---|---|---|

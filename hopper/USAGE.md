@@ -4,7 +4,7 @@
 
 ![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/images/pilot_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|

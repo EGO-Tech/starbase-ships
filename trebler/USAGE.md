@@ -8,7 +8,7 @@ To enter the ship, there is are buttons on either side of the cockpit of the shi
 
 The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
@@ -31,7 +31,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
 
@@ -55,7 +55,7 @@ The laser drill has three modes.
 
 If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
 
-<nord-banner style="max-width: 820px;" variant="warning">
+<nord-banner variant="warning">
 
 **NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
@@ -69,7 +69,7 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/images/pilot_right_console.jpg)
 
-<nord-table style="max-width: 1200px">
+<nord-table>
 
 | Interface | Function |
 |---|---|
