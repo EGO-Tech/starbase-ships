@@ -7,7 +7,7 @@ const { accessSync, constants, readdirSync } = require('fs');
 
 const basePath = path.join(__dirname, '../../');
 
-const getShipsData = () =>
+const getShipsData = ({ pathPrefix }) =>
   _(readdirSync(basePath, { withFileTypes: true }))
     .map((dir) => {
       const shipFile = path.join(basePath, dir.name, 'ship.json');
@@ -18,6 +18,7 @@ const getShipsData = () =>
       }
 
       const ship = require(shipFile);
+      ship.webPath = `${pathPrefix}ships/${ship.slug}`;
       try {
         const premiumShipFile = path.join(
           basePath,
@@ -27,6 +28,7 @@ const getShipsData = () =>
         );
         accessSync(premiumShipFile, constants.F_OK);
         const premiumShip = require(premiumShipFile);
+        premiumShip.webPath = `${pathPrefix}ships/${premiumShip.slug}`;
         return [ship, premiumShip];
       } catch {
         return [ship];
@@ -67,5 +69,5 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addGlobalData('year', () => new Date().getFullYear());
-  eleventyConfig.addGlobalData('ships', () => getShipsData());
+  eleventyConfig.addGlobalData('ships', () => getShipsData(eleventyConfig));
 };
