@@ -10,15 +10,17 @@ currentTitle: Home
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - {{ ship.name if ship else currentTitle }}</title>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    {% if environment === 'production' %}
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-HK9VCMHC5R');
-    </script>
+        gtag('config', 'G-HK9VCMHC5R');
+      </script>
+    {% endif %}
 
     <link rel="icon" type="image/png" href="{{ '/images/logos/egotech_logo_dark_favicon.png' | url }}">
     <link rel="stylesheet" href="{{ '/css/nord.min.css' | url }}">
@@ -30,7 +32,7 @@ currentTitle: Home
     <script src="{{ '/js/splide.min.js' | url }}"></script>
     <script>
       const gaEvent = (event, params) => {
-        gtag('event', event, params);
+        if (window.gtag) gtag('event', event, params);
       }
     </script>
   </head>

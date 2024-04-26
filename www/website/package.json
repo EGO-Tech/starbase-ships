@@ -5,9 +5,10 @@
   "scripts": {
     "pre-build": "npx rollup node_modules/@nordhealth/components/lib/index.js --format umd --name 'nordCompoments' --file _includes/assets/js/nord-components.js",
     "build": "npm run pre-build && npx @11ty/eleventy",
-    "start": "DEBUG=Eleventy* npm run pre-build && npx @11ty/eleventy --serve",
+    "start": "npm run pre-build && npx @11ty/eleventy --serve",
+    "debug": "npm run pre-build && DEBUG=Eleventy* npx @11ty/eleventy --serve",
     "dryrun": "npm run pre-build && npx @11ty/eleventy --dryrun",
-    "build-ghpages": "npx @11ty/eleventy",
+    "build-ghpages": "NODE_ENV=production npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

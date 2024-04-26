@@ -181,10 +181,8 @@ layout: layouts/base
               {% include 'shipVersion.njk' %}
             </span>
             <nord-stack style="width: 435px; height: 220px; overflow: hidden;">
-              {% for photo in ship.photos %}
-                {% if photo.featured %}
-                  <img src="{{photo.url}}" alt="{{photo.description or photo.filename}}" />
-                {% endif %}
+              {% for photo in ship.photos | selectattr('featured') %}
+                <img src="{{photo.url}}" alt="{{photo.description or photo.filename}}" />
               {% endfor %}
             </nord-stack>
             <nord-stack gap="none">
