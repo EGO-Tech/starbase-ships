@@ -6,6 +6,7 @@ const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const { accessSync, constants, readdirSync } = require('fs');
 
 const basePath = path.join(__dirname, '../../');
+process.env.NODE_ENV ??= 'development';
 
 const getShipsData = ({ pathPrefix }) =>
   _(readdirSync(basePath, { withFileTypes: true }))
@@ -68,6 +69,7 @@ module.exports = function (eleventyConfig) {
     '../../others/egotech/logos': 'images/logos',
   });
 
+  eleventyConfig.addGlobalData('environment', () => process.env.NODE_ENV);
   eleventyConfig.addGlobalData('year', () => new Date().getFullYear());
   eleventyConfig.addGlobalData('ships', () => getShipsData(eleventyConfig));
 };
