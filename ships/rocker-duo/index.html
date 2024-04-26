@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbase Ships by EGOTech - Rocker Duo</title>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-HK9VCMHC5R');
-    </script>
+        gtag('config', 'G-HK9VCMHC5R');
+      </script>
+    
 
     <link rel="icon" type="image/png" href="/images/logos/egotech_logo_dark_favicon.png">
     <link rel="stylesheet" href="/css/nord.min.css">
@@ -26,7 +28,7 @@
     <script src="/js/splide.min.js"></script>
     <script>
       const gaEvent = (event, params) => {
-        gtag('event', event, params);
+        if (window.gtag) gtag('event', event, params);
       }
     </script>
   </head>
