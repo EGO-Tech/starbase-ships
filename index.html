@@ -341,24 +341,28 @@
   toggle.addEventListener('change', (event) => {
     if (event.target.checked) {
       document.querySelector('nord-layout').appendChild(filters);
-      document.querySelectorAll('.ship-filter').forEach((item) => {
-        item.addEventListener('change', (event) => {
-          applyFilters();
-        });
-      });
-
-      document.querySelector('#reset-ship-filters')
-        .addEventListener('click', (event) => {
-          document.querySelectorAll('.ship-filter').forEach((item) => {
-              item.checked = false;
+      document.querySelectorAll('.ship-filter')
+        .forEach((item) => {
+          item.addEventListener('change', (event) => {
+            applyFilters();
           });
-          applyFilters();
         });
+
+      document
+        .querySelector('#reset-ship-filters')
+        .addEventListener('click', resetFilters);
     } else {
       filters.remove();
     }
     applyFilters();
   });
+
+  const resetFilters = () => {
+    document.querySelectorAll('.ship-filter').forEach((item) => {
+        item.checked = false;
+    });
+    applyFilters();
+  };
 
   const applyFilters = () => {
     document.querySelectorAll('.ship-card').forEach((item) => {
@@ -390,6 +394,9 @@
       }
       section.classList.remove('hide');
     })
+
+    document.querySelector('.reset-ship-filters').classList.add('hide');
+    if (shipsToShow.length === 0) document.querySelector('.reset-ship-filters').classList.remove('hide');
   };
 </script>
 <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
@@ -418,6 +425,20 @@
       </nord-stack>
     </nord-card>
   </nord-stack>
+  <nord-stack class="reset-ship-filters n-padding-i-l n-padding-b-l hide" style="max-width: 1200px;"">
+    <nord-card>
+      <nord-empty-state>
+        <h2>No ships found</h2>
+        <p>Try adjusting your filter options to find what you’re looking for.</p>
+        <nord-button variant="primary">Clear filters</nord-button>
+      </nord-empty-state>
+    </nord-card>
+  </nord-stack>
+  <script>
+    document
+      .querySelector('.reset-ship-filters')
+      .addEventListener('click', resetFilters);
+  </script>
   
     <nord-stack class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
