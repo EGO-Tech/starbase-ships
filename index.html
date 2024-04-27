@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbase Ships by EGOTech - Home</title>
+    <title>Starbase Ships by EGOTech - </title>
 
     
       <!-- Google tag (gtag.js) -->
@@ -37,6 +37,11 @@
       window.shipTypes = {"list":[{"id":"miner","name":"Miner","label":"Miners"},{"id":"surface-miner","name":"Surface Miner","label":"Surface Miners"},{"id":"starter","name":"Starter Ship","label":"Starter Ships"},{"id":"asteroid-hauler","name":"Asteroid Hauler","label":"Asteroid Haulers"},{"id":"hauler","name":"Hauler","label":"Haulers"},{"id":"salvager","name":"Salvager","label":"Salvagers"},{"id":"fighter","name":"Fighter","label":"Fighters"},{"id":"command-ship","name":"Command Ship","label":"Command Ships"},{"id":"transport","name":"Transport","label":"Transports"},{"id":"explorer","name":"Explorer","label":"Explorers"}],"byId":{"miner":{"id":"miner","name":"Miner","label":"Miners"},"surface-miner":{"id":"surface-miner","name":"Surface Miner","label":"Surface Miners"},"starter":{"id":"starter","name":"Starter Ship","label":"Starter Ships"},"asteroid-hauler":{"id":"asteroid-hauler","name":"Asteroid Hauler","label":"Asteroid Haulers"},"hauler":{"id":"hauler","name":"Hauler","label":"Haulers"},"salvager":{"id":"salvager","name":"Salvager","label":"Salvagers"},"fighter":{"id":"fighter","name":"Fighter","label":"Fighters"},"command-ship":{"id":"command-ship","name":"Command Ship","label":"Command Ships"},"transport":{"id":"transport","name":"Transport","label":"Transports"},"explorer":{"id":"explorer","name":"Explorer","label":"Explorers"}}};
     </script>
   
+    
+    <script>
+      window.pages = [{"id":"commissions","label":"Ship Commissions","title":"Ship Commissions","slug":"commissions","webPath":"/pages/commissions"},{"id":"rentals","label":"Ship Rentals","title":"Ship Rentals","slug":"rentals","webPath":"/pages/rentals"},{"id":"faq","label":"FAQ","title":"Frequently Asked Questions","slug":"faq","webPath":"/pages/faq"}];
+    </script>
+  
   </head>
   <body class="n-reset">
     <nord-command-menu></nord-command-menu>
@@ -45,9 +50,16 @@
       menu.commands = ships.map((ship) => ({
         id: ship.slug,
         title: ship.name,
+        section: 'Ships',
         keywords: `${ship.name} ${ship.saleType} ${ship.types.map(({ type }) => shipTypes.byId[type].label).join(' ')} ${ship.tags.map(({ label }) => label).join(' ')}`,
         handler: () => window.location.href = ship.webPath,
-      }));
+      })).concat(pages.map((page) => ({
+        id: page.id,
+        title: page.title,
+        section: 'Information',
+        keywords: `${page.id} ${page.label} ${page.title}`,
+        handler: () => window.location.href = page.webPath,
+      })));
     </script>
     <nord-layout padding="none" persist-nav-state sticky>
       <nord-navigation slot="nav">
@@ -181,15 +193,19 @@
           
         </nord-nav-group>
         <nord-nav-group heading="Information">
-          <nord-nav-item  href="/pages/commissions">
-            Ship Commissions
-          </nord-nav-item>
-          <nord-nav-item  href="/pages/rentals">
-            Ship Rentals
-          </nord-nav-item>
-          <nord-nav-item  href="/pages/faq">
-            FAQ
-          </nord-nav-item>
+          
+            <nord-nav-item  href="/pages/commissions/">
+              Ship Commissions
+            </nord-nav-item>
+          
+            <nord-nav-item  href="/pages/rentals/">
+              Ship Rentals
+            </nord-nav-item>
+          
+            <nord-nav-item  href="/pages/faq/">
+              FAQ
+            </nord-nav-item>
+          
         </nord-nav-group>
       </nord-navigation>
       <nord-header slot="header">
