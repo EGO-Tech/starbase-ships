@@ -8,7 +8,7 @@ currentTitle: Home
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - {{ ship.name if ship else currentTitle }}</title>
+    <title>{{ title }} - {{ ship.name if ship else pg.title }}</title>
 
     {% if environment === 'production' %}
       <!-- Google tag (gtag.js) -->
@@ -35,7 +35,8 @@ currentTitle: Home
         if (window.gtag) gtag('event', event, params);
       }
     </script>
-    {% renderFile './_includes/assets/js/data.11ty.js', ships %}
+    {% renderFile './_includes/assets/js/ships.11ty.js', ships %}
+    {% renderFile './_includes/assets/js/pages.11ty.js', pages %}
   </head>
   <body class="n-reset">
     <nord-command-menu></nord-command-menu>
@@ -44,9 +45,16 @@ currentTitle: Home
       menu.commands = ships.map((ship) => ({
         id: ship.slug,
         title: ship.name,
+        section: 'Ships',
         keywords: `${ship.name} ${ship.saleType} ${ship.types.map(({ type }) => shipTypes.byId[type].label).join(' ')} ${ship.tags.map(({ label }) => label).join(' ')}`,
         handler: () => window.location.href = ship.webPath,
-      }));
+      })).concat(pages.map((page) => ({
+        id: page.id,
+        title: page.title,
+        section: 'Information',
+        keywords: `${page.id} ${page.label} ${page.title}`,
+        handler: () => window.location.href = page.webPath,
+      })));
     </script>
     <nord-layout padding="none" persist-nav-state sticky>
       <nord-navigation slot="nav">
@@ -72,15 +80,11 @@ currentTitle: Home
           {% endfor %}
         </nord-nav-group>
         <nord-nav-group heading="Information">
-          <nord-nav-item {% if current === 'commissions' %}active{% endif %} href="{{ '/pages/commissions' | url }}">
-            Ship Commissions
-          </nord-nav-item>
-          <nord-nav-item {% if current === 'rentals' %}active{% endif %} href="{{ '/pages/rentals' | url }}">
-            Ship Rentals
-          </nord-nav-item>
-          <nord-nav-item {% if current === 'faq' %}active{% endif %} href="{{ '/pages/faq' | url }}">
-            FAQ
-          </nord-nav-item>
+          {% for pge in pages.list %}
+            <nord-nav-item {% if pge.id === pg.id %}active{% endif %} href="{{ ('/pages/' + pge.slug + '/') | url }}">
+              {{pge.label}}
+            </nord-nav-item>
+          {% endfor %}
         </nord-nav-group>
       </nord-navigation>
       <nord-header slot="header">

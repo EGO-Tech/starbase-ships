@@ -1,0 +1,10 @@
+---
+layout: layouts/base
+pagination:
+  data: pages.list
+  size: 1
+  alias: pg
+permalink: "pages/{{ pg.slug }}/"
+---
+
+{% renderFile './_includes/pages/' + pg.slug + '.njk' %}
