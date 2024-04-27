@@ -229,166 +229,180 @@
   <nord-stack direction="horizontal" wrap>
     <nord-button-group>
       
-        <nord-button href="#miner" size="s" variant="plain">Miners</nord-button>
+        <nord-button id="button-section-miner" href="#miner" size="s" variant="plain">Miners</nord-button>
       
-        <nord-button href="#surface-miner" size="s" variant="plain">Surface Miners</nord-button>
+        <nord-button id="button-section-surface-miner" href="#surface-miner" size="s" variant="plain">Surface Miners</nord-button>
       
-        <nord-button href="#starter" size="s" variant="plain">Starter Ships</nord-button>
+        <nord-button id="button-section-starter" href="#starter" size="s" variant="plain">Starter Ships</nord-button>
       
-        <nord-button href="#asteroid-hauler" size="s" variant="plain">Asteroid Haulers</nord-button>
+        <nord-button id="button-section-asteroid-hauler" href="#asteroid-hauler" size="s" variant="plain">Asteroid Haulers</nord-button>
       
-        <nord-button href="#hauler" size="s" variant="plain">Haulers</nord-button>
+        <nord-button id="button-section-hauler" href="#hauler" size="s" variant="plain">Haulers</nord-button>
       
-        <nord-button href="#salvager" size="s" variant="plain">Salvagers</nord-button>
+        <nord-button id="button-section-salvager" href="#salvager" size="s" variant="plain">Salvagers</nord-button>
       
-        <nord-button href="#fighter" size="s" variant="plain">Fighters</nord-button>
+        <nord-button id="button-section-fighter" href="#fighter" size="s" variant="plain">Fighters</nord-button>
       
-        <nord-button href="#command-ship" size="s" variant="plain">Command Ships</nord-button>
+        <nord-button id="button-section-command-ship" href="#command-ship" size="s" variant="plain">Command Ships</nord-button>
       
-        <nord-button href="#transport" size="s" variant="plain">Transports</nord-button>
+        <nord-button id="button-section-transport" href="#transport" size="s" variant="plain">Transports</nord-button>
       
-        <nord-button href="#explorer" size="s" variant="plain">Explorers</nord-button>
+        <nord-button id="button-section-explorer" href="#explorer" size="s" variant="plain">Explorers</nord-button>
       
 
       <nord-button class="search-button" aria-describedby="tt-search" size="s" variant="plain">
         <span slot="start" class="nordicon n-size-icon-m"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m16.03 14.61c1.23-1.54 1.97-3.49 1.97-5.61 0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.97 3.97 1.41-1.41-3.97-3.97zm-7.03 1.39c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z" fill="currentColor"/></svg></span>
       </nord-button>
       <nord-tooltip id="tt-search">Search ships by name and/or tags</nord-tooltip>
+
+      <nord-button id="filters-button" aria-describedby="tt-filter" size="s" variant="plain">
+        <span slot="start" class="nordicon n-size-icon-m"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m18 0h-16c-1.1 0-2 .9-2 2v.64c0 .46.16.91.45 1.27l5.55 6.78v6.69c0 .7.35 1.33.95 1.7.32.2.69.3 1.05.3.31 0 .61-.07.9-.21l4-2c.68-.34 1.11-1.03 1.11-1.79v-4.69l5.55-6.78c.29-.36.45-.81.45-1.27v-.64c0-1.1-.9-2-2-2zm0 2.64-5.77 7.06c-.15.18-.23.4-.23.63v5.05l-4 2v-7.05c0-.23-.08-.45-.23-.63l-5.77-7.06v-.64h16z" fill="currentColor"/></svg></span>
+        <nord-badge id="filtered-badge" class="hide" variant="warning">Filtered</nord-badge>
+      </nord-button>
+      <nord-tooltip id="tt-filter">Filter ships by type and tags</nord-tooltip>
+
+      <nord-button class="clear-button hide" aria-describedby="tt-clear" size="s" variant="plain">
+        <span slot="start" class="nordicon n-size-icon-m"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m12.1087 10.005 7.8867 7.8866-2.1087 2.1085-7.8866-7.8867-7.89154 7.8916-2.10356422-2.1036 7.89153422-7.8915-7.89653-7.89664 2.1137-2.11326 7.8915 7.90132 7.8864-7.89650372 2.1085 2.10861372z" fill="currentColor"/></svg></span>
+      </nord-button>
+      <nord-tooltip id="tt-clear">Clear ship filters</nord-tooltip>
     </nord-button-group>
-    <nord-toggle id="ship-filters-toggle" label="Filters" value="show" size="s"></nord-toggle>
   </nord-stack>
 </nord-header>
-<nord-drawer id="ship-filters" slot="drawer">
-  <nord-header slot="header">
-    <h3>Ship Filters</h3>
-    <nord-button slot="end" id="reset-ship-filters" size="s">
-      Reset
-    </nord-button>
-  </nord-header>
-  <nord-stack>
-    <p class="n-color-text-weaker n-font-size-s">Sale Type</p>
-    <nord-stack>
-      <nord-checkbox class="ship-filter ship-filter-sale-type" label="Free" value="free"></nord-checkbox>
-      <nord-checkbox class="ship-filter ship-filter-sale-type" label="For Sale" value="for-sale"></nord-checkbox>
+<nord-modal id="filters-modal" size="l" aria-labelledby="filters-modal-title">
+  <h2 slot="header" id="filters-modal-title">Ship Filters</h2>
+  <section class="n-grid-2">
+    <nord-stack direction="horizontal">
+      <nord-stack>
+        <p class="n-color-text-weaker n-font-size-s">Sale Type</p>
+        <nord-stack>
+          <nord-checkbox class="ship-filter ship-filter-sale-type" label="Free" value="free"></nord-checkbox>
+          <nord-checkbox class="ship-filter ship-filter-sale-type" label="For Sale" value="for-sale"></nord-checkbox>
+        </nord-stack>
+      </nord-stack>
+      <nord-stack>
+        <p class="n-color-text-weaker n-font-size-s">Ship Type</p>
+        <nord-stack>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Miners" value="miner"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Surface Miners" value="surface-miner"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Starter Ships" value="starter"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Asteroid Haulers" value="asteroid-hauler"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Haulers" value="hauler"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Salvagers" value="salvager"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Fighters" value="fighter"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Command Ships" value="command-ship"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Transports" value="transport"></nord-checkbox>
+          
+            <nord-checkbox class="ship-filter ship-filter-type" label="Explorers" value="explorer"></nord-checkbox>
+          
+        </nord-stack>
+      </nord-stack>
     </nord-stack>
-  </nord-stack>
-  <nord-stack>
-    <p class="n-color-text-weaker n-font-size-s n-padding-bs-l">Ship Type</p>
     <nord-stack>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Miners" value="miner"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Surface Miners" value="surface-miner"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Starter Ships" value="starter"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Asteroid Haulers" value="asteroid-hauler"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Haulers" value="hauler"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Salvagers" value="salvager"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Fighters" value="fighter"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Command Ships" value="command-ship"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Transports" value="transport"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-type" label="Explorers" value="explorer"></nord-checkbox>
-      
+      <p class="n-color-text-weaker n-font-size-s">Ship Tag</p>
+      <nord-stack direction="horizontal">
+        
+          <nord-stack>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Advanced Crafting Bench" value="advanced-bench"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Asteroid Avoidance" value="asteroid-avoidance"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Auto Cannon" value="auto-cannon"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Auto Pilot" value="auto-pilot"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Basic Crafting Bench" value="basic-bench"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Cargo Lock Beam" value="cargo-lock-beam"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Cargo Lock Frame" value="cargo-lock-frame"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="ISAN" value="isan"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Large Asteroid Hold" value="large-asteroid-hold"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Large Generator" value="large-generator"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Laser Cannon" value="laser-cannon"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Mining Laser" value="mining-laser"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Mining Laser Drill" value="mining-laser-drill"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Navigation Data Logger" value="navigation-data-logger"></nord-checkbox>
+            
+          </nord-stack>
+        
+          <nord-stack>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Plasma Cannon" value="plasma-cannon"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Plasma Thruster" value="plasma-thruster"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Rando Ship Shop" value="rando-shop"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Rocket Launcher" value="rocket-launcher"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Small Asteroid Hold" value="small-asteroid-hold"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="T1 Generators" value="t1-generator"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="T1 Thrusters" value="t1-thruster"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Generators" value="t2-generator"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Generators" value="t3-generator"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Thrusters" value="t2-thruster"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Thrusters" value="t3-thruster"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Tools Crafting Bench" value="tools-bench"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Tow Beam" value="tow-beam"></nord-checkbox>
+            
+              <nord-checkbox class="ship-filter ship-filter-tag" label="Tractor Beam" value="tractor-beam"></nord-checkbox>
+            
+          </nord-stack>
+        
+      </nord-stack>
     </nord-stack>
-  </nord-stack>
-  <nord-stack>
-    <p class="n-color-text-weaker n-font-size-s n-padding-bs-l">Ship Tag</p>
-    <nord-stack>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Advanced Crafting Bench" value="advanced-bench"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Asteroid Avoidance" value="asteroid-avoidance"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Auto Cannon" value="auto-cannon"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Auto Pilot" value="auto-pilot"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Basic Crafting Bench" value="basic-bench"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Cargo Lock Beam" value="cargo-lock-beam"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Cargo Lock Frame" value="cargo-lock-frame"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="ISAN" value="isan"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Large Asteroid Hold" value="large-asteroid-hold"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Large Generator" value="large-generator"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Laser Cannon" value="laser-cannon"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Mining Laser" value="mining-laser"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Mining Laser Drill" value="mining-laser-drill"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Navigation Data Logger" value="navigation-data-logger"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Plasma Cannon" value="plasma-cannon"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Plasma Thruster" value="plasma-thruster"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Rando Ship Shop" value="rando-shop"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Rocket Launcher" value="rocket-launcher"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Small Asteroid Hold" value="small-asteroid-hold"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="T1 Generators" value="t1-generator"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="T1 Thrusters" value="t1-thruster"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Generators" value="t2-generator"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Generators" value="t3-generator"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Thrusters" value="t2-thruster"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="T3 Thrusters" value="t3-thruster"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Tools Crafting Bench" value="tools-bench"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Tow Beam" value="tow-beam"></nord-checkbox>
-      
-        <nord-checkbox class="ship-filter ship-filter-tag" label="Tractor Beam" value="tractor-beam"></nord-checkbox>
-      
-    </nord-stack>
-  </nord-stack>
-</nord-drawer>
-<script>
-  const toggle = document.querySelector("#ship-filters-toggle");
-  const filters = document.querySelector("#ship-filters");
-  filters.remove();
-  toggle.addEventListener('change', (event) => {
-    if (event.target.checked) {
-      document.querySelector('nord-layout').appendChild(filters);
-      document.querySelectorAll('.ship-filter')
-        .forEach((item) => {
-          item.addEventListener('change', (event) => {
-            applyFilters();
-          });
-        });
+  </section>
 
-      document
-        .querySelector('#reset-ship-filters')
-        .addEventListener('click', resetFilters);
-    } else {
-      filters.remove();
-    }
+
+  <nord-button slot="footer" expand id="filters-modal-clear">Clear</nord-button>
+  <nord-button slot="footer" expand id="filters-modal-apply" variant="primary" autofocus>Apply</nord-button>
+</nord-modal>
+<script>
+  const filtersModal = document.querySelector("#filters-modal");
+
+  const filtersButton = document.querySelector("#filters-button");
+  filtersButton.addEventListener("click", () => filtersModal.showModal());
+
+  const filtersApply = document.querySelector("#filters-modal-apply");
+  filtersApply.addEventListener("click", () => {
     applyFilters();
+    filtersModal.close();
   });
 
-  const resetFilters = () => {
+  const filtersClear = document.querySelector("#filters-modal-clear");
+  filtersClear.addEventListener("click", () => {
+    clearFilters();
+  });
+
+  const clearFilters = () => {
     document.querySelectorAll('.ship-filter').forEach((item) => {
         item.checked = false;
     });
-    applyFilters();
   };
 
   const applyFilters = () => {
@@ -417,13 +431,19 @@
       const hiddenShipCards = section.querySelectorAll('.ship-card.hide');
       if (shipCards.length === hiddenShipCards.length) {
         section.classList.add('hide');
+        document.querySelector(`#button-${section.id}`).disabled = true;
         return;
       }
       section.classList.remove('hide');
+      document.querySelector(`#button-${section.id}`).disabled = false;
     })
 
     document.querySelector('.reset-ship-filters').classList.add('hide');
     if (shipsToShow.length === 0) document.querySelector('.reset-ship-filters').classList.remove('hide');
+
+    const filtered = document.querySelectorAll('#filtered-badge, .clear-button');
+    filtered.forEach((item) => item.classList.add('hide'));
+    if (shipsToShow.length !== ships.length) filtered.forEach((item) => item.classList.remove('hide'));
   };
 </script>
 <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
@@ -463,11 +483,16 @@
   </nord-stack>
   <script>
     document
-      .querySelector('.reset-ship-filters')
-      .addEventListener('click', resetFilters);
+      .querySelectorAll('.reset-ship-filters nord-button, .clear-button')
+      .forEach((button) =>
+        button.addEventListener('click', () => {
+          clearFilters();
+          applyFilters();
+        })
+      );
   </script>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-miner" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="miner">Miners</h1>
         <nord-stack direction="horizontal" wrap>
@@ -1064,7 +1089,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-surface-miner" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="surface-miner">Surface Miners</h1>
         <nord-stack direction="horizontal" wrap>
@@ -1349,7 +1374,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-starter" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="starter">Starter Ships</h1>
         <nord-stack direction="horizontal" wrap>
@@ -1557,7 +1582,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-asteroid-hauler" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="asteroid-hauler">Asteroid Haulers</h1>
         <nord-stack direction="horizontal" wrap>
@@ -1835,7 +1860,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-hauler" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="hauler">Haulers</h1>
         <nord-stack direction="horizontal" wrap>
@@ -2014,7 +2039,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-salvager" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="salvager">Salvagers</h1>
         <nord-stack direction="horizontal" wrap>
@@ -2142,7 +2167,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-fighter" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="fighter">Fighters</h1>
         <nord-stack direction="horizontal" wrap>
@@ -2278,7 +2303,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-command-ship" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="command-ship">Command Ships</h1>
         <nord-stack direction="horizontal" wrap>
@@ -2415,7 +2440,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-transport" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="transport">Transports</h1>
         <nord-stack direction="horizontal" wrap>
@@ -2513,7 +2538,7 @@
       <nord-divider></nord-divider>
     </nord-stack>
   
-    <nord-stack class="ship-section">
+    <nord-stack id="section-explorer" class="ship-section">
       <nord-stack gap="l" class="n-padding-i-l n-padding-b-l">
         <h1 id="explorer">Explorers</h1>
         <nord-stack direction="horizontal" wrap>
@@ -2634,6 +2659,9 @@
     </nord-stack>
   
 </nord-stack>
+<script>
+  applyFilters();
+</script>
 
 
       <nord-footer slot="footer" size="m">
