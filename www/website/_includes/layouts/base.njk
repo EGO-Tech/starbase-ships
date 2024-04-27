@@ -10,6 +10,15 @@ currentTitle: Home
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - {{ ship.name if ship else pg.title }}</title>
 
+    {% if ship %}
+      {% set photo = ship.photos | selectattr('featured') | first %}
+      <meta property="og:image" content="{{photo.url}}" />
+      <meta property="og:description" content="{{ship.shortDescription}}" />
+    {% else %}
+      <meta property="og:image" content="https://github.com/EGO-Tech/starbase-ships/raw/main/others/egotech/logos/egotech_logo_dark.png" />
+      <meta property="og:description" content="EGOTech thrives to design various types of Starbase ships that are practical but fun to use." />
+    {% endif %}
+
     {% if environment === 'production' %}
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
