@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="/css/custom.css">
     <script src="/js/nord-components.js"></script>
     <script src="/js/splide.min.js"></script>
+    <script src="/js/fontawesome.min.js"></script>
     <script>
       const gaEvent = (event, params) => {
         if (window.gtag) gtag('event', event, params);
@@ -74,7 +75,7 @@
       <nord-navigation slot="nav">
         <nord-stack class="n-padding-be-l">
           <nord-button class="search-button" variant="default" aria-describedby="nav-search" expand>
-            <span slot="start" class="nordicon n-size-icon-m"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m16.03 14.61c1.23-1.54 1.97-3.49 1.97-5.61 0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.97 3.97 1.41-1.41-3.97-3.97zm-7.03 1.39c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z" fill="currentColor"/></svg></span>
+            <i slot="start" class="fa-solid fa-magnifying-glass"></i>
             <div style="text-align: left;">Search</div>
           </nord-button>
           <nord-tooltip id="nav-search">Shortcut: Ctrl+K</nord-tooltip>
@@ -714,7 +715,7 @@
     
       <h1 id="download">Download Blueprint</h1>
       <nord-button href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger.fbe" variant="primary" onclick="gaEvent('download', { ship: 'Lugger', version: '1.1.1' })">
-        <span slot="start" class="nordicon n-size-icon-m"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+        <i slot="start" class="fa-solid fa-download n-color-text"></i>
         Download v1.1.1 (current)
       </nord-button>
       <nord-card padding="none" style="width: 400px">
@@ -738,7 +739,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.1.1' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -752,7 +753,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger_v1.1.0.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.1.0' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -766,7 +767,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger_v1.0.5.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.0.5' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -780,7 +781,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger_v1.0.4.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.0.4' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -794,7 +795,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger_v1.0.3.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.0.3' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -808,7 +809,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger_v1.0.2.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.0.2' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -822,7 +823,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger_v1.0.1.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.0.1' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -836,7 +837,7 @@
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="https://github.com/EGO-Tech/starbase-ships/raw/main/lugger/blueprints/lugger_v1.0.0.fbe" onclick="gaEvent('download', { ship: 'Lugger', version: '1.0.0' })">
-                      <span slot="start" class="nordicon n-size-icon-s"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m9.29 14.71-5.7-5.71 1.41-1.41 4 4v-11.59h2v11.59l4-4 1.41 1.41-5.71 5.71c-.2.2-.45.29-.71.29s-.51-.1-.71-.29zm-9.29 3.29v2h20v-2z" fill="currentColor"/></svg></span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>
@@ -1132,15 +1133,15 @@ It will also flash <code>Red</code> warning lights on the pilot center console a
                     EGOTech
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
-                    <span class="nordicon n-size-icon-l"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m18 0h-16c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h2v5c0 .4.24.77.62.92.12.05.25.08.38.08.26 0 .52-.1.71-.29l5.71-5.71h6.59c1.1 0 2-.9 2-2v-10c-.01-1.1-.91-2-2.01-2zm0 12h-7c-.27 0-.52.11-.71.29l-4.29 4.29v-3.59c0-.55-.45-1-1-1h-3v-9.99h16z" fill="currentColor"/></svg></span>
+                    <i class="fa-brands fa-discord fa-xl fa-fw"></i>
                     <a href="https://discord.gg/BKwVGvncmN">Discord</a>
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
-                    <span class="nordicon n-size-icon-l"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m18.4417 7.90001c.4333-.88333 1.8416-4.25-.7084-6.35-.0675-.05204-.1484-.08383-.2333-.09167-1.5917 0-3.7083 2.04167-4.35 2.70834-2.0423-.54321-4.19107-.54321-6.23334 0-.65833-.675-2.75-2.70834-4.35-2.70834-.09387.00119-.18471.03342-.25833.09167-2.2083373 1.78333-1.54167 4.71667-.73334 6.31667-.878027 1.4535-1.263793 3.15142-1.099997 4.84162.216666 2.7584 2.499997 5.8334 5.408337 5.8334h8.23337c2.925 0 5.1916-3.075 5.4-5.8334.173-1.6769-.2043-3.36466-1.075-4.80829zm-5.1084 8.55829h-6.66664c-.77355 0-1.51541-.3072-2.06239-.8542-.54699-.547-.85428-1.2889-.85428-2.0624 0-4.92502 3.43334-2.9417 6.25-2.9417 2.81671 0 6.25001-2.03332 6.25001 2.9417 0 .7735-.3073 1.5154-.8543 2.0624s-1.2888.8542-2.0624.8542z" fill="currentColor"/><g fill="currentColor"><path d="m12.9333 14.7917c.4603 0 .8334-.5597.8334-1.25 0-.6904-.3731-1.25-.8334-1.25-.4602 0-.8333.5596-.8333 1.25 0 .6903.3731 1.25.8333 1.25z"/><path d="m7.1 14.7917c.46023 0 .83333-.5597.83333-1.25 0-.6904-.3731-1.25-.83333-1.25-.46024 0-.83334.5596-.83334 1.25 0 .6903.3731 1.25.83334 1.25z"/></g></svg></span>
+                    <i class="fa-brands fa-github fa-xl fa-fw"></i>
                     <a href="https://github.com/EGO-Tech/starbase-ships">GitHub</a>
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
-                    <span class="nordicon n-size-icon-l"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m7 8h3v2h-3zm0-2h3v-2h-3zm-2 8h5v-2h-5zm15-10v2c0 1.1-.9 2-2 2h-4v10c0 1.1-.9 2-2 2h-10c-1.1 0-2-.9-2-2v-14c0-2.21 1.79-4 4-4h12c2.21 0 4 1.79 4 4zm-8 0c0-.73.21-1.41.56-2h-8.56c-1.1 0-2 .9-2 2v14h10zm6 0c0-1.1-.9-2-2-2s-2 .9-2 2v2h4z" fill="currentColor"/></svg></span>
+                    <i class="fa-brands fa-creative-commons-nc fa-xl fa-fw"></i>
                     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">License</a>
                   </nord-stack>
                 </nord-stack>
@@ -1158,7 +1159,7 @@ It will also flash <code>Red</code> warning lights on the pilot center console a
               </section>
             </div>
             <div>
-              <p>Copyright &copy; 2024 Vincent Teo</p>
+              <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Vincent Teo</p>
               <p>Built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://nordhealth.design/">Nord.</a></p>
             </div>
           </section>
