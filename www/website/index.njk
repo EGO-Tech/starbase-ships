@@ -1,17 +1,6 @@
 ---
 layout: layouts/base
 ---
-{% renderFile './_includes/assets/js/data.11ty.js', ships %}
-<nord-command-menu></nord-command-menu>
-<script>
-  const menu = document.querySelector("nord-command-menu");
-  menu.commands = ships.map((ship) => ({
-    id: ship.slug,
-    title: ship.name,
-    keywords: `${ship.name} ${ship.saleType} ${ship.types.map(({ type }) => shipTypes.byId[type].label).join(' ')} ${ship.tags.map(({ label }) => label).join(' ')}`,
-    handler: () => window.location.href = ship.webPath,
-  }));
-</script>
 <nord-header slot="header">
   <nord-stack direction="horizontal" wrap>
     <nord-button-group>
@@ -19,16 +8,10 @@ layout: layouts/base
         <nord-button href="#{{shipType.id}}" size="s" variant="plain">{{shipType.label}}</nord-button>
       {% endfor %}
 
-      <nord-button id="search" aria-describedby="tt-search" size="s" variant="plain">
+      <nord-button class="search-button" aria-describedby="tt-search" size="s" variant="plain">
         <span slot="start" class="nordicon n-size-icon-m">{{ "/node_modules/@nordhealth/icons/lib/assets/navigation-search.svg" | svgContents | safe }}</span>
       </nord-button>
       <nord-tooltip id="tt-search">Search ships by name and/or tags</nord-tooltip>
-      <script>
-        const button = document.querySelector("#search")
-        button.addEventListener("click", () => {
-          menu.show()
-        })
-      </script>
     </nord-button-group>
     <nord-toggle id="ship-filters-toggle" label="Filters" value="show" size="s"></nord-toggle>
   </nord-stack>

@@ -35,10 +35,28 @@ currentTitle: Home
         if (window.gtag) gtag('event', event, params);
       }
     </script>
+    {% renderFile './_includes/assets/js/data.11ty.js', ships %}
   </head>
   <body class="n-reset">
+    <nord-command-menu></nord-command-menu>
+    <script>
+      const menu = document.querySelector("nord-command-menu");
+      menu.commands = ships.map((ship) => ({
+        id: ship.slug,
+        title: ship.name,
+        keywords: `${ship.name} ${ship.saleType} ${ship.types.map(({ type }) => shipTypes.byId[type].label).join(' ')} ${ship.tags.map(({ label }) => label).join(' ')}`,
+        handler: () => window.location.href = ship.webPath,
+      }));
+    </script>
     <nord-layout padding="none" persist-nav-state sticky>
       <nord-navigation slot="nav">
+        <nord-stack class="n-padding-be-l">
+          <nord-button class="search-button" variant="default" aria-describedby="nav-search" expand>
+            <span slot="start" class="nordicon n-size-icon-m">{{ "/node_modules/@nordhealth/icons/lib/assets/navigation-search.svg" | svgContents | safe }}</span>
+            <div style="text-align: left;">Search</div>
+          </nord-button>
+          <nord-tooltip id="nav-search">Shortcut: Ctrl+K</nord-tooltip>
+        </nord-stack>
         <nord-nav-group heading="Ships For Sale">
           {% for shipForSale in ships.bySaleType['for-sale'] %}
             <nord-nav-item {% if shipForSale.new %}badge="NEW"{% endif %} {% if shipForSale.slug === ship.slug %}active{% endif %} href="{{ ('/ships/' + shipForSale.slug + '/') | url }}">
@@ -119,5 +137,13 @@ currentTitle: Home
         </nord-stack>
       </nord-footer>
     </nord-layout>
+    <script>
+      document.querySelectorAll('.search-button')
+        .forEach((button) =>
+          button.addEventListener("click", () => {
+            menu.show();
+          })
+        );
+    </script>
   </body>
 </html>
