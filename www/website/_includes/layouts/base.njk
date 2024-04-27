@@ -8,8 +8,11 @@ currentTitle: Home
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - {{ ship.name if ship else pg.title }}</title>
 
+    {% set pageTitle = title + ' - ' + (ship.name or pg.title or currentTitle) %}
+    <title>{{ pageTitle }}</title>
+
+    <meta property="og:title" content="{{pageTitle}}" />
     {% if ship %}
       {% set photo = ship.photos | selectattr('featured') | first %}
       <meta property="og:image" content="{{photo.url}}" />
