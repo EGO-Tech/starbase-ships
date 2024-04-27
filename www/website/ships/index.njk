@@ -179,7 +179,7 @@ permalink: "ships/{{ ship.slug }}/"
     {% if ship.saleType === 'free' %}
       <h1 id="download">Download Blueprint</h1>
       <nord-button href="{{ship.blueprints[0].url}}" variant="primary" onclick="gaEvent('download', { ship: '{{ship.name}}', version: '{{ship.version}}' })">
-        <span slot="start" class="nordicon n-size-icon-m">{{ "/node_modules/@nordhealth/icons/lib/assets/interface-download.svg" | svgContents | safe }}</span>
+        <i slot="start" class="fa-solid fa-download n-color-text"></i>
         Download v{{ship.version}} (current)
       </nord-button>
       <nord-card padding="none" style="width: 400px">
@@ -203,7 +203,7 @@ permalink: "ships/{{ ship.slug }}/"
                   </td>
                   <td class="n-table-align-right">
                     <nord-button size="s" href="{{blueprint.url}}" onclick="gaEvent('download', { ship: '{{ship.name}}', version: '{{blueprint.version}}' })">
-                      <span slot="start" class="nordicon n-size-icon-s">{{ "/node_modules/@nordhealth/icons/lib/assets/interface-download.svg" | svgContents | safe }}</span>
+                      <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
                   </td>

@@ -1,6 +1,5 @@
 const _ = require('lodash');
 const path = require('path');
-const svgContents = require('eleventy-plugin-svg-contents');
 const markdownItGithubHeading = require('markdown-it-github-headings');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const { accessSync, constants, readdirSync } = require('fs');
@@ -41,7 +40,6 @@ const getShipsData = ({ pathPrefix }) =>
     .value();
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(svgContents);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   eleventyConfig.amendLibrary('md', (mdLib) =>
@@ -62,6 +60,8 @@ module.exports = function (eleventyConfig) {
 
     './_includes/assets/js/nord-components.js': 'js/nord-components.js',
     './node_modules/@splidejs/splide/dist/js/splide.min.js': 'js/splide.min.js',
+    './node_modules/@fortawesome/fontawesome-free/js/all.min.js':
+      'js/fontawesome.min.js',
 
     './_includes/assets/css/custom.css': 'css/custom.css',
 

@@ -42,6 +42,7 @@ currentTitle: Home
     <link rel="stylesheet" href="{{ '/css/custom.css' | url }}">
     <script src="{{ '/js/nord-components.js' | url }}"></script>
     <script src="{{ '/js/splide.min.js' | url }}"></script>
+    <script src="{{ '/js/fontawesome.min.js' | url }}"></script>
     <script>
       const gaEvent = (event, params) => {
         if (window.gtag) gtag('event', event, params);
@@ -72,7 +73,7 @@ currentTitle: Home
       <nord-navigation slot="nav">
         <nord-stack class="n-padding-be-l">
           <nord-button class="search-button" variant="default" aria-describedby="nav-search" expand>
-            <span slot="start" class="nordicon n-size-icon-m">{{ "/node_modules/@nordhealth/icons/lib/assets/navigation-search.svg" | svgContents | safe }}</span>
+            <i slot="start" class="fa-solid fa-magnifying-glass"></i>
             <div style="text-align: left;">Search</div>
           </nord-button>
           <nord-tooltip id="nav-search">Shortcut: Ctrl+K</nord-tooltip>
@@ -120,15 +121,15 @@ currentTitle: Home
                     EGOTech
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
-                    <span class="nordicon n-size-icon-l">{{ "/node_modules/@nordhealth/icons/lib/assets/interface-chat.svg" | svgContents | safe }}</span>
+                    <i class="fa-brands fa-discord fa-xl fa-fw"></i>
                     <a href="https://discord.gg/BKwVGvncmN">Discord</a>
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
-                    <span class="nordicon n-size-icon-l">{{ "/node_modules/@nordhealth/icons/lib/assets/generic-github.svg" | svgContents | safe }}</span>
+                    <i class="fa-brands fa-github fa-xl fa-fw"></i>
                     <a href="https://github.com/EGO-Tech/starbase-ships">GitHub</a>
                   </nord-stack>
                   <nord-stack direction="horizontal" gap="s">
-                    <span class="nordicon n-size-icon-l">{{ "/node_modules/@nordhealth/icons/lib/assets/file-invoice.svg" | svgContents | safe }}</span>
+                    <i class="fa-brands fa-creative-commons-nc fa-xl fa-fw"></i>
                     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">License</a>
                   </nord-stack>
                 </nord-stack>
@@ -146,7 +147,7 @@ currentTitle: Home
               </section>
             </div>
             <div>
-              <p>Copyright &copy; {{year}} Vincent Teo</p>
+              <p>Copyright <i class="fa-regular fa-copyright"></i> {{year}} Vincent Teo</p>
               <p>Built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://nordhealth.design/">Nord.</a></p>
             </div>
           </section>
