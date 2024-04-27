@@ -70,6 +70,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addGlobalData('environment', () => process.env.NODE_ENV);
+  eleventyConfig.addGlobalData('pathPrefix', () => eleventyConfig.pathPrefix);
   eleventyConfig.addGlobalData('year', () => new Date().getFullYear());
   eleventyConfig.addGlobalData('ships', () => getShipsData(eleventyConfig));
 };
