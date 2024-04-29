@@ -195,6 +195,7 @@ const getShipVideos = (table) =>
       .sort((a, b) => semverCompare(b.version, a.version));
     if (!_.isEmpty(json.blueprints)) {
       _.set(json.blueprints, '[0].current', true);
+      _.set(json.blueprints, '[0].version', json.version);
       json.cost ??= 0;
     } else {
       json.cost ??= 500000;

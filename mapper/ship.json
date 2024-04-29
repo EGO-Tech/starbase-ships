@@ -1,6 +1,6 @@
 {
   "name": "Mapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "path": "mapper",
   "types": [
     {
@@ -13,9 +13,17 @@
       "filename": "mapper.fbe",
       "path": "blueprints/mapper.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/mapper/blueprints/mapper.fbe",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "",
       "current": true
+    },
+    {
+      "filename": "mapper_v1.0.3.fbe",
+      "path": "blueprints/mapper_v1.0.3.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/mapper/blueprints/mapper_v1.0.3.fbe",
+      "version": "1.0.3",
+      "description": "",
+      "current": false
     },
     {
       "filename": "mapper_v1.0.2.fbe",
@@ -343,9 +351,9 @@
       }
     ],
     "cost": {
-      "assembly": 223933,
+      "assembly": 223961,
       "manufacturing": 455057,
-      "total": 678990
+      "total": 679018
     }
   },
   "links": [
@@ -411,5 +419,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/mapper/USAGE.md"
-  }
+  },
+  "updated": true
 }

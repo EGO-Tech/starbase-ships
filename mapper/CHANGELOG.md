@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.4 (Current) - 29/04/2024
+
+- Updated ship manual URL in help chip
+- Fixed broken pipe which made four crates inaccessible, now all 20 crates are accessible
+
 ## v1.0.3 (Current) - 18/03/2023
 
 - Fixed reset ISAN button
