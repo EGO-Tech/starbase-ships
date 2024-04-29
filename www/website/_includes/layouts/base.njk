@@ -80,14 +80,14 @@ currentTitle: Home
         </nord-stack>
         <nord-nav-group heading="Ships For Sale">
           {% for shipForSale in ships.bySaleType['for-sale'] %}
-            <nord-nav-item {% if shipForSale.new %}badge="NEW"{% endif %} {% if shipForSale.slug === ship.slug %}active{% endif %} href="{{ ('/ships/' + shipForSale.slug + '/') | url }}">
+            <nord-nav-item {% if shipForSale.new %}badge="NEW"{% elseif shipForSale.updated %}badge="UPDATED"{% endif %} {% if shipForSale.slug === ship.slug %}active{% endif %} href="{{ ('/ships/' + shipForSale.slug + '/') | url }}">
               {{shipForSale.name}}
             </nord-nav-item>
           {% endfor %}
         </nord-nav-group>
         <nord-nav-group heading="Free Ships">
           {% for shipFree in ships.bySaleType['free'] %}
-            <nord-nav-item {% if shipFree.new %}badge="NEW"{% endif %} {% if shipFree.slug === ship.slug %}active{% endif %} href="{{ ('/ships/' + shipFree.slug + '/') | url }}">
+            <nord-nav-item {% if shipFree.new %}badge="NEW"{% elseif shipFree.updated %}badge="UPDATED"{% endif %} {% if shipFree.slug === ship.slug %}active{% endif %} href="{{ ('/ships/' + shipFree.slug + '/') | url }}">
               {{shipFree.name}}
             </nord-nav-item>
           {% endfor %}
