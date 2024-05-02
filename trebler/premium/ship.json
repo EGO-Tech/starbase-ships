@@ -43,6 +43,7 @@
   ],
   "videos": [],
   "buildCost": {
+    "discord": "https://discord.com/channels/1013328685564178472/1106575475373002854/1235728109865533471",
     "materials": [
       {
         "ore": "aegisium",
@@ -216,5 +217,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1106575475373002854"
 }

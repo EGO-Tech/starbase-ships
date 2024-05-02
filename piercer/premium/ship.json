@@ -43,6 +43,7 @@
   ],
   "videos": [],
   "buildCost": {
+    "discord": "https://discord.com/channels/1013328685564178472/1027431302833643550/1235727628359696455",
     "materials": [
       {
         "ore": "aegisium",
@@ -228,5 +229,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/premium/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1027431302833643550"
 }
