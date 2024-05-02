@@ -384,6 +384,7 @@
   ],
   "videos": [],
   "buildCost": {
+    "discord": "https://discord.com/channels/1013328685564178472/1122111392258998363/1235728333514477608",
     "materials": [
       {
         "ore": "aegisium",
@@ -597,5 +598,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1122111392258998363"
 }

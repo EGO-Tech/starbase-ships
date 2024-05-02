@@ -199,6 +199,7 @@
   ],
   "videos": [],
   "buildCost": {
+    "discord": "https://discord.com/channels/1013328685564178472/1044571279434453054/1235726838173536256",
     "materials": [
       {
         "ore": "aegisium",
@@ -378,5 +379,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1044571279434453054"
 }

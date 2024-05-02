@@ -2,7 +2,7 @@ import _ from 'lodash';
 import nconf from 'nconf';
 import { program } from 'commander';
 import { Client, GatewayIntentBits } from 'discord.js';
-import { readFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { table } from 'table';
 
 import '../config.js';
@@ -65,15 +65,15 @@ ${table(costData, config)}
   const dryRun = program.opts().dryRun;
 
   if (dryRun) console.log(content);
-  if (!discord || dryRun)
+  if ((!discord && !json.discord) || dryRun)
     return console.log(`Skipping ${file}, no Discord url found`);
 
   const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
   client.on('ready', async () => {
-    const [_url, serverId, channelId, messageId] = discord.match(
-      /channels\/([0-9]+)\/([0-9]+)\/?([0-9]+)?/
-    );
+    const [_url, serverId, channelId, messageId] = (
+      discord || json.discord
+    ).match(/channels\/([0-9]+)\/([0-9]+)\/?([0-9]+)?/);
 
     if (!serverId || !channelId) return client.destroy();
 
@@ -81,7 +81,9 @@ ${table(costData, config)}
     const channel = await server.channels.fetch(channelId);
 
     if (!messageId) {
-      await channel.send({ content });
+      const message = await channel.send({ content });
+      json.buildCost.discord = message.url;
+      writeFileSync(file, `${JSON.stringify(json, null, 2)}\n`);
     } else {
       const message = await channel.messages.fetch(messageId);
       await message.edit({ content });
