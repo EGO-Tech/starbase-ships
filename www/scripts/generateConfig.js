@@ -271,7 +271,10 @@ const getShipVideos = (table) =>
       .fromPairs()
       .value();
     await worker.terminate();
-    json.buildCost = { materials, cost };
+    json.buildCost = _.assign(json.buildCost, {
+      materials,
+      cost,
+    });
 
     writeFileSync(
       path.join(fullPath, nconf.get('ships:jsonFile')),

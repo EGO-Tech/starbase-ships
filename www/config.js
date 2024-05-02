@@ -7,5 +7,6 @@ nconf
     basePath: dirname(fileURLToPath(import.meta.url)),
   })
   .argv()
-  .env()
-  .file({ file: 'config.json' });
+  .env({ separator: '__' })
+  .file('local', { file: 'config.local.json' })
+  .file('default', { file: 'config.json' });

@@ -1,0 +1,62 @@
+name: Push Build Cost Changes to Discord
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    defaults:
+      run:
+        working-directory: www
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            **/ship.json
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Persist npm cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+
+      - run: npm install
+
+      - name: Build Cost Dry Run
+        if: github.ref != 'refs/heads/main'
+        env:
+          discord__token: ${{ secrets.DISCORDTOKEN }}
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            npm run discord-build-cost -- ../"$file" --dry-run
+          done
+
+      - name: Build Cost Push
+        if: github.ref == 'refs/heads/main'
+        env:
+          discord__token: ${{ secrets.DISCORDTOKEN }}
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            npm run discord-build-cost -- ../"$file"
+          done
