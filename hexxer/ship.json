@@ -410,7 +410,8 @@
       "assembly": 161269,
       "manufacturing": 300768,
       "total": 462037
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025293979366981703/1235738561014399016"
   },
   "links": [
     {
@@ -477,5 +478,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025293979366981703"
 }

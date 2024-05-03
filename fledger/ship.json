@@ -419,7 +419,8 @@
       "assembly": 144280,
       "manufacturing": 187548,
       "total": 331828
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1032240022285463592/1235738129584099348"
   },
   "links": [
     {
@@ -466,5 +467,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1032240022285463592"
 }

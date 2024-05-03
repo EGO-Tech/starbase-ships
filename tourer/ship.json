@@ -326,7 +326,8 @@
       "assembly": 79223,
       "manufacturing": 108317,
       "total": 187540
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025304823026950144/1235742237749542934"
   },
   "links": [
     {
@@ -371,5 +372,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tourer/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025304823026950144"
 }

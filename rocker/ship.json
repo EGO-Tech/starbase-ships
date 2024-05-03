@@ -426,7 +426,8 @@
       "assembly": 134715,
       "manufacturing": 217718,
       "total": 352433
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025301134291763240/1235741124946165803"
   },
   "links": [
     {
@@ -493,5 +494,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025301134291763240"
 }

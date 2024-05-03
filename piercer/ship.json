@@ -487,7 +487,8 @@
       "assembly": 270337,
       "manufacturing": 947012,
       "total": 1217348
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025255426373189654/1235740277168406610"
   },
   "links": [
     {
@@ -566,5 +567,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025255426373189654"
 }

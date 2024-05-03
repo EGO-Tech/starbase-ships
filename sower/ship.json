@@ -296,7 +296,8 @@
       "assembly": 94950,
       "manufacturing": 133067,
       "total": 228017
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025303682893480006/1235741820340801659"
   },
   "links": [
     {
@@ -343,5 +344,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025303682893480006"
 }
