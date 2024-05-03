@@ -22,7 +22,8 @@
     "@nordhealth/tokens": "^7.1.0",
     "@splidejs/splide": "^4.1.4",
     "lodash": "^4.17.21",
-    "markdown-it-github-headings": "^2.0.1"
+    "markdown-it-github-headings": "^2.0.1",
+    "qs": "^6.12.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

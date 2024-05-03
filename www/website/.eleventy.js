@@ -62,6 +62,7 @@ module.exports = function (eleventyConfig) {
     './node_modules/@splidejs/splide/dist/js/splide.min.js': 'js/splide.min.js',
     './node_modules/@fortawesome/fontawesome-free/js/all.min.js':
       'js/fontawesome.min.js',
+    './node_modules/qs/dist/qs.js': 'js/qs.js',
 
     './_includes/assets/css/custom.css': 'css/custom.css',
 
