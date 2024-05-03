@@ -160,10 +160,10 @@ const getShipVideos = (table) =>
       path: usagePath,
       url: `${shipsUrl}/${relPath}/${usagePath}`,
     };
-    json.changelog = {
+    json.changelog = _.assign(json.changelog, {
       path: changelogPath,
       url: `${shipsUrl}/${relPath}/${changelogPath}`,
-    };
+    });
 
     try {
       accessSync(path.join(fullPath, knownIssuesPath), constants.F_OK);
@@ -190,9 +190,14 @@ const getShipVideos = (table) =>
       currentVersion: json.version,
       relPath,
     });
+
+    if (!json.new && blueprints.length > json.blueprints.length)
+      json.updated = true;
+
     json.blueprints = _.unionBy(json.blueprints, blueprints, 'filename')
       .map((blueprint) => _.set(blueprint, 'current', false))
       .sort((a, b) => semverCompare(b.version, a.version));
+
     if (!_.isEmpty(json.blueprints)) {
       _.set(json.blueprints, '[0].current', true);
       _.set(json.blueprints, '[0].version', json.version);
@@ -200,6 +205,7 @@ const getShipVideos = (table) =>
     } else {
       json.cost ??= 500000;
     }
+
     json.saleType =
       !json.cost && !_.isEmpty(json.blueprints) ? 'free' : 'for-sale';
 
