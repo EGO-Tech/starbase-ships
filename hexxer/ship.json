@@ -230,7 +230,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1025293979366981703/1235769939013533787"
   },
   "cost": 0,
   "images": [

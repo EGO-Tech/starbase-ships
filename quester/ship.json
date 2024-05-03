@@ -289,7 +289,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/quester/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/quester/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1025300036709523497/1235770301594468383"
   },
   "cost": 0,
   "images": [

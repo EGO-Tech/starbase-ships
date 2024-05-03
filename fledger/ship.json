@@ -191,7 +191,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fledger/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1032240022285463592/1235769900409159681"
   },
   "cost": 0,
   "images": [

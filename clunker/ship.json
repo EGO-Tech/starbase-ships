@@ -97,7 +97,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/clunker/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/clunker/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1050642618427637830/1235769687971987537"
   },
   "cost": 0,
   "images": [
