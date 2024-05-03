@@ -24,7 +24,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/premium/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1106575475373002854/1235770671976677423"
   },
   "cost": 750000,
   "images": [

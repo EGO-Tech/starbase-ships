@@ -129,7 +129,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1025296317376888873/1235770126993723453"
   },
   "cost": 0,
   "images": [

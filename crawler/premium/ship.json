@@ -36,7 +36,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1045807634399367198/1235769756519239700"
   },
   "cost": 3000000,
   "images": [

@@ -323,7 +323,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1122111392258998363/1235770741627158628"
   },
   "cost": 20000000,
   "images": [

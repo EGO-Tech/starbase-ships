@@ -261,7 +261,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1025255426373189654/1235770241171329086"
   },
   "cost": 0,
   "images": [

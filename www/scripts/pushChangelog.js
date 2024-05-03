@@ -3,7 +3,8 @@ import nconf from 'nconf';
 import { program } from 'commander';
 import { Client, GatewayIntentBits } from 'discord.js';
 import { readFileSync, writeFileSync } from 'fs';
-import { table } from 'table';
+import { fromMarkdown } from 'mdast-util-from-markdown';
+import { toMarkdown } from 'mdast-util-to-markdown';
 
 import '../config.js';
 
@@ -16,7 +17,9 @@ const token = nconf.get('discord:token');
   program.option('--dry-run', 'dry run with no post to discord');
   program.parse();
 
-  const file = program.args[0];
+  let file = program.args[0];
+  if (file.endsWith('CHANGELOG.md'))
+    file = file.replace('CHANGELOG.md', 'ship.json');
 
   let json;
   try {
@@ -25,46 +28,37 @@ const token = nconf.get('discord:token');
     throw new Error('Error reading ship.json');
   }
 
-  const { discord, materials, cost } = json.buildCost;
-
-  const config = {
-    drawHorizontalLine: (lineIndex, rowCount) => {
-      return (
-        lineIndex === 0 ||
-        lineIndex === 1 ||
-        lineIndex === rowCount - 1 ||
-        lineIndex === rowCount
-      );
-    },
-    columns: [
-      { alignment: 'left', width: 18 },
-      { alignment: 'right', width: 11 },
-      { alignment: 'right' },
-    ],
-  };
-
-  const data = [['Material', 'Volume (kv)', 'Stacks']];
-  _.each(materials, ({ label, kv, stacks }) => {
-    data.push([label, kv.toLocaleString(), stacks.toLocaleString()]);
-  });
-
-  const costData = [['Cost Type', 'Credits']];
-  _.each(cost, (credits, key) => {
-    costData.push([_.capitalize(key), credits.toLocaleString()]);
-  });
-
-  const content = `# Build Cost
-\`\`\`ansi
-${table(data, config)}
-\`\`\`
-\`\`\`ansi
-${table(costData, config)}
-\`\`\`
-`;
-
+  const { path, changelog } = json;
+  const { discord } = changelog;
   const dryRun = program.opts().dryRun;
 
+  let content;
+  try {
+    content = readFileSync(`../${path}/${changelog.path}`).toString();
+  } catch {
+    throw new Error('Error reading changelog');
+  }
+
+  const markdown = await fromMarkdown(content);
+  let length = 0;
+  markdown.children = _(markdown.children)
+    .map((child) => {
+      const childLength = toMarkdown(child).length;
+      const isOver = length > 2000 || length + childLength > 2000;
+
+      length = length + childLength;
+      return isOver ? null : child;
+    })
+    .compact()
+    .value();
+
+  if (_.last(markdown.children).type === 'heading')
+    markdown.children = _.slice(markdown.children, 0, -1);
+
+  content = toMarkdown(markdown);
+
   if (dryRun) console.log(content);
+
   if ((!discord && !json.discord) || dryRun)
     return console.log(`Skipping ${file}, no Discord url found`);
 
@@ -82,7 +76,7 @@ ${table(costData, config)}
 
     if (!messageId) {
       const message = await channel.send({ content });
-      json.buildCost.discord = message.url;
+      json.changelog.discord = message.url;
       writeFileSync(file, `${JSON.stringify(json, null, 2)}\n`);
     } else {
       const message = await channel.messages.fetch(messageId);

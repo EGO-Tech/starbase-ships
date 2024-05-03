@@ -250,7 +250,8 @@
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/CHANGELOG.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1025302374014795837/1235770390811246642"
   },
   "cost": 0,
   "images": [
