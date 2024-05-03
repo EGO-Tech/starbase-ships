@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="/css/custom.css">
     <script src="/js/nord-components.js"></script>
     <script src="/js/splide.min.js"></script>
+    <script src="/js/qs.js"></script>
     <script src="/js/fontawesome.min.js"></script>
     <script>
       const gaEvent = (event, params) => {
@@ -411,17 +412,21 @@
       item.classList.add('hide');
     });
 
+    const saleTypes = document.querySelectorAll('.ship-filter-sale-type').values().filter((item) => item.checked).map(({ value }) => value).toArray();
+    const types = document.querySelectorAll('.ship-filter-type').values().filter((item) => item.checked).map(({ value }) => value).toArray();
+    const tags = document.querySelectorAll('.ship-filter-tag').values().filter((item) => item.checked).map(({ value }) => value).toArray();
+
     const shipsToShow = ships
       .filter((ship) => {
-        const saleTypes = document.querySelectorAll('.ship-filter-sale-type').values().filter((item) => item.checked).map(({ value }) => value).toArray();
         return !saleTypes.length || saleTypes.includes(ship.saleType)
       }).filter((ship) => {
-        const types = document.querySelectorAll('.ship-filter-type').values().filter((item) => item.checked).map(({ value }) => value).toArray();
         return !types.length || ship.types.some(({ type }) => types.includes(type))
       }).filter((ship) => {
-        const tags = document.querySelectorAll('.ship-filter-tag').values().filter((item) => item.checked).map(({ value }) => value).toArray();
         return !tags.length || ship.tags.some(({ id }) => tags.includes(id))
       });
+
+    const qs = Qs.stringify({ saleTypes, types, tags });
+    window.history.pushState({}, null, `?${qs}`)
 
     shipsToShow.forEach((ship) => {
       document.querySelectorAll(`.ship-${ship.slug}`).forEach((card) => card.classList.remove('hide'));
@@ -2663,6 +2668,23 @@
   
 </nord-stack>
 <script>
+  const qsObj = Qs.parse(window.location.search.replace(/^\?/, ''));
+
+  if (qsObj.saleTypes)
+    document.querySelectorAll('.ship-filter-sale-type').forEach((node) => {
+      if (qsObj.saleTypes.includes(node.value)) node.checked = true;
+    });
+
+  if (qsObj.types)
+    document.querySelectorAll('.ship-filter-type').forEach((node) => {
+      if (qsObj.types.includes(node.value)) node.checked = true;
+    });
+
+  if (qsObj.tags)
+    document.querySelectorAll('.ship-filter-tag').forEach((node) => {
+      if (qsObj.tags.includes(node.value)) node.checked = true;
+    });
+
   applyFilters();
 </script>
 
