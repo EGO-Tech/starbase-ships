@@ -378,7 +378,8 @@
       "assembly": 311187,
       "manufacturing": 1170385,
       "total": 1481572
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1100697981705003028/1235742459384823808"
   },
   "links": [
     {
@@ -437,5 +438,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1100697981705003028"
 }

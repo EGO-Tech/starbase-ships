@@ -194,7 +194,8 @@
       "assembly": 19196,
       "manufacturing": 27869,
       "total": 47065
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025295176052252743/1235739198976426034"
   },
   "links": [
     {
@@ -227,5 +228,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hopper/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025295176052252743"
 }

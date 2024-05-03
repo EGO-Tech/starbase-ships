@@ -302,7 +302,8 @@
       "assembly": 154687,
       "manufacturing": 548973,
       "total": 703659
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025290710389379072/1235738365337407569"
   },
   "links": [
     {
@@ -361,5 +362,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/flipper/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025290710389379072"
 }

@@ -290,7 +290,8 @@
       "assembly": 285447,
       "manufacturing": 3306375,
       "total": 3591821
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1050642618427637830/1235737348537585738"
   },
   "links": [
     {
@@ -338,5 +339,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/clunker/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1050642618427637830"
 }

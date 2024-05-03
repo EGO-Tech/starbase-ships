@@ -524,7 +524,8 @@
       "assembly": 467323,
       "manufacturing": 1181891,
       "total": 1649213
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025300036709523497/1235740477895213077"
   },
   "links": [
     {
@@ -589,5 +590,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/quester/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025300036709523497"
 }

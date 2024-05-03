@@ -548,7 +548,8 @@
       "assembly": 498206,
       "manufacturing": 1319916,
       "total": 1818122
-    }
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1025285307886731284/1235741537887981609"
   },
   "links": [
     {
@@ -635,5 +636,6 @@
   "usage": {
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/USAGE.md"
-  }
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1025285307886731284"
 }
