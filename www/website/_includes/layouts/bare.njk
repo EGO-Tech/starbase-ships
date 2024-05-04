@@ -1,0 +1,41 @@
+---
+title: Starbase Ships by EGOTech
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% set pageTitle = title + ' - ' + currentTitle %}
+    <title>{{ pageTitle }}</title>
+
+    <meta property="og:title" content="{{pageTitle}}" />
+    {% if ship %}
+      {% set photo = ship.photos | selectattr('featured') | first %}
+      <meta property="og:image" content="{{photo.url}}" />
+      <meta property="og:description" content="{{ship.shortDescription}}" />
+    {% else %}
+      <meta property="og:image" content="https://github.com/EGO-Tech/starbase-ships/raw/main/others/egotech/logos/egotech_logo_dark.png" />
+      <meta property="og:description" content="EGOTech thrives to design various types of Starbase ships that are practical but fun to use." />
+    {% endif %}
+
+    {% if environment === 'production' %}
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HK9VCMHC5R');
+      </script>
+    {% endif %}
+
+    <link rel="icon" type="image/png" href="{{ '/images/logos/egotech_logo_dark_favicon.png' | url }}">
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
+</html>

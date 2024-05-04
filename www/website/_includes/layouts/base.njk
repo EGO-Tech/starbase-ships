@@ -1,6 +1,5 @@
 ---
 title: Starbase Ships by EGOTech
-currentTitle: Home
 ---
 
 <!doctype html>
@@ -9,7 +8,7 @@ currentTitle: Home
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% set pageTitle = title + ' - ' + (ship.name or pg.title or currentTitle) %}
+    {% set pageTitle = title + ' - ' + currentTitle %}
     <title>{{ pageTitle }}</title>
 
     <meta property="og:title" content="{{pageTitle}}" />
