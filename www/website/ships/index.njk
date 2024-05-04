@@ -5,6 +5,8 @@ pagination:
   size: 1
   alias: ship
 permalink: "ships/{{ ship.slug }}/"
+eleventyComputed:
+  currentTitle: "{{ ship.name }}"
 ---
 
 <nord-header slot="header">

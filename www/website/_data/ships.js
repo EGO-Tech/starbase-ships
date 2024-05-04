@@ -41,6 +41,16 @@ module.exports = (data) => {
         .orderBy('label')
         .value(),
     },
+    downloads: {
+      current: _(ships)
+        .filter(({ blueprints }) => !_.isEmpty(blueprints))
+        .map(({ blueprints, name, photos, shortDescription, slug }) => {
+          const current = _.find(blueprints, { current: true });
+          current.ship = { name, photos, shortDescription, slug };
+          return current;
+        })
+        .value(),
+    },
     bySaleType: _.groupBy(ships, 'saleType'),
     byType: _(shipTypes)
       .keyBy('id')
