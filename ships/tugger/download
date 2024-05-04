@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/blueprints/tugger.fbe" />
+
+    
+    <title>Starbase Ships by EGOTech - Download Tugger</title>
+
+    <meta property="og:title" content="Starbase Ships by EGOTech - Download Tugger" />
+    
+    <meta property="og:image" content="https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/photos/20220313170411_1.jpg" />
+    <meta property="og:description" content="" />
+
+    
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HK9VCMHC5R');
+      </script>
+    
+
+    <script src="/js/qs.js"></script>
+
+    <link rel="icon" type="image/png" href="/images/logos/egotech_logo_dark_favicon.png">
+  </head>
+  <body>
+    <p>Downloading Tugger v2.0.1 blueprint...</p>
+    <p>Click <a href="https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/blueprints/tugger.fbe">here</a> if download does not start.</p>
+    <script>
+      const { ref } = Qs.parse(Qs.parse(window.location.search.replace(/^\?/, '')));
+      if (window.gtag) gtag('event', 'download', { ship: 'Tugger', version: '2.0.1', download_ref: ref });
+    </script>
+  </body>
+</html>
+

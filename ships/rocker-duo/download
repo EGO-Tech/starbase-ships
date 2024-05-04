@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/blueprints/rocker_duo.fbe" />
+
+    
+    <title>Starbase Ships by EGOTech - Download Rocker Duo</title>
+
+    <meta property="og:title" content="Starbase Ships by EGOTech - Download Rocker Duo" />
+    
+    <meta property="og:image" content="https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/photos/20211203224915_1.jpg" />
+    <meta property="og:description" content="" />
+
+    
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HK9VCMHC5R');
+      </script>
+    
+
+    <script src="/js/qs.js"></script>
+
+    <link rel="icon" type="image/png" href="/images/logos/egotech_logo_dark_favicon.png">
+  </head>
+  <body>
+    <p>Downloading Rocker Duo v1.1.0 blueprint...</p>
+    <p>Click <a href="https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/blueprints/rocker_duo.fbe">here</a> if download does not start.</p>
+    <script>
+      const { ref } = Qs.parse(Qs.parse(window.location.search.replace(/^\?/, '')));
+      if (window.gtag) gtag('event', 'download', { ship: 'Rocker Duo', version: '1.1.0', download_ref: ref });
+    </script>
+  </body>
+</html>
+
