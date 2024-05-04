@@ -30,6 +30,7 @@ eleventyComputed:
       <nord-button href="#faq" size="s" variant="default">FAQ</nord-button>
       <nord-button href="#ship-links" size="s" variant="default">Links</nord-button>
       <nord-button href="#changelog" size="s" variant="default">Changelog</nord-button>
+      <nord-button href="#similar-ships" size="s" variant="default">Similar Ships</nord-button>
   </nord-button-group>
   </nord-stack>
 </nord-header>
@@ -251,5 +252,13 @@ eleventyComputed:
   </nord-stack>
   <nord-stack id="changelog">
     {% renderFile '../../' + ship.path +'/' + ship.changelog.path %}
+  </nord-stack>
+  <nord-stack id="similar-ships">
+    <h1>Similar Ships</h1>
+    <nord-stack direction="horizontal" wrap>
+      {% for ship in ship.similar %}
+        {% include 'shipCard.njk' %}
+      {% endfor %}
+    </nord-stack>
   </nord-stack>
 </nord-stack>

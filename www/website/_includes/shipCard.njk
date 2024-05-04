@@ -1,0 +1,35 @@
+<nord-card class="ship-card ship-{{ship.slug}}" padding="none" style="width: 435px;">
+  <h1 slot="header">{{ship.name}}</h1>
+  <span slot="header-end">
+    {% include 'shipVersion.njk' %}
+  </span>
+  <nord-stack style="width: 435px; height: 220px; overflow: hidden;">
+    {% set photo = ship.photos | selectattr('featured') | first %}
+    <img src="{{photo.url}}" alt="{{photo.description or photo.filename}}" />
+  </nord-stack>
+  <nord-stack gap="none">
+    {% for feature in ship.features %}
+      <nord-stack direction="horizontal" align-items="stretch" class="n-padding-is-m n-padding-b-s n-border-be n-color-surface-raised">
+        <nord-stack>{{feature.label}}</nord-stack>
+        <nord-stack style="text-align: right;" class="n-padding-ie-m">
+          {% if feature.unit !== undefined %}
+            {{feature.value.toLocaleString()}} {{feature.unit}}
+          {% else %}
+            {{feature.value}}
+          {% endif %}
+        </nord-stack>
+      </nord-stack>
+    {% endfor %}
+  </nord-stack>
+  <nord-stack class="n-padding-i-m n-padding-b-m">
+    <p>{{ ship.shortDescription | nl2br | safe }}</p>
+  </nord-stack>
+  <div slot="footer">
+    {% include 'shipTags.njk' %}
+  </div>
+  <div slot="footer" class="n-margin-bs-l">
+    <nord-stack>
+      <nord-button variant="primary" href="{{ ('/ships/' + ship.slug + '/') | url }}" expand>View</nord-button>
+    </nord-stack>
+  </div>
+</nord-card>

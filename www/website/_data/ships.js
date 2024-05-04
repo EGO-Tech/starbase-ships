@@ -19,6 +19,27 @@ const shipTypes = [
 
 module.exports = (data) => {
   const { ships } = data;
+
+  _.each(ships, (ship) => {
+    ship.similar = _(ships)
+      .reject({ path: ship.path })
+      .orderBy(
+        (otherShip) => {
+          const weight =
+            (_.includes(ship.name, otherShip.name) ||
+              _.includes(otherShip.name, ship.name)) * 10;
+          return (
+            weight +
+            _.intersectionBy(ship.types, otherShip.types, 'type').length * 3 +
+            _.intersectionWith(ship.tags, otherShip.tags, _.isEqual).length
+          );
+        },
+        ['desc']
+      )
+      .slice(0, 4)
+      .value();
+  });
+
   return {
     list: ships,
     search: _.map(ships, (ship) =>
