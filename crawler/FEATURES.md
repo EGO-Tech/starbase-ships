@@ -25,9 +25,3 @@
 - Odometer panel
 - Many extra slots for YOLOL or memory chips
 - Top speed of 125m/s when empty
-
-<nord-banner>
-
-A premium version, the [Crawler X](../crawler-x) is also available for purchase.
-
-</nord-banner>

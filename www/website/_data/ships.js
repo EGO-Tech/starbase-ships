@@ -17,25 +17,35 @@ const shipTypes = [
   { id: 'explorer', name: 'Explorer', label: 'Explorers' },
 ];
 
+const similarTagsExclude = ['rando-shop'];
+
 module.exports = (data) => {
   const { ships } = data;
 
   _.each(ships, (ship) => {
+    ship.premium = _.find(ships, { path: `${ship.path}/premium` });
     ship.similar = _(ships)
       .reject({ path: ship.path })
       .orderBy(
         (otherShip) => {
           const weight =
             (_.includes(ship.name, otherShip.name) ||
-              _.includes(otherShip.name, ship.name)) * 10;
-          return (
+              _.includes(otherShip.name, ship.name)) * 20;
+          otherShip.weight =
             weight +
-            _.intersectionBy(ship.types, otherShip.types, 'type').length * 3 +
-            _.intersectionWith(ship.tags, otherShip.tags, _.isEqual).length
-          );
+            _.intersectionBy(ship.types, otherShip.types, 'type').length * 8 +
+            _.intersectionWith(
+              ship.tags,
+              _.reject(otherShip.tags, ({ id }) =>
+                _.includes(similarTagsExclude, id)
+              ),
+              _.isEqual
+            ).length;
+          return otherShip.weight;
         },
         ['desc']
       )
+      .reject(({ weight }) => weight < 8)
       .slice(0, 4)
       .value();
   });
