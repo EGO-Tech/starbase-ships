@@ -88,6 +88,9 @@ eleventyComputed:
   </nord-stack>
   <nord-stack id="features">
     {% renderFile '../../' + ship.path +'/' + ship.featureList.path %}
+    <nord-banner>
+      A premium version, the <a href="{{ ('/ships/' + ship.premium.slug + '/') | url }}">{{ship.premium.name}}</a> is available for purchase.
+    </nord-banner>
   </nord-stack>
   {% if ship.videos.length %}
     <nord-stack id="ship-videos">

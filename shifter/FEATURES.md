@@ -32,9 +32,3 @@
 - Odometer panel
 - Many extra slots for YOLOL or memory chips
 - Top speed of 135m/s when empty
-
-<nord-banner>
-
-A premium version, the [Shifter X](../shifter-x) is available for purchase.
-
-</nord-banner>

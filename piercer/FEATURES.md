@@ -28,9 +28,3 @@
 - Odometer panel
 - Many extra slots for YOLOL or memory chips
 - Top speed of 140m/s when empty
-
-<nord-banner>
-
-A premium version, the [Piercer X](../piercer-x) is available for purchase.
-
-</nord-banner>
