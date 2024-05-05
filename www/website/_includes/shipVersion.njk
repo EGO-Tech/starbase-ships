@@ -4,5 +4,8 @@
   {% elseif ship.updated %}
     <nord-badge variant="danger">UPDATED</nord-badge>
   {% endif %}
+  {% if ship.popular %}
+    <nord-badge variant="highlight">POPULAR</nord-badge>
+  {% endif %}
   <nord-badge>v{{ ship.version }}</nord-badge>
 </nord-stack>

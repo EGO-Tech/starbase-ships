@@ -17,7 +17,6 @@ const pages = [
 ];
 
 module.exports = ({ pathPrefix }) => {
-  console.log(pathPrefix);
   return {
     list: _.map(pages, (page) => {
       page.webPath = `${pathPrefix}pages/${page.slug}`;
