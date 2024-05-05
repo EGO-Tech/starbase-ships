@@ -184,7 +184,7 @@ eleventyComputed:
   <nord-stack>
     {% if ship.saleType === 'free' %}
       <h1 id="download">Download Blueprint</h1>
-      <nord-button href="{{ship.blueprints[0].url}}" variant="primary" onclick="gaEvent('download', { ship: '{{ship.name}}', version: '{{ship.version}}' })">
+      <nord-button href="{{ship.blueprints[0].url}}" variant="primary" onclick="gaEvent('download', { ship: '{{ship.name}}', version: '{{ship.version}}', download_ref: 'website' })">
         <i slot="start" class="fa-solid fa-download n-color-text"></i>
         Download v{{ship.version}} (current)
       </nord-button>
@@ -208,7 +208,7 @@ eleventyComputed:
                     {% if blueprint.shipShop %}<nord-badge>Ship Shop Version</nord-badge>{% endif %}
                   </td>
                   <td class="n-table-align-right">
-                    <nord-button size="s" href="{{blueprint.url}}" onclick="gaEvent('download', { ship: '{{ship.name}}', version: '{{blueprint.version}}' })">
+                    <nord-button size="s" href="{{blueprint.url}}" onclick="gaEvent('download', { ship: '{{ship.name}}', version: '{{blueprint.version}}', download_ref: 'website' })">
                       <i slot="start" class="fa-solid fa-download n-color-text"></i>
                       Download
                     </nord-button>
