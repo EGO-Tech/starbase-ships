@@ -60,6 +60,8 @@ module.exports = (data) => {
         'version',
         'slug',
         'tags',
+        'new',
+        'updated',
         'webPath',
       ])
     ),

@@ -37,6 +37,11 @@ currentTitle: Home
           <nord-checkbox class="ship-filter ship-filter-sale-type" label="Free" value="free"></nord-checkbox>
           <nord-checkbox class="ship-filter ship-filter-sale-type" label="For Sale" value="for-sale"></nord-checkbox>
         </nord-stack>
+        <p class="n-color-text-weaker n-font-size-s">Status</p>
+        <nord-stack>
+          <nord-checkbox class="ship-filter ship-filter-status" label="New" value="new"></nord-checkbox>
+          <nord-checkbox class="ship-filter ship-filter-status" label="Updated" value="updated"></nord-checkbox>
+        </nord-stack>
       </nord-stack>
       <nord-stack>
         <p class="n-color-text-weaker n-font-size-s">Ship Type</p>
@@ -60,8 +65,6 @@ currentTitle: Home
       </nord-stack>
     </nord-stack>
   </section>
-
-
   <nord-button slot="footer" expand id="filters-modal-clear">Clear</nord-button>
   <nord-button slot="footer" expand id="filters-modal-apply" variant="primary" autofocus>Apply</nord-button>
 </nord-modal>
@@ -94,6 +97,7 @@ currentTitle: Home
     });
 
     const saleTypes = document.querySelectorAll('.ship-filter-sale-type').values().filter((item) => item.checked).map(({ value }) => value).toArray();
+    const statuses = document.querySelectorAll('.ship-filter-status').values().filter((item) => item.checked).map(({ value }) => value).toArray();
     const types = document.querySelectorAll('.ship-filter-type').values().filter((item) => item.checked).map(({ value }) => value).toArray();
     const tags = document.querySelectorAll('.ship-filter-tag').values().filter((item) => item.checked).map(({ value }) => value).toArray();
 
@@ -101,12 +105,14 @@ currentTitle: Home
       .filter((ship) => {
         return !saleTypes.length || saleTypes.includes(ship.saleType)
       }).filter((ship) => {
+        return !statuses.length || !_.isEmpty(_.pick(ship, statuses))
+      }).filter((ship) => {
         return !types.length || ship.types.some(({ type }) => types.includes(type))
       }).filter((ship) => {
         return !tags.length || ship.tags.some(({ id }) => tags.includes(id))
       });
 
-    const qs = Qs.stringify({ saleTypes, types, tags });
+    const qs = Qs.stringify({ saleTypes, statuses, types, tags });
     window.history.pushState({}, null, `?${qs}`)
 
     shipsToShow.forEach((ship) => {
@@ -198,6 +204,11 @@ currentTitle: Home
   if (qsObj.saleTypes)
     document.querySelectorAll('.ship-filter-sale-type').forEach((node) => {
       if (qsObj.saleTypes.includes(node.value)) node.checked = true;
+    });
+
+  if (qsObj.statuses)
+    document.querySelectorAll('.ship-filter-status').forEach((node) => {
+      if (qsObj.statuses.includes(node.value)) node.checked = true;
     });
 
   if (qsObj.types)
