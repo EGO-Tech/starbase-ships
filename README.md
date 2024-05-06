@@ -3,6 +3,7 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 ![Linting](https://github.com/EGO-Tech/starbase-ships/workflows/Linting/badge.svg)
 ![YOLOL](https://github.com/EGO-Tech/starbase-ships/workflows/YOLOL/badge.svg)
+![CodeQL](https://github.com/EGO-Tech/starbase-ships/actions/workflows/github-code-scanning/codeql/badge.svg)
 
 ## [Starbase Ships by EGOTech](https://starbase.egotech.space)
 
