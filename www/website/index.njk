@@ -41,6 +41,7 @@ currentTitle: Home
         <nord-stack>
           <nord-checkbox class="ship-filter ship-filter-status" label="New" value="new"></nord-checkbox>
           <nord-checkbox class="ship-filter ship-filter-status" label="Updated" value="updated"></nord-checkbox>
+          <nord-checkbox class="ship-filter ship-filter-status" label="Popular" value="popular"></nord-checkbox>
         </nord-stack>
       </nord-stack>
       <nord-stack>
@@ -105,7 +106,7 @@ currentTitle: Home
       .filter((ship) => {
         return !saleTypes.length || saleTypes.includes(ship.saleType)
       }).filter((ship) => {
-        return !statuses.length || !_.isEmpty(_.pick(ship, statuses))
+        return !statuses.length || !_.isEmpty(_(ship).pick(statuses).pickBy(_.identity).value())
       }).filter((ship) => {
         return !types.length || ship.types.some(({ type }) => types.includes(type))
       }).filter((ship) => {

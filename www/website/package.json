@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
+    "@google-analytics/data": "^4.5.0",
     "@nordhealth/ag-theme-nord": "^2.0.3",
     "@nordhealth/color": "^2.0.13",
     "@nordhealth/components": "^3.9.0",
@@ -23,6 +24,7 @@
     "@splidejs/splide": "^4.1.4",
     "lodash": "^4.17.21",
     "markdown-it-github-headings": "^2.0.1",
+    "nconf": "^0.12.1",
     "qs": "^6.12.1"
   },
   "devDependencies": {

@@ -1,4 +1,55 @@
 const _ = require('lodash');
+const nconf = require('nconf');
+const { BetaAnalyticsDataClient } = require('@google-analytics/data');
+
+require('../config');
+
+if (process.env.NODE_ENV === 'development')
+  process.env.GOOGLE_APPLICATION_CREDENTIALS = nconf.get(
+    'googleAnalytics:credentials'
+  );
+
+const propertyId = nconf.get('googleAnalytics:propertyId');
+const analyticsDataClient = new BetaAnalyticsDataClient();
+
+async function runReport() {
+  const [response] = await analyticsDataClient.runReport({
+    property: `properties/${propertyId}`,
+    dateRanges: [
+      {
+        startDate: nconf.get('googleAnalytics:startDate'),
+        endDate: 'today',
+      },
+    ],
+    dimensions: [
+      {
+        name: 'customEvent:ship',
+      },
+    ],
+    metrics: [
+      {
+        name: 'eventCount',
+      },
+    ],
+    dimensionFilter: {
+      filter: {
+        fieldName: 'eventName',
+        stringFilter: {
+          matchType: 'EXACT',
+          value: 'download',
+        },
+      },
+    },
+  });
+
+  return _(response.rows)
+    .map((row) => ({
+      name: row.dimensionValues[0].value,
+      downloads: +row.metricValues[0].value,
+    }))
+    .orderBy('downloads', ['desc'])
+    .value();
+}
 
 const shipTypes = [
   { id: 'miner', name: 'Miner', label: 'Miners' },
@@ -19,10 +70,21 @@ const shipTypes = [
 
 const similarTagsExclude = ['rando-shop'];
 
-module.exports = (data) => {
+module.exports = async (data) => {
+  const shipDownloads = await runReport();
   const { ships } = data;
 
+  let popular = [];
+  if (!_.isEmpty(shipDownloads)) {
+    const highest = _.first(shipDownloads).downloads;
+    popular = _(shipDownloads)
+      .filter(({ downloads }) => downloads > 0.9 * highest)
+      .map('name')
+      .value();
+  }
+
   _.each(ships, (ship) => {
+    ship.popular = _.includes(popular, ship.name);
     ship.premium = _.find(ships, { path: `${ship.path}/premium` });
     ship.similar = _(ships)
       .reject({ path: ship.path })
@@ -62,6 +124,7 @@ module.exports = (data) => {
         'tags',
         'new',
         'updated',
+        'popular',
         'webPath',
       ])
     ),
@@ -83,6 +146,10 @@ module.exports = (data) => {
           return current;
         })
         .value(),
+      count: {
+        list: shipDownloads,
+        byShip: _.keyBy(shipDownloads, 'name'),
+      },
     },
     bySaleType: _.groupBy(ships, 'saleType'),
     byType: _(shipTypes)
