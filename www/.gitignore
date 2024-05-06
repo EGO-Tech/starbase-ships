@@ -1,4 +1,5 @@
 node_modules
+credentials.json
 config.local.json
 *.traineddata
 _site
