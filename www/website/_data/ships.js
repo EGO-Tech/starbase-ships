@@ -84,7 +84,7 @@ module.exports = async (data) => {
   }
 
   _.each(ships, (ship) => {
-    ship.popular = _.includes(popular, ship.name);
+    ship.popular ??= _.includes(popular, ship.name);
     ship.premium = _.find(ships, { path: `${ship.path}/premium` });
     ship.similar = _(ships)
       .reject({ path: ship.path })
