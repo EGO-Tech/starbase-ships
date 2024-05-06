@@ -82,7 +82,7 @@ title: Starbase Ships by EGOTech
         </nord-stack>
         <nord-nav-group heading="Ships For Sale">
           {% for shipForSale in ships.bySaleType['for-sale'] %}
-            <nord-nav-item {% if shipForSale.new %}badge="NEW"{% elseif shipForSale.updated %}badge="UPDATED"{% elseif shipFree.popular %}badge="POPULAR"{% endif %} {% if shipForSale.slug === ship.slug %}active{% endif %} href="{{ ('/ships/' + shipForSale.slug + '/') | url }}">
+            <nord-nav-item {% if shipForSale.new %}badge="NEW"{% elseif shipForSale.updated %}badge="UPDATED"{% elseif shipForSale.popular %}badge="POPULAR"{% endif %} {% if shipForSale.slug === ship.slug %}active{% endif %} href="{{ ('/ships/' + shipForSale.slug + '/') | url }}">
               {{shipForSale.name}}
             </nord-nav-item>
           {% endfor %}
