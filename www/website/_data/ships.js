@@ -78,7 +78,7 @@ module.exports = async (data) => {
   if (!_.isEmpty(shipDownloads)) {
     const highest = _.first(shipDownloads).downloads;
     popular = _(shipDownloads)
-      .filter(({ downloads }) => downloads > 0.9 * highest)
+      .filter(({ downloads }) => downloads > 0.8 * highest)
       .map('name')
       .value();
   }
