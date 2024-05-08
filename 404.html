@@ -1,0 +1,299 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Starbase Ships by EGOTech - Not Found</title>
+
+    <meta property="og:title" content="Starbase Ships by EGOTech - Not Found" />
+    
+      <meta property="og:image" content="https://github.com/EGO-Tech/starbase-ships/raw/main/others/egotech/logos/egotech_logo_dark.png" />
+      <meta property="og:description" content="EGOTech thrives to design various types of Starbase ships that are practical but fun to use." />
+    
+
+    
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK9VCMHC5R"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HK9VCMHC5R');
+      </script>
+    
+
+    <link rel="icon" type="image/png" href="/images/logos/egotech_logo_dark_favicon.png">
+    <link rel="stylesheet" href="/css/nord.min.css">
+    <link rel="stylesheet" href="/css/nord-dark.css">
+    <link rel="stylesheet" href="/css/fonts/fonts.css">
+    <link rel="stylesheet" href="/css/splide.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="/js/nord-components.js"></script>
+    <script src="/js/splide.min.js"></script>
+    <script src="/js/qs.js"></script>
+    <script src="/js/fontawesome.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+    <script>
+      const gaEvent = (event, params) => {
+        if (window.gtag) gtag('event', event, params);
+      }
+    </script>
+    
+    <script>
+      window.ships = [{"name":"Bugger","types":[{"type":"surface-miner","order":1}],"saleType":"free","version":"1.0.3","slug":"bugger","tags":[{"id":"t2-generator","label":"T3 Generators"},{"id":"t2-thruster","label":"T3 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/bugger"},{"name":"Bugger X","types":[{"type":"surface-miner","order":2}],"saleType":"for-sale","version":"1.0.2","slug":"bugger-x","tags":[{"id":"t3-generator","label":"T3 Generators"},{"id":"t3-thruster","label":"T3 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/bugger-x"},{"name":"Clunker","types":[{"type":"hauler","order":2}],"saleType":"free","version":"1.0.2","slug":"clunker","tags":[{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"plasma-thruster","label":"Plasma Thruster"},{"id":"large-generator","label":"Large Generator"}],"popular":false,"webPath":"/ships/clunker"},{"name":"Crawler","types":[{"type":"surface-miner","order":3}],"saleType":"for-sale","version":"1.0.1","slug":"crawler","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"mining-laser","label":"Mining Laser"},{"id":"large-generator","label":"Large Generator"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/crawler"},{"name":"Crawler X","types":[{"type":"surface-miner","order":4}],"saleType":"for-sale","version":"1.0.1","slug":"crawler-x","tags":[{"id":"t3-thruster","label":"T3 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"large-generator","label":"Large Generator"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":true,"webPath":"/ships/crawler-x"},{"name":"Fisher","types":[{"type":"salvager","order":2}],"saleType":"free","version":"1.0.1","slug":"fisher","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"tow-beam","label":"Tow Beam"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/fisher"},{"name":"Fledger","types":[{"type":"starter","order":2}],"saleType":"free","version":"1.0.1","slug":"fledger","tags":[{"id":"t1-generator","label":"T1 Generators"},{"id":"t1-thruster","label":"T1 Thrusters"},{"id":"basic-bench","label":"Basic Crafting Bench"}],"popular":false,"webPath":"/ships/fledger"},{"name":"Flipper","types":[{"type":"asteroid-hauler","order":4}],"saleType":"free","version":"1.1.1","slug":"flipper","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"cargo-lock-beam","label":"Cargo Lock Beam"},{"id":"large-asteroid-hold","label":"Large Asteroid Hold"}],"popular":false,"webPath":"/ships/flipper"},{"name":"Hexxer","types":[{"type":"asteroid-hauler","order":3}],"saleType":"free","version":"1.1.0","slug":"hexxer","tags":[{"id":"rando-shop","label":"Rando Ship Shop"},{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"cargo-lock-beam","label":"Cargo Lock Beam"},{"id":"tractor-beam","label":"Tractor Beam"},{"id":"small-asteroid-hold","label":"Small Asteroid Hold"}],"popular":false,"webPath":"/ships/hexxer"},{"name":"Hoarder","types":[{"type":"hauler","order":2}],"saleType":"free","version":"1.0.0","slug":"hoarder","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"}],"popular":false,"webPath":"/ships/hoarder"},{"name":"Hopper","types":[{"type":"transport","order":1}],"saleType":"free","version":"1.1.0","slug":"hopper","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"}],"popular":false,"webPath":"/ships/hopper"},{"name":"Jabber","types":[{"type":"fighter","order":1}],"saleType":"free","version":"1.1.0","slug":"jabber","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"laser-cannon","label":"Laser Cannon"},{"id":"isan","label":"ISAN"}],"popular":false,"webPath":"/ships/jabber"},{"name":"Lugger","types":[{"type":"hauler","order":1}],"saleType":"free","version":"1.1.1","slug":"lugger","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"plasma-thruster","label":"Plasma Thruster"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/lugger"},{"name":"Mapper","types":[{"type":"explorer","order":1}],"saleType":"free","version":"1.0.4","slug":"mapper","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"navigation-data-logger","label":"Navigation Data Logger"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"updated":true,"popular":false,"webPath":"/ships/mapper"},{"name":"Piercer","types":[{"type":"miner","order":3}],"saleType":"free","version":"1.1.2","slug":"piercer","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"mining-laser-drill","label":"Mining Laser Drill"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":true,"webPath":"/ships/piercer"},{"name":"Piercer X (Anorak Edition)","types":[{"type":"miner","order":4}],"saleType":"for-sale","version":"1.0.2","slug":"piercer-x","tags":[{"id":"t3-generator","label":"T3 Generators"},{"id":"t3-thruster","label":"T3 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"mining-laser-drill","label":"Mining Laser Drill"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/piercer-x"},{"name":"Quester","types":[{"type":"command-ship","order":1},{"type":"explorer","order":2}],"saleType":"free","version":"1.1.1","slug":"quester","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/quester"},{"name":"Rigger","types":[{"type":"miner","order":1},{"type":"starter","order":3}],"saleType":"free","version":"1.2.3","slug":"rigger","tags":[{"id":"rando-shop","label":"Rando Ship Shop"},{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"}],"popular":true,"webPath":"/ships/rigger"},{"name":"Rocker","types":[{"type":"asteroid-hauler","order":1}],"saleType":"free","version":"1.1.0","slug":"rocker","tags":[{"id":"rando-shop","label":"Rando Ship Shop"},{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"cargo-lock-beam","label":"Cargo Lock Beam"},{"id":"tractor-beam","label":"Tractor Beam"},{"id":"small-asteroid-hold","label":"Small Asteroid Hold"}],"popular":false,"webPath":"/ships/rocker"},{"name":"Rocker Duo","types":[{"type":"asteroid-hauler","order":2}],"saleType":"free","version":"1.1.0","slug":"rocker-duo","tags":[{"id":"rando-shop","label":"Rando Ship Shop"},{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"cargo-lock-beam","label":"Cargo Lock Beam"},{"id":"tractor-beam","label":"Tractor Beam"},{"id":"small-asteroid-hold","label":"Small Asteroid Hold"}],"popular":false,"webPath":"/ships/rocker-duo"},{"name":"Shifter","types":[{"type":"miner","order":5}],"saleType":"free","version":"2.0.1","slug":"shifter","tags":[{"id":"rando-shop","label":"Rando Ship Shop"},{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"mining-laser-drill","label":"Mining Laser Drill"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/shifter"},{"name":"Shifter X","types":[{"type":"miner","order":6}],"saleType":"for-sale","version":"1.0.1","slug":"shifter-x","tags":[{"id":"t3-generator","label":"T2 Generators"},{"id":"t3-thruster","label":"T2 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"mining-laser-drill","label":"Mining Laser Drill"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/shifter-x"},{"name":"Sower","types":[{"type":"starter","order":1}],"saleType":"free","version":"1.1.0","slug":"sower","tags":[{"id":"t1-generator","label":"T1 Generators"},{"id":"t1-thruster","label":"T1 Thrusters"},{"id":"isan","label":"ISAN"}],"popular":false,"webPath":"/ships/sower"},{"name":"Stocker","types":[{"type":"miner","order":2}],"saleType":"free","version":"1.1.2","slug":"stocker","tags":[{"id":"rando-shop","label":"Rando Ship Shop"},{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"isan","label":"ISAN"},{"id":"auto-pilot","label":"Auto Pilot"},{"id":"asteroid-avoidance","label":"Asteroid Avoidance"},{"id":"basic-bench","label":"Basic Crafting Bench"}],"popular":false,"webPath":"/ships/stocker"},{"name":"Tourer","types":[{"type":"transport","order":2}],"saleType":"free","version":"2.0.0","slug":"tourer","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"isan","label":"ISAN"},{"id":"cargo-lock-frame","label":"Cargo Lock Frame"}],"popular":false,"webPath":"/ships/tourer"},{"name":"Trebler","types":[{"type":"miner","order":7}],"saleType":"free","version":"1.0.1","slug":"trebler","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"mining-laser-drill","label":"Mining Laser Drill"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/trebler"},{"name":"Trebler X","types":[{"type":"miner","order":8}],"saleType":"for-sale","version":"1.0.1","slug":"trebler-x","tags":[{"id":"t3-generator","label":"T3 Generators"},{"id":"t3-thruster","label":"T3 Thrusters"},{"id":"mining-laser","label":"Mining Laser"},{"id":"mining-laser-drill","label":"Mining Laser Drill"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"popular":false,"webPath":"/ships/trebler-x"},{"name":"Tugger","types":[{"type":"salvager","order":1}],"saleType":"free","version":"2.0.1","slug":"tugger","tags":[{"id":"t2-generator","label":"T2 Generators"},{"id":"t2-thruster","label":"T2 Thrusters"},{"id":"tow-beam","label":"Tow Beam"},{"id":"isan","label":"ISAN"}],"popular":false,"webPath":"/ships/tugger"},{"name":"Whaler","types":[{"type":"fighter","order":2},{"type":"command-ship","order":2}],"saleType":"for-sale","version":"1.0.0","slug":"whaler","tags":[{"id":"t3-generator","label":"T3 Generators"},{"id":"t3-thruster","label":"T3 Thrusters"},{"id":"plasma-thruster","label":"Plasma Thruster"},{"id":"laser-cannon","label":"Laser Cannon"},{"id":"auto-cannon","label":"Auto Cannon"},{"id":"plasma-cannon","label":"Plasma Cannon"},{"id":"rocket-launcher","label":"Rocket Launcher"},{"id":"mining-laser","label":"Mining Laser"},{"id":"tow-beam","label":"Tow Beam"},{"id":"cargo-lock-frame","label":"Cargo Lock Frame"},{"id":"isan","label":"ISAN"},{"id":"basic-bench","label":"Basic Crafting Bench"},{"id":"advanced-bench","label":"Advanced Crafting Bench"},{"id":"tools-bench","label":"Tools Crafting Bench"}],"new":true,"popular":false,"webPath":"/ships/whaler"}];
+      window.shipTypes = {"list":[{"id":"miner","name":"Miner","label":"Miners"},{"id":"surface-miner","name":"Surface Miner","label":"Surface Miners"},{"id":"starter","name":"Starter Ship","label":"Starter Ships"},{"id":"asteroid-hauler","name":"Asteroid Hauler","label":"Asteroid Haulers"},{"id":"hauler","name":"Hauler","label":"Haulers"},{"id":"salvager","name":"Salvager","label":"Salvagers"},{"id":"fighter","name":"Fighter","label":"Fighters"},{"id":"command-ship","name":"Command Ship","label":"Command Ships"},{"id":"transport","name":"Transport","label":"Transports"},{"id":"explorer","name":"Explorer","label":"Explorers"}],"byId":{"miner":{"id":"miner","name":"Miner","label":"Miners"},"surface-miner":{"id":"surface-miner","name":"Surface Miner","label":"Surface Miners"},"starter":{"id":"starter","name":"Starter Ship","label":"Starter Ships"},"asteroid-hauler":{"id":"asteroid-hauler","name":"Asteroid Hauler","label":"Asteroid Haulers"},"hauler":{"id":"hauler","name":"Hauler","label":"Haulers"},"salvager":{"id":"salvager","name":"Salvager","label":"Salvagers"},"fighter":{"id":"fighter","name":"Fighter","label":"Fighters"},"command-ship":{"id":"command-ship","name":"Command Ship","label":"Command Ships"},"transport":{"id":"transport","name":"Transport","label":"Transports"},"explorer":{"id":"explorer","name":"Explorer","label":"Explorers"}}};
+    </script>
+  
+    
+    <script>
+      window.pages = [{"id":"commissions","label":"Ship Commissions","title":"Ship Commissions","slug":"commissions","webPath":"/pages/commissions"},{"id":"rentals","label":"Ship Rentals","title":"Ship Rentals","slug":"rentals","webPath":"/pages/rentals"},{"id":"faq","label":"FAQ","title":"Frequently Asked Questions","slug":"faq","webPath":"/pages/faq"}];
+    </script>
+  
+  </head>
+  <body class="n-reset">
+    <nord-command-menu></nord-command-menu>
+    <script>
+      const menu = document.querySelector("nord-command-menu");
+      menu.commands = ships.map((ship) => ({
+        id: ship.slug,
+        title: ship.name,
+        section: 'Ships',
+        keywords: `${ship.name} ${ship.saleType} ${ship.types.map(({ type }) => shipTypes.byId[type].label).join(' ')} ${ship.tags.map(({ label }) => label).join(' ')}`,
+        handler: () => window.location.href = ship.webPath,
+      })).concat(pages.map((page) => ({
+        id: page.id,
+        title: page.title,
+        section: 'Information',
+        keywords: `${page.id} ${page.label} ${page.title}`,
+        handler: () => window.location.href = page.webPath,
+      })));
+    </script>
+    <nord-layout padding="none" persist-nav-state sticky>
+      <nord-navigation slot="nav">
+        <nord-stack class="n-padding-be-l">
+          <nord-button class="search-button" variant="default" aria-describedby="nav-search" expand>
+            <i slot="start" class="fa-solid fa-magnifying-glass"></i>
+            <div style="text-align: left;">Search</div>
+          </nord-button>
+          <nord-tooltip id="nav-search">Shortcut: Ctrl+K</nord-tooltip>
+        </nord-stack>
+        <nord-nav-group heading="Ships For Sale">
+          
+            <nord-nav-item   href="/ships/bugger-x/">
+              Bugger X
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/crawler/">
+              Crawler
+            </nord-nav-item>
+          
+            <nord-nav-item badge="POPULAR"  href="/ships/crawler-x/">
+              Crawler X
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/piercer-x/">
+              Piercer X (Anorak Edition)
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/shifter-x/">
+              Shifter X
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/trebler-x/">
+              Trebler X
+            </nord-nav-item>
+          
+            <nord-nav-item badge="NEW"  href="/ships/whaler/">
+              Whaler
+            </nord-nav-item>
+          
+        </nord-nav-group>
+        <nord-nav-group heading="Free Ships">
+          
+            <nord-nav-item   href="/ships/bugger/">
+              Bugger
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/clunker/">
+              Clunker
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/fisher/">
+              Fisher
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/fledger/">
+              Fledger
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/flipper/">
+              Flipper
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/hexxer/">
+              Hexxer
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/hoarder/">
+              Hoarder
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/hopper/">
+              Hopper
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/jabber/">
+              Jabber
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/lugger/">
+              Lugger
+            </nord-nav-item>
+          
+            <nord-nav-item badge="UPDATED"  href="/ships/mapper/">
+              Mapper
+            </nord-nav-item>
+          
+            <nord-nav-item badge="POPULAR"  href="/ships/piercer/">
+              Piercer
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/quester/">
+              Quester
+            </nord-nav-item>
+          
+            <nord-nav-item badge="POPULAR"  href="/ships/rigger/">
+              Rigger
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/rocker/">
+              Rocker
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/rocker-duo/">
+              Rocker Duo
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/shifter/">
+              Shifter
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/sower/">
+              Sower
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/stocker/">
+              Stocker
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/tourer/">
+              Tourer
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/trebler/">
+              Trebler
+            </nord-nav-item>
+          
+            <nord-nav-item   href="/ships/tugger/">
+              Tugger
+            </nord-nav-item>
+          
+        </nord-nav-group>
+        <nord-nav-group heading="Information">
+          
+            <nord-nav-item  href="/pages/commissions/">
+              Ship Commissions
+            </nord-nav-item>
+          
+            <nord-nav-item  href="/pages/rentals/">
+              Ship Rentals
+            </nord-nav-item>
+          
+            <nord-nav-item  href="/pages/faq/">
+              FAQ
+            </nord-nav-item>
+          
+        </nord-nav-group>
+      </nord-navigation>
+      <nord-header slot="header">
+        <nord-stack direction="horizontal" style="min-width: 550px; width: 550px;">
+          <a href="/">
+            <nord-avatar size="xl" src="/images/logos/egotech_logo_dark.png" name="EGOTech" variant="square">B</nord-avatar>
+          </a>
+          <h1>Starbase Ships by EGOTech</h1>
+        </nord-stack>
+      </nord-header>
+
+      <nord-stack class="reset-ship-filters n-padding-i-l n-padding-b-l" style="max-width: 1200px;"">
+  <nord-card>
+    <nord-empty-state>
+      <h2>Not Found</h2>
+      <p>Looks like you took a wrong turn.</p>
+      <nord-button href="/" variant="primary">Return Home</nord-button>
+    </nord-empty-state>
+  </nord-card>
+</nord-stack>
+
+
+      <nord-footer slot="footer" size="m">
+        <nord-stack gap="l">
+          <section class="n-grid-2">
+            <div>
+              <section class="n-grid-2 n-margin-be-xxl">
+                <nord-stack gap="s">
+                  <nord-stack direction="horizontal" gap="s">
+                    EGOTech
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <i class="fa-brands fa-discord fa-xl fa-fw"></i>
+                    <a href="https://discord.gg/BKwVGvncmN">Discord</a>
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <i class="fa-brands fa-github fa-xl fa-fw"></i>
+                    <a href="https://github.com/EGO-Tech/starbase-ships">GitHub</a>
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <i class="fa-brands fa-youtube fa-xl fa-fw"></i>
+                    <a href="https://www.youtube.com/@ego-tech">YouTube</a>
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <i class="fa-brands fa-creative-commons-nc fa-xl fa-fw"></i>
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">License</a>
+                  </nord-stack>
+                </nord-stack>
+                <nord-stack gap="s">
+                  <nord-stack direction="horizontal" gap="s">
+                    Starbase Game
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Starbase</a>
+                  </nord-stack>
+                  <nord-stack direction="horizontal" gap="s">
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Frozenbyte</a>
+                  </nord-stack>
+                </nord-stack>
+              </section>
+            </div>
+            <div>
+              <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Vincent Teo</p>
+              <p>Built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://nordhealth.design/">Nord.</a></p>
+            </div>
+          </section>
+        </nord-stack>
+      </nord-footer>
+    </nord-layout>
+    <script>
+      document.querySelectorAll('.search-button')
+        .forEach((button) =>
+          button.addEventListener("click", () => {
+            menu.show();
+          })
+        );
+    </script>
+  </body>
+</html>
