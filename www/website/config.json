@@ -1,7 +1,10 @@
 {
+  "googleCredentials": "credentials.json",
   "googleAnalytics": {
-    "credentials": "credentials.json",
     "propertyId": "437294172",
     "startDate": "2024-05-05"
+  },
+  "googleSheets": {
+    "sheetId": "14JMoGyvsc3sffWp1CPvHvKXM8ylBLc6SC5g3yDGwkNI"
   }
 }
