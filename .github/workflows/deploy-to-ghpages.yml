@@ -5,49 +5,25 @@ on:
     branches:
       - main
   pull_request:
-  schedule:
-    - cron: 0 0 * * *
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-    defaults:
-      run:
-        working-directory: www/website
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: 'google-github-actions/auth@v2'
+      - name: Trigger Deploy Test
+        uses: convictional/trigger-workflow-and-wait@v1.6.1
         with:
-          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+          owner: EGO-Tech
+          repo: starbase-website
+          workflow_file_name: deploy-to-ghpages.yml
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN  }}
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Persist npm cache
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
-
-      - name: Persist Eleventy .cache
-        uses: actions/cache@v3
-        with:
-          path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
-
-      - run: npm install
-      - run: npm run build-ghpages
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Trigger Deploy
+        uses: convictional/trigger-workflow-and-wait@v1.6.1
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./www/website/_site
+          owner: EGO-Tech
+          repo: starbase-website
+          workflow_file_name: deploy-to-ghpages.yml
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN  }}
+          client_payload: '{"test": "true"}'
