@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Trigger Deploy Test
         uses: convictional/trigger-workflow-and-wait@v1.6.1
+        if: github.ref != 'refs/heads/main'
         with:
           owner: EGO-Tech
           repo: starbase-website
@@ -26,4 +27,4 @@ jobs:
           repo: starbase-website
           workflow_file_name: deploy-to-ghpages.yml
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN  }}
-          client_payload: '{"test": "true"}'
+          client_payload: '{"test": "false"}'
