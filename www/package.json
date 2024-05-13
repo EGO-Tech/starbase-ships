@@ -21,6 +21,6 @@
     "nconf": "^0.12.1",
     "semver-compare": "^1.0.0",
     "table": "^6.8.2",
-    "tesseract.js": "^5.0.5"
+    "tesseract.js": "^5.1.0"
   }
 }
