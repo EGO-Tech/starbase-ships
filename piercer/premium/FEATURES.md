@@ -10,7 +10,7 @@ The Piercer X has the same features as the [Piercer](../piercer#features) except
 | Top Speed (empty) | 140m/s | 150m/s |
 | Generators | T2 | T3 |
 | Fuel Chambers | T2 | T3 |
-| Enhancers | T2 | T3 |
+| Enhancers | - | T3 |
 | Power Generation | 32,000eps | 58,500eps |
 | Laser Convergence | Approximation | Precise |
 
