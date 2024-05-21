@@ -1,0 +1,4 @@
+if:load<1thengoto1end :range=1
+if:cb1<1then:load1=1 goto4end if:cb2<1then:load2=1 goto4end
+if:cb3<1then:load3=1 goto4end
+:load=0 goto1

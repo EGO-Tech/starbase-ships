@@ -214,14 +214,14 @@ const getShipVideos = (table) =>
     const photos = getShipPhotos(fullPath, { relPath, photosPath });
     json.photos = _(json.photos)
       .unionBy(photos, 'filename')
-      .sortBy(({ featured, order }) => (featured ? 0 : order))
+      .sortBy(({ featured, order }) => (featured ? 0 : order), ['asc'])
       .value();
 
     const imagesPath = nconf.get('ships:paths:images');
     const images = getShipPhotos(fullPath, { relPath, photosPath: imagesPath });
     json.images = _(json.images)
       .unionBy(images, 'filename')
-      .sortBy('order')
+      .sortBy('order', ['asc'])
       .value();
 
     // Videos
