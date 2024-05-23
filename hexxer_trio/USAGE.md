@@ -15,12 +15,19 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
 | `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
+| `Speed` | Current speed in metres per second. |
 | `ID` | Toggle for the transponder. |
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
 | `Approach` & `Load` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 
 </nord-table>
+
+<nord-banner variant="warning">
+
+**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
+
+</nord-banner>
 
 ## Managing Power and Fuel
 

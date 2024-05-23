@@ -5,7 +5,7 @@
   "types": [
     {
       "type": "asteroid-hauler",
-      "order": 3
+      "order": 1
     }
   ],
   "blueprints": [

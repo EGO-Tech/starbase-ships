@@ -1,13 +1,13 @@
 {
   "new": true,
   "name": "Hexxer Trio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "hexxer-trio",
   "path": "hexxer_trio",
   "types": [
     {
       "type": "asteroid-hauler",
-      "order": 4
+      "order": 2
     }
   ],
   "readme": {
@@ -40,9 +40,17 @@
       "filename": "hexxer_trio.fbe",
       "path": "blueprints/hexxer_trio.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/blueprints/hexxer_trio.fbe",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "",
       "current": true
+    },
+    {
+      "filename": "hexxer_trio_v1.0.0.fbe",
+      "path": "blueprints/hexxer_trio_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/blueprints/hexxer_trio_v1.0.0.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": false
     }
   ],
   "cost": 0,
@@ -242,8 +250,8 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 27871,
-        "stacks": 16.1
+        "kv": 27919,
+        "stacks": 16.2
       },
       {
         "ore": "arkanium",
@@ -254,7 +262,7 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 88754,
+        "kv": 88793,
         "stacks": 51.4
       },
       {
@@ -266,7 +274,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 4889,
+        "kv": 4909,
         "stacks": 2.8
       },
       {
@@ -290,26 +298,26 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 84433,
+        "kv": 84434,
         "stacks": 48.9
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 77429,
-        "stacks": 44.8
+        "kv": 77516,
+        "stacks": 44.9
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 472693,
-        "stacks": 273.5
+        "kv": 472888,
+        "stacks": 273.7
       }
     ],
     "cost": {
-      "assembly": 222353,
-      "manufacturing": 543874,
-      "total": 766226
+      "assembly": 222661,
+      "manufacturing": 543937,
+      "total": 766598
     },
     "discord": "https://discord.com/channels/1013328685564178472/1242624864322584576/1242625503387717682"
   },
