@@ -2,7 +2,7 @@
   "name": "Whaler",
   "version": "1.0.0",
   "path": "whaler",
-  "new": true,
+  "new": false,
   "types": [
     {
       "type": "fighter",

@@ -1,2 +1,2 @@
 if:load2<1then:a2=0 goto1end if:cb2>0then:load2=0 :a2=0 goto1end :a2=1
-if:q>(:ad+1)thengoto1end :cb2=1 :a2=0 :load2=0 goto1
+if:q>(:ad+1)thengoto1end :cb2=1 :sc2=1 :a2=0 :load2=0 goto1

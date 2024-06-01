@@ -1,5 +1,0 @@
-s=1728 o=" Ore" c=" Crystal" i=0 if:scan<1thengoto1end :scn=1 :vt=0
-ifi<:sr then:ix=i :vt+=:vl goto3+i end ifi>0thengoto5end goto1
-:v1=:vl/s/100*100 :m1=:mt-c-o i++ goto2
-:v2=:vl/s/100*100 :m2=:mt-c-o i++ goto2
-:scan=0 :reset=1 goto1

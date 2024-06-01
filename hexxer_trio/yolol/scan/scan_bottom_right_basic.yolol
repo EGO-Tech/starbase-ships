@@ -1,0 +1,5 @@
+o=" Ore" c=" Crystal" if:sc2<1thengoto1end :sn2=1
+if:sn2 thengoto2end if:sr2<2then:sc2=0 goto1end
+:ix2=0 :hma2=:mt2-c-o :hva2=:vl2 :ix2=1
+:hmb2=:mt2-c-o :hvb2=:vl2 :rs2=1 :sc2=0 goto1
+goto1

@@ -1,7 +1,7 @@
 {
-  "new": true,
+  "updated": true,
   "name": "Hexxer Trio",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "slug": "hexxer-trio",
   "path": "hexxer_trio",
   "types": [
@@ -40,9 +40,17 @@
       "filename": "hexxer_trio.fbe",
       "path": "blueprints/hexxer_trio.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/blueprints/hexxer_trio.fbe",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "description": "",
       "current": true
+    },
+    {
+      "filename": "hexxer_trio_v1.0.1.fbe",
+      "path": "blueprints/hexxer_trio_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/blueprints/hexxer_trio_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
     },
     {
       "filename": "hexxer_trio_v1.0.0.fbe",
@@ -127,6 +135,30 @@
       "filename": "20240521151137_1.jpg",
       "path": "photos/20240521151137_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521151137_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240607103811_1.jpg",
+      "path": "photos/20240607103811_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607103811_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240607103817_1.jpg",
+      "path": "photos/20240607103817_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607103817_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240607103946_1.jpg",
+      "path": "photos/20240607103946_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607103946_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240607111946_1.jpg",
+      "path": "photos/20240607111946_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607111946_1.jpg",
       "description": ""
     }
   ],
@@ -244,14 +276,14 @@
       {
         "ore": "aegisium",
         "label": "Aegisium Ore",
-        "kv": 63999,
-        "stacks": 37
+        "kv": 66454,
+        "stacks": 38.5
       },
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 27919,
-        "stacks": 16.2
+        "kv": 28735,
+        "stacks": 16.6
       },
       {
         "ore": "arkanium",
@@ -262,20 +294,20 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 88793,
-        "stacks": 51.4
+        "kv": 90970,
+        "stacks": 52.6
       },
       {
         "ore": "charodium",
         "label": "Charodium Ore",
-        "kv": 102553,
-        "stacks": 59.3
+        "kv": 105248,
+        "stacks": 60.9
       },
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 4909,
-        "stacks": 2.8
+        "kv": 5405,
+        "stacks": 3.1
       },
       {
         "ore": "ice",
@@ -286,7 +318,7 @@
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 1878,
+        "kv": 1942,
         "stacks": 1.1
       },
       {
@@ -298,26 +330,26 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 84434,
+        "kv": 84441,
         "stacks": 48.9
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 77516,
-        "stacks": 44.9
+        "kv": 79515,
+        "stacks": 46
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 472888,
-        "stacks": 273.7
+        "kv": 483597,
+        "stacks": 279.9
       }
     ],
     "cost": {
-      "assembly": 222661,
-      "manufacturing": 543937,
-      "total": 766598
+      "assembly": 226168,
+      "manufacturing": 548625,
+      "total": 774793
     },
     "discord": "https://discord.com/channels/1013328685564178472/1242624864322584576/1242625503387717682"
   },
