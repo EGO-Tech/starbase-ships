@@ -1,1 +1,1 @@
-:ar=(:ar+:ars*0.5)*(:ar>=0)-:ar>20 goto1
+:ar=(:ar+:ars*0.25)*(:ar>=0)-:ar>20 goto1

@@ -4,7 +4,7 @@
 - Basic crafting bench with meter and monitor upgrade as well as tools bench
 - 12 ore crates to store ore for refills
 - Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
+- Turtle and Sloth functions with adjustable rates and preset profiles
 - Transponder system with ping function
 - Auto generator rate script with adjustable minimum rate
 - 18 T2 generators with six T2 fuel chambers and 12 spare rods on racks

@@ -1,0 +1,2 @@
+if:sloth<1then:sense1=100 :sense2=-100 goto1end
+:sense1=:sensitivity :sense2=-:sensitivity goto1
