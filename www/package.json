@@ -14,7 +14,7 @@
     "commander": "^12.1.0",
     "discord.js": "^14.15.2",
     "lodash": "^4.17.21",
-    "mdast-util-from-markdown": "^2.0.0",
+    "mdast-util-from-markdown": "^2.0.1",
     "mdast-util-gfm-table": "^2.0.0",
     "mdast-util-to-markdown": "^2.1.0",
     "micromark-extension-gfm-table": "^2.0.0",
