@@ -1,0 +1,22 @@
+# Features
+
+- 50 passenger seats across four ship sections, all with external views via windows
+- Basic crafting bench with meter and monitor upgrade as well as tools bench
+- 12 ore crates to store ore for refills
+- Standard Cruise function
+- Turtle and Sloth functions with adjustable rates
+- Transponder system with ping function
+- Auto generator rate script with adjustable minimum rate
+- 18 T2 generators with six T2 fuel chambers and 12 spare rods on racks
+- Eight large propellant tanks with 96,000,000 units of propellant
+- Estimated propellant time of 11 hours and range of 5,500km with base propellant
+- Propellant time and fuel time panels
+- 44 batteries
+- 24 T2 box and 44 T2 triangle thrusters providing forward thrust
+- Eight T2 triangle thrusters providing braking thrust
+- 32 T2 triangle thrusters for maneuvers
+- Warning lights and alarm for obstacle detection and avoidance
+- Speedometer
+- Timer panel
+- Odometer panel
+- Top speed of 135m/s

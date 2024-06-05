@@ -1,0 +1,744 @@
+{
+  "new": true,
+  "name": "Roamer",
+  "version": "1.0.0",
+  "slug": "roamer",
+  "path": "roamer",
+  "types": [
+    {
+      "type": "transport",
+      "order": 3
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/README.md"
+  },
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/USAGE.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1262023983042400266/1262025418442014751"
+  },
+  "blueprints": [],
+  "cost": 1000000,
+  "saleType": "for-sale",
+  "photos": [
+    {
+      "filename": "20240714215250_1.jpg",
+      "path": "photos/20240714215250_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215250_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
+      "filename": "20240714214801_1.jpg",
+      "path": "photos/20240714214801_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214801_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214806_1.jpg",
+      "path": "photos/20240714214806_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214806_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214838_1.jpg",
+      "path": "photos/20240714214838_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214838_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214856_1.jpg",
+      "path": "photos/20240714214856_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214856_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214906_1.jpg",
+      "path": "photos/20240714214906_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214906_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214921_1.jpg",
+      "path": "photos/20240714214921_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214921_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214935_1.jpg",
+      "path": "photos/20240714214935_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214935_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214952_1.jpg",
+      "path": "photos/20240714214952_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214952_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714214958_1.jpg",
+      "path": "photos/20240714214958_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714214958_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215008_1.jpg",
+      "path": "photos/20240714215008_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215008_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215018_1.jpg",
+      "path": "photos/20240714215018_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215018_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215049_1.jpg",
+      "path": "photos/20240714215049_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215049_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215056_1.jpg",
+      "path": "photos/20240714215056_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215056_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215109_1.jpg",
+      "path": "photos/20240714215109_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215109_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215124_1.jpg",
+      "path": "photos/20240714215124_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215124_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215141_1.jpg",
+      "path": "photos/20240714215141_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215141_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215226_1.jpg",
+      "path": "photos/20240714215226_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215226_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215237_1.jpg",
+      "path": "photos/20240714215237_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215237_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215248_1.jpg",
+      "path": "photos/20240714215248_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215248_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215402_1.jpg",
+      "path": "photos/20240714215402_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215402_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215417_1.jpg",
+      "path": "photos/20240714215417_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215417_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240714215425_1.jpg",
+      "path": "photos/20240714215425_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/photos/20240714215425_1.jpg",
+      "description": ""
+    }
+  ],
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer1.jpg",
+      "path": "images/roamer1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer10.jpg",
+      "path": "images/roamer10.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer10.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer11.jpg",
+      "path": "images/roamer11.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer11.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer12.jpg",
+      "path": "images/roamer12.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer12.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer13.jpg",
+      "path": "images/roamer13.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer13.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer14.jpg",
+      "path": "images/roamer14.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer14.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer15.jpg",
+      "path": "images/roamer15.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer15.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer16.jpg",
+      "path": "images/roamer16.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer16.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer17.jpg",
+      "path": "images/roamer17.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer17.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer2.jpg",
+      "path": "images/roamer2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer3.jpg",
+      "path": "images/roamer3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer4.jpg",
+      "path": "images/roamer4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer5.jpg",
+      "path": "images/roamer5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer6.jpg",
+      "path": "images/roamer6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer7.jpg",
+      "path": "images/roamer7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer8.jpg",
+      "path": "images/roamer8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "roamer9.jpg",
+      "path": "images/roamer9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/roamer/images/roamer9.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/Roamer"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/roamer"
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "aegisium",
+        "label": "Aegisium Ore",
+        "kv": 58064,
+        "stacks": 33.6
+      },
+      {
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
+        "kv": 10582,
+        "stacks": 6.1
+      },
+      {
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
+        "kv": 1978,
+        "stacks": 1.1
+      },
+      {
+        "ore": "bastium",
+        "label": "Bastium Ore",
+        "kv": 144530,
+        "stacks": 83.6
+      },
+      {
+        "ore": "charodium",
+        "label": "Charodium Ore",
+        "kv": 92977,
+        "stacks": 53.8
+      },
+      {
+        "ore": "exorium",
+        "label": "Exorium Ore",
+        "kv": 1898,
+        "stacks": 1.1
+      },
+      {
+        "ore": "glass",
+        "label": "Glass",
+        "kv": 56297,
+        "stacks": 32.6
+      },
+      {
+        "ore": "ice",
+        "label": "Ice",
+        "kv": 96000,
+        "stacks": 55.6
+      },
+      {
+        "ore": "karnite",
+        "label": "Karnite Crystal",
+        "kv": 268,
+        "stacks": 0.2
+      },
+      {
+        "ore": "kutonium",
+        "label": "Kutonium Ore",
+        "kv": 260,
+        "stacks": 0.2
+      },
+      {
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
+        "kv": 30023,
+        "stacks": 17.4
+      },
+      {
+        "ore": "valkite",
+        "label": "Valkite Ore",
+        "kv": 47,
+        "stacks": 0
+      },
+      {
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
+        "kv": 61673,
+        "stacks": 35.7
+      },
+      {
+        "ore": "total",
+        "label": "Total ore",
+        "kv": 554598,
+        "stacks": 320.9
+      }
+    ],
+    "cost": {
+      "assembly": 294759,
+      "manufacturing": 471819,
+      "total": 766578
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1262023983042400266/1262025378785005599"
+  },
+  "description": "The Roamer is a 50 seat luxury transport ship with an estimated range of 5,500km and travel time of 11 hours.",
+  "shortDescription": "The Roamer is a 50 seat luxury transport ship with an estimated range of 5,500km and travel time of 11 hours.",
+  "tags": [
+    {
+      "id": "t2-generator",
+      "label": "T2 Generators"
+    },
+    {
+      "id": "t2-thruster",
+      "label": "T2 Thrusters"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    },
+    {
+      "id": "basic-bench",
+      "label": "Basic Crafting Bench"
+    },
+    {
+      "id": "tools-bench",
+      "label": "Tools Crafting Bench"
+    }
+  ],
+  "specifications": [
+    {
+      "id": "Passengers",
+      "label": "Passengers",
+      "key": true,
+      "specs": [
+        {
+          "id": "passenger-seats",
+          "label": "Passenger Seats",
+          "value": 50,
+          "featured": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "range",
+      "label": "Range",
+      "key": true,
+      "specs": [
+        {
+          "id": "total-range",
+          "label": "Total Range",
+          "value": 5500,
+          "unit": "km",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "flight-time",
+          "label": "Flight Time",
+          "value": 11,
+          "unit": "hours",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 12,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 12,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "isan",
+              "label": "ISAN",
+              "value": "Mono"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propulsion",
+      "label": "Propulsion",
+      "specs": [
+        {
+          "id": "top-speed",
+          "label": "Top Speed",
+          "value": 135,
+          "unit": "m/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "speedometer",
+          "label": "Speedometer",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "box-thrusters",
+              "label": "Box Thrusters",
+              "value": 24
+            },
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 44
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "96M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "large-prop-tank",
+              "label": "Large Tanks",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "id": "prop-time",
+          "label": "Propellant Time Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "label": "Power and Fuel",
+      "specs": [
+        {
+          "id": "total-power",
+          "label": "Total Power Generation",
+          "value": 18000,
+          "unit": "e/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Dynamic Generator Rate",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "auto-gen",
+              "label": "Min Generator Rate",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "batteries",
+          "label": "Batteries",
+          "value": 32,
+          "subSpecs": []
+        },
+        {
+          "id": "generator-block",
+          "label": "Power Generation",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "fuel-chambers",
+              "label": "Fuel Chambers",
+              "value": 6
+            },
+            {
+              "id": "generators",
+              "label": "Generators",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "id": "spare-rods",
+          "label": "Spare Rods",
+          "value": 12,
+          "subSpecs": []
+        },
+        {
+          "id": "fuel-time",
+          "label": "Fuel Time Panel",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "backup-time",
+              "label": "Backup Rods Panel",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crafting",
+      "label": "Crafting",
+      "specs": [
+        {
+          "id": "basic-bench",
+          "label": "Basic Crafting Bench",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "meter-upgrade",
+              "label": "Meter Upgrade",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "tools-bench",
+          "label": "Tools Crafting Bench",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "utility",
+      "label": "Utility Systems",
+      "specs": [
+        {
+          "id": "transponder",
+          "label": "Transponder",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "ping-function",
+              "label": "Ping Function",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "resource-bridge",
+          "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "timer",
+          "label": "Timer Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "odometer",
+          "label": "Odometer Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ],
+  "discord": "https://discord.com/channels/1013328685564178472/1262023983042400266"
+}
