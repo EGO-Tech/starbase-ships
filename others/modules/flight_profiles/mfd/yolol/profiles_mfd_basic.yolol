@@ -1,0 +1,8 @@
+a="\n" b=a+a c=" " d=">" e=" Blue"+a f=" Red"+a g=" Green"+a
+h=" White"+a
+if:ppg!=0thengoto3end goto:pf+3
+:profiles=b+d+e+c+f+c+g+c+h goto3
+:profiles=b+c+e+d+f+c+g+c+h goto3
+:profiles=b+c+e+c+f+d+g+c+h goto3
+:profiles=b+c+e+c+f+c+g+d+h goto3
+goto3

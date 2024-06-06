@@ -1,0 +1,6 @@
+a="«     " b="      »" goto:pf+1
+:cpf=a+"1. Blue "+b goto1
+:cpf=a+"2. Red  "+b goto1
+:cpf=a+"3. Green"+b goto1
+:cpf=a+"4. White"+b goto1
+goto1

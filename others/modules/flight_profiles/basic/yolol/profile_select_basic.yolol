@@ -1,0 +1,1 @@
+:pf=:pf+:npf-:ppf+(:pf<1)*4-(:pf>4)*4 goto1
