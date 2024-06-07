@@ -1,0 +1,2 @@
+if:unload<1thengoto1end :cb1=0 :cb2=0 :cb3=0 :rst1=1 :rst2=1 :rst3=1
+:cr=0 :unload=0 goto1

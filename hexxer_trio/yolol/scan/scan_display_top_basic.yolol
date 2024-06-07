@@ -1,0 +1,10 @@
+p="\n" q=p+p s="Credits:" k="k" a="Ajatite" b="Bastium" c="Charodium"
+i="Ice" n="Nhurgite" v="Valkite" o="Vokarium" ab="Aegisium" ah=1728
+ac="Exorium" r=q+"NO RESULT" u=1000 d=.544 e=.87 f=3.81 g=.816
+h=2.721 j=.544 l=.979 m=1.588 ad=2.503 ae=4.354 af="Volume:" ag="Mv"
+if:hva1<1 or :hvb1<1thengoto10end x=:hma1 y=:hmb1 z=x==a w=x==i
+cr=:hva1/ah*(z*d+w*g+(x==v)*j) ai=:hvb1/ah
+cr+=ai*((y==b)*e+(y==c)*f+(y==n)*h+(y==o)*l+(y==ab)*ad+(y==ac)*ae)
+t=(:hva1+:hvb1)/u :cr1=cr*m :HoldTop=q+s+p+:cr1+k+q+af+p+t+ag goto5
+
+aa=q+"Scanning..." if:sn1 then:HoldTop=aa else:HoldTop=r end goto5
