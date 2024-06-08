@@ -27,8 +27,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Lights` | Turns on and off internal lights. |
 | `Hatch` | Opens or closes ship entry hatch on top of the ship. |
-| `Timer` | See [Timer](#timer). |
-| `Odometer` | See [Odometer](#odometer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
+| `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 
 </nord-table>
 
@@ -125,13 +125,3 @@ All four resource bridges can be used for refuelling propellant. To refuel from 
 Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
 
 The `Service` button gives access to the propellant tanks. The tanks can be unbolted to used to craft refills if ice is available, then bolted back. The tank should be bolted to the support on top and bottom of the ship.
-
-## Other Stuff
-
-### Timer
-
-On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, hold down the `Reset Timer` button on the pilot left console.
-
-### Odometer
-
-On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.

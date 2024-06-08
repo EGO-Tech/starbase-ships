@@ -19,7 +19,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Distance`, `Reach` & `Range` | `Distance` & `Reach` are distances for center rangefinders. `Guide` or the green button toggles the rangefinders. The warning lights blink red when the surronding guide lasers detect an object. |
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
 | `Approach`, `Load` & `Cargo` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
-| `Timer` | See [Timer](#timer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
 
 </nord-table>
 
@@ -67,9 +67,3 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 Approach an asteroid by pointing the center rangefinder at an asteroid and activating `Approach`. This will guide the ship to around 2m of the asteroid. `Cargo` will activate the cargo lock beams.
 
 All these can be done the automated `Load` function on **the pilot center console**. Point the rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach` and `Scan` as well as smartly activating the `Cargo` when the asteroid is in place.
-
-## Other Stuff
-
-### Timer
-
-On the pilot left console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.

@@ -19,8 +19,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Sloth` | (Right Console) Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `ISAN2`, `Heading`, `Dest`, `DTW`, `Deltas`, `WP`, `Up`, `Down`, `Save` & `Home` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
-| `Timer` | See [Timer](#timer). |
-| `Odometer` | See [Odometer](#odometer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
+| `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
@@ -51,13 +51,3 @@ Open the `Service` hatches for access to the fuel rods.
 ### Refueling Propellant
 
 The resource bridge at the front of the ship can be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
-
-## Other Stuff
-
-### Timer
-
-On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.
-
-### Odometer
-
-On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.

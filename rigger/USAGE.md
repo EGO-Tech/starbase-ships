@@ -126,8 +126,8 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteroids. |
 | `Canopy` | Opens or closes glass canopy. |
 | `Hatch` | Opens or closes ship entry hatch. |
-| `Timer` | See [Timer](#timer). |
-| `Odometer` | See [Odometer](#odometer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
+| `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 
 </nord-table>
 
@@ -146,13 +146,3 @@ The small propellant tank above the crafting bench can also be used to refuel th
 Remember to turn `FlowIn` and `FlowOut` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
 
 If for some reason you need access to the ship's internal tanks, you can unbolt the grates on top of the ship which are marked with circular decals. This will give access to _some_ tanks.
-
-## Other Stuff
-
-### Timer
-
-On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.
-
-### Odometer
-
-On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed from ISAN (may not be that accurate). To reset the trip odometer, use your universal tool (`U` key) and clear the value of the `Odometer` field.
