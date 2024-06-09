@@ -25,7 +25,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Approach`, `Collect`, `Mine`, `Lasers`, `Rotate`, `Eco`, `Drill Mode`, `Drill Pitch` & `Drill Count` | Mining controls. See [Mining](#mining). |
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
-| Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
+| Transponder `Toggle` & `Ping` | [Transponder](https://starbase.egotech.space/pages/systems/utility/#transponder) controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
 | `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 
