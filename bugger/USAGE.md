@@ -25,8 +25,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
-| `Timer` | See [Timer](#timer). |
-| `Odometer` | See [Odometer](#odometer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
+| `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 
 </nord-table>
 
@@ -98,13 +98,3 @@ Activate `Lasers` to turn on the mining lasers which will automatically sweep fr
 **NOTE:** For safety, lasers will turn off if the total fuel is less that 2,000 units.
 
 </nord-banner>
-
-## Other Stuff
-
-### Timer
-
-On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, hold down the `Reset Timer` button on the pilot left console.
-
-### Odometer
-
-On the pilot right console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, hold down the `Odometer` `Reset Trips` button on the pilot left console.

@@ -21,8 +21,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Guides` & `Distance` | Activates forward rangefinders, with `Distance` showing distance to object detected by center rangefinder. Each respsective corner shows distance to the ground. |
 | `SafeZone` | Whether current location is in the safe zone. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
-| `Timer` | See [Timer](#timer). |
-| `Odometer` | See [Odometer](#odometer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
+| `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 | Transponder `Toggle` & `Ping` | Transponder controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 
 </nord-table>
@@ -68,13 +68,3 @@ All five resource bridges can be used for refuelling propellant. To refuel from 
 Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
 
 The propellant tanks are also easily accessible for swapping or crafting refills.
-
-## Other Stuff
-
-### Timer
-
-On the pilot center console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, hold down the `Timer` of `Hold to reset`` button on the pilot left console.
-
-### Odometer
-
-On the pilot center console there is a `Odometer` panel which will keep track of the ship's estimated flight distance based on speed. To reset the trip odometer, hold down the `Trip` of `Hold to reset` button on the pilot left console.

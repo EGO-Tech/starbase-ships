@@ -66,7 +66,7 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 | `Unload` | Turns off all cargo lock beams. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `DurabilityErrors` | Number of durability errors on the ship. If the asteroids are not position correctly it may cause errors |
-| `Timer` | See [Timer](#timer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
 
 </nord-table>
 
@@ -79,9 +79,3 @@ Once the asteroid is in place the cargo lock beam should activate itself and the
 All these can be done the automated `Load` function on **the pilot center console**. Point the rangefinder at the asteroid you wish to load and activate `Load`. This is activate `Approach` and `Scan` as well as smartly activating the `Load` of the right compartment. So you can just use `Load` each time and it will load the asteroids to the right compartment in the right order.
 
 `Unload` will turn of all cargo lock beams.
-
-## Other Stuff
-
-### Timer
-
-On the pilot left console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.

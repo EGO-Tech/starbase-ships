@@ -22,7 +22,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
 | `Approach` & `Load` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
-| `Timer` | See [Timer](#timer). |
+| `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
 
 </nord-table>
 
@@ -102,9 +102,3 @@ All these can be done with the automated `Load` function on **the pilot center c
 Once the asteroid is locked, the asteroid will be scanned and the estimated credits value of the asteroid will be displayed in the relevant `HoldTop`, `HoldRight` and `HoldLeft`. The `Total Credits` for all hold will also be shown.
 
 `Unload` will turn of all cargo lock beams and also reset all hold scans.
-
-## Other Stuff
-
-### Timer
-
-On the pilot left console there is a `Timer` panel which acts as a timer. It will run when the ship is active and show total time in years, weeks, days, hours, minutes and seconds. To reset the timer, use your universal tool (`U` key) and clear the value of the `Timer` field.
