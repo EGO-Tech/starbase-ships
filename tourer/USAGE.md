@@ -24,11 +24,11 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
-| `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `Fuel Rod 1` & `Fuel Rod 2` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Shutdown` | Turns off fuel chambers. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 12,000,000 units. |
-| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
+| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refilling Propellant](#refilling-propellant). |
 | `PropTime` | Time and distance remaining of propellant based on current usage. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. |
 | `SafeZone` | Whether current location is in the safe zone. |
@@ -40,7 +40,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-### Managing Power
+### Managing Power and Fuel
 
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Limit` value using the switch for the minimum rate and turning on `Min Gen`.
 
@@ -48,6 +48,6 @@ By default the generator will only run and ramp up when the batteries need charg
 
 Open the `Service` hatches for access to the fuel rods.
 
-### Refueling Propellant
+### Refilling Propellant
 
-The resource bridge at the front of the ship can be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
+See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant/) on how to refill propellant.

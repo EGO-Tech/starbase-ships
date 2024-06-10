@@ -48,7 +48,7 @@ Press the `Select` button again to stop adjusting the values. Select `Back` to g
 
 </nord-banner>
 
-## Managing Power and Fuel
+## Managing Power, Fuel and Propellant
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_right_console.jpg)
 
@@ -59,15 +59,19 @@ Press the `Select` button again to stop adjusting the values. Select `Back` to g
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 10,000,000 units. |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `Fuel Rod 1` to `Fuel Rod 10` | Total fuel remaining on fuel rods, maximum of 300,000 units each. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 
 </nord-table>
 
-### Managing Power
+### Managing Power and Fuel
 
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Rate` value using the switch for the minimum rate and turning on `Min Gen`.
+
+### Refilling Propellant
+
+See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant/) on how to refill propellant.
 
 ## Scanning Asteroids
 

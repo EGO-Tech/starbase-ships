@@ -20,7 +20,7 @@
 - Four T2 triangle thrusters providing braking thrust
 - 40 T2 maneuver thrusters with plenty of space for more
 - Basic crafting bench to craft refills (will need to bolt own meter upgrade for T2 refills)
-- Extra small propellant tank with its own resource bridge for emergency refueling
+- Extra small propellant tank with its own resource bridge for emergency refilling
 - Totally unnecessary amounts of extra hardpoints (all cabled and piped) all over the ship
 - [ISAN Quad Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) with custom interface that supports 18 waypoints
 - [NavCas (Autopilot and Crash Avoidance System) by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), customised to integrate with ISAN Waypoint System, running on separate set of  three ISAN Monos

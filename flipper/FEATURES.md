@@ -11,4 +11,4 @@
 - Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
 - Rangefinder guides to help judge forward distance and for approach
 - Load automation that will approach and load a single T10 asteroid
-- Resource bridge for refueling
+- Resource bridge for refilling

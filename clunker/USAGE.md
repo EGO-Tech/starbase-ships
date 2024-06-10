@@ -34,7 +34,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-banner>
 
-## Managing Power and Fuel
+## Managing Power, Fuel and Propellant
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/clunker/images/pilot_right_console.jpg)
 
@@ -45,22 +45,18 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 72,000,000 units. |
 | `Fuel` | Fuel remaining on fuel tank, maximum of 10,000,000 units. |
 | `Generator` | Current generator rate, maximum of `Generator Limit`. |
-| `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Gen` & `Min Generator Limit` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
-| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
+| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refilling Propellant](#refilling-propellant). |
 
 </nord-table>
 
-### Managing Power
+### Managing Power and Fuel
 
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Limit` value using the switch for the minimum rate and turning on `Min Gen`.
 
-### Refueling Propellant
+### Refilling Propellant
 
-All five resource bridges can be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot right side console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
-
-Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
-
-The propellant tanks are also easily accessible for swapping or crafting refills.
+See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant/) on how to refill propellant.

@@ -12,5 +12,5 @@
 - Load automation that will load asteroids into the right container in the right order
 - Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
 - Rangefinder to help judge forward distance and for approach
-- Resource bridge for refueling
+- Resource bridge for refilling
 - Pretty much max speed 150m/s when empty

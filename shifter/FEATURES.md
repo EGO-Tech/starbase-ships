@@ -22,7 +22,7 @@
 - 48 T2 triangle thrusters providing braking thrust
 - Eight T2 maneuver and 72 T2 triangle thrusters for maneuvers
 - Basic crafting bench to craft refills with meter upgrade plus the other two benches
-- Extra two small propellant tank with its own resource bridge for emergency refueling
+- Extra two small propellant tank with its own resource bridge for emergency refilling
 - Two extra hardpoints (all cabled and piped)
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
 - [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid

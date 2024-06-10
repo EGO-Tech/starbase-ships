@@ -24,7 +24,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-## Managing Power and Fuel
+## Managing Power, Fuel and Propellant
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/rocker_duo/images/pilot_right_console.jpg)
 
@@ -35,7 +35,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 10,000,000 units. |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Fuel Rod 1`, `Fuel Rod 2`, `Fuel Rod 3`, `Fuel Rod 4`, `Fuel Rod 5`, `Fuel Rod 6`, `Fuel Rod 7`, `Fuel Rod 8` | Total fuel remaining on fuel rods, maximum of 300,000 units each. |
@@ -44,9 +44,13 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-### Managing Power
+### Managing Power and Fuel
 
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Rate` value using the switch for the minimum rate and turning on `Min Gen`.
+
+### Refilling Propellant
+
+See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant/) on how to refill propellant.
 
 ## Scanning Asteroids
 
