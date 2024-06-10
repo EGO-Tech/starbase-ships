@@ -102,7 +102,7 @@ If batteries start running out of charge while mining, turn on `Min Gen`. Contin
 
 Activate using the `Scanner` button. The laser will try to adjust to point at the objects detected by the center range finder. Scan results will show on the `Scan` panel in number of stacks. It has a maximum range of 100m.
 
-## Managing Power and Fuel
+## Managing Power, Fuel and Propellant
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/images/pilot_right_console.jpg)
 
@@ -112,7 +112,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 |---|---|
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
 | `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
 | `Fuel Rod 1` to `Fuel Rod 6` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
@@ -121,7 +121,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
 | `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `BackupRods` to set the number of backup rods available. As standard there are 16 extra rods. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
-| `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
+| `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refilling Propellant](#refilling-propellant). |
 | `Lights` | Turns on and off internal lights. |
 | `Headlights` | Turns on and off external light on the nose of the ship. May help with mining asteroids. |
 | `Canopy` | Opens or closes glass canopy. |
@@ -133,16 +133,12 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 
 *ISAN speed is normally quite conservative and not 100% accurate.
 
-### Managing Power
+### Managing Power and Fuel
 
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Limit` value using the switch for the minimum rate and turning on `Min Gen`.
 
-### Refueling Propellant
+### Refilling Propellant
 
-All four resource bridges can be used for refuelling propellant. To refuel from another ship, turn off `FlowOut` on the pilot right side console and leave `FlowIn` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `FlowOut` turned on and `FlowIn` turned off.
+See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant/) on how to refill propellant.
 
-The small propellant tank above the crafting bench can also be used to refuel the ship. Turn off `FlowOut` and connect the tank's resource bridge to any of the ship's resource bridges, this will transfer the propellant from the tank to the ship. You can then unbolt the tank and craft refills for the tank using ice and then bolt the tank back to the support. Rinse and repeat until full.
-
-Remember to turn `FlowIn` and `FlowOut` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
-
-If for some reason you need access to the ship's internal tanks, you can unbolt the grates on top of the ship which are marked with circular decals. This will give access to _some_ tanks.
+The small propellant tank above the crafting bench can also be used to refill the ship. Turn off `FlowOut` and connect the tank's resource bridge to any of the ship's resource bridges, this will transfer the propellant from the tank to the ship. You can then unbolt the tank and craft refills for the tank using ice and then bolt the tank back to the support. Rinse and repeat until full.

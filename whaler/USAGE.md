@@ -142,7 +142,7 @@ Use while the ship is stationary. Activating `Nav` will start point the ship tow
 
 If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button. Press once to take ISAN offline, then press again to reset.
 
-## Managing Power and Fuel
+## Managing Power, Fuel and Propellant
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_right_console.jpg)
 
@@ -156,11 +156,11 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 | `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `Backup Rods` to set the number of backup rods available. As standard there are 20 extra rods. |
 | `Fuel Rod 1` to `Fuel Rod 12` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Generator` | Current generator rate. |
-| `Min Gen` & `Min Generator Rate` | Toggle and sets minimum generator rate. See [Managing Power](#managing-power). |
+| `Min Gen` & `Min Generator Rate` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
-| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refueling Propellant](#refueling-propellant). |
+| `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refilling Propellant](#refilling-propellant). |
 | `Tow`, `Tow Status`, `Tow Mass` & `Auto Gen` | Tow beam controls. See [Towing Ships](#towing-ships). |
 | `Right Cargo`, `Right Pod`, `Left Cargo` & `Left Pod` | Cargo frame controls. See [Storing Cargo](#storing-cargo). |
 | `Lights` | Turns on and off internal lights. |
@@ -168,15 +168,13 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 
 </nord-table>
 
-### Managing Power
+### Managing Power and Fuel
 
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Rate` value using the switch for the minimum rate and turning on `Min Gen`.
 
-### Refueling Propellant
+### Refilling Propellant
 
-All four resource bridges can be used for refuelling propellant. To refuel from another ship, turn off `Flow Out` on the pilot right side console and leave `Flow In` turned on. Then connect a resource bridge to the other ship. To refuel another ship, do the opposite, `Flow Out` turned on and `Flow In` turned off.
-
-Remember to turn `Flow In` and `Flow Out` back on if you are using the Endo to collect ore via any of the ship's resource bridges.
+See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant/) on how to refill propellant.
 
 ## Mining
 

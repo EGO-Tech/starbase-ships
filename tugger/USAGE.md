@@ -37,7 +37,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-banner>
 
-### Managing Power
+### Managing Power and Fuel
 
 ![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/images/pilot_right_console.jpg)
 
@@ -62,6 +62,10 @@ The left lever on the center console controls backwards thrust (braking) and the
 By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Limit` value using the switch for the minimum rate and turning on `Min Gen`.
 
 `Shutdown` will turn off the fuel chambers.
+
+### Refilling Propellant
+
+See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant/) on how to refill propellant.
 
 ### Towing Ships
 

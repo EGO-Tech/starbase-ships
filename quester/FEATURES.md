@@ -19,7 +19,7 @@
 - 36 T2 box and 124 T2 triangle thrusters, all with T3 nozzles providing forward thrust
 - 36 T2 triangle thrusters with T3 nozzles providing braking thrust
 - 48 T2 triangle thrusters with T3 nozzles for maneuvers
-- Extra two small propellant tank with its own resource bridge for emergency refueling
+- Extra two small propellant tank with its own resource bridge for emergency refilling
 - Eight extra hardpoints (all cabled and piped)
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
 - [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid

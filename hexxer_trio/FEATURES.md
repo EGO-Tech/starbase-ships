@@ -13,7 +13,7 @@
 - Material scanner that will output the materials in stacks as well as the estimated credits you will get for dropping the asteroid off at Origin stations
 - Material scanner for each cargo hold that provides estimated credits for each hold and total credits
 - Rangefinder to help judge forward distance and for approach
-- Resource bridge for refueling
+- Resource bridge for refilling
 - Speedometer
 - Timer panel
 - 148m/s when empty
