@@ -59,9 +59,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-By default the generator will only run and ramp up when the batteries need charging so there is minimum management needed. But you can set a minimum generate rate by setting the `Min Generator Limit` value using the switch for the minimum rate and turning on `Min Gen`.
-
-`Shutdown` will turn off the fuel chambers.
+See [Power and Fuel Systems](https://starbase.egotech.space/pages/systems/power/) on how to manage ship power and refuel.
 
 ### Refilling Propellant
 
