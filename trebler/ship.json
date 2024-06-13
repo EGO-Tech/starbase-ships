@@ -1,6 +1,6 @@
 {
   "name": "Trebler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "path": "trebler",
   "types": [
     {
@@ -13,9 +13,17 @@
       "filename": "trebler.fbe",
       "path": "blueprints/trebler.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/blueprints/trebler.fbe",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "",
       "current": true
+    },
+    {
+      "filename": "trebler_v1.0.1.fbe",
+      "path": "blueprints/trebler_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/blueprints/trebler_v1.0.1.fbe",
+      "version": "1.0.1",
+      "description": "",
+      "current": false
     },
     {
       "filename": "trebler_v1.0.0.fbe",
@@ -299,8 +307,8 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 17084,
-        "stacks": 9.9
+        "kv": 17357,
+        "stacks": 10
       },
       {
         "ore": "arkanium",
@@ -311,8 +319,8 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 406287,
-        "stacks": 235.1
+        "kv": 406412,
+        "stacks": 235.2
       },
       {
         "ore": "charodium",
@@ -329,7 +337,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 52739,
+        "kv": 52741,
         "stacks": 30.5
       },
       {
@@ -359,26 +367,26 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 197465,
+        "kv": 197466,
         "stacks": 114.3
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 191080,
-        "stacks": 110.6
+        "kv": 191288,
+        "stacks": 110.7
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1289805,
-        "stacks": 746.4
+        "kv": 1290412,
+        "stacks": 746.8
       }
     ],
     "cost": {
-      "assembly": 311187,
-      "manufacturing": 1170385,
-      "total": 1481572
+      "assembly": 311907,
+      "manufacturing": 1170578,
+      "total": 1482484
     },
     "discord": "https://discord.com/channels/1013328685564178472/1100697981705003028/1235742459384823808"
   },
@@ -440,5 +448,6 @@
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/USAGE.md"
   },
-  "discord": "https://discord.com/channels/1013328685564178472/1100697981705003028"
+  "discord": "https://discord.com/channels/1013328685564178472/1100697981705003028",
+  "updated": true
 }

@@ -1,0 +1,4 @@
+if:spf<1thengoto1end :spf=0 a=:spg goto:ppg+2
+:spg=1 :ppg=1 goto1
+ifa<2then:atr=:atr<1 goto1end ifa>2then:ppg=0 goto1end :ass=:ass<1
+goto1
