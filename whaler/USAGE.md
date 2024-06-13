@@ -8,8 +8,6 @@ To enter the ship, there is are buttons on each side of the front of the ship th
 
 ![Pilot Center Console](https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/images/pilot_center_console.jpg)
 
-Both pilot seats have flight controls. The left lever on the main center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 <nord-table>
 
 | Interface | Function |
@@ -38,11 +36,7 @@ Both pilot seats have flight controls. The left lever on the main center console
 
 </nord-table>
 
-<nord-banner variant="warning">
-
-**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
-
-</nord-banner>
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ## Combat
 

@@ -4,8 +4,6 @@
 
 ![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_center_console.jpg)
 
-The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 <nord-table>
 
 | Interface | Function |
@@ -14,7 +12,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
 | `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
-| `Profiles` | Adjusts preset flight profiles. See [Flight Profiles](#flight-profiles). |
+| `Profiles` | Adjusts preset flight profiles. See [Flight Profiles](https://starbase.egotech.space/pages/systems/flight/#flight-profiles). |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Speed` | Current speed in metres per second. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
@@ -26,27 +24,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner variant="warning">
-
-**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
-
-</nord-banner>
-
-### Flight Profiles
-
-The flight profiles system allows the saving of four preset profiles consisting of `TurtleRate` and `Sensitivity` values, named `Blue`, `Red`, `Green` and `White`.
-Quickly load a particular profile by pressing one of the coloured buttons with its colour matching the profile name.
-This is load the `TurtleRate` and `Sensitivity` preset values of the profile into the main flight system.
-
-Adjust the presets of a profile by selecting the profile on the `Profiles` panel using the `Up` and `Down` (blue buttons) and selecting by using the `Select` button (white vertical button).
-Once in a profile screen for a profile, use the `Up` and `Down` buttons then `Select` button to select either `Turtle` or `Sens.` and then using the `Up` and `Down` buttons to adjust the values.
-Press the `Select` button again to stop adjusting the values. Select `Back` to go back to the profile selection screen.
-
-<nord-banner variant="info">
-
-**TIP:** Save a blueprint for the ship using the U-tool once you have set up your flight profiles to have it persist after repairs.
-
-</nord-banner>
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ## Managing Power, Fuel and Propellant
 

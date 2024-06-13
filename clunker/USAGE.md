@@ -7,8 +7,6 @@ To enter the ship, there is a button on top the ship that will open `Hatch`.
 ![Pilot Top Console](https://github.com/EGO-Tech/starbase-ships/raw/main/clunker/images/pilot_top_console.jpg)
 ![Pilot Left Console](https://github.com/EGO-Tech/starbase-ships/raw/main/clunker/images/pilot_left_console.jpg)
 
-The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 <nord-table>
 
 | Interface | Function |
@@ -28,11 +26,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner variant="warning">
-
-**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
-
-</nord-banner>
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ## Managing Power, Fuel and Propellant
 
