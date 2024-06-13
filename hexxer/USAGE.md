@@ -4,8 +4,6 @@
 
 ![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/images/pilot_center_console.jpg)
 
-The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 <nord-table>
 
 | Interface | Function |
@@ -21,6 +19,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Approach` & `Load` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 
 </nord-table>
+
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ## Managing Power, Fuel and Propellant
 

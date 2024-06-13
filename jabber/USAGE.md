@@ -6,8 +6,6 @@ To enter the ship, there is a button in front the cockpit that will open the gla
 
 ![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/jabber/images/pilot_center_console.jpg)
 
-The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 <nord-table>
 
 | Interface | Function |
@@ -38,6 +36,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Service` | Open and closes the service hatches on either side the ship for access to the fuel rods and ammo magazines. |
 
 </nord-table>
+
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ## Combat
 

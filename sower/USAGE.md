@@ -6,8 +6,6 @@
 
 <nord-table>
 
-The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 | Interface | Function |
 |---|---|
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
@@ -19,6 +17,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `ISAN2` | ISAN Mono system. No speed reading as that requires advanced chip which requires non safe zone ore |
 
 </nord-table>
+
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ### Managing Power and Fuel
 

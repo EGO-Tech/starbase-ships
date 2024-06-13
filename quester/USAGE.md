@@ -6,8 +6,6 @@ To enter the ship, there are buttons on either sides of the ship just behind the
 
 ![Pilot Center Console](https://github.com/EGO-Tech/starbase-ships/raw/main/quester/images/pilot_center_console.jpg)
 
-The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 <nord-table>
 
 | Interface | Function |
@@ -29,6 +27,8 @@ The left lever on the center console controls backwards thrust (braking) and the
 | `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 
 </nord-table>
+
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ## Using the Waypoint System
 

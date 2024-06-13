@@ -6,8 +6,6 @@ To enter the ship, there is a button for `Canopy` on top of the ship. Button for
 
 ![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/images/pilot_center_console.jpg)
 
-The left lever on the center console controls backwards thrust (braking) and the right lever controls forward thrust.
-
 <nord-table>
 
 | Interface | Function |
@@ -31,11 +29,7 @@ The left lever on the center console controls backwards thrust (braking) and the
 
 </nord-table>
 
-<nord-banner variant="warning">
-
-**NOTE:** For safety, firing full braking thrust will deactivate `Cruise`.
-
-</nord-banner>
+See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on how to fly the ship and use its flight systems.
 
 ### Managing Power and Fuel
 
