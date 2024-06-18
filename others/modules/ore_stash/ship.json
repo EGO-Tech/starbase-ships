@@ -1,0 +1,24 @@
+{
+  "new": true,
+  "name": "Ore Stash",
+  "version": "1.0.0",
+  "slug": "ore-stash",
+  "path": "ore_stash",
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/ore_stash/README.md"
+  },
+  "blueprints": [
+    {
+      "filename": "ore_stash.fbe",
+      "path": "blueprints/ore_stash.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/ore_stash/blueprints/ore_stash.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": true
+    }
+  ],
+  "cost": 0,
+  "description": "This module is a simple 1928 ore crate module to store ore, with a resource bridge at the center on each side. It has a valid ship frame so it can be used in a station or capital ship hangar (minimum 16x16x16 including corners) to expand its storage.",
+  "shortDescription": "This module is a simple 1928 ore crate module to store ore, with a resource bridge at the center on each side. It has a valid ship frame so it can be used in a station or capital ship hangar (minimum 16x16x16 including corners) to expand its storage."
+}

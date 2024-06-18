@@ -1,0 +1,24 @@
+{
+  "new": true,
+  "name": "4 Laser Drill",
+  "version": "1.0.0",
+  "slug": "4-laser-drill",
+  "path": "4_laser_drill",
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/4_laser_drill/README.md"
+  },
+  "blueprints": [
+    {
+      "filename": "4_laser_drill.fbe",
+      "path": "blueprints/4_laser_drill.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/4_laser_drill/blueprints/4_laser_drill.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": true
+    }
+  ],
+  "cost": 0,
+  "description": "This module is a rotating four laser drill on an advanced turret with pitching for all lasers plus a rangefinder in the center. This base drill is used in EGOTech mining ships, without the material point scanner.",
+  "shortDescription": "This module is a rotating four laser drill on an advanced turret with pitching for all lasers plus a rangefinder in the center. This base drill is used in EGOTech mining ships, without the material point scanner."
+}

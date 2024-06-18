@@ -28,6 +28,9 @@ const token = nconf.get('discord:token');
     throw new Error('Error reading ship.json');
   }
 
+  if (!json.changelog)
+    return console.log(`Skipping ${file}, no changelog data found`);
+
   const { path, changelog } = json;
   const { discord } = changelog;
   const dryRun = program.opts().dryRun;

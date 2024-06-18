@@ -25,6 +25,9 @@ const token = nconf.get('discord:token');
     throw new Error('Error reading ship.json');
   }
 
+  if (!json.buildCost)
+    return console.log(`Skipping ${file}, no build cost data found`);
+
   const { discord, materials, cost } = json.buildCost;
 
   const config = {

@@ -1,0 +1,24 @@
+{
+  "new": true,
+  "name": "QR Code",
+  "version": "1.0.0",
+  "slug": "qr-code",
+  "path": "qr_code",
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/qr_code/README.md"
+  },
+  "blueprints": [
+    {
+      "filename": "qr_code.fbe",
+      "path": "blueprints/qr_code.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/qr_code/blueprints/qr_code.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": true
+    }
+  ],
+  "cost": 0,
+  "description": "This module is a QR code template that has individual plates that can be painted to generate scannable QR codes. It is bolted to a beam frame which you can weld to any ship.",
+  "shortDescription": "This module is a QR code template that has individual plates that can be painted to generate scannable QR codes. It is bolted to a beam frame which you can weld to any ship."
+}

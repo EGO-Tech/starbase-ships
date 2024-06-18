@@ -5,6 +5,7 @@
     "repo": "https://github.com/EGO-Tech/starbase-ships/tree/main",
     "jsonFile": "ship.json",
     "paths": {
+      "modules": "others/modules",
       "blueprints": "blueprints",
       "buildCost": "images/build_cost.png",
       "images": "images",

@@ -1,0 +1,24 @@
+{
+  "new": true,
+  "name": "Ore Stash Split",
+  "version": "1.0.0",
+  "slug": "ore-stash-split",
+  "path": "ore_stash_split",
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/ore_stash_split/README.md"
+  },
+  "blueprints": [
+    {
+      "filename": "ore_stash_split.fbe",
+      "path": "blueprints/ore_stash_split.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/others/modules/ore_stash_split/blueprints/ore_stash_split.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": true
+    }
+  ],
+  "cost": 0,
+  "description": "This module is a 1928 ore crate module to store ore, split into four compartments of 482 crates with colour coded resource bridges at the center on each side. It has a valid ship frame so it can be used in a station or capital ship hangar (minimum 16x16x16 including corners) to expand its storage.",
+  "shortDescription": "This module is a 1928 ore crate module to store ore, split into four compartments of 482 crates with colour coded resource bridges at the center on each side. It has a valid ship frame so it can be used in a station or capital ship hangar (minimum 16x16x16 including corners) to expand its storage."
+}
