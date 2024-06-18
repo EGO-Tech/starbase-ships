@@ -23,7 +23,13 @@ import { createWorker } from 'tesseract.js';
 import '../config.js';
 
 const shipsPath = path.join(nconf.get('basePath'), nconf.get('ships:path'));
+const modulesPath = path.join(
+  nconf.get('basePath'),
+  nconf.get('ships:path'),
+  nconf.get('ships:paths:modules')
+);
 const shipsUrl = nconf.get('ships:url');
+const modulesUrl = `${shipsUrl}/${nconf.get('ships:paths:modules')}`;
 const shipsRepoUrl = nconf.get('ships:repo');
 const readmePath = nconf.get('ships:paths:readme');
 const featuresPath = nconf.get('ships:paths:featureList');
@@ -65,7 +71,24 @@ const getShipDirectories = (source) =>
     .compact()
     .value();
 
-const getShipBlueprints = (source, { currentVersion, relPath }) => {
+const getModuleDirectories = (source) =>
+  _(readdirSync(source, { withFileTypes: true }))
+    .map((dir) => {
+      try {
+        accessSync(path.join(source, dir.name, readmePath), constants.F_OK);
+      } catch {
+        return;
+      }
+
+      return {
+        relPath: dir.name,
+        fullPath: path.join(source, dir.name),
+      };
+    })
+    .compact()
+    .value();
+
+const getShipBlueprints = (source, { currentVersion, relPath, baseUrl }) => {
   const blueprintsPath = nconf.get('ships:paths:blueprints');
   try {
     return _(
@@ -79,7 +102,7 @@ const getShipBlueprints = (source, { currentVersion, relPath }) => {
         return {
           filename: dir.name,
           path: `${blueprintsPath}/${dir.name}`,
-          url: `${shipsUrl}/${relPath}/${blueprintsPath}/${dir.name}`,
+          url: `${baseUrl}/${relPath}/${blueprintsPath}/${dir.name}`,
           version: version ?? currentVersion,
           description: '',
         };
@@ -189,6 +212,7 @@ const getShipVideos = (table) =>
     const blueprints = getShipBlueprints(fullPath, {
       currentVersion: json.version,
       relPath,
+      baseUrl: shipsUrl,
     });
 
     if (!json.new && blueprints.length > json.blueprints.length)
@@ -286,5 +310,61 @@ const getShipVideos = (table) =>
       path.join(fullPath, nconf.get('ships:jsonFile')),
       `${JSON.stringify(json, null, 2)}\n`
     );
+
+    const modules = getModuleDirectories(modulesPath);
+    _.each(modules, async ({ relPath, fullPath }) => {
+      let json;
+      try {
+        json = JSON.parse(
+          readFileSync(
+            path.join(fullPath, nconf.get('ships:jsonFile'))
+          ).toString()
+        );
+      } catch {
+        json = { new: true };
+      }
+
+      const readme = readFileSync(path.join(fullPath, readmePath)).toString();
+      const markdown = await fromMarkdown(readme, {
+        extensions: [gfmTable()],
+        mdastExtensions: [gfmTableFromMarkdown()],
+      });
+
+      // Basic Details
+      const name = getShipName(markdown);
+      json.name ??= name;
+      json.version ??= '1.0.0';
+      json.slug ??= _.kebabCase(json.name);
+      json.path = relPath;
+      json.readme = {
+        path: readmePath,
+        url: `${modulesUrl}/${relPath}/${readmePath}`,
+      };
+
+      // Blueprints
+      const blueprints = getShipBlueprints(fullPath, {
+        currentVersion: json.version,
+        relPath,
+        baseUrl: modulesUrl,
+      });
+
+      if (!json.new && blueprints.length > json.blueprints.length)
+        json.updated = true;
+
+      json.blueprints = _.unionBy(json.blueprints, blueprints, 'filename')
+        .map((blueprint) => _.set(blueprint, 'current', false))
+        .sort((a, b) => semverCompare(b.version, a.version));
+
+      if (!_.isEmpty(json.blueprints)) {
+        _.set(json.blueprints, '[0].current', true);
+        _.set(json.blueprints, '[0].version', json.version);
+        json.cost ??= 0;
+      }
+
+      writeFileSync(
+        path.join(fullPath, nconf.get('ships:jsonFile')),
+        `${JSON.stringify(json, null, 2)}\n`
+      );
+    });
   });
 })();
