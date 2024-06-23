@@ -556,7 +556,7 @@
             {
               "id": "triangle-thrusters",
               "label": "Triangle Thrusters",
-              "value": 16
+              "value": 32
             }
           ]
         },
@@ -580,7 +580,7 @@
             {
               "id": "maneuver-thrusters",
               "label": "Maneuver Thrusters",
-              "value": 48
+              "value": 124
             }
           ]
         }

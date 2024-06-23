@@ -1,0 +1,13 @@
+a="\n" b=a+a c=" " d="> " e="== Blue =="+a f="== Red =="+a
+g="== Green =="+a h="== White =="+a i="Turtle"+a j="Sens."+a k="Back"
+l=c+c m=l+l r=l+d u="%" if:ppg!=1thengoto3end n=:spg goton+9
+:profiles=a+e+o+i+s+:tr1+u+a+p+j+t+:ss1+u+a+q+k goto3
+:profiles=a+f+o+i+s+:tr2+u+a+p+j+t+:ss2+u+a+q+k goto3
+:profiles=a+g+o+i+s+:tr3+u+a+p+j+t+:ss3+u+a+q+k goto3
+:profiles=a+h+o+i+s+:tr4+u+a+p+j+t+:ss4+u+a+q+k goto3
+goto3
+
+o=d p=l q=l s=m t=m if:atr thens=r end goto:pf+3
+o=l p=d q=l s=m t=m if:ass thent=r end goto:pf+3
+o=l p=l q=d s=m t=m goto:pf+3
+goto3

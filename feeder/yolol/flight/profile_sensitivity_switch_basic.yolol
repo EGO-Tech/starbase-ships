@@ -1,0 +1,6 @@
+if:ppg!=1 or :spg!=2 or :ass!=1thengoto1end goto:pf+1
+:ss1=(:ss1+:ppf-:npf)*(:ss1>=0)-:ss1>100 :npf=0 :ppf=0 goto1
+:ss2=(:ss2+:ppf-:npf)*(:ss2>=0)-:ss2>100 :npf=0 :ppf=0 goto1
+:ss3=(:ss3+:ppf-:npf)*(:ss3>=0)-:ss3>100 :npf=0 :ppf=0 goto1
+:ss4=(:ss4+:ppf-:npf)*(:ss4>=0)-:ss4>100 :npf=0 :ppf=0 goto1
+goto1
