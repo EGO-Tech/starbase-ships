@@ -472,6 +472,33 @@
   "discord": "https://discord.com/channels/1013328685564178472/1032240022285463592",
   "specifications": [
     {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "8M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "small-prop-tank",
+              "label": "Small Tanks",
+              "value": 8,
+              "subSpecs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "crafting",
       "label": "Crafting",
       "specs": [

@@ -400,5 +400,40 @@
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/tugger/USAGE.md"
   },
-  "discord": "https://discord.com/channels/1013328685564178472/1025306117359812608"
+  "discord": "https://discord.com/channels/1013328685564178472/1025306117359812608",
+  "specifications": [
+    {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "24M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "medium-prop-tank",
+              "label": "Medium Tanks",
+              "value": 6,
+              "subSpecs": []
+            }
+          ]
+        },
+        {
+          "id": "prop-time",
+          "label": "Propellant Time Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ]
 }

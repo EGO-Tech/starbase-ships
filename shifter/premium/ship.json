@@ -243,6 +243,39 @@
   "discord": "https://discord.com/channels/1013328685564178472/1048224800293797989",
   "specifications": [
     {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "108M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "large-prop-tank",
+              "label": "Large Tanks",
+              "value": 9,
+              "subSpecs": []
+            }
+          ]
+        },
+        {
+          "id": "prop-time",
+          "label": "Propellant Time Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "crafting",
       "label": "Crafting",
       "specs": [
