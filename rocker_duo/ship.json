@@ -560,6 +560,61 @@
       ]
     },
     {
+      "id": "propulsion",
+      "label": "Propulsion",
+      "specs": [
+        {
+          "id": "top-speed",
+          "label": "Top Speed (empty)",
+          "value": 150,
+          "unit": "m/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "box-thrusters",
+              "label": "Box Thrusters",
+              "value": 24
+            },
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 56
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 28
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 96
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [

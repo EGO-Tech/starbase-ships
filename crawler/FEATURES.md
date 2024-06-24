@@ -16,7 +16,7 @@
 - Six large propellant tanks with 72,000,000 units of propellant
 - Propellant time and fuel time panels
 - 234 batteries
-- 21 T3 box and 128 T3 triangle thrusters providing forward thrust
+- 20 T3 box and 128 T3 triangle thrusters providing forward thrust
 - 52 T3 triangle thrusters providing braking thrust
 - 120 T3 triangle thrusters for maneuvers, with extra thrust upwards
 - Basic crafting bench to craft refills plus the tools and advanced bench

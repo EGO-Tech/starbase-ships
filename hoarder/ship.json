@@ -246,6 +246,26 @@
   "discord": "https://discord.com/channels/1013328685564178472/1169868182895468574",
   "specifications": [
     {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 1436,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 1436,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "flight",
       "label": "Flight Systems",
       "specs": [
@@ -274,22 +294,63 @@
       ]
     },
     {
-      "id": "cargo",
-      "label": "Cargo",
+      "id": "propulsion",
+      "label": "Propulsion",
       "specs": [
         {
-          "id": "material-capacity",
-          "label": "Material Capacity",
-          "value": 1436,
-          "unit": "stacks",
+          "id": "top-speed",
+          "label": "Top Speed (empty)",
+          "value": 75,
+          "unit": "m/s",
           "featured": true,
           "subSpecs": []
         },
         {
-          "id": "material-crates",
-          "label": "Material Crates",
-          "value": 1436,
+          "id": "speedometer",
+          "label": "Speedometer",
+          "value": true,
           "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "box-thrusters",
+              "label": "Box Thrusters",
+              "value": 8
+            },
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 112
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 44
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 80
+            }
+          ]
         }
       ]
     },
