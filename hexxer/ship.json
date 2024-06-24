@@ -507,6 +507,24 @@
           ]
         }
       ]
+    },
+    {
+      "id": "utility",
+      "label": "Utility Systems",
+      "specs": [
+        {
+          "id": "transponder",
+          "label": "Transponder",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "resource-bridge",
+          "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
     }
   ]
 }
