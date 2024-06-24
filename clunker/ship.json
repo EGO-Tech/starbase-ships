@@ -375,6 +375,30 @@
           "subSpecs": []
         }
       ]
+    },
+    {
+      "id": "utility",
+      "label": "Utility Systems",
+      "specs": [
+        {
+          "id": "transponder",
+          "label": "Transponder",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "ping-function",
+              "label": "Ping Function",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "resource-bridge",
+          "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
     }
   ]
 }
