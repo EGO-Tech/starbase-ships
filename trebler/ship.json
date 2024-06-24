@@ -449,5 +449,31 @@
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/USAGE.md"
   },
   "discord": "https://discord.com/channels/1013328685564178472/1100697981705003028",
-  "updated": true
+  "updated": true,
+  "specifications": [
+    {
+      "id": "crafting",
+      "label": "Crafting",
+      "specs": [
+        {
+          "id": "basic-bench",
+          "label": "Basic Crafting Bench",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "meter-upgrade",
+              "label": "Meter Upgrade",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "tools-bench",
+          "label": "Tools Crafting Bench",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ]
 }

@@ -23,5 +23,4 @@
 - Speedometer
 - Timer panel
 - Odometer panel
-- Many extra slots for YOLOL or memory chips
 - Top speed of 100m/s when empty

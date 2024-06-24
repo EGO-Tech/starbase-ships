@@ -30,7 +30,6 @@ The ship has the following standard features:
 - Speedometer
 - Timer panel
 - Odometer panel
-- Many extra slots for YOLOL or memory chips
 - Top speed of 125m/s when empty
 - Easy access to all ship weaponry and machinery for repairing and reloading
 - Spacious interior with two separate rooms with great views

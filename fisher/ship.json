@@ -451,5 +451,31 @@
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/fisher/USAGE.md"
   },
-  "discord": "https://discord.com/channels/1013328685564178472/1025288174588678244"
+  "discord": "https://discord.com/channels/1013328685564178472/1025288174588678244",
+  "specifications": [
+    {
+      "id": "crafting",
+      "label": "Crafting",
+      "specs": [
+        {
+          "id": "basic-bench",
+          "label": "Basic Crafting Bench",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "meter-upgrade",
+              "label": "Meter Upgrade",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "tools-bench",
+          "label": "Tools Crafting Bench",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ]
 }
