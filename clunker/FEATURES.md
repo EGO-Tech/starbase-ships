@@ -14,5 +14,4 @@
 - 56 T2 triangle thrusters providing braking thrust
 - 120 T2 triangle thrusters for maneuvers
 - Speedometer
-- Many extra slots for YOLOL or memory chips
 - Top speed of 145m/s empty

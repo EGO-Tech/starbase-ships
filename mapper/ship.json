@@ -422,5 +422,36 @@
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/mapper/USAGE.md"
   },
-  "discord": "https://discord.com/channels/1013328685564178472/1033567997450801223"
+  "discord": "https://discord.com/channels/1013328685564178472/1033567997450801223",
+  "specifications": [
+    {
+      "id": "crafting",
+      "label": "Crafting",
+      "specs": [
+        {
+          "id": "basic-bench",
+          "label": "Basic Crafting Bench",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "meter-upgrade",
+              "label": "Meter Upgrade",
+              "value": true
+            },
+            {
+              "id": "monitor-upgrade",
+              "label": "Monitor Upgrade",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "tools-bench",
+          "label": "Tools Crafting Bench",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ]
 }

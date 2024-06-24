@@ -20,6 +20,5 @@
 - Speedometer
 - Timer panel
 - Odometer panel
-- Many extra slots for YOLOL or memory chips
 - Service hatches for easy access to fuel rods and weapon ammo
 - Top speed of 145m/s
