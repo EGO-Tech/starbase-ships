@@ -246,6 +246,34 @@
   "discord": "https://discord.com/channels/1013328685564178472/1169868182895468574",
   "specifications": [
     {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
       "specs": [

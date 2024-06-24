@@ -498,6 +498,29 @@
       ]
     },
     {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [

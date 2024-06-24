@@ -623,6 +623,46 @@
       ]
     },
     {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "isan",
+              "label": "ISAN",
+              "value": "Mono"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [
