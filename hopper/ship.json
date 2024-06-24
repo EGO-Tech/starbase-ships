@@ -252,8 +252,7 @@
             {
               "id": "small-prop-tank",
               "label": "Small Tanks",
-              "value": 2,
-              "subSpecs": []
+              "value": 2
             }
           ]
         }

@@ -548,6 +548,26 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025283071966195742",
   "specifications": [
     {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 232,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 232,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [
@@ -567,14 +587,12 @@
             {
               "id": "medium-prop-tank",
               "label": "Medium Tanks",
-              "value": 12,
-              "subSpecs": []
+              "value": 12
             },
             {
               "id": "small-prop-tank",
               "label": "Small Tanks",
-              "value": 22,
-              "subSpecs": []
+              "value": 22
             }
           ]
         },
@@ -598,7 +616,7 @@
             {
               "id": "meter-upgrade",
               "label": "Meter Upgrade",
-              "value": true
+              "value": ""
             }
           ]
         }
@@ -616,7 +634,7 @@
             {
               "id": "ping-function",
               "label": "Ping Function",
-              "value": true
+              "value": ""
             }
           ]
         },

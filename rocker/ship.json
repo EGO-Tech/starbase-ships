@@ -517,14 +517,12 @@
             {
               "id": "medium-prop-tank",
               "label": "Medium Tanks",
-              "value": 2,
-              "subSpecs": []
+              "value": 2
             },
             {
               "id": "small-prop-tank",
               "label": "Small Tanks",
-              "value": 2,
-              "subSpecs": []
+              "value": 2
             }
           ]
         }

@@ -234,6 +234,26 @@
   "updated": true,
   "specifications": [
     {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 534,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 534,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [
@@ -253,8 +273,7 @@
             {
               "id": "large-prop-tank",
               "label": "Large Tanks",
-              "value": 4,
-              "subSpecs": []
+              "value": 4
             }
           ]
         },
@@ -278,7 +297,7 @@
             {
               "id": "meter-upgrade",
               "label": "Meter Upgrade",
-              "value": true
+              "value": ""
             }
           ]
         },
@@ -302,7 +321,7 @@
             {
               "id": "ping-function",
               "label": "Ping Function",
-              "value": true
+              "value": ""
             }
           ]
         },

@@ -246,6 +246,26 @@
   "discord": "https://discord.com/channels/1013328685564178472/1169868182895468574",
   "specifications": [
     {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 1436,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 1436,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [
@@ -265,8 +285,7 @@
             {
               "id": "large-prop-tank",
               "label": "Large Tanks",
-              "value": 2,
-              "subSpecs": []
+              "value": 2
             }
           ]
         },
@@ -290,7 +309,7 @@
             {
               "id": "ping-function",
               "label": "Ping Function",
-              "value": true
+              "value": ""
             }
           ]
         },

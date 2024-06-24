@@ -416,8 +416,7 @@
             {
               "id": "medium-prop-tank",
               "label": "Medium Tanks",
-              "value": 4,
-              "subSpecs": []
+              "value": 4
             }
           ]
         }
@@ -435,7 +434,7 @@
             {
               "id": "ping-function",
               "label": "Ping Function",
-              "value": true
+              "value": ""
             }
           ]
         },

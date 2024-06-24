@@ -386,8 +386,7 @@
             {
               "id": "large-prop-tank",
               "label": "Large Tanks",
-              "value": 4,
-              "subSpecs": []
+              "value": 4
             }
           ]
         }
