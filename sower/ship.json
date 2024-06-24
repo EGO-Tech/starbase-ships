@@ -346,5 +346,34 @@
     "path": "USAGE.md",
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/sower/USAGE.md"
   },
-  "discord": "https://discord.com/channels/1013328685564178472/1025303682893480006"
+  "discord": "https://discord.com/channels/1013328685564178472/1025303682893480006",
+  "specifications": [
+    {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "12M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "small-prop-tank",
+              "label": "Small Tanks",
+              "value": 12,
+              "subSpecs": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

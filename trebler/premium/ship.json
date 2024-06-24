@@ -234,6 +234,39 @@
   "updated": true,
   "specifications": [
     {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "48M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "large-prop-tank",
+              "label": "Large Tanks",
+              "value": 4,
+              "subSpecs": []
+            }
+          ]
+        },
+        {
+          "id": "prop-time",
+          "label": "Propellant Time Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "crafting",
       "label": "Crafting",
       "specs": [

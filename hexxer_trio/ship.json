@@ -394,5 +394,34 @@
       "label": "Large Asteroid Hold"
     }
   ],
-  "discord": "https://discord.com/channels/1013328685564178472/1242624864322584576"
+  "discord": "https://discord.com/channels/1013328685564178472/1242624864322584576",
+  "specifications": [
+    {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "16M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "medium-prop-tank",
+              "label": "Medium Tanks",
+              "value": 4,
+              "subSpecs": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
