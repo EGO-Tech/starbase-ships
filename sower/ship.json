@@ -349,6 +349,104 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025303682893480006",
   "specifications": [
     {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 36,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 36,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propulsion",
+      "label": "Propulsion",
+      "specs": [
+        {
+          "id": "top-speed",
+          "label": "Top Speed (empty)",
+          "value": 140,
+          "unit": "m/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 32
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [
@@ -368,8 +466,7 @@
             {
               "id": "small-prop-tank",
               "label": "Small Tanks",
-              "value": 12,
-              "subSpecs": []
+              "value": 12
             }
           ]
         }

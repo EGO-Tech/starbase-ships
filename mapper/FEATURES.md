@@ -14,7 +14,7 @@
 - 32 batteries
 - 30 T2 box and 16 T2 triangle thrusters providing forward thrust
 - Eight T2 triangle thrusters providing braking thrust
-- 48 T2 triangle thrusters for maneuvers
+- 48 T2 maneuver thrusters for maneuvers
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
 - [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
 - Warning lights and alarm for obstacle detection and avoidance, powered by 44 rangefinders

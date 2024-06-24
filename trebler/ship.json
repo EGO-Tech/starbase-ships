@@ -452,6 +452,115 @@
   "updated": true,
   "specifications": [
     {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 534,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 534,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propulsion",
+      "label": "Propulsion",
+      "specs": [
+        {
+          "id": "top-speed",
+          "label": "Top Speed (empty)",
+          "value": 125,
+          "unit": "m/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "speedometer",
+          "label": "Speedometer",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 142
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 48
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "propellant",
       "label": "Propellant",
       "specs": [
@@ -471,8 +580,7 @@
             {
               "id": "large-prop-tank",
               "label": "Large Tanks",
-              "value": 4,
-              "subSpecs": []
+              "value": 4
             }
           ]
         },
@@ -496,7 +604,7 @@
             {
               "id": "meter-upgrade",
               "label": "Meter Upgrade",
-              "value": true
+              "value": ""
             }
           ]
         },
@@ -520,7 +628,7 @@
             {
               "id": "ping-function",
               "label": "Ping Function",
-              "value": true
+              "value": ""
             }
           ]
         },
