@@ -472,6 +472,32 @@
   "discord": "https://discord.com/channels/1013328685564178472/1032240022285463592",
   "specifications": [
     {
+      "id": "easy-repair",
+      "label": "Easy Repair",
+      "key": true,
+      "icon": "fa-solid fa-screwdriver",
+      "specs": [
+        {
+          "id": "exposed-frame",
+          "label": "Exposed frame for easy repairs",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "easy-upgrade",
+      "label": "Easy Upgrade",
+      "key": true,
+      "icon": "fa-solid fa-plug",
+      "specs": [
+        {
+          "id": "space-plenty",
+          "label": "Lots of extra hardpoints for tools and upgrades. Plenty of space for extra machinery and devices",
+          "value": ""
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
       "specs": [

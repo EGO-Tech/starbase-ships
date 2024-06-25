@@ -595,6 +595,60 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025300036709523497",
   "specifications": [
     {
+      "id": "hall",
+      "label": "Open Hall",
+      "key": true,
+      "icon": "fa-solid fa-warehouse",
+      "specs": [
+        {
+          "id": "open-hall",
+          "label": "Large Open Hall For Fitting",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "nav-logger",
+              "label": "Fits Navigation Logger",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "Open Bridge",
+      "key": true,
+      "specs": [
+        {
+          "id": "copilot-seats",
+          "label": "Copilot Seats",
+          "value": 2,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "large-bridge",
+          "label": "Large Open Bridge",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "medbay",
+      "label": "Medbay",
+      "key": true,
+      "specs": [
+        {
+          "id": "reconstruction-machine",
+          "label": "Reconstruction Machine",
+          "value": 1,
+          "featured": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
       "specs": [
@@ -801,6 +855,12 @@
               "id": "generators",
               "label": "Generators",
               "value": 30
+            },
+            {
+              "id": "solar",
+              "label": "Solar Panels",
+              "value": "4.3K",
+              "unit": "e/s"
             }
           ]
         },

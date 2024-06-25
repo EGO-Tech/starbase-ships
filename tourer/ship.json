@@ -377,6 +377,34 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025304823026950144",
   "specifications": [
     {
+      "id": "Passengers",
+      "label": "Passengers",
+      "key": true,
+      "specs": [
+        {
+          "id": "passenger-seats",
+          "label": "Passenger Seats",
+          "value": 16,
+          "featured": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "Cargo",
+      "label": "Cargo",
+      "key": true,
+      "icon": "fa-solid fa-suitcase",
+      "specs": [
+        {
+          "id": "cargo-lock-frame",
+          "label": "Cargo Lock Frame",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "flight",
       "label": "Flight Systems",
       "specs": [

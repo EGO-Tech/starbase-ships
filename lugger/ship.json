@@ -500,6 +500,7 @@
     {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",
@@ -513,6 +514,26 @@
           "id": "material-crates",
           "label": "Material Crates",
           "value": 832,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "Open Bridge",
+      "key": true,
+      "specs": [
+        {
+          "id": "copilot-seats",
+          "label": "Copilot Seats",
+          "value": 2,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "large-bridge",
+          "label": "Large Open Bridge",
+          "value": "",
           "subSpecs": []
         }
       ]

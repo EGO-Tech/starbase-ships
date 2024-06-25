@@ -360,6 +360,63 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025296317376888873",
   "specifications": [
     {
+      "id": "weapons",
+      "label": "Weapons",
+      "key": true,
+      "specs": [
+        {
+          "id": "laser-cannons",
+          "label": "Laser Cannons",
+          "value": 4,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "ammo-capacity",
+          "label": "Ammo Capacity",
+          "value": 2400,
+          "subSpecs": []
+        },
+        {
+          "id": "crosshair",
+          "label": "Crosshair",
+          "value": true
+        },
+        {
+          "id": "visual-indicators",
+          "label": "Visual Indicators",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "ammo",
+              "label": "Ammo, Heat & Power",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "armour",
+      "label": "Armour",
+      "key": true,
+      "specs": [
+        {
+          "id": "plating",
+          "label": "Plating",
+          "value": "Aegisium",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "service",
+          "label": "Service hatches for easy access to fuel rods and weapon ammo",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "flight",
       "label": "Flight Systems",
       "specs": [

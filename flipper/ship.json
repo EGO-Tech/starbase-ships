@@ -367,6 +367,72 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025290710389379072",
   "specifications": [
     {
+      "id": "asteroid-hauling",
+      "label": "Asteroid Hauling",
+      "key": true,
+      "specs": [
+        {
+          "id": "hauling-capacity",
+          "label": "Hauling Capacity",
+          "value": "1 x T10",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "cargo-lock",
+          "label": "Cargo Lock Beams",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "load-automation",
+          "label": "Load Automation",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "approach",
+              "label": "Automated Approach",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "loading-speed",
+          "label": "Loading Speed",
+          "value": "Fast",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "asteroid-scanning",
+      "label": "Asteroid Scanning",
+      "key": true,
+      "icon": "fa-solid fa-bullseye",
+      "specs": [
+        {
+          "id": "scan-credits",
+          "label": "Material scanner that will output the volume in stacks plus the estimated credits paid for dropping the asteroid off at Origin stations",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "flipping-directions",
+      "label": "Flipping Forward Directions",
+      "key": true,
+      "icon": "fa-solid fa-right-left",
+      "specs": [
+        {
+          "id": "scan-credits",
+          "label": "Flies in one direction to easily load the asteroid and then can be flipped around and fly in the opposite direction, still with decent speed",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "flight",
       "label": "Flight Systems",
       "specs": [

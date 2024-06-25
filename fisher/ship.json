@@ -454,6 +454,39 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025288174588678244",
   "specifications": [
     {
+      "id": "tow",
+      "label": "Towing System",
+      "key": true,
+      "specs": [
+        {
+          "id": "towing-capacity",
+          "label": "Maximum Towing Capacity",
+          "value": 20000000,
+          "unit": "kg",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Button to automatically adjust the minimum generator rate according to towed mass",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "spinning-pilot-seat",
+      "label": "Rotating Pilot Seat",
+      "key": true,
+      "icon": "fa-solid fa-rotate",
+      "specs": [
+        {
+          "id": "back-view",
+          "label": "Rotating pilot seat to view out generous back window towards tow",
+          "value": ""
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
       "specs": [

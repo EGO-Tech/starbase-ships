@@ -397,6 +397,77 @@
   "discord": "https://discord.com/channels/1013328685564178472/1242624864322584576",
   "specifications": [
     {
+      "id": "asteroid-hauling",
+      "label": "Asteroid Hauling",
+      "key": true,
+      "specs": [
+        {
+          "id": "hauling-capacity",
+          "label": "Hauling Capacity",
+          "value": "3 x T10",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "cargo-lock",
+          "label": "Cargo Lock Beams",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "load-automation",
+          "label": "Load Automation",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "approach",
+              "label": "Automated Approach",
+              "value": ""
+            },
+            {
+              "id": "in-order",
+              "label": "Load in Order",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "loading-speed",
+          "label": "Loading Speed",
+          "value": "Fast",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "asteroid-scanning",
+      "label": "Asteroid Scanning",
+      "key": true,
+      "icon": "fa-solid fa-bullseye",
+      "specs": [
+        {
+          "id": "scan-credits",
+          "label": "Material scanner that will output the volume in stacks plus the estimated credits paid for dropping the asteroid off at Origin stations",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "total-credits",
+      "label": "Total Credits",
+      "key": true,
+      "icon": "fa-solid fa-calculator",
+      "specs": [
+        {
+          "id": "scan-credits",
+          "label": "Material scanner for each cargo hold that provides estimated credits for each hold and total credits",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "flight",
       "label": "Flight Systems",
       "specs": [

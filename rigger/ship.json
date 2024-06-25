@@ -438,8 +438,52 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025266372638425138",
   "specifications": [
     {
+      "id": "belt-mining",
+      "label": "Belt Mining",
+      "key": true,
+      "specs": [
+        {
+          "id": "mining-lasers",
+          "label": "Mining Lasers",
+          "value": 2,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "collectors",
+          "label": "Collectors",
+          "value": 2,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-mine",
+          "label": "Mining Automation",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "approach",
+              "label": "Approach",
+              "value": ""
+            },
+            {
+              "id": "mining-sweep",
+              "label": "Adjustable Sweeping Lasers",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "material-scannel",
+          "label": "Material Scanner",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",
@@ -453,6 +497,20 @@
           "id": "material-crates",
           "label": "Material Crates",
           "value": 100,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "Passengers",
+      "label": "Passengers",
+      "key": true,
+      "specs": [
+        {
+          "id": "passenger-seats",
+          "label": "Passenger Seats",
+          "value": 2,
+          "featured": true,
           "subSpecs": []
         }
       ]

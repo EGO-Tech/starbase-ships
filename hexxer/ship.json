@@ -482,6 +482,63 @@
   "discord": "https://discord.com/channels/1013328685564178472/1025293979366981703",
   "specifications": [
     {
+      "id": "asteroid-hauling",
+      "label": "Asteroid Hauling",
+      "key": true,
+      "specs": [
+        {
+          "id": "hauling-capacity",
+          "label": "Hauling Capacity",
+          "value": "6 x T7",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "cargo-lock",
+          "label": "Cargo Lock Beams",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "load-automation",
+          "label": "Load Automation",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "tractor-beams",
+              "label": "Tractor Beams",
+              "value": ""
+            },
+            {
+              "id": "in-order",
+              "label": "Load in Order",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "loading-speed",
+          "label": "Loading Speed",
+          "value": "Moderate",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "asteroid-scanning",
+      "label": "Asteroid Scanning",
+      "key": true,
+      "icon": "fa-solid fa-bullseye",
+      "specs": [
+        {
+          "id": "scan-credits",
+          "label": "Material scanner that will output the volume in stacks plus the estimated credits paid for dropping the asteroid off at Origin stations",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "flight",
       "label": "Flight Systems",
       "specs": [
