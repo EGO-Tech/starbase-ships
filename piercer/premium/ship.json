@@ -403,6 +403,78 @@
       ]
     },
     {
+      "id": "power",
+      "label": "Power and Fuel",
+      "specs": [
+        {
+          "id": "total-power",
+          "label": "Total Power Generation",
+          "value": 58500,
+          "unit": "e/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Dynamic Generator Rate",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "auto-gen",
+              "label": "Min Generator Rate",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "batteries",
+          "label": "Batteries",
+          "value": 130,
+          "subSpecs": []
+        },
+        {
+          "id": "generator-block",
+          "label": "Power Generation",
+          "value": "T3",
+          "subSpecs": [
+            {
+              "id": "fuel-chambers",
+              "label": "Fuel Chambers",
+              "value": 12
+            },
+            {
+              "id": "generators",
+              "label": "Generators",
+              "value": 26
+            },
+            {
+              "id": "t3-enhancers",
+              "label": "T3 Enhancers",
+              "value": 26
+            }
+          ]
+        },
+        {
+          "id": "spare-rods",
+          "label": "Spare Rods",
+          "value": 24,
+          "subSpecs": []
+        },
+        {
+          "id": "fuel-time",
+          "label": "Fuel Time Panel",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "backup-time",
+              "label": "Backup Rods Panel",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "crafting",
       "label": "Crafting",
       "specs": [

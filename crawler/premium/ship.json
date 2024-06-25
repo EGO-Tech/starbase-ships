@@ -252,7 +252,7 @@
         {
           "id": "material-capacity",
           "label": "Material Capacity",
-          "value": 704,
+          "value": 640,
           "unit": "stacks",
           "featured": true,
           "subSpecs": []
@@ -260,7 +260,7 @@
         {
           "id": "material-crates",
           "label": "Material Crates",
-          "value": 704,
+          "value": 640,
           "subSpecs": []
         }
       ]
@@ -381,6 +381,66 @@
         {
           "id": "prop-time",
           "label": "Propellant Time Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "label": "Power and Fuel",
+      "specs": [
+        {
+          "id": "total-power",
+          "label": "Total Power Generation",
+          "value": 140000,
+          "unit": "e/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Dynamic Generator Rate",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "auto-gen",
+              "label": "Min Generator Rate",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "batteries",
+          "label": "Batteries",
+          "value": 234,
+          "subSpecs": []
+        },
+        {
+          "id": "generator-block",
+          "label": "Power Generation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "large-processing-unit",
+              "label": "Large Processing Unit",
+              "value": 1
+            },
+            {
+              "id": "large-generators",
+              "label": "Large Generators",
+              "value": 2
+            },
+            {
+              "id": "large-exo-tank",
+              "label": "Large Exorium Tank",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "fuel-time",
+          "label": "Fuel Time Panel",
           "value": true,
           "subSpecs": []
         }

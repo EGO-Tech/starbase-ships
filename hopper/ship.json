@@ -337,6 +337,55 @@
       ]
     },
     {
+      "id": "power",
+      "label": "Power and Fuel",
+      "specs": [
+        {
+          "id": "total-power",
+          "label": "Total Power Generation",
+          "value": 3000,
+          "unit": "e/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Dynamic Generator Rate",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "batteries",
+          "label": "Batteries",
+          "value": 4,
+          "subSpecs": []
+        },
+        {
+          "id": "generator-block",
+          "label": "Power Generation",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "fuel-chambers",
+              "label": "Fuel Chambers",
+              "value": 1
+            },
+            {
+              "id": "generators",
+              "label": "Generators",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "spare-rods",
+          "label": "Spare Rods",
+          "value": 40,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "utility",
       "label": "Utility Systems",
       "specs": [
