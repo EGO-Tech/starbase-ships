@@ -245,8 +245,64 @@
   "discord": "https://discord.com/channels/1013328685564178472/1027431302833643550",
   "specifications": [
     {
+      "id": "belt-mining",
+      "label": "Belt Mining",
+      "key": true,
+      "specs": [
+        {
+          "id": "mining-drills",
+          "label": "Mining Laser Drills",
+          "value": "1 x 4",
+          "unit": "lasers",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "laser-convergence",
+          "label": "Laser Convergence",
+          "value": "Precise",
+          "subSpecs": []
+        },
+        {
+          "id": "collectors",
+          "label": "Collectors",
+          "value": 4,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-mine",
+          "label": "Mining Automation",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "approach",
+              "label": "Approach",
+              "value": ""
+            },
+            {
+              "id": "mining-mode",
+              "label": "Rotate with Adjustable Pitch",
+              "value": ""
+            },
+            {
+              "id": "eco",
+              "label": "Eco Mode",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "material-scannel",
+          "label": "Material Scanner",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",

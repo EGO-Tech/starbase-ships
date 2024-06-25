@@ -603,8 +603,236 @@
   "discord": "https://discord.com/channels/1013328685564178472/1122111392258998363",
   "specifications": [
     {
+      "id": "lasers",
+      "label": "Laser Cannons",
+      "key": true,
+      "specs": [
+        {
+          "id": "laser-cannons",
+          "label": "Laser Cannons",
+          "value": 4,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "ammo",
+          "label": "Ammo Storages",
+          "value": 4,
+          "subSpecs": []
+        },
+        {
+          "id": "concealed",
+          "label": "Concealed",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "plasma-cannons",
+      "label": "Plasma Cannons",
+      "key": true,
+      "specs": [
+        {
+          "id": "plasma-cannons",
+          "label": "Plasma Cannons",
+          "value": 4,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "ammo",
+          "label": "Ammo Storages",
+          "value": 2,
+          "subSpecs": []
+        },
+        {
+          "id": "concealed",
+          "label": "Concealed",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "autocannon-turrets",
+      "label": "Autocannon Turrets",
+      "key": true,
+      "specs": [
+        {
+          "id": "autocannon-turrets",
+          "label": "Autocannon Turrets",
+          "value": "3 x 2",
+          "unit": "autocannons",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "ammo",
+          "label": "Ammo Storages",
+          "value": 4,
+          "subSpecs": []
+        },
+        {
+          "id": "front-back",
+          "label": "Forward and Back Facing",
+          "value": "",
+          "subSpecs": []
+        },
+        {
+          "id": "mouse-aim",
+          "label": "Mouse Aim Support",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "missile-launchers",
+      "label": "Missile Launchers",
+      "key": true,
+      "specs": [
+        {
+          "id": "missile-launchers",
+          "label": "Missile Launchers",
+          "value": 4,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "missiles",
+          "label": "Missile Capacity",
+          "value": 20,
+          "subSpecs": []
+        },
+        {
+          "id": "concealed",
+          "label": "Concealed",
+          "value": "",
+          "subSpecs": []
+        },
+        {
+          "id": "volley",
+          "label": "Volley Control System",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "medbay",
+      "label": "Medbay",
+      "key": true,
+      "specs": [
+        {
+          "id": "reconstruction-machine",
+          "label": "Reconstruction Machine",
+          "value": 1,
+          "featured": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering",
+      "key": true,
+      "specs": [
+        {
+          "id": "furnaces",
+          "label": "Furnances",
+          "value": 2,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "furnaces",
+          "label": "One belt and atmosphere furnace each",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "tow",
+      "label": "Towing System",
+      "key": true,
+      "specs": [
+        {
+          "id": "towing-capacity",
+          "label": "Maximum Towing Capacity",
+          "value": 15000000,
+          "unit": "kg",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Button to automatically adjust the minimum generator rate according to towed mass",
+          "value": ""
+        },
+        {
+          "id": "mouse-aim",
+          "label": "Mouse Aim Support",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "belt-mining",
+      "label": "Belt Mining",
+      "key": true,
+      "specs": [
+        {
+          "id": "mining-lasers",
+          "label": "Mining Lasers",
+          "value": "2",
+          "unit": "lasers",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "collectors",
+          "label": "Collectors",
+          "value": 2,
+          "subSpecs": []
+        },
+        {
+          "id": "material-scannel",
+          "label": "Material Scanner",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "mouse-aim",
+          "label": "Mouse Aim Support",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "displays-rooms",
+      "label": "Displays and Rooms",
+      "key": true,
+      "icon": "fa-solid fa-tv",
+      "specs": [
+        {
+          "id": "large-display",
+          "label": "Three larger displays with customisable messages",
+          "value": ""
+        },
+        {
+          "id": "rooms",
+          "label": "Spacious interior with two separate rooms with great exterior views",
+          "value": ""
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",
@@ -619,6 +847,25 @@
           "label": "Material Crates",
           "value": 144,
           "subSpecs": []
+        },
+        {
+          "id": "cargo-lock-frame",
+          "label": "Large Cargo Lock Frames",
+          "value": 2,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "easy-repair",
+      "label": "Easy Repair",
+      "key": true,
+      "icon": "fa-solid fa-screwdriver",
+      "specs": [
+        {
+          "id": "easy-access",
+          "label": "Easy access to all ship weaponry and machinery for repairing and reloading",
+          "value": ""
         }
       ]
     },
@@ -837,8 +1084,8 @@
           "value": true,
           "subSpecs": [
             {
-              "id": "meter-upgrade",
-              "label": "Meter Upgrade",
+              "id": "all-upgrades",
+              "label": "All Upgrades",
               "value": ""
             }
           ]
@@ -847,13 +1094,25 @@
           "id": "advanced-bench",
           "label": "Advanced Crafting Bench",
           "value": true,
-          "subSpecs": []
+          "subSpecs": [
+            {
+              "id": "all-upgrades",
+              "label": "All Upgrades",
+              "value": ""
+            }
+          ]
         },
         {
           "id": "tools-bench",
           "label": "Tools Crafting Bench",
           "value": true,
-          "subSpecs": []
+          "subSpecs": [
+            {
+              "id": "all-upgrades",
+              "label": "All Upgrades",
+              "value": ""
+            }
+          ]
         }
       ]
     },

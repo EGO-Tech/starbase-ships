@@ -425,6 +425,42 @@
   "discord": "https://discord.com/channels/1013328685564178472/1033567997450801223",
   "specifications": [
     {
+      "id": "nav-chips",
+      "label": "Navigation Chips",
+      "key": true,
+      "specs": [
+        {
+          "id": "navlogger",
+          "label": "Navigation Logger",
+          "value": 1,
+          "featured": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "range",
+      "label": "Long Range",
+      "key": true,
+      "specs": [
+        {
+          "id": "total-range",
+          "label": "Total Range",
+          "value": 13000,
+          "unit": "km",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "flight-time",
+          "label": "Flight Time",
+          "value": 13,
+          "unit": "hours",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
       "specs": [

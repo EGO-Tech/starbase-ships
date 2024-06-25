@@ -216,8 +216,59 @@
   "discord": "https://discord.com/channels/1013328685564178472/1027946822137815080",
   "specifications": [
     {
+      "id": "surface-mining",
+      "label": "Surface Mining",
+      "key": true,
+      "specs": [
+        {
+          "id": "mining-lasers",
+          "label": "Mining Lasers",
+          "value": 10,
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "collectors",
+          "label": "Collectors",
+          "value": 4,
+          "subSpecs": []
+        },
+        {
+          "id": "mining-sweep",
+          "label": "Sweeping Lasers",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-advance",
+          "label": "Auto Advance System",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "auto-advance",
+              "label": "Adjustable Thrust, Speed",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "mining-sweep",
+          "label": "Feelers to keep ship in hover mode while mining",
+          "value": "",
+          "subSpecs": []
+        },
+        {
+          "id": "mining-seat",
+          "label": "Separate mining seat for mining operations with view of lasers and surface",
+          "value": "",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",

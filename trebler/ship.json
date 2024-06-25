@@ -452,8 +452,64 @@
   "updated": true,
   "specifications": [
     {
+      "id": "belt-mining",
+      "label": "Belt Mining",
+      "key": true,
+      "specs": [
+        {
+          "id": "mining-drills",
+          "label": "Mining Laser Drills",
+          "value": "3 x 3",
+          "unit": "lasers",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "laser-convergence",
+          "label": "Laser Convergence",
+          "value": "Approx.",
+          "subSpecs": []
+        },
+        {
+          "id": "collectors",
+          "label": "Collectors",
+          "value": 9,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-mine",
+          "label": "Mining Automation",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "approach",
+              "label": "Approach",
+              "value": ""
+            },
+            {
+              "id": "mining-mode",
+              "label": "Rotate with Adjustable Pitch",
+              "value": ""
+            },
+            {
+              "id": "eco",
+              "label": "Eco Mode",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "material-scannel",
+          "label": "Material Scanner",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",

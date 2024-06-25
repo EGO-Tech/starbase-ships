@@ -346,6 +346,7 @@
     {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",
@@ -359,6 +360,20 @@
           "id": "material-crates",
           "label": "Material Crates",
           "value": 948,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "upward-thrust",
+      "label": "Upward Thrust",
+      "key": true,
+      "icon": "fa-solid fa-angles-up",
+      "specs": [
+        {
+          "id": "upward-thrust",
+          "label": "Double Upward Thrust",
+          "value": null,
           "subSpecs": []
         }
       ]
