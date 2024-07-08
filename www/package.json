@@ -17,7 +17,7 @@
     "mdast-util-from-markdown": "^2.0.1",
     "mdast-util-gfm-table": "^2.0.0",
     "mdast-util-to-markdown": "^2.1.0",
-    "micromark-extension-gfm-table": "^2.0.0",
+    "micromark-extension-gfm-table": "^2.1.0",
     "nconf": "^0.12.1",
     "semver-compare": "^1.0.0",
     "table": "^6.8.2",
