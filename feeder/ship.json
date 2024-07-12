@@ -1,0 +1,781 @@
+{
+  "new": true,
+  "name": "Feeder",
+  "version": "1.0.0",
+  "slug": "feeder",
+  "path": "feeder",
+  "types": [
+    {
+      "type": "supply-ship",
+      "order": 1
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/README.md"
+  },
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/USAGE.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1261314296764174346/1261314933027639319"
+  },
+  "blueprints": [
+    {
+      "filename": "feeder.fbe",
+      "path": "blueprints/feeder.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/blueprints/feeder.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": true
+    }
+  ],
+  "cost": 0,
+  "saleType": "free",
+  "photos": [
+    {
+      "filename": "20240712213634_1.jpg",
+      "path": "photos/20240712213634_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712213634_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712213656_1.jpg",
+      "path": "photos/20240712213656_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712213656_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712213707_1.jpg",
+      "path": "photos/20240712213707_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712213707_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712232151_1.jpg",
+      "path": "photos/20240712232151_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232151_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712232210_1.jpg",
+      "path": "photos/20240712232210_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232210_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712232336_1.jpg",
+      "path": "photos/20240712232336_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232336_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712232340_1.jpg",
+      "path": "photos/20240712232340_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232340_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
+      "filename": "20240712232350_1.jpg",
+      "path": "photos/20240712232350_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232350_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712232409_1.jpg",
+      "path": "photos/20240712232409_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232409_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712232430_1.jpg",
+      "path": "photos/20240712232430_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232430_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712232523_1.jpg",
+      "path": "photos/20240712232523_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/photos/20240712232523_1.jpg",
+      "description": ""
+    }
+  ],
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_left_console.jpg",
+      "path": "images/pilot_left_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_left_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_right_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240712213634_1.jpg:Zone.Identifier",
+      "path": "images/20240712213634_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712213634_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712213656_1.jpg:Zone.Identifier",
+      "path": "images/20240712213656_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712213656_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712213707_1.jpg:Zone.Identifier",
+      "path": "images/20240712213707_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712213707_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712232151_1.jpg:Zone.Identifier",
+      "path": "images/20240712232151_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232151_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712232210_1.jpg:Zone.Identifier",
+      "path": "images/20240712232210_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232210_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712232340_1.jpg:Zone.Identifier",
+      "path": "images/20240712232340_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232340_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712232350_1.jpg:Zone.Identifier",
+      "path": "images/20240712232350_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232350_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712232409_1.jpg:Zone.Identifier",
+      "path": "images/20240712232409_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232409_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712232430_1.jpg:Zone.Identifier",
+      "path": "images/20240712232430_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232430_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "20240712232523_1.jpg:Zone.Identifier",
+      "path": "images/20240712232523_1.jpg:Zone.Identifier",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232523_1.jpg:Zone.Identifier",
+      "description": ""
+    },
+    {
+      "filename": "feeder1.jpg",
+      "path": "images/feeder1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder10.jpg",
+      "path": "images/feeder10.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder10.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder2.jpg",
+      "path": "images/feeder2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder3.jpg",
+      "path": "images/feeder3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder4.jpg",
+      "path": "images/feeder4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder5.jpg",
+      "path": "images/feeder5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder6.jpg",
+      "path": "images/feeder6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder7.jpg",
+      "path": "images/feeder7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder8.jpg",
+      "path": "images/feeder8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder8.jpg",
+      "description": ""
+    },
+    {
+      "filename": "feeder9.jpg",
+      "path": "images/feeder9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder9.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Feeder"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/feeder"
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "aegisium",
+        "label": "Aegisium Ore",
+        "kv": 94575,
+        "stacks": 54.7
+      },
+      {
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
+        "kv": 19068,
+        "stacks": 11
+      },
+      {
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
+        "kv": 1705,
+        "stacks": 1
+      },
+      {
+        "ore": "bastium",
+        "label": "Bastium Ore",
+        "kv": 125105,
+        "stacks": 72.4
+      },
+      {
+        "ore": "charodium",
+        "label": "Charodium Ore",
+        "kv": 85945,
+        "stacks": 49.7
+      },
+      {
+        "ore": "corazium",
+        "label": "Corazium Ore",
+        "kv": 437,
+        "stacks": 0.3
+      },
+      {
+        "ore": "exorium",
+        "label": "Exorium Ore",
+        "kv": 5553,
+        "stacks": 3.2
+      },
+      {
+        "ore": "glass",
+        "label": "Glass",
+        "kv": 11056,
+        "stacks": 6.4
+      },
+      {
+        "ore": "ice",
+        "label": "Ice",
+        "kv": 500000,
+        "stacks": 289.4
+      },
+      {
+        "ore": "karnite",
+        "label": "Karnite Crystal",
+        "kv": 253,
+        "stacks": 0.1
+      },
+      {
+        "ore": "kutonium",
+        "label": "Kutonium Ore",
+        "kv": 959,
+        "stacks": 0.6
+      },
+      {
+        "ore": "lukium",
+        "label": "Lukium Ore",
+        "kv": 466,
+        "stacks": 0.3
+      },
+      {
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
+        "kv": 30452,
+        "stacks": 17.6
+      },
+      {
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
+        "kv": 96160,
+        "stacks": 55.6
+      },
+      {
+        "ore": "total",
+        "label": "Total ore",
+        "kv": 971737,
+        "stacks": 562.3
+      }
+    ],
+    "cost": {
+      "assembly": 264736,
+      "manufacturing": 572901,
+      "total": 837637
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1261314296764174346/1261314891495641219"
+  },
+  "description": "The Feeder is a supply ship with a large supply of extra propellant and fuel rods designed for rescue missions or just to refill and refuel other ships out in the field.",
+  "shortDescription": "The Feeder is a supply ship with a large supply of extra propellant and fuel rods designed for rescue missions or just to refill and refuel other ships out in the field.",
+  "features": [
+    {
+      "label": "Extra Fuel Rods",
+      "value": 66
+    },
+    {
+      "label": "Extra Propellant",
+      "value": "406M"
+    }
+  ],
+  "tags": [
+    {
+      "id": "t2-generator",
+      "label": "T2 Generators"
+    },
+    {
+      "id": "t2-thruster",
+      "label": "T2 Thrusters"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    },
+    {
+      "id": "asteroid-avoidance",
+      "label": "Asteroid Avoidance"
+    },
+    {
+      "id": "basic-bench",
+      "label": "Basic Crafting Bench"
+    },
+    {
+      "id": "tools-bench",
+      "label": "Tools Crafting Bench"
+    }
+  ],
+  "specifications": [
+    {
+      "id": "fuel-supply",
+      "label": "Fuel Supply",
+      "key": true,
+      "specs": [
+        {
+          "id": "extra-rods",
+          "label": "Extra Fuel Rods",
+          "value": 66,
+          "unit": "rods",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "extra-rods-type",
+          "label": "Extra Fuel Rods",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "t1-rods",
+              "label": "T1",
+              "value": 22,
+              "unit": "rods"
+            },
+            {
+              "id": "t2-rods",
+              "label": "T2",
+              "value": 44,
+              "unit": "rods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propellant-supply",
+      "label": "Propellant Supply",
+      "key": true,
+      "specs": [
+        {
+          "id": "extra-propellant",
+          "label": "Extra Propellant",
+          "value": "416M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "propellant-networks",
+          "label": "Propellant Networks",
+          "value": 2,
+          "subSpecs": [
+            {
+              "id": "propellant-capacity",
+              "label": "Network Capacity",
+              "value": "204M"
+            },
+            {
+              "id": "large-prop-tank",
+              "label": "Network Large Tanks",
+              "value": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cargo",
+      "label": "Cargo",
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 20,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 20,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "isan",
+              "label": "ISAN",
+              "value": "Mono"
+            },
+            {
+              "id": "avoidance",
+              "label": "Avoidance",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propulsion",
+      "label": "Propulsion",
+      "specs": [
+        {
+          "id": "top-speed",
+          "label": "Top Speed",
+          "value": 135,
+          "unit": "m/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "speedometer",
+          "label": "Speedometer",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "box-thrusters",
+              "label": "Box Thrusters",
+              "value": 30
+            },
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 32
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 132
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "92M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "small-prop-tank",
+              "label": "Small Tanks",
+              "value": 36
+            },
+            {
+              "id": "medium-prop-tank",
+              "label": "Medium Tanks",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "id": "prop-time",
+          "label": "Propellant Time Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "label": "Power and Fuel",
+      "specs": [
+        {
+          "id": "total-power",
+          "label": "Total Power Generation",
+          "value": 18000,
+          "unit": "e/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Dynamic Generator Rate",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "auto-gen",
+              "label": "Min Generator Rate",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "batteries",
+          "label": "Batteries",
+          "value": 32,
+          "subSpecs": []
+        },
+        {
+          "id": "generator-block",
+          "label": "Power Generation",
+          "value": "T2",
+          "subSpecs": [
+            {
+              "id": "fuel-chambers",
+              "label": "Fuel Chambers",
+              "value": 6
+            },
+            {
+              "id": "generators",
+              "label": "Generators",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "id": "spare-rods",
+          "label": "Spare Rods",
+          "value": 12,
+          "subSpecs": []
+        },
+        {
+          "id": "fuel-time",
+          "label": "Fuel Time Panel",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "backup-time",
+              "label": "Backup Rods Panel",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crafting",
+      "label": "Crafting",
+      "specs": [
+        {
+          "id": "basic-bench",
+          "label": "Basic Crafting Bench",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "meter-upgrade",
+              "label": "Meter Upgrade",
+              "value": ""
+            },
+            {
+              "id": "monitor-upgrade",
+              "label": "Monitor Upgrade",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "tools-bench",
+          "label": "Tools Crafting Bench",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "utility",
+      "label": "Utility Systems",
+      "specs": [
+        {
+          "id": "transponder",
+          "label": "Transponder",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "ping-function",
+              "label": "Ping Function",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "resource-bridge",
+          "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "timer",
+          "label": "Timer Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "odometer",
+          "label": "Odometer Panel",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ],
+  "discord": "https://discord.com/channels/1013328685564178472/1261314296764174346"
+}

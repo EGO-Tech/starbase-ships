@@ -8,17 +8,18 @@
 - Two external and two internal resource bridges
 - Auto generator rate script with adjustable minimum rate
 - 18 T2 generators with six T2 fuel chambers and 12 spare rods on racks
-- 22 large propellant tanks with 264,000,000 units of propellant
-- Estimated propellant time of 26 hours and range of 13,000km
+- Extra 22 T1 fuel rods and 44 T2 fuel rods
+- 36 small and 14 medium propellant tanks with 92,000,000 units of propellant
+- Estimated propellant time of 9 hours and range of 4,000km with base propellant
+- Two extra banks of propellant of 17 large tanks with 204,000,000 units of propellant each
 - Propellant time and fuel time panels
-- 32 batteries
+- 42 batteries
 - 30 T2 box and 32 T2 triangle thrusters providing forward thrust
 - Eight T2 triangle thrusters providing braking thrust
-- 124 T2 maneuver thrusters for maneuvers
+- 132 T2 maneuver thrusters for maneuvers
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 44 rangefinders
+- Warning lights and alarm for obstacle detection and avoidance
 - Speedometer
 - Timer panel
 - Odometer panel
-- Top speed of 145m/s
+- Top speed of 135m/s
