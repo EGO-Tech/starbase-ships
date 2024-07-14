@@ -1,0 +1,12 @@
+n="\n" q="y" j="w" k="d" l="h" o="m"
+u="s" g="Reseting..." a=60 b=a*a c=b*24 e=c*7 f=c*365 x=1000
+if:t_res>0then:ts=0 z=n+n+g end :Timer=z
+t=:ts s=t%a t-=s m=t%b/a t-=m*a h=t%c/b t-=h*b d=t%e/c t-=d*c w=t%f/e
+t-=w*e y=t/f z=n ify>0thenz+=y+q end r=w%1 d+=r*7 ifd>6thenw++ d-=7end
+ifw>0thenz+=w/x*x+j end v=d%1 ifv==0.999thend+=0.001end // rounding
+ifd>0thenz+=d+k+n elsez+=n end z+=h+l+m+o+s+u+n+n :ts++ goto3
+
+// Outputs:
+//   :Timer - Global for text panel
+// Inputs:
+//   :ts - store timer in seconds, put in memory chip or device
