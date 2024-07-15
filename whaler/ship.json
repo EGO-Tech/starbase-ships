@@ -383,7 +383,18 @@
       "description": ""
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "channel": {
+        "text": "EGOTech",
+        "url": "https://www.youtube.com/@ego-tech"
+      },
+      "video": {
+        "text": "Whaler - All Weapons",
+        "url": "https://www.youtube.com/watch?v=0FyB6bmMG2U"
+      }
+    }
+  ],
   "buildCost": {
     "discord": "https://discord.com/channels/1013328685564178472/1122111392258998363/1235728333514477608",
     "materials": [
