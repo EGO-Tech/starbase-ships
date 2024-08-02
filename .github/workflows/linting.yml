@@ -19,6 +19,8 @@ on:
   pull_request:
     branches: [master]
 
+permissions: {}
+
 ###############
 # Set the Job #
 ###############
@@ -29,6 +31,11 @@ jobs:
     # Set the agent to run on
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
+
     ##################
     # Load all steps #
     ##################
@@ -38,6 +45,8 @@ jobs:
       ##########################
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       ################################
       # Run Linter against code base #

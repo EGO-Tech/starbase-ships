@@ -22,5 +22,8 @@
     "semver-compare": "^1.0.0",
     "table": "^6.8.2",
     "tesseract.js": "^5.1.0"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
