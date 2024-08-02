@@ -6,9 +6,17 @@ on:
       - main
   pull_request:
 
+permissions: {}
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+
+    permissions:
+      contents: write
+      packages: read
+      statuses: write
+
     steps:
       - name: Trigger Deploy Test
         uses: convictional/trigger-workflow-and-wait@v1.6.1

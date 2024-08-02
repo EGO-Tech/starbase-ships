@@ -6,11 +6,17 @@ on:
       - main
   pull_request:
 
+permissions: {}
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+
     permissions:
-      contents: write
+      contents: read
+      packages: read
+      statuses: write
+
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     defaults:
@@ -31,7 +37,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Persist npm cache
         uses: actions/cache@v3
