@@ -582,6 +582,10 @@
     {
       "id": "tools-bench",
       "label": "Tools Crafting Bench"
+    },
+    {
+      "id": "reconstruction-machine",
+      "label": "Reconstruction Machine"
     }
   ],
   "featureList": {
