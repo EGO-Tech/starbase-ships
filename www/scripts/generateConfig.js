@@ -26,7 +26,7 @@ const shipsPath = path.join(nconf.get('basePath'), nconf.get('ships:path'));
 const modulesPath = path.join(
   nconf.get('basePath'),
   nconf.get('ships:path'),
-  nconf.get('ships:paths:modules')
+  nconf.get('ships:paths:modules'),
 );
 const shipsUrl = nconf.get('ships:url');
 const modulesUrl = `${shipsUrl}/${nconf.get('ships:paths:modules')}`;
@@ -60,7 +60,7 @@ const getShipDirectories = (source) =>
         };
         accessSync(
           path.join(premiumShipPath.fullPath, readmePath),
-          constants.F_OK
+          constants.F_OK,
         );
         return [shipPath, premiumShipPath];
       } catch {
@@ -94,7 +94,7 @@ const getShipBlueprints = (source, { currentVersion, relPath, baseUrl }) => {
     return _(
       readdirSync(path.join(source, blueprintsPath), {
         withFileTypes: true,
-      })
+      }),
     )
       .map((dir) => {
         const noExt = path.basename(dir.name, '.fbe');
@@ -118,7 +118,7 @@ const getShipPhotos = (source, { relPath, photosPath }) => {
     return _(
       readdirSync(path.join(source, photosPath), {
         withFileTypes: true,
-      })
+      }),
     )
       .map((dir) => {
         return {
@@ -152,8 +152,8 @@ const getShipVideos = (table) =>
     try {
       json = JSON.parse(
         readFileSync(
-          path.join(fullPath, nconf.get('ships:jsonFile'))
-        ).toString()
+          path.join(fullPath, nconf.get('ships:jsonFile')),
+        ).toString(),
       );
     } catch {
       json = { new: true };
@@ -279,7 +279,7 @@ const getShipVideos = (table) =>
         // OCR corrections
         const label = originalLabel.replace(
           /(limatrium|llmatrium|iimatrium)/i,
-          'Ilmatrium'
+          'Ilmatrium',
         );
         return {
           ore: label.replace(/( Ore| Crystal| Alloy)/i, '').toLowerCase(),
@@ -291,7 +291,7 @@ const getShipVideos = (table) =>
       .value();
     const cost = _(lines)
       .map((line) =>
-        line.match(/([a-zA-Z\s\.]+) ([0-9\s]+)( ©| A| I| N| M| \\|$)/)
+        line.match(/([a-zA-Z\s\.]+) ([0-9\s]+)( ©| A| I| N| M| \\|$)/),
       )
       .compact()
       .map(([_text, type, credits]) => [
@@ -308,7 +308,7 @@ const getShipVideos = (table) =>
 
     writeFileSync(
       path.join(fullPath, nconf.get('ships:jsonFile')),
-      `${JSON.stringify(json, null, 2)}\n`
+      `${JSON.stringify(json, null, 2)}\n`,
     );
 
     const modules = getModuleDirectories(modulesPath);
@@ -317,8 +317,8 @@ const getShipVideos = (table) =>
       try {
         json = JSON.parse(
           readFileSync(
-            path.join(fullPath, nconf.get('ships:jsonFile'))
-          ).toString()
+            path.join(fullPath, nconf.get('ships:jsonFile')),
+          ).toString(),
         );
       } catch {
         json = { new: true };
@@ -363,7 +363,7 @@ const getShipVideos = (table) =>
 
       writeFileSync(
         path.join(fullPath, nconf.get('ships:jsonFile')),
-        `${JSON.stringify(json, null, 2)}\n`
+        `${JSON.stringify(json, null, 2)}\n`,
       );
     });
   });

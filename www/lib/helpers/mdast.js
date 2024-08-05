@@ -11,7 +11,7 @@ export const getSection = (mdast, value) => {
   const heading = _.find(
     mdast.children,
     ({ type, depth, children }) =>
-      type === 'heading' && depth === 2 && _.some(children, { value })
+      type === 'heading' && depth === 2 && _.some(children, { value }),
   );
   if (!heading) return;
   const index = mdast.children.indexOf(heading);
@@ -36,8 +36,8 @@ export const getShipLink = (mdast, text) =>
           type === 'paragraph' &&
           _.some(
             children,
-            (link) => link.type === 'link' && getLink(link).text === text
-          )
-      )
-    )
+            (link) => link.type === 'link' && getLink(link).text === text,
+          ),
+      ),
+    ),
   );
