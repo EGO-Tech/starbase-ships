@@ -1,6 +1,16 @@
 # Changelog
 
-## v1.0.3 (Current) - 27/12/2022
+## v1.0.4 (Current) - 07/08/2024
+
+- Removed unused hover distance switch
+- Added `Auto` mode for `Advance` which will automatically increase `Advance Thrust` when `Min Advance Distance` is not met
+- Added warnings panel
+- Added flight profiles system
+- Renamed `Min Generator Limit` panels to `Min Generator Rate` for consistency with other ships
+- Renamed `Reset` panels to `Hold to Reset` for consistency with other ships
+- Updated ship manual link in help chip
+
+## v1.0.3 - 27/12/2022
 
 - Added Discord link to help chip
 - Added cruise safety chip

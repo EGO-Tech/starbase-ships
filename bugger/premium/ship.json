@@ -1,7 +1,8 @@
 {
   "name": "Bugger X",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "path": "bugger/premium",
+  "updated": true,
   "types": [
     {
       "type": "surface-miner",
@@ -55,8 +56,8 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 11434,
-        "stacks": 6.6
+        "kv": 11792,
+        "stacks": 6.8
       },
       {
         "ore": "arkanium",
@@ -67,8 +68,8 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 330811,
-        "stacks": 191.4
+        "kv": 330974,
+        "stacks": 191.5
       },
       {
         "ore": "charodium",
@@ -79,7 +80,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 55617,
+        "kv": 55618,
         "stacks": 32.2
       },
       {
@@ -115,7 +116,7 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 123958,
+        "kv": 123959,
         "stacks": 71.7
       },
       {
@@ -127,8 +128,8 @@
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 180579,
-        "stacks": 104.5
+        "kv": 180855,
+        "stacks": 104.7
       },
       {
         "ore": "xhalium",
@@ -145,14 +146,14 @@
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1476070,
-        "stacks": 854.2
+        "kv": 1476870,
+        "stacks": 854.7
       }
     ],
     "cost": {
-      "assembly": 267878,
-      "manufacturing": 1585900,
-      "total": 1853778
+      "assembly": 268878,
+      "manufacturing": 1586156,
+      "total": 1855034
     }
   },
   "links": [
@@ -309,6 +310,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         }
@@ -528,6 +534,12 @@
         {
           "id": "resource-bridge",
           "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "warnings",
+          "label": "Warnings Panel",
           "value": true,
           "subSpecs": []
         },
