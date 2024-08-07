@@ -1,7 +1,8 @@
 {
   "name": "Crawler X",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "path": "crawler/premium",
+  "updated": true,
   "types": [
     {
       "type": "surface-miner",
@@ -73,8 +74,8 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 11987,
-        "stacks": 6.9
+        "kv": 12345,
+        "stacks": 7.1
       },
       {
         "ore": "arkanium",
@@ -85,8 +86,8 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 448709,
-        "stacks": 259.7
+        "kv": 448872,
+        "stacks": 259.8
       },
       {
         "ore": "charodium",
@@ -103,7 +104,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 97368,
+        "kv": 97369,
         "stacks": 56.3
       },
       {
@@ -145,7 +146,7 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 159350,
+        "kv": 159351,
         "stacks": 92.2
       },
       {
@@ -157,8 +158,8 @@
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 226191,
-        "stacks": 130.9
+        "kv": 226468,
+        "stacks": 131.1
       },
       {
         "ore": "xhalium",
@@ -175,14 +176,14 @@
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 2206390,
-        "stacks": 1276.8
+        "kv": 2207190,
+        "stacks": 1277.3
       }
     ],
     "cost": {
-      "assembly": 323754,
-      "manufacturing": 2702729,
-      "total": 3026482
+      "assembly": 324754,
+      "manufacturing": 2702985,
+      "total": 3027739
     }
   },
   "links": [
@@ -339,6 +340,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         }
@@ -546,6 +552,12 @@
         {
           "id": "resource-bridge",
           "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "warnings",
+          "label": "Warnings Panel",
           "value": true,
           "subSpecs": []
         },

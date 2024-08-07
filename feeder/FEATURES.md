@@ -3,7 +3,7 @@
 - Basic crafting bench with meter and monitor upgrade as well as tools bench
 - 20 ore crates to store ore for refills
 - Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
+- Turtle and Sloth functions with adjustable rates and preset profiles
 - Transponder system with ping function
 - Two external and two internal resource bridges
 - Auto generator rate script with adjustable minimum rate

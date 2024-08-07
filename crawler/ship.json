@@ -1,7 +1,8 @@
 {
   "name": "Crawler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "path": "crawler",
+  "updated": true,
   "types": [
     {
       "type": "surface-miner",
@@ -87,6 +88,18 @@
       "filename": "20221121192956_1.jpg",
       "path": "photos/20221121192956_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/photos/20221121192956_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240807154536_1.jpg",
+      "path": "photos/20240807154536_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/photos/20240807154536_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240807154610_1.jpg",
+      "path": "photos/20240807154610_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/photos/20240807154610_1.jpg",
       "description": ""
     }
   ],
@@ -211,8 +224,8 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 11181,
-        "stacks": 6.5
+        "kv": 11510,
+        "stacks": 6.7
       },
       {
         "ore": "arkanium",
@@ -223,8 +236,8 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 450104,
-        "stacks": 260.5
+        "kv": 450255,
+        "stacks": 260.6
       },
       {
         "ore": "charodium",
@@ -241,7 +254,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 60953,
+        "kv": 60954,
         "stacks": 35.3
       },
       {
@@ -283,7 +296,7 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 159350,
+        "kv": 159351,
         "stacks": 92.2
       },
       {
@@ -295,8 +308,8 @@
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 206444,
-        "stacks": 119.5
+        "kv": 206699,
+        "stacks": 119.6
       },
       {
         "ore": "xhalium",
@@ -313,14 +326,14 @@
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1950648,
-        "stacks": 1128.8
+        "kv": 1951384,
+        "stacks": 1129.3
       }
     ],
     "cost": {
-      "assembly": 314656,
-      "manufacturing": 2452935,
-      "total": 2767591
+      "assembly": 315638,
+      "manufacturing": 2453171,
+      "total": 2768808
     }
   },
   "links": [
@@ -477,6 +490,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         }
@@ -684,6 +702,12 @@
         {
           "id": "resource-bridge",
           "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "warnings",
+          "label": "Warnings Panel",
           "value": true,
           "subSpecs": []
         },

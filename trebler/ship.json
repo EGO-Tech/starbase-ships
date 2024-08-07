@@ -449,7 +449,7 @@
     "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/trebler/USAGE.md"
   },
   "discord": "https://discord.com/channels/1013328685564178472/1100697981705003028",
-  "updated": true,
+  "updated": false,
   "specifications": [
     {
       "id": "belt-mining",

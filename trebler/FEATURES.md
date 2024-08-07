@@ -2,7 +2,7 @@
 
 - 534 ore crates
 - Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
+- Turtle and Sloth functions with adjustable rates and preset profiles
 - Transponder system with ping function
 - Three automated rotating drills with three mining lasers each
 - Nine ore collectors
@@ -20,6 +20,7 @@
 - 48 T2 triangle thrusters providing braking thrust
 - 64 T2 triangle thrusters for maneuvers
 - Basic crafting bench to craft refills with meter upgrade plus tools bench
+- Warning lights and alarm for obstacle detection and avoidance
 - Speedometer
 - Timer panel
 - Odometer panel

@@ -1,6 +1,6 @@
-if:advance<1thengoto1end
-if:advance>0thengoto3end :fcuforward=0 goto1
-:fcuforward=:ar
+if:advance==0thengoto1end :adc=:ad
+if:advance!=0thengoto3end :fcuforward=0 goto1
+if(:adc<(:ad-0.1))*(:advance>0)then:ar+=0.25end :adc=0 :fcuforward=:ar
 
 
 
