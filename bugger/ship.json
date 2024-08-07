@@ -1,6 +1,6 @@
 {
   "name": "Bugger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "path": "bugger",
   "types": [
     {
@@ -10,12 +10,20 @@
   ],
   "blueprints": [
     {
+      "filename": "bugger_v1.03.fbe",
+      "path": "blueprints/bugger_v1.03.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/blueprints/bugger_v1.03.fbe",
+      "version": "1.0.4",
+      "description": "",
+      "current": true
+    },
+    {
       "filename": "bugger.fbe",
       "path": "blueprints/bugger.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/blueprints/bugger.fbe",
       "version": "1.0.3",
       "description": "",
-      "current": true
+      "current": false
     },
     {
       "filename": "bugger_v1.0.2.fbe",
@@ -283,6 +291,18 @@
       "path": "photos/20221003175307_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/photos/20221003175307_1.jpg",
       "description": ""
+    },
+    {
+      "filename": "20240807174420_1.jpg",
+      "path": "photos/20240807174420_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/photos/20240807174420_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240807174433_1.jpg",
+      "path": "photos/20240807174433_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/photos/20240807174433_1.jpg",
+      "description": ""
     }
   ],
   "readme": {
@@ -444,8 +464,8 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 11434,
-        "stacks": 6.6
+        "kv": 11792,
+        "stacks": 6.8
       },
       {
         "ore": "arkanium",
@@ -456,8 +476,8 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 360220,
-        "stacks": 208.5
+        "kv": 360383,
+        "stacks": 208.6
       },
       {
         "ore": "charodium",
@@ -474,7 +494,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 52109,
+        "kv": 52110,
         "stacks": 30.2
       },
       {
@@ -510,14 +530,14 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 123958,
+        "kv": 123959,
         "stacks": 71.7
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 165950,
-        "stacks": 96
+        "kv": 166227,
+        "stacks": 96.2
       },
       {
         "ore": "ymrium",
@@ -528,14 +548,14 @@
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1230012,
-        "stacks": 711.8
+        "kv": 1230812,
+        "stacks": 712.3
       }
     ],
     "cost": {
-      "assembly": 270618,
-      "manufacturing": 1123093,
-      "total": 1393710
+      "assembly": 271618,
+      "manufacturing": 1123349,
+      "total": 1394967
     },
     "discord": "https://discord.com/channels/1013328685564178472/1026396888561369119/1235731274233286666"
   },
@@ -693,6 +713,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         }
@@ -916,6 +941,12 @@
           "subSpecs": []
         },
         {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -929,5 +960,6 @@
         }
       ]
     }
-  ]
+  ],
+  "updated": true
 }

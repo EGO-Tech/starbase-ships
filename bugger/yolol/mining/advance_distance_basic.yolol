@@ -1,0 +1,2 @@
+if:advance==0thengoto1end :adc=0
+if:advance==0thengoto1end :adc+=:sp*0.2 goto2
