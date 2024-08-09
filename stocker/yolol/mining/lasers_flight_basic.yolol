@@ -1,0 +1,1 @@
+a=:lasers<1 or :lms>=0 :mult=100*a :vel=1*a+0.2*(not a) goto1

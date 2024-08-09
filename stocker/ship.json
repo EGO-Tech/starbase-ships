@@ -1,6 +1,6 @@
 {
   "name": "Stocker",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "path": "stocker",
   "types": [
     {
@@ -13,9 +13,17 @@
       "filename": "stocker.fbe",
       "path": "blueprints/stocker.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/blueprints/stocker.fbe",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "",
       "current": true
+    },
+    {
+      "filename": "stocker_v1.1.2.fbe",
+      "path": "blueprints/stocker_v1.1.2.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/blueprints/stocker_v1.1.2.fbe",
+      "version": "1.1.2",
+      "description": "",
+      "current": false
     },
     {
       "filename": "stocker_v1.1.1.fbe",
@@ -261,6 +269,30 @@
       "path": "photos/20211022233219_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20211022233219_1.jpg",
       "description": ""
+    },
+    {
+      "filename": "20240809154436_1.jpg",
+      "path": "photos/20240809154436_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20240809154436_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240809154513_1.jpg",
+      "path": "photos/20240809154513_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20240809154513_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240809154527_1.jpg",
+      "path": "photos/20240809154527_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20240809154527_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20240809155024_1.jpg",
+      "path": "photos/20240809155024_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20240809155024_1.jpg",
+      "description": ""
     }
   ],
   "readme": {
@@ -394,26 +426,26 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 15741,
-        "stacks": 9.1
+        "kv": 16031,
+        "stacks": 9.3
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 2995,
+        "kv": 2961,
         "stacks": 1.7
       },
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 251725,
-        "stacks": 145.7
+        "kv": 251189,
+        "stacks": 145.4
       },
       {
         "ore": "charodium",
         "label": "Charodium Ore",
-        "kv": 187109,
-        "stacks": 108.3
+        "kv": 187889,
+        "stacks": 108.7
       },
       {
         "ore": "exorium",
@@ -436,7 +468,7 @@
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 226,
+        "kv": 207,
         "stacks": 0.1
       },
       {
@@ -448,26 +480,26 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 70838,
+        "kv": 70836,
         "stacks": 41
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 124761,
-        "stacks": 72.2
+        "kv": 125199,
+        "stacks": 72.5
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 847307,
-        "stacks": 490.3
+        "kv": 848225,
+        "stacks": 490.9
       }
     ],
     "cost": {
-      "assembly": 349943,
-      "manufacturing": 880946,
-      "total": 1230888
+      "assembly": 349167,
+      "manufacturing": 881277,
+      "total": 1230443
     },
     "discord": "https://discord.com/channels/1013328685564178472/1025283071966195742/1235742055440060447"
   },
@@ -525,10 +557,6 @@
       "label": "ISAN"
     },
     {
-      "id": "auto-pilot",
-      "label": "Auto Pilot"
-    },
-    {
       "id": "asteroid-avoidance",
       "label": "Asteroid Avoidance"
     },
@@ -578,6 +606,11 @@
             {
               "id": "mining-sweep",
               "label": "Adjustable Sweeping Lasers",
+              "value": ""
+            },
+            {
+              "id": "mouse-control",
+              "label": "Mouse Control",
               "value": ""
             },
             {
@@ -639,6 +672,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         },
@@ -867,6 +905,12 @@
           "subSpecs": []
         },
         {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -880,5 +924,6 @@
         }
       ]
     }
-  ]
+  ],
+  "updated": true
 }

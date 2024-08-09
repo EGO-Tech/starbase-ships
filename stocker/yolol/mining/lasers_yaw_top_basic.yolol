@@ -1,0 +1,3 @@
+a=8 x=1 y=3.84 r=57.296 dd=12 m=999
+rd=:Distance d=rd+x ifrd<1 or rd>m thend=dd+x end c=y/d*r
+if:lasers<1 or :lms>=0thengoto3end :lp1=-:yw/a+c :lp2=:yw/a+c goto2

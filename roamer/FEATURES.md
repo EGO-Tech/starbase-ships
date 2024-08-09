@@ -15,7 +15,6 @@
 - 24 T2 box and 44 T2 triangle thrusters providing forward thrust
 - Eight T2 triangle thrusters providing braking thrust
 - 32 T2 triangle thrusters for maneuvers
-- Warning lights and alarm for obstacle detection and avoidance
 - Speedometer
 - Timer panel
 - Odometer panel

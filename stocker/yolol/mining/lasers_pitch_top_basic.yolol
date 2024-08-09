@@ -1,0 +1,1 @@
+a=3.5 if:lasers<1 or :lms>=0thengoto1end :lr1=:ph/a :lr2=-:lr1 goto1

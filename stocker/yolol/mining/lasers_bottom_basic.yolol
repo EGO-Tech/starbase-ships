@@ -1,14 +1,14 @@
-x=1.92 y=3.84 ry=3.84 r=57.296 dd=12 s=40 m=999
-if:lasers<1thengoto2end rd=:Distance d=rd+x
+x=1 y=3.84 ry=3.84 r=57.296 dd=12 s=40 m=999
+if:lasers<1 or :lms<0thengoto2end rd=:Distance d=rd+x a=:lms>0
 ifrd<1 or rd>m thend=dd+x end lpc=y/d*r iflpc>s thenlpc=s end
-mh=:mh/2 :lp3=lpc :lp4=lpc :lr3=lpc :lr4=lpc lru=(ry+mh)/d*r
-lrd=(ry-mh)/d*r md=:md/2 lpf=y/(d+md+md)*r iflpf>s thenlpf=s end
+mh=a*:mh/2 :lp3=lpc :lp4=lpc :lr3=lpc :lr4=lpc lru=(ry+mh)/d*r
+lrd=(ry-mh)/d*r md=a*:md/2 lpf=y/(d+md+md)*r iflpf>s thenlpf=s end
 lpn=y/(d+md)*r iflpn>s thenlpn=s end :lcw2=1
-:lp3=lpf :lp4=lpn :lr3=lru :lr4=lrd :lcw2=3
+:lp3=lpf :lp4=lpn :lr3=lru :lr4=lru :lcw2=3
 :lp3=lpc :lp4=lpc :lr3=lpc :lr4=lpc :lcw2=3
-:lp3=lpn :lp4=lpf :lr3=lru :lr4=lrd :lcw2=3
+:lp3=lpn :lp4=lpf :lr3=lru :lr4=lru :lcw2=3
 :lp3=lpc :lp4=lpc :lr3=lpc :lr4=lpc :lcw2=3
-:lp3=lpn :lp4=lpf :lr3=lrd :lr4=lru :lcw2=3
+:lp3=lpn :lp4=lpf :lr3=lrd :lr4=lrd :lcw2=3
 :lp3=lpc :lp4=lpc :lr3=lpc :lr4=lpc :lcw2=3
-:lp3=lpf :lp4=lpn :lr3=lrd :lr4=lru
+:lp3=lpf :lp4=lpn :lr3=lrd :lr4=lrd
 goto2
