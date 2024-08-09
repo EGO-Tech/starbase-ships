@@ -20,7 +20,6 @@
 - 48 T2 triangle thrusters providing braking thrust
 - 64 T2 triangle thrusters for maneuvers
 - Basic crafting bench to craft refills with meter upgrade plus tools bench
-- Warning lights and alarm for obstacle detection and avoidance
 - Speedometer
 - Timer panel
 - Odometer panel

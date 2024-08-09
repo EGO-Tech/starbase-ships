@@ -2,7 +2,7 @@
 
 - 232 ore crates
 - Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
+- Turtle and Sloth functions with adjustable rates and preset profiles
 - Transponder system with ping function
 - Four mining lasers on turrets that point towards asteroids with sweeping
 - Two ore collectors that point towards asteroids
@@ -22,8 +22,7 @@
 - Basic crafting bench to craft refills
 - Extra two small propellant tank with its own resource bridge for emergency refilling
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
-- Warning lights and alarm for obstacle detection and avoidance, powered by 34 rangefinders
+- Warning lights and alarm for obstacle detection and avoidance
 - Speedometer
 - Timer panel
 - Odometer panel

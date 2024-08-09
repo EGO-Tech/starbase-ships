@@ -1,0 +1,2 @@
+if:ppg!=0thengoto1end :pf=:pf+:npf-:ppf+(:pf<1)*4-(:pf>4)*4
+:npf=0 :ppf=0 goto1

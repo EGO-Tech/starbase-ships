@@ -1,6 +1,19 @@
 # Changelog
 
-## v1.1.2 (Current) - 29/12/2022
+## v1.2.0 (Current) - 09/08/2024
+
+- Removed NavCas auto pilot system
+- Removed `HeatTransferRate`, `StoredHeat` & `Generator Limit` panels
+- Replaced `Generator` panel with larger variant
+- Replaced `Odometer` and `Timer` with reset button variants
+- Moved mining lasers forward for better safety
+- Fixed sweeping of bottom two lasers (again!)
+- Added `Fixed` and `Manual` modes to mining lasers. `Manual` mode disables flight controls of the ship.
+- Added warnings panel
+- Added flight profiles system
+- Updated ship manual link in help chip
+
+## v1.1.2 - 29/12/2022
 
 - Added Discord link to help chip
 - Added cruise safety chip
