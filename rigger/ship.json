@@ -43,7 +43,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.2.0.fbe",
       "version": "1.2.0",
       "description": "",
-      "current": false
+      "current": false,
+      "shipShop": true
     },
     {
       "filename": "rigger_v1.1.2.fbe",

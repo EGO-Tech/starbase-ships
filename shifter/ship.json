@@ -39,7 +39,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/blueprints/shifter_v1.1.0.fbe",
       "version": "1.1.0",
       "description": "",
-      "current": false
+      "current": false,
+      "shipShop": true
     },
     {
       "filename": "shifter_v1.0.4.fbe",

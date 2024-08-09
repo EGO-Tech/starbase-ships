@@ -15,7 +15,8 @@
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rocker/blueprints/rocker.fbe",
       "version": "1.1.0",
       "description": "",
-      "current": true
+      "current": true,
+      "shipShop": true
     },
     {
       "filename": "rocker_v1.0.5.fbe",
