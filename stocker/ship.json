@@ -407,6 +407,16 @@
   "videos": [
     {
       "channel": {
+        "text": "EGOTech",
+        "url": "https://www.youtube.com/@ego-tech"
+      },
+      "video": {
+        "text": "Stocker - Mining Modes including Mouse Control",
+        "url": "https://www.youtube.com/watch?v=2pK2HuFtmL0"
+      }
+    },
+    {
+      "channel": {
         "text": "Krawll Unchained",
         "url": "https://www.youtube.com/channel/UCCqloSZ0VHn0BCFhIlJNS8A"
       },
