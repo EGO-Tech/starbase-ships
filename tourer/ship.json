@@ -633,5 +633,6 @@
   "series": {
     "path": "tourer",
     "name": "Tourer"
-  }
+  },
+  "retired": true
 }
