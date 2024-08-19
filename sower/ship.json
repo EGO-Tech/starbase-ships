@@ -545,5 +545,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "sower",
+    "name": "Sower"
+  }
 }

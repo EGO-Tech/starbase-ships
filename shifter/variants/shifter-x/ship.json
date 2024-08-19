@@ -1,227 +1,223 @@
 {
-  "name": "Crawler X",
-  "version": "1.0.2",
-  "path": "crawler/premium",
-  "updated": true,
+  "name": "Shifter X",
+  "version": "1.0.1",
+  "path": "shifter/variants/shifter-x",
   "types": [
     {
-      "type": "surface-miner",
-      "order": 4
+      "type": "miner",
+      "order": 6
     }
   ],
   "blueprints": [],
   "photos": [
     {
-      "filename": "20221125195354_1.jpg",
-      "path": "photos/20221125195354_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125195354_1.jpg",
+      "filename": "20221202233246_1.jpg",
+      "path": "photos/20221202233246_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/variants/shifter-x/photos/20221202233246_1.jpg",
       "description": "",
       "featured": true
-    },
-    {
-      "filename": "20221125155925_1.jpg",
-      "path": "photos/20221125155925_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125155925_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20221125195417_1.jpg",
-      "path": "photos/20221125195417_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/photos/20221125195417_1.jpg",
-      "description": ""
     }
   ],
   "readme": {
     "path": "README.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/README.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/variants/shifter-x/README.md"
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/CHANGELOG.md",
-    "discord": "https://discord.com/channels/1013328685564178472/1045807634399367198/1235769756519239700"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/variants/shifter-x/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1048224800293797989/1235770589524922409"
   },
-  "cost": 3000000,
+  "cost": 500000,
   "images": [
     {
       "filename": "build_cost.png",
       "path": "images/build_cost.png",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/variants/shifter-x/images/build_cost.png",
       "description": ""
     },
     {
-      "filename": "crawler-x1.jpg",
-      "path": "images/crawler-x1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/images/crawler-x1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "crawler-x2.jpg",
-      "path": "images/crawler-x2.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/images/crawler-x2.jpg",
+      "filename": "shifter-x1.jpg",
+      "path": "images/shifter-x1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/variants/shifter-x/images/shifter-x1.jpg",
       "description": ""
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "channel": {
+        "text": "EGOTech",
+        "url": "https://www.youtube.com/@ego-tech"
+      },
+      "video": {
+        "text": "Mining Laser Drills - 1 vs 2 vs 3 Drills",
+        "url": "https://www.youtube.com/watch?v=IJo_H3yfzoY"
+      }
+    }
+  ],
   "buildCost": {
-    "discord": "https://discord.com/channels/1013328685564178472/1045807634399367198/1235727234057371698",
+    "discord": "https://discord.com/channels/1013328685564178472/1048224800293797989/1235727819598991361",
     "materials": [
       {
         "ore": "aegisium",
         "label": "Aegisium Ore",
-        "kv": 173961,
-        "stacks": 100.7
+        "kv": 139061,
+        "stacks": 80.5
       },
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 12345,
-        "stacks": 7.1
+        "kv": 17581,
+        "stacks": 10.2
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 2441,
-        "stacks": 1.4
+        "kv": 25450,
+        "stacks": 14.7
       },
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 448872,
-        "stacks": 259.8
+        "kv": 415701,
+        "stacks": 240.6
       },
       {
         "ore": "charodium",
         "label": "Charodium Ore",
-        "kv": 451024,
-        "stacks": 261
+        "kv": 319308,
+        "stacks": 184.8
       },
       {
         "ore": "corazium",
         "label": "Corazium Ore",
-        "kv": 1859,
-        "stacks": 1.1
+        "kv": 2055,
+        "stacks": 1.2
       },
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 97369,
-        "stacks": 56.3
+        "kv": 46229,
+        "stacks": 26.8
       },
       {
         "ore": "glass",
         "label": "Glass",
-        "kv": 6704,
-        "stacks": 3.9
+        "kv": 7905,
+        "stacks": 4.6
       },
       {
         "ore": "ice",
         "label": "Ice",
-        "kv": 92000,
-        "stacks": 53.2
-      },
-      {
-        "ore": "ilmatrium",
-        "label": "Ilmatrium Ore",
-        "kv": 2282,
-        "stacks": 1.3
+        "kv": 110000,
+        "stacks": 63.7
       },
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 75,
-        "stacks": 0
+        "kv": 4530,
+        "stacks": 2.6
       },
       {
         "ore": "kutonium",
         "label": "Kutonium Ore",
-        "kv": 132576,
-        "stacks": 76.7
+        "kv": 91885,
+        "stacks": 53.2
       },
       {
         "ore": "lukium",
         "label": "Lukium Ore",
-        "kv": 79207,
-        "stacks": 45.8
+        "kv": 9288,
+        "stacks": 5.4
       },
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 159351,
-        "stacks": 92.2
-      },
-      {
-        "ore": "valkite",
-        "label": "Valkite Ore",
-        "kv": 24404,
-        "stacks": 14.1
+        "kv": 151202,
+        "stacks": 87.5
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 226468,
-        "stacks": 131.1
+        "kv": 219214,
+        "stacks": 126.9
       },
       {
         "ore": "xhalium",
         "label": "Xhalium Ore",
-        "kv": 10326,
-        "stacks": 6
+        "kv": 9452,
+        "stacks": 5.5
       },
       {
         "ore": "ymrium",
         "label": "Ymrium Ore",
-        "kv": 285926,
-        "stacks": 165.5
+        "kv": 153168,
+        "stacks": 88.6
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 2207190,
-        "stacks": 1277.3
+        "kv": 1722028,
+        "stacks": 996.5
       }
     ],
     "cost": {
-      "assembly": 324754,
-      "manufacturing": 2702985,
-      "total": 3027739
+      "assembly": 492755,
+      "manufacturing": 1917889,
+      "total": 2410643
     }
   },
   "links": [
     {
       "text": "Starbase Ship Shop Page",
-      "url": "https://sb-creators.org/makers/Egomaniac/ship/Crawler%20X"
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/Shifter%20X"
     },
     {
       "text": "Ship GitHub Page",
-      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/crawler/premium"
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/shifter/variants/shifter-x"
     }
   ],
   "saleType": "for-sale",
-  "slug": "crawler-x",
-  "description": "The Crawler X is a premium version of the Crawler with two large generators and 19 mining lasers.",
-  "shortDescription": "The premium version of the Crawler with two large generators and 19 mining lasers.",
+  "slug": "shifter-x",
+  "description": "The Shifter X is a premium version of the Shifter with T3 generators, fuel chambers and thrusters.",
+  "shortDescription": "The premium version of the Shifter with T3 generators and thrusters.",
   "features": [
     {
       "label": "Material Crates",
-      "value": 640
+      "value": 450
     },
     {
       "label": "Mining Lasers",
-      "value": 19
+      "value": 8
     }
   ],
   "tags": [
     {
+      "id": "t3-generator",
+      "label": "T2 Generators"
+    },
+    {
       "id": "t3-thruster",
-      "label": "T3 Thrusters"
+      "label": "T2 Thrusters"
     },
     {
       "id": "mining-laser",
       "label": "Mining Laser"
     },
     {
-      "id": "large-generator",
-      "label": "Large Generator"
+      "id": "mining-laser-drill",
+      "label": "Mining Laser Drill"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    },
+    {
+      "id": "auto-pilot",
+      "label": "Auto Pilot"
+    },
+    {
+      "id": "asteroid-avoidance",
+      "label": "Asteroid Avoidance"
     },
     {
       "id": "basic-bench",
@@ -238,60 +234,65 @@
   ],
   "featureList": {
     "path": "FEATURES.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/FEATURES.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/variants/shifter-x/FEATURES.md"
   },
   "usage": {
     "path": "USAGE.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/crawler/premium/USAGE.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/variants/shifter-x/USAGE.md"
   },
-  "discord": "https://discord.com/channels/1013328685564178472/1045807634399367198",
+  "discord": "https://discord.com/channels/1013328685564178472/1048224800293797989",
   "specifications": [
     {
-      "id": "surface-mining",
-      "label": "Surface Mining",
+      "id": "belt-mining",
+      "label": "Belt Mining",
       "key": true,
       "specs": [
         {
-          "id": "mining-lasers",
-          "label": "Mining Lasers",
-          "value": 19,
+          "id": "mining-drills",
+          "label": "Mining Laser Drills",
+          "value": "2 x 4",
+          "unit": "lasers",
           "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "laser-convergence",
+          "label": "Laser Convergence",
+          "value": "Precise",
           "subSpecs": []
         },
         {
           "id": "collectors",
           "label": "Collectors",
-          "value": 7,
+          "value": 6,
           "subSpecs": []
         },
         {
-          "id": "mining-sweep",
-          "label": "Sweeping Lasers",
-          "value": true,
-          "subSpecs": []
-        },
-        {
-          "id": "auto-advance",
-          "label": "Auto Advance System",
+          "id": "auto-mine",
+          "label": "Mining Automation",
           "value": true,
           "subSpecs": [
             {
-              "id": "auto-advance",
-              "label": "Adjustable Thrust, Speed",
+              "id": "approach",
+              "label": "Approach",
+              "value": ""
+            },
+            {
+              "id": "mining-mode",
+              "label": "Rotate with Adjustable Pitch",
+              "value": ""
+            },
+            {
+              "id": "eco",
+              "label": "Eco Mode",
               "value": ""
             }
           ]
         },
         {
-          "id": "mining-sweep",
-          "label": "Feelers to keep ship in hover mode while mining",
-          "value": "",
-          "subSpecs": []
-        },
-        {
-          "id": "mining-seat",
-          "label": "Separate mining seat for mining operations with view of lasers and surface",
-          "value": "",
+          "id": "material-scannel",
+          "label": "Material Scanner",
+          "value": true,
           "subSpecs": []
         }
       ]
@@ -304,7 +305,7 @@
         {
           "id": "material-capacity",
           "label": "Material Capacity",
-          "value": 640,
+          "value": 450,
           "unit": "stacks",
           "featured": true,
           "subSpecs": []
@@ -312,7 +313,7 @@
         {
           "id": "material-crates",
           "label": "Material Crates",
-          "value": 640,
+          "value": 450,
           "subSpecs": []
         }
       ]
@@ -340,10 +341,22 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "isan",
+              "label": "ISAN",
+              "value": "Mono"
             },
             {
-              "id": "profiles",
-              "label": "Flight Profiles",
+              "id": "avoidance",
+              "label": "Avoidance",
               "value": true
             }
           ]
@@ -357,7 +370,7 @@
         {
           "id": "top-speed",
           "label": "Top Speed (empty)",
-          "value": 125,
+          "value": 140,
           "unit": "m/s",
           "featured": true,
           "subSpecs": []
@@ -376,12 +389,12 @@
             {
               "id": "box-thrusters",
               "label": "Box Thrusters",
-              "value": 20
+              "value": 42
             },
             {
               "id": "triangle-thrusters",
               "label": "Triangle Thrusters",
-              "value": 128
+              "value": 124
             }
           ]
         },
@@ -393,7 +406,7 @@
             {
               "id": "triangle-thrusters",
               "label": "Triangle Thrusters",
-              "value": 52
+              "value": 48
             }
           ]
         },
@@ -403,9 +416,14 @@
           "value": "T3",
           "subSpecs": [
             {
+              "id": "maeuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 8
+            },
+            {
               "id": "triangle-thrusters",
               "label": "Triangle Thrusters",
-              "value": 120
+              "value": 72
             }
           ]
         }
@@ -418,7 +436,7 @@
         {
           "id": "propellant-total",
           "label": "Propellant Capacity",
-          "value": "72M",
+          "value": "108M",
           "unit": "units",
           "featured": true,
           "subSpecs": []
@@ -431,7 +449,7 @@
             {
               "id": "large-prop-tank",
               "label": "Large Tanks",
-              "value": 6
+              "value": 9
             }
           ]
         },
@@ -450,7 +468,7 @@
         {
           "id": "total-power",
           "label": "Total Power Generation",
-          "value": 140000,
+          "value": 72000,
           "unit": "e/s",
           "featured": true,
           "subSpecs": []
@@ -470,36 +488,53 @@
         {
           "id": "batteries",
           "label": "Batteries",
-          "value": 234,
+          "value": 216,
           "subSpecs": []
         },
         {
           "id": "generator-block",
           "label": "Power Generation",
-          "value": "",
+          "value": "T3",
           "subSpecs": [
             {
-              "id": "large-processing-unit",
-              "label": "Large Processing Unit",
-              "value": 1
+              "id": "fuel-chambers",
+              "label": "Fuel Chambers",
+              "value": 12
             },
             {
-              "id": "large-generators",
-              "label": "Large Generators",
-              "value": 2
+              "id": "generators",
+              "label": "Generators",
+              "value": 36
             },
             {
-              "id": "large-exo-tank",
-              "label": "Large Exorium Tank",
-              "value": 1
+              "id": "t1-enhancers",
+              "label": "T1 Enhancers",
+              "value": 40
+            },
+            {
+              "id": "t2-enhancers",
+              "label": "T2 Enhancers",
+              "value": 16
             }
           ]
+        },
+        {
+          "id": "spare-rods",
+          "label": "Spare Rods",
+          "value": 48,
+          "subSpecs": []
         },
         {
           "id": "fuel-time",
           "label": "Fuel Time Panel",
           "value": true,
-          "subSpecs": []
+          "subSpecs": [
+            {
+              "id": "backup-time",
+              "label": "Backup Rods Panel",
+              "value": ""
+            }
+          ]
         }
       ]
     },
@@ -556,12 +591,6 @@
           "subSpecs": []
         },
         {
-          "id": "warnings",
-          "label": "Warnings Panel",
-          "value": true,
-          "subSpecs": []
-        },
-        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -575,5 +604,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "shifter",
+    "name": "Shifter"
+  }
 }

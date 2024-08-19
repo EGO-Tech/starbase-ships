@@ -275,18 +275,6 @@
       "description": ""
     },
     {
-      "filename": "20221003175237_1.jpg",
-      "path": "photos/20221003175237_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/photos/20221003175237_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20221003175305_1.jpg",
-      "path": "photos/20221003175305_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/photos/20221003175305_1.jpg",
-      "description": ""
-    },
-    {
       "filename": "20221003175307_1.jpg",
       "path": "photos/20221003175307_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/bugger/photos/20221003175307_1.jpg",
@@ -961,5 +949,9 @@
       ]
     }
   ],
-  "updated": true
+  "updated": true,
+  "series": {
+    "path": "bugger",
+    "name": "Bugger"
+  }
 }

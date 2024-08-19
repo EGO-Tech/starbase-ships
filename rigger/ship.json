@@ -780,5 +780,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "rigger",
+    "name": "Rigger"
+  }
 }

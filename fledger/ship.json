@@ -711,5 +711,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "fledger",
+    "name": "Fledger"
+  }
 }

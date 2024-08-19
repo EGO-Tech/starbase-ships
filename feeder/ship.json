@@ -116,84 +116,6 @@
       "description": ""
     },
     {
-      "filename": "pilot_center_console.jpg",
-      "path": "images/pilot_center_console.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_center_console.jpg",
-      "description": ""
-    },
-    {
-      "filename": "pilot_left_console.jpg",
-      "path": "images/pilot_left_console.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_left_console.jpg",
-      "description": ""
-    },
-    {
-      "filename": "pilot_right_console.jpg",
-      "path": "images/pilot_right_console.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_right_console.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20240712213634_1.jpg:Zone.Identifier",
-      "path": "images/20240712213634_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712213634_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712213656_1.jpg:Zone.Identifier",
-      "path": "images/20240712213656_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712213656_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712213707_1.jpg:Zone.Identifier",
-      "path": "images/20240712213707_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712213707_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712232151_1.jpg:Zone.Identifier",
-      "path": "images/20240712232151_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232151_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712232210_1.jpg:Zone.Identifier",
-      "path": "images/20240712232210_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232210_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712232340_1.jpg:Zone.Identifier",
-      "path": "images/20240712232340_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232340_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712232350_1.jpg:Zone.Identifier",
-      "path": "images/20240712232350_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232350_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712232409_1.jpg:Zone.Identifier",
-      "path": "images/20240712232409_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232409_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712232430_1.jpg:Zone.Identifier",
-      "path": "images/20240712232430_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232430_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
-      "filename": "20240712232523_1.jpg:Zone.Identifier",
-      "path": "images/20240712232523_1.jpg:Zone.Identifier",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/20240712232523_1.jpg:Zone.Identifier",
-      "description": ""
-    },
-    {
       "filename": "feeder1.jpg",
       "path": "images/feeder1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder1.jpg",
@@ -251,6 +173,24 @@
       "filename": "feeder9.jpg",
       "path": "images/feeder9.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/feeder9.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_left_console.jpg",
+      "path": "images/pilot_left_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_left_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/feeder/images/pilot_right_console.jpg",
       "description": ""
     }
   ],
@@ -777,5 +717,9 @@
       ]
     }
   ],
-  "discord": "https://discord.com/channels/1013328685564178472/1261314296764174346"
+  "discord": "https://discord.com/channels/1013328685564178472/1261314296764174346",
+  "series": {
+    "path": "feeder",
+    "name": "Feeder"
+  }
 }

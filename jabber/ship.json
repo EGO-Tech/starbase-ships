@@ -646,5 +646,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "jabber",
+    "name": "Jabber"
+  }
 }

@@ -750,5 +750,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "mapper",
+    "name": "Mapper"
+  }
 }

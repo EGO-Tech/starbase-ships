@@ -3,7 +3,7 @@
   "name": "Hexxer Trio",
   "version": "1.1.0",
   "slug": "hexxer-trio",
-  "path": "hexxer_trio",
+  "path": "hexxer/variants/hexxer_trio",
   "types": [
     {
       "type": "asteroid-hauler",
@@ -12,34 +12,34 @@
   ],
   "readme": {
     "path": "README.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/README.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/README.md"
   },
   "featureList": {
     "path": "FEATURES.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/FEATURES.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/FEATURES.md"
   },
   "usage": {
     "path": "USAGE.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/USAGE.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/USAGE.md"
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/CHANGELOG.md",
     "discord": "https://discord.com/channels/1013328685564178472/1242624864322584576/1242625944683020299"
   },
   "knownIssues": {
     "path": "KNOWN_ISSUES.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/KNOWN_ISSUES.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/KNOWN_ISSUES.md"
   },
   "faq": {
     "path": "FAQ.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/FAQ.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/FAQ.md"
   },
   "blueprints": [
     {
       "filename": "hexxer_trio.fbe",
       "path": "blueprints/hexxer_trio.fbe",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/blueprints/hexxer_trio.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/blueprints/hexxer_trio.fbe",
       "version": "1.1.0",
       "description": "",
       "current": true
@@ -47,7 +47,7 @@
     {
       "filename": "hexxer_trio_v1.0.1.fbe",
       "path": "blueprints/hexxer_trio_v1.0.1.fbe",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/blueprints/hexxer_trio_v1.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/blueprints/hexxer_trio_v1.0.1.fbe",
       "version": "1.0.1",
       "description": "",
       "current": false
@@ -55,7 +55,7 @@
     {
       "filename": "hexxer_trio_v1.0.0.fbe",
       "path": "blueprints/hexxer_trio_v1.0.0.fbe",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/blueprints/hexxer_trio_v1.0.0.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/blueprints/hexxer_trio_v1.0.0.fbe",
       "version": "1.0.0",
       "description": "",
       "current": false
@@ -67,98 +67,98 @@
     {
       "filename": "20240521144525_1.jpg",
       "path": "photos/20240521144525_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521144525_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521144525_1.jpg",
       "description": "",
       "featured": true
     },
     {
       "filename": "20240521142729_1.jpg",
       "path": "photos/20240521142729_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521142729_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521142729_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521142734_1.jpg",
       "path": "photos/20240521142734_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521142734_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521142734_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521142741_1.jpg",
       "path": "photos/20240521142741_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521142741_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521142741_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521144537_1.jpg",
       "path": "photos/20240521144537_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521144537_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521144537_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521144621_1.jpg",
       "path": "photos/20240521144621_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521144621_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521144621_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521144928_1.jpg",
       "path": "photos/20240521144928_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521144928_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521144928_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521145723_1.jpg",
       "path": "photos/20240521145723_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521145723_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521145723_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521150357_1.jpg",
       "path": "photos/20240521150357_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521150357_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521150357_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521150520_1.jpg",
       "path": "photos/20240521150520_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521150520_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521150520_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521150708_1.jpg",
       "path": "photos/20240521150708_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521150708_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521150708_1.jpg",
       "description": ""
     },
     {
       "filename": "20240521151137_1.jpg",
       "path": "photos/20240521151137_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240521151137_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240521151137_1.jpg",
       "description": ""
     },
     {
       "filename": "20240607103811_1.jpg",
       "path": "photos/20240607103811_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607103811_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240607103811_1.jpg",
       "description": ""
     },
     {
       "filename": "20240607103817_1.jpg",
       "path": "photos/20240607103817_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607103817_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240607103817_1.jpg",
       "description": ""
     },
     {
       "filename": "20240607103946_1.jpg",
       "path": "photos/20240607103946_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607103946_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240607103946_1.jpg",
       "description": ""
     },
     {
       "filename": "20240607111946_1.jpg",
       "path": "photos/20240607111946_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/photos/20240607111946_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/photos/20240607111946_1.jpg",
       "description": ""
     }
   ],
@@ -166,97 +166,97 @@
     {
       "filename": "build_cost.png",
       "path": "images/build_cost.png",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/build_cost.png",
       "description": ""
     },
     {
       "filename": "hexxer_trio1.jpg",
       "path": "images/hexxer_trio1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio1.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio10.jpg",
       "path": "images/hexxer_trio10.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio10.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio10.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio11.jpg",
       "path": "images/hexxer_trio11.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio11.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio11.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio2.jpg",
       "path": "images/hexxer_trio2.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio2.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio3.jpg",
       "path": "images/hexxer_trio3.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio3.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio4.jpg",
       "path": "images/hexxer_trio4.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio4.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio5.jpg",
       "path": "images/hexxer_trio5.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio5.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio6.jpg",
       "path": "images/hexxer_trio6.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio6.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio7.jpg",
       "path": "images/hexxer_trio7.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio7.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio8.jpg",
       "path": "images/hexxer_trio8.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio8.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio8.jpg",
       "description": ""
     },
     {
       "filename": "hexxer_trio9.jpg",
       "path": "images/hexxer_trio9.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/hexxer_trio9.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/hexxer_trio9.jpg",
       "description": ""
     },
     {
       "filename": "pilot_center_console.jpg",
       "path": "images/pilot_center_console.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/pilot_center_console.jpg",
       "description": ""
     },
     {
       "filename": "pilot_left_console.jpg",
       "path": "images/pilot_left_console.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_left_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/pilot_left_console.jpg",
       "description": ""
     },
     {
       "filename": "pilot_right_console.jpg",
       "path": "images/pilot_right_console.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/pilot_right_console.jpg",
       "description": ""
     },
     {
       "filename": "scanner.jpg",
       "path": "images/scanner.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/scanner.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/scanner.jpg",
       "description": ""
     }
   ],
@@ -280,6 +280,10 @@
     {
       "text": "Ship GitHub Page",
       "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/hexxer_trio"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/hexxer/variants/hexxer_trio"
     }
   ],
   "buildCost": {
@@ -672,5 +676,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "hexxer",
+    "name": "Hexxer"
+  }
 }

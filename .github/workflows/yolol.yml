@@ -31,3 +31,4 @@ jobs:
           yodk verify ./**/**/*.yolol
           yodk verify ./**/**/**/*.yolol
           yodk verify ./**/**/**/**/*.yolol
+          yodk verify ./**/**/**/**/**/*.yolol

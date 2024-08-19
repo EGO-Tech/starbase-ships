@@ -403,5 +403,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "hopper",
+    "name": "Hopper"
+  }
 }

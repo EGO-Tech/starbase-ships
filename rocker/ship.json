@@ -742,5 +742,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "rocker",
+    "name": "Rocker"
+  }
 }

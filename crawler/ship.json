@@ -725,5 +725,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "crawler",
+    "name": "Crawler"
+  }
 }

@@ -1,44 +1,44 @@
 {
-  "name": "Shifter X",
-  "version": "1.0.1",
-  "path": "shifter/premium",
+  "name": "Piercer X (Anorak Edition)",
+  "version": "1.0.2",
+  "path": "piercer/variants/piercer-x",
   "types": [
     {
       "type": "miner",
-      "order": 6
+      "order": 4
     }
   ],
   "blueprints": [],
   "photos": [
     {
-      "filename": "20221202233246_1.jpg",
-      "path": "photos/20221202233246_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/photos/20221202233246_1.jpg",
+      "filename": "20221006153255_1.jpg",
+      "path": "photos/20221006153255_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/variants/piercer-x/photos/20221006153255_1.jpg",
       "description": "",
       "featured": true
     }
   ],
   "readme": {
     "path": "README.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/README.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/variants/piercer-x/README.md"
   },
   "changelog": {
     "path": "CHANGELOG.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/CHANGELOG.md",
-    "discord": "https://discord.com/channels/1013328685564178472/1048224800293797989/1235770589524922409"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/variants/piercer-x/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1027431302833643550/1235770270007038022"
   },
   "cost": 500000,
   "images": [
     {
       "filename": "build_cost.png",
       "path": "images/build_cost.png",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/variants/piercer-x/images/build_cost.png",
       "description": ""
     },
     {
-      "filename": "shifter-x1.jpg",
-      "path": "images/shifter-x1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/images/shifter-x1.jpg",
+      "filename": "piercer-x1.jpg",
+      "path": "images/piercer-x1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/variants/piercer-x/images/piercer-x1.jpg",
       "description": ""
     }
   ],
@@ -55,149 +55,155 @@
     }
   ],
   "buildCost": {
-    "discord": "https://discord.com/channels/1013328685564178472/1048224800293797989/1235727819598991361",
+    "discord": "https://discord.com/channels/1013328685564178472/1027431302833643550/1235727628359696455",
     "materials": [
       {
         "ore": "aegisium",
         "label": "Aegisium Ore",
-        "kv": 139061,
-        "stacks": 80.5
+        "kv": 106677,
+        "stacks": 61.7
       },
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 17581,
-        "stacks": 10.2
+        "kv": 11227,
+        "stacks": 6.5
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 25450,
-        "stacks": 14.7
+        "kv": 25944,
+        "stacks": 15
       },
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 415701,
-        "stacks": 240.6
+        "kv": 265261,
+        "stacks": 153.5
       },
       {
         "ore": "charodium",
         "label": "Charodium Ore",
-        "kv": 319308,
-        "stacks": 184.8
+        "kv": 221326,
+        "stacks": 128.1
       },
       {
         "ore": "corazium",
         "label": "Corazium Ore",
-        "kv": 2055,
-        "stacks": 1.2
+        "kv": 76,
+        "stacks": 0
       },
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 46229,
-        "stacks": 26.8
+        "kv": 28492,
+        "stacks": 16.5
       },
       {
         "ore": "glass",
         "label": "Glass",
-        "kv": 7905,
-        "stacks": 4.6
+        "kv": 2644,
+        "stacks": 1.5
       },
       {
         "ore": "ice",
         "label": "Ice",
-        "kv": 110000,
-        "stacks": 63.7
+        "kv": 144000,
+        "stacks": 83.3
       },
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 4530,
-        "stacks": 2.6
+        "kv": 5540,
+        "stacks": 3.2
       },
       {
         "ore": "kutonium",
         "label": "Kutonium Ore",
-        "kv": 91885,
-        "stacks": 53.2
+        "kv": 73289,
+        "stacks": 42.4
       },
       {
         "ore": "lukium",
         "label": "Lukium Ore",
-        "kv": 9288,
-        "stacks": 5.4
+        "kv": 17540,
+        "stacks": 10.2
       },
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 151202,
-        "stacks": 87.5
+        "kv": 83098,
+        "stacks": 48.1
+      },
+      {
+        "ore": "ukonium",
+        "label": "Ukonium Ore",
+        "kv": 7378,
+        "stacks": 4.3
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 219214,
-        "stacks": 126.9
+        "kv": 153443,
+        "stacks": 88.8
       },
       {
         "ore": "xhalium",
         "label": "Xhalium Ore",
-        "kv": 9452,
-        "stacks": 5.5
+        "kv": 7136,
+        "stacks": 4.1
       },
       {
         "ore": "ymrium",
         "label": "Ymrium Ore",
-        "kv": 153168,
-        "stacks": 88.6
+        "kv": 121180,
+        "stacks": 70.1
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1722028,
-        "stacks": 996.5
+        "kv": 1274252,
+        "stacks": 737.4
       }
     ],
     "cost": {
-      "assembly": 492755,
-      "manufacturing": 1917889,
-      "total": 2410643
+      "assembly": 272628,
+      "manufacturing": 1407760,
+      "total": 1680388
     }
   },
   "links": [
     {
       "text": "Starbase Ship Shop Page",
-      "url": "https://sb-creators.org/makers/Egomaniac/ship/Shifter%20X"
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/Piercer%20X"
     },
     {
       "text": "Ship GitHub Page",
-      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/shifter/premium"
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/piercer/variants/piercer-x"
     }
   ],
   "saleType": "for-sale",
-  "slug": "shifter-x",
-  "description": "The Shifter X is a premium version of the Shifter with T3 generators, fuel chambers and thrusters.",
-  "shortDescription": "The premium version of the Shifter with T3 generators and thrusters.",
+  "slug": "piercer-x",
+  "description": "The Piercer X is a premium version of the Piercer with T3 generators, fuel chambers, enhancers and thrusters.",
+  "shortDescription": "The premium version of the Piercer with T3 generators, fuel chambers, enhancers and thrusters.",
   "features": [
     {
       "label": "Material Crates",
-      "value": 450
+      "value": 342
     },
     {
       "label": "Mining Lasers",
-      "value": 8
+      "value": 4
     }
   ],
   "tags": [
     {
       "id": "t3-generator",
-      "label": "T2 Generators"
+      "label": "T3 Generators"
     },
     {
       "id": "t3-thruster",
-      "label": "T2 Thrusters"
+      "label": "T3 Thrusters"
     },
     {
       "id": "mining-laser",
@@ -224,23 +230,19 @@
       "label": "Basic Crafting Bench"
     },
     {
-      "id": "advanced-bench",
-      "label": "Advanced Crafting Bench"
-    },
-    {
       "id": "tools-bench",
       "label": "Tools Crafting Bench"
     }
   ],
   "featureList": {
     "path": "FEATURES.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/FEATURES.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/variants/piercer-x/FEATURES.md"
   },
   "usage": {
     "path": "USAGE.md",
-    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/premium/USAGE.md"
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/piercer/variants/piercer-x/USAGE.md"
   },
-  "discord": "https://discord.com/channels/1013328685564178472/1048224800293797989",
+  "discord": "https://discord.com/channels/1013328685564178472/1027431302833643550",
   "specifications": [
     {
       "id": "belt-mining",
@@ -250,7 +252,7 @@
         {
           "id": "mining-drills",
           "label": "Mining Laser Drills",
-          "value": "2 x 4",
+          "value": "1 x 4",
           "unit": "lasers",
           "featured": true,
           "subSpecs": []
@@ -264,7 +266,7 @@
         {
           "id": "collectors",
           "label": "Collectors",
-          "value": 6,
+          "value": 4,
           "subSpecs": []
         },
         {
@@ -305,7 +307,7 @@
         {
           "id": "material-capacity",
           "label": "Material Capacity",
-          "value": 450,
+          "value": 342,
           "unit": "stacks",
           "featured": true,
           "subSpecs": []
@@ -313,7 +315,7 @@
         {
           "id": "material-crates",
           "label": "Material Crates",
-          "value": 450,
+          "value": 342,
           "subSpecs": []
         }
       ]
@@ -370,7 +372,7 @@
         {
           "id": "top-speed",
           "label": "Top Speed (empty)",
-          "value": 140,
+          "value": 150,
           "unit": "m/s",
           "featured": true,
           "subSpecs": []
@@ -389,12 +391,12 @@
             {
               "id": "box-thrusters",
               "label": "Box Thrusters",
-              "value": 42
+              "value": 32
             },
             {
               "id": "triangle-thrusters",
               "label": "Triangle Thrusters",
-              "value": 124
+              "value": 104
             }
           ]
         },
@@ -406,7 +408,7 @@
             {
               "id": "triangle-thrusters",
               "label": "Triangle Thrusters",
-              "value": 48
+              "value": 32
             }
           ]
         },
@@ -416,14 +418,9 @@
           "value": "T3",
           "subSpecs": [
             {
-              "id": "maeuver-thrusters",
-              "label": "Maneuver Thrusters",
-              "value": 8
-            },
-            {
               "id": "triangle-thrusters",
               "label": "Triangle Thrusters",
-              "value": 72
+              "value": 48
             }
           ]
         }
@@ -436,7 +433,7 @@
         {
           "id": "propellant-total",
           "label": "Propellant Capacity",
-          "value": "108M",
+          "value": "144M",
           "unit": "units",
           "featured": true,
           "subSpecs": []
@@ -449,7 +446,7 @@
             {
               "id": "large-prop-tank",
               "label": "Large Tanks",
-              "value": 9
+              "value": 12
             }
           ]
         },
@@ -468,7 +465,7 @@
         {
           "id": "total-power",
           "label": "Total Power Generation",
-          "value": 72000,
+          "value": 58500,
           "unit": "e/s",
           "featured": true,
           "subSpecs": []
@@ -488,7 +485,7 @@
         {
           "id": "batteries",
           "label": "Batteries",
-          "value": 216,
+          "value": 130,
           "subSpecs": []
         },
         {
@@ -504,24 +501,19 @@
             {
               "id": "generators",
               "label": "Generators",
-              "value": 36
+              "value": 26
             },
             {
-              "id": "t1-enhancers",
-              "label": "T1 Enhancers",
-              "value": 40
-            },
-            {
-              "id": "t2-enhancers",
-              "label": "T2 Enhancers",
-              "value": 16
+              "id": "t3-enhancers",
+              "label": "T3 Enhancers",
+              "value": 26
             }
           ]
         },
         {
           "id": "spare-rods",
           "label": "Spare Rods",
-          "value": 48,
+          "value": 24,
           "subSpecs": []
         },
         {
@@ -553,12 +545,6 @@
               "value": ""
             }
           ]
-        },
-        {
-          "id": "advanced-bench",
-          "label": "Advanced Crafting Bench",
-          "value": true,
-          "subSpecs": []
         },
         {
           "id": "tools-bench",
@@ -604,5 +590,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "piercer",
+    "name": "Piercer"
+  }
 }

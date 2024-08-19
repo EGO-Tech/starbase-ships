@@ -483,5 +483,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "hoarder",
+    "name": "Hoarder"
+  }
 }
