@@ -776,5 +776,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "fisher",
+    "name": "Fisher"
+  }
 }

@@ -1167,5 +1167,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "whaler",
+    "name": "Whaler"
+  }
 }

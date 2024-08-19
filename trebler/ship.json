@@ -791,5 +791,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "trebler",
+    "name": "Trebler"
+  }
 }

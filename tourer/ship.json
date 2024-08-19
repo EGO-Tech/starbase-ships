@@ -629,5 +629,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "tourer",
+    "name": "Tourer"
+  }
 }

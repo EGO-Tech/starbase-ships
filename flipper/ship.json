@@ -609,5 +609,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "flipper",
+    "name": "Flipper"
+  }
 }

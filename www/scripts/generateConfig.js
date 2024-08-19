@@ -37,37 +37,48 @@ const usagePath = nconf.get('ships:paths:usage');
 const changelogPath = nconf.get('ships:paths:changelog');
 const knownIssuesPath = nconf.get('ships:paths:knownIssues');
 const faqPath = nconf.get('ships:paths:faq');
-const premiumPath = nconf.get('ships:paths:premium');
+const variantsPath = nconf.get('ships:paths:variants');
 const buildCostPath = nconf.get('ships:paths:buildCost');
 
-const getShipDirectories = (source) =>
+const getShipDirectories = (
+  source,
+  basePath = '',
+  seriesPath,
+  findVariants = true,
+) =>
   _(readdirSync(source, { withFileTypes: true }))
     .map((dir) => {
       try {
-        accessSync(path.join(shipsPath, dir.name, readmePath), constants.F_OK);
+        accessSync(path.join(source, dir.name, readmePath), constants.F_OK);
       } catch {
         return [];
       }
 
       const shipPath = {
-        relPath: dir.name,
-        fullPath: path.join(shipsPath, dir.name),
+        relPath: `${basePath}${dir.name}`,
+        fullPath: path.join(source, dir.name),
+        seriesPath: seriesPath || `${basePath}${dir.name}`,
       };
-      try {
-        const premiumShipPath = {
-          relPath: `${dir.name}/${premiumPath}`,
-          fullPath: path.join(shipPath.fullPath, premiumPath),
-        };
-        accessSync(
-          path.join(premiumShipPath.fullPath, readmePath),
-          constants.F_OK,
-        );
-        return [shipPath, premiumShipPath];
-      } catch {
-        return [shipPath];
+
+      let shipVariantPaths = [];
+      if (findVariants) {
+        const shipVariantsPath = path.join(shipPath.fullPath, variantsPath);
+
+        try {
+          shipVariantPaths = getShipDirectories(
+            shipVariantsPath,
+            `${shipPath.relPath}/${variantsPath}/`,
+            shipPath.relPath,
+            false,
+          );
+        } catch {
+          shipVariantPaths = [];
+        }
       }
+
+      return [shipPath, shipVariantPaths];
     })
-    .flatten()
+    .flattenDeep()
     .compact()
     .value();
 
@@ -146,8 +157,9 @@ const getShipVideos = (table) =>
     : [];
 
 (async () => {
+  const series = {};
   const paths = getShipDirectories(shipsPath);
-  _.each(paths, async ({ relPath, fullPath }) => {
+  _.each(paths, async ({ relPath, fullPath, seriesPath }) => {
     let json;
     try {
       json = JSON.parse(
@@ -171,6 +183,13 @@ const getShipVideos = (table) =>
     json.version ??= '1.0.0';
     json.slug ??= _.kebabCase(json.name);
     json.path = relPath;
+
+    if (relPath === seriesPath) series[seriesPath] = json.name;
+    json.series = {
+      path: seriesPath,
+      name: series[seriesPath],
+    };
+
     json.readme = {
       path: readmePath,
       url: `${shipsUrl}/${relPath}/${readmePath}`,

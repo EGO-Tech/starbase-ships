@@ -254,24 +254,6 @@
       "description": ""
     },
     {
-      "filename": "20211022222630_1.jpg",
-      "path": "photos/20211022222630_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20211022222630_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20211022222641_1.jpg",
-      "path": "photos/20211022222641_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20211022222641_1.jpg",
-      "description": ""
-    },
-    {
-      "filename": "20211022233219_1.jpg",
-      "path": "photos/20211022233219_1.jpg",
-      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20211022233219_1.jpg",
-      "description": ""
-    },
-    {
       "filename": "20240809154436_1.jpg",
       "path": "photos/20240809154436_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/stocker/photos/20240809154436_1.jpg",
@@ -936,5 +918,9 @@
       ]
     }
   ],
-  "updated": true
+  "updated": true,
+  "series": {
+    "path": "stocker",
+    "name": "Stocker"
+  }
 }

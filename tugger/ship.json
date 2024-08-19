@@ -671,5 +671,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "tugger",
+    "name": "Tugger"
+  }
 }

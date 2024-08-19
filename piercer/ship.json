@@ -912,5 +912,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "piercer",
+    "name": "Piercer"
+  }
 }

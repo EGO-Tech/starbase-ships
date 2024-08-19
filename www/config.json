@@ -10,7 +10,7 @@
       "buildCost": "images/build_cost.png",
       "images": "images",
       "photos": "photos",
-      "premium": "premium",
+      "variants": "variants",
       "readme": "README.md",
       "featureList": "FEATURES.md",
       "usage": "USAGE.md",

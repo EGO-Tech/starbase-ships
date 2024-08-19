@@ -716,5 +716,9 @@
         }
       ]
     }
-  ]
+  ],
+  "series": {
+    "path": "hexxer",
+    "name": "Hexxer"
+  }
 }
