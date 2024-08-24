@@ -28,6 +28,8 @@ const token = nconf.get('discord:token');
     throw new Error('Error reading ship.json');
   }
 
+  if (json.retired) return console.log(`Skipping ${file}, ship is retired`);
+
   if (!json.changelog)
     return console.log(`Skipping ${file}, no changelog data found`);
 
