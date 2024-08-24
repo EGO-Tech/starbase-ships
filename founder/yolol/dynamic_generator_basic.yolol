@@ -1,0 +1,1 @@
+:GenRate=:MinEPS*:Min_EPS+(10000-:Battery)/50 goto1

@@ -1,0 +1,515 @@
+{
+  "name": "Founder LR",
+  "new": true,
+  "version": "1.0.0",
+  "slug": "founder-lr",
+  "path": "founder/variants/founder-lr",
+  "series": {
+    "path": "founder",
+    "name": "Founder",
+    "slug": "founder"
+  },
+  "description": "The Founder series is a semi modular starter ship framework. The long range (LR) variant of the Founder has sacrifices some of the crates of the standard variant for more propellant resulting in triple the range.",
+  "shortDescription": "The Founder series is a semi modular starter ship framework. The long range (LR) variant of the Founder has sacrifices some of the crates of the standard variant for more propellant resulting in triple the range.",
+  "types": [
+    {
+      "type": "starter",
+      "order": 6
+    }
+  ],
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 24
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 0
+    }
+  ],
+  "tags": [
+    {
+      "id": "semi-modular",
+      "label": "Semi Modular"
+    },
+    {
+      "id": "t1-generator",
+      "label": "T1 Generators"
+    },
+    {
+      "id": "t1-thruster",
+      "label": "T1 Thrusters"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    }
+  ],
+  "specifications": [
+    {
+      "id": "cargo",
+      "label": "Cargo",
+      "key": true,
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 102,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 24,
+          "subSpecs": []
+        },
+        {
+          "id": "material-bolt-slots",
+          "label": "Material Bolt Slots",
+          "value": 78,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "range",
+      "label": "Range",
+      "key": true,
+      "specs": [
+        {
+          "id": "total-range",
+          "label": "Total Range",
+          "value": 4200,
+          "unit": "km",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "flight-time",
+          "label": "Flight Time",
+          "value": 8.5,
+          "unit": "hours",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "isan",
+              "label": "ISAN",
+              "value": "Mono"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propulsion",
+      "label": "Propulsion",
+      "specs": [
+        {
+          "id": "top-speed",
+          "label": "Top Speed (empty)",
+          "value": 140,
+          "unit": "m/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 36
+            },
+            {
+              "id": "box-thrusters",
+              "label": "Box Thrusters",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "56M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "small-prop-tank",
+              "label": "Small Tanks",
+              "value": 20
+            },
+            {
+              "id": "large-prop-tank",
+              "label": "Large Tanks",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "label": "Power and Fuel",
+      "specs": [
+        {
+          "id": "total-power",
+          "label": "Total Power Generation",
+          "value": 8000,
+          "unit": "e/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Dynamic Generator Rate",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "auto-gen",
+              "label": "Min Generator Rate",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "batteries",
+          "label": "Batteries",
+          "value": 26,
+          "subSpecs": []
+        },
+        {
+          "id": "generator-block",
+          "label": "Power Generation",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "fuel-chambers",
+              "label": "Fuel Chambers",
+              "value": 4
+            },
+            {
+              "id": "generators",
+              "label": "Generators",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "id": "spare-rods",
+          "label": "Spare Rods",
+          "value": 16,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "utility",
+      "label": "Utility Systems",
+      "specs": [
+        {
+          "id": "transponder",
+          "label": "Transponder",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "resource-bridge",
+          "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/README.md"
+  },
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/USAGE.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1312990897826300005/1312992439564505179"
+  },
+  "blueprints": [
+    {
+      "filename": "founder-lr.fbe",
+      "path": "blueprints/founder-lr.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/blueprints/founder-lr.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": true
+    }
+  ],
+  "cost": 0,
+  "saleType": "free",
+  "photos": [
+    {
+      "filename": "20241202134819_1.jpg",
+      "path": "photos/20241202134819_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/photos/20241202134819_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
+      "filename": "20241202134829_1.jpg",
+      "path": "photos/20241202134829_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/photos/20241202134829_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202134840_1.jpg",
+      "path": "photos/20241202134840_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/photos/20241202134840_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202134905_1.jpg",
+      "path": "photos/20241202134905_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/photos/20241202134905_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202134914_1.jpg",
+      "path": "photos/20241202134914_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/photos/20241202134914_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202134917_1.jpg",
+      "path": "photos/20241202134917_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/photos/20241202134917_1.jpg",
+      "description": ""
+    }
+  ],
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "founder-lr_1.jpg",
+      "path": "images/founder-lr_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/founder-lr_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-lr_2.jpg",
+      "path": "images/founder-lr_2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/founder-lr_2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-lr_3.jpg",
+      "path": "images/founder-lr_3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/founder-lr_3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-lr_4.jpg",
+      "path": "images/founder-lr_4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/founder-lr_4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-lr_5.jpg",
+      "path": "images/founder-lr_5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/founder-lr_5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-lr_6.jpg",
+      "path": "images/founder-lr_6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/founder-lr_6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-lr/images/pilot_right_console.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Founder%20LR"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/founder/variants/founder-lr"
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "aegisium",
+        "label": "Aegisium Ore",
+        "kv": 3854,
+        "stacks": 2.2
+      },
+      {
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
+        "kv": 7567,
+        "stacks": 4.4
+      },
+      {
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
+        "kv": 322,
+        "stacks": 0.2
+      },
+      {
+        "ore": "bastium",
+        "label": "Bastium Ore",
+        "kv": 75215,
+        "stacks": 43.5
+      },
+      {
+        "ore": "charodium",
+        "label": "Charodium Ore",
+        "kv": 32450,
+        "stacks": 18.8
+      },
+      {
+        "ore": "exorium",
+        "label": "Exorium Ore",
+        "kv": 24,
+        "stacks": 0
+      },
+      {
+        "ore": "ice",
+        "label": "Ice",
+        "kv": 56000,
+        "stacks": 32.4
+      },
+      {
+        "ore": "karnite",
+        "label": "Karnite Crystal",
+        "kv": 57,
+        "stacks": 0
+      },
+      {
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
+        "kv": 19374,
+        "stacks": 11.2
+      },
+      {
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
+        "kv": 39632,
+        "stacks": 22.9
+      },
+      {
+        "ore": "total",
+        "label": "Total ore",
+        "kv": 234494,
+        "stacks": 135.7
+      }
+    ],
+    "cost": {
+      "assembly": 188824,
+      "manufacturing": 210207,
+      "total": 399030
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1312990897826300005/1312992368886153246"
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1312990897826300005"
+}

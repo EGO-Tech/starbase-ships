@@ -1,0 +1,6 @@
+if:ppg!=1 or :spg!=1 or :atr!=1thengoto1end goto:pf+1
+:tr1=(:tr1+:ppf-:npf)*(:tr1>=0)-:tr1>100 :npf=0 :ppf=0 goto1
+:tr2=(:tr2+:ppf-:npf)*(:tr2>=0)-:tr2>100 :npf=0 :ppf=0 goto1
+:tr3=(:tr3+:ppf-:npf)*(:tr3>=0)-:tr3>100 :npf=0 :ppf=0 goto1
+:tr4=(:tr4+:ppf-:npf)*(:tr4>=0)-:tr4>100 :npf=0 :ppf=0 goto1
+goto1
