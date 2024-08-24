@@ -921,6 +921,7 @@
   "updated": true,
   "series": {
     "path": "stocker",
-    "name": "Stocker"
+    "name": "Stocker",
+    "slug": "stocker"
   }
 }

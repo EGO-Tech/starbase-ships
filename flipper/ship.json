@@ -612,6 +612,7 @@
   ],
   "series": {
     "path": "flipper",
-    "name": "Flipper"
+    "name": "Flipper",
+    "slug": "flipper"
   }
 }

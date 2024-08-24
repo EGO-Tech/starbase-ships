@@ -812,6 +812,7 @@
   ],
   "series": {
     "path": "lugger",
-    "name": "Lugger"
+    "name": "Lugger",
+    "slug": "lugger"
   }
 }

@@ -486,6 +486,7 @@
   ],
   "series": {
     "path": "hoarder",
-    "name": "Hoarder"
+    "name": "Hoarder",
+    "slug": "hoarder"
   }
 }

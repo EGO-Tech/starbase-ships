@@ -720,6 +720,7 @@
   "discord": "https://discord.com/channels/1013328685564178472/1261314296764174346",
   "series": {
     "path": "feeder",
-    "name": "Feeder"
+    "name": "Feeder",
+    "slug": "feeder"
   }
 }

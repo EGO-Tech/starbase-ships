@@ -649,6 +649,7 @@
   ],
   "series": {
     "path": "jabber",
-    "name": "Jabber"
+    "name": "Jabber",
+    "slug": "jabber"
   }
 }

@@ -679,6 +679,7 @@
   ],
   "series": {
     "path": "hexxer",
-    "name": "Hexxer"
+    "name": "Hexxer",
+    "slug": "hexxer"
   }
 }

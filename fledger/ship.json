@@ -714,6 +714,7 @@
   ],
   "series": {
     "path": "fledger",
-    "name": "Fledger"
+    "name": "Fledger",
+    "slug": "fledger"
   }
 }

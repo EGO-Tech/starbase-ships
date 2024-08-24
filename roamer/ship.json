@@ -743,6 +743,7 @@
   "discord": "https://discord.com/channels/1013328685564178472/1262023983042400266",
   "series": {
     "path": "roamer",
-    "name": "Roamer"
+    "name": "Roamer",
+    "slug": "roamer"
   }
 }

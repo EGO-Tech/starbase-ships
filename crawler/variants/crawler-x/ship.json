@@ -578,6 +578,7 @@
   ],
   "series": {
     "path": "crawler",
-    "name": "Crawler"
+    "name": "Crawler",
+    "slug": "crawler"
   }
 }
