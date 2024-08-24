@@ -586,6 +586,7 @@
   ],
   "series": {
     "path": "clunker",
-    "name": "Clunker"
+    "name": "Clunker",
+    "slug": "clunker"
   }
 }

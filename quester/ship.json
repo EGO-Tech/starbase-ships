@@ -957,6 +957,7 @@
   ],
   "series": {
     "path": "quester",
-    "name": "Quester"
+    "name": "Quester",
+    "slug": "quester"
   }
 }

@@ -1170,6 +1170,7 @@
   ],
   "series": {
     "path": "whaler",
-    "name": "Whaler"
+    "name": "Whaler",
+    "slug": "whaler"
   }
 }

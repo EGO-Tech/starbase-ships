@@ -580,6 +580,7 @@
   ],
   "series": {
     "path": "trebler",
-    "name": "Trebler"
+    "name": "Trebler",
+    "slug": "trebler"
   }
 }

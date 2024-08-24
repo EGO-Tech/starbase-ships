@@ -783,6 +783,7 @@
   ],
   "series": {
     "path": "rigger",
-    "name": "Rigger"
+    "name": "Rigger",
+    "slug": "rigger"
   }
 }

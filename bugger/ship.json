@@ -952,6 +952,7 @@
   "updated": true,
   "series": {
     "path": "bugger",
-    "name": "Bugger"
+    "name": "Bugger",
+    "slug": "bugger"
   }
 }

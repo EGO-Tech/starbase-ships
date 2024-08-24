@@ -1005,6 +1005,7 @@
   ],
   "series": {
     "path": "shifter",
-    "name": "Shifter"
+    "name": "Shifter",
+    "slug": "shifter"
   }
 }

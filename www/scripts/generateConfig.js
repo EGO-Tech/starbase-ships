@@ -184,10 +184,11 @@ const getShipVideos = (table) =>
     json.slug ??= _.kebabCase(json.name);
     json.path = relPath;
 
-    if (relPath === seriesPath) series[seriesPath] = json.name;
+    if (relPath === seriesPath)
+      series[seriesPath] = { name: json.name, slug: json.slug };
     json.series = {
       path: seriesPath,
-      name: series[seriesPath],
+      ...series[seriesPath],
     };
 
     json.readme = {

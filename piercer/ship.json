@@ -915,6 +915,7 @@
   ],
   "series": {
     "path": "piercer",
-    "name": "Piercer"
+    "name": "Piercer",
+    "slug": "piercer"
   }
 }

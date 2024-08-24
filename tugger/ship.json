@@ -674,6 +674,7 @@
   ],
   "series": {
     "path": "tugger",
-    "name": "Tugger"
+    "name": "Tugger",
+    "slug": "tugger"
   }
 }

@@ -753,6 +753,7 @@
   ],
   "series": {
     "path": "mapper",
-    "name": "Mapper"
+    "name": "Mapper",
+    "slug": "mapper"
   }
 }

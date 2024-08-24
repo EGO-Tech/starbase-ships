@@ -406,6 +406,7 @@
   ],
   "series": {
     "path": "hopper",
-    "name": "Hopper"
+    "name": "Hopper",
+    "slug": "hopper"
   }
 }
