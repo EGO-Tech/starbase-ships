@@ -1,0 +1,515 @@
+{
+  "name": "Founder HC",
+  "new": true,
+  "version": "1.0.0",
+  "slug": "founder-hc",
+  "path": "founder/variants/founder-hc",
+  "series": {
+    "path": "founder",
+    "name": "Founder",
+    "slug": "founder"
+  },
+  "description": "The Founder series is a semi modular starter ship framework. The high capacity (HC) variant of the Founder has 80 crates for more convenient storage and extra thrust to handle the extra mass.",
+  "shortDescription": "The Founder series is a semi modular starter ship framework. The high capacity (HC) variant of the Founder has 80 crates for more convenient storage and extra thrust to handle the extra mass.",
+  "types": [
+    {
+      "type": "starter",
+      "order": 5
+    }
+  ],
+  "features": [
+    {
+      "label": "Material Crates",
+      "value": 80
+    },
+    {
+      "label": "Mining Lasers",
+      "value": 0
+    }
+  ],
+  "tags": [
+    {
+      "id": "semi-modular",
+      "label": "Semi Modular"
+    },
+    {
+      "id": "t1-generator",
+      "label": "T1 Generators"
+    },
+    {
+      "id": "t1-thruster",
+      "label": "T1 Thrusters"
+    },
+    {
+      "id": "isan",
+      "label": "ISAN"
+    }
+  ],
+  "specifications": [
+    {
+      "id": "cargo",
+      "label": "Cargo",
+      "key": true,
+      "specs": [
+        {
+          "id": "material-capacity",
+          "label": "Material Capacity",
+          "value": 80,
+          "unit": "stacks",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "material-crates",
+          "label": "Material Crates",
+          "value": 80,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "range",
+      "label": "Range",
+      "key": true,
+      "specs": [
+        {
+          "id": "total-range",
+          "label": "Total Range",
+          "value": 1400,
+          "unit": "km",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "flight-time",
+          "label": "Flight Time",
+          "value": 3,
+          "unit": "hours",
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "label": "Flight Systems",
+      "specs": [
+        {
+          "id": "flight-modes",
+          "label": "Flight Modes",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "cruise",
+              "label": "Cruise Mode",
+              "value": true
+            },
+            {
+              "id": "turtle",
+              "label": "Turtle Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "sloth",
+              "label": "Sloth Mode",
+              "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "isan",
+              "label": "ISAN",
+              "value": "Mono"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propulsion",
+      "label": "Propulsion",
+      "specs": [
+        {
+          "id": "top-speed",
+          "label": "Top Speed (empty)",
+          "value": 140,
+          "unit": "m/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "forward-thrusters",
+          "label": "Forward Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "triangle-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 36
+            },
+            {
+              "id": "box-thrusters",
+              "label": "Box Thrusters",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": "braking-thrusters",
+          "label": "Braking Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Triangle Thrusters",
+              "value": 4
+            },
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "maneuver-thrusters",
+          "label": "Maneuver Thrusters",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "maneuver-thrusters",
+              "label": "Maneuver Thrusters",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propellant",
+      "label": "Propellant",
+      "specs": [
+        {
+          "id": "propellant-total",
+          "label": "Propellant Capacity",
+          "value": "20M",
+          "unit": "units",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "prop-network",
+          "label": "Propellant Network",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "small-prop-tank",
+              "label": "Small Tanks",
+              "value": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "label": "Power and Fuel",
+      "specs": [
+        {
+          "id": "total-power",
+          "label": "Total Power Generation",
+          "value": 8000,
+          "unit": "e/s",
+          "featured": true,
+          "subSpecs": []
+        },
+        {
+          "id": "auto-gen",
+          "label": "Dynamic Generator Rate",
+          "value": true,
+          "subSpecs": [
+            {
+              "id": "auto-gen",
+              "label": "Min Generator Rate",
+              "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "batteries",
+          "label": "Batteries",
+          "value": 26,
+          "subSpecs": []
+        },
+        {
+          "id": "generator-block",
+          "label": "Power Generation",
+          "value": "T1",
+          "subSpecs": [
+            {
+              "id": "fuel-chambers",
+              "label": "Fuel Chambers",
+              "value": 4
+            },
+            {
+              "id": "generators",
+              "label": "Generators",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "id": "spare-rods",
+          "label": "Spare Rods",
+          "value": 8,
+          "subSpecs": []
+        }
+      ]
+    },
+    {
+      "id": "utility",
+      "label": "Utility Systems",
+      "specs": [
+        {
+          "id": "transponder",
+          "label": "Transponder",
+          "value": true,
+          "subSpecs": []
+        },
+        {
+          "id": "resource-bridge",
+          "label": "Resource Bridge",
+          "value": true,
+          "subSpecs": []
+        }
+      ]
+    }
+  ],
+  "readme": {
+    "path": "README.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/README.md"
+  },
+  "featureList": {
+    "path": "FEATURES.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/FEATURES.md"
+  },
+  "usage": {
+    "path": "USAGE.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/USAGE.md"
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/CHANGELOG.md",
+    "discord": "https://discord.com/channels/1013328685564178472/1312991540938932275/1312992483160100946"
+  },
+  "blueprints": [
+    {
+      "filename": "founder-hc.fbe",
+      "path": "blueprints/founder-hc.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/blueprints/founder-hc.fbe",
+      "version": "1.0.0",
+      "description": "",
+      "current": true
+    }
+  ],
+  "cost": 0,
+  "saleType": "free",
+  "photos": [
+    {
+      "filename": "20241202144558_1.jpg",
+      "path": "photos/20241202144558_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/photos/20241202144558_1.jpg",
+      "description": "",
+      "featured": true
+    },
+    {
+      "filename": "20241202144609_1.jpg",
+      "path": "photos/20241202144609_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/photos/20241202144609_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202144637_1.jpg",
+      "path": "photos/20241202144637_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/photos/20241202144637_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202144651_1.jpg",
+      "path": "photos/20241202144651_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/photos/20241202144651_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202144707_1.jpg",
+      "path": "photos/20241202144707_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/photos/20241202144707_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202144715_1.jpg",
+      "path": "photos/20241202144715_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/photos/20241202144715_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241202144720_1.jpg",
+      "path": "photos/20241202144720_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/photos/20241202144720_1.jpg",
+      "description": ""
+    }
+  ],
+  "images": [
+    {
+      "filename": "build_cost.png",
+      "path": "images/build_cost.png",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/build_cost.png",
+      "description": ""
+    },
+    {
+      "filename": "founder-hc_1.jpg",
+      "path": "images/founder-hc_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/founder-hc_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-hc_2.jpg",
+      "path": "images/founder-hc_2.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/founder-hc_2.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-hc_3.jpg",
+      "path": "images/founder-hc_3.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/founder-hc_3.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-hc_4.jpg",
+      "path": "images/founder-hc_4.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/founder-hc_4.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-hc_5.jpg",
+      "path": "images/founder-hc_5.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/founder-hc_5.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-hc_6.jpg",
+      "path": "images/founder-hc_6.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/founder-hc_6.jpg",
+      "description": ""
+    },
+    {
+      "filename": "founder-hc_7.jpg",
+      "path": "images/founder-hc_7.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/founder-hc_7.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_center_console.jpg",
+      "path": "images/pilot_center_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/pilot_center_console.jpg",
+      "description": ""
+    },
+    {
+      "filename": "pilot_right_console.jpg",
+      "path": "images/pilot_right_console.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/founder/variants/founder-hc/images/pilot_right_console.jpg",
+      "description": ""
+    }
+  ],
+  "videos": [],
+  "links": [
+    {
+      "text": "Starbase Ship Shop Page",
+      "url": "https://sb-creators.org/makers/Egomaniac/ship/%5BFREE%5D%20Founder%20HC"
+    },
+    {
+      "text": "Ship GitHub Page",
+      "url": "https://github.com/EGO-Tech/starbase-ships/tree/main/founder/variants/founder-hc"
+    }
+  ],
+  "buildCost": {
+    "materials": [
+      {
+        "ore": "ajatite",
+        "label": "Ajatite Ore",
+        "kv": 6976,
+        "stacks": 4
+      },
+      {
+        "ore": "arkanium",
+        "label": "Arkanium Ore",
+        "kv": 322,
+        "stacks": 0.2
+      },
+      {
+        "ore": "bastium",
+        "label": "Bastium Ore",
+        "kv": 95070,
+        "stacks": 55
+      },
+      {
+        "ore": "charodium",
+        "label": "Charodium Ore",
+        "kv": 36880,
+        "stacks": 21.3
+      },
+      {
+        "ore": "exorium",
+        "label": "Exorium Ore",
+        "kv": 24,
+        "stacks": 0
+      },
+      {
+        "ore": "ice",
+        "label": "Ice",
+        "kv": 20000,
+        "stacks": 11.6
+      },
+      {
+        "ore": "karnite",
+        "label": "Karnite Crystal",
+        "kv": 57,
+        "stacks": 0
+      },
+      {
+        "ore": "nhurgite",
+        "label": "Nhurgite Crystal",
+        "kv": 18710,
+        "stacks": 10.8
+      },
+      {
+        "ore": "vokarium",
+        "label": "Vokarium Ore",
+        "kv": 42537,
+        "stacks": 24.6
+      },
+      {
+        "ore": "total",
+        "label": "Total ore",
+        "kv": 220575,
+        "stacks": 127.6
+      }
+    ],
+    "cost": {
+      "assembly": 183307,
+      "manufacturing": 229048,
+      "total": 412355
+    },
+    "discord": "https://discord.com/channels/1013328685564178472/1312991540938932275/1312992394722938910"
+  },
+  "discord": "https://discord.com/channels/1013328685564178472/1312991540938932275"
+}

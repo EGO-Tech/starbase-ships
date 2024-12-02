@@ -351,6 +351,7 @@
     {
       "id": "cargo",
       "label": "Cargo",
+      "key": true,
       "specs": [
         {
           "id": "material-capacity",
@@ -391,6 +392,18 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "value": "",
+          "subSpecs": [
+            {
+              "id": "isan",
+              "label": "ISAN",
+              "value": "Mono"
             }
           ]
         }

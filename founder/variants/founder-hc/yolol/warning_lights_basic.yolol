@@ -1,0 +1,3 @@
+:safezone=:insideSafeZone :szw=:safezone<1 :sfw=:durabilityerrors>0
+a=:propellant b=:maxpropellant :pw=a<b*0.2 :pwb=a<b*0.1
+c=:fuel d=300000*6 :fw=c<d*0.2 :fwb=c<d*0.1 goto1

@@ -1,0 +1,2 @@
+if:ppg!=1 or :atr or :ass thengoto1end
+:spg=:spg+:npf-:ppf+(:spg<1)*3-(:spg>3)*3 :npf=0 :ppf=0 goto1
