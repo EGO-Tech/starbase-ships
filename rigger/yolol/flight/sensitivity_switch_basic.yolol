@@ -1,0 +1,1 @@
+:sense=(:sense+:sss)*(:sense>=0)-:sense>100 goto1

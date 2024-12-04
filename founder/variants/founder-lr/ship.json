@@ -296,6 +296,12 @@
           "label": "Resource Bridge",
           "value": true,
           "subSpecs": []
+        },
+        {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
         }
       ]
     }

@@ -2,7 +2,6 @@
   "name": "Crawler",
   "version": "1.0.2",
   "path": "crawler",
-  "updated": true,
   "types": [
     {
       "type": "surface-miner",

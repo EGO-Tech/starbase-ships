@@ -2,7 +2,7 @@
 
 - 100 Ore Crates
 - Standard Cruise function
-- Turtle and Sloth function with adjustable rates
+- Turtle and Sloth functions with adjustable rates and preset profiles
 - Transponder system with ping function
 - Two mining lasers on turrets that point towards asteroids with sweeping
 - Two ore collectors that point towards asteroids
@@ -22,8 +22,7 @@
 - Basic crafting bench to craft refills (will need to bolt own meter upgrade for T2 refills)
 - Extra small propellant tank with its own resource bridge for emergency refilling
 - [ISAN Quad Waypoint System by Archaegeo](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) with custom interface that supports 18 waypoints
-- [NavCas (Autopilot and Crash Avoidance System) by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), customised to integrate with ISAN Waypoint System, running on separate set of  three ISAN Monos
-- [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), customised to integrate with ISAN Waypoint System and share the receivers with NavCas
+- [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), customised to integrate with ISAN Waypoint System
 - Alert panels and visualisations for obstacle detection
 - Timer panel
 - Odometer panel

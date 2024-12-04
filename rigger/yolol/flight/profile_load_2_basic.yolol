@@ -1,0 +1,3 @@
+if:p3 thengoto2end if:p4 thengoto3end goto1
+:TurtleRate=:tr3 :sensitivity=:ss3 :p3=0 goto1
+:TurtleRate=:tr4 :sensitivity=:ss4 :p4=0 goto1
