@@ -785,5 +785,6 @@
     "path": "rocker",
     "name": "Rocker",
     "slug": "rocker"
-  }
+  },
+  "retired": true
 }
