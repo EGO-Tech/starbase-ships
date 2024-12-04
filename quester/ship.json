@@ -959,5 +959,6 @@
     "path": "quester",
     "name": "Quester",
     "slug": "quester"
-  }
+  },
+  "retired": true
 }
