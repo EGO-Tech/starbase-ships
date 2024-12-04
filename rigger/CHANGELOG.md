@@ -1,6 +1,19 @@
 # Changelog
 
-## v1.2.3 (Current) - 09/04/2023
+## v1.3.0 (Current) - 04/12/2024
+
+- Removed NavCas auto pilot system
+- Removed `HeatTransferRate` & `StoredHeat` panels
+- Replaced `Odometer` and `Timer` with reset button variants
+- Replaced `Generator` panel with larger variant
+- Renamed `Min Generator Limit` panels to `Min Generator Rate` for consistency with other ships
+- Replaced `FlowIn` and `FlowOut` button to compact variant
+- Added warnings panel
+- Added flight profiles system
+- Reshuffled pilot consoles
+- Updated ship manual link in help chip
+
+## v1.2.3 - 09/04/2023
 
 - Fixed material scanner pitch (properly this time)
 

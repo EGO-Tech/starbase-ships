@@ -1,6 +1,6 @@
 {
   "name": "Rigger",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "path": "rigger",
   "types": [
     {
@@ -17,9 +17,17 @@
       "filename": "rigger.fbe",
       "path": "blueprints/rigger.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger.fbe",
-      "version": "1.2.3",
+      "version": "1.3.0",
       "description": "",
       "current": true
+    },
+    {
+      "filename": "rigger_v1.2.3.fbe",
+      "path": "blueprints/rigger_v1.2.3.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/blueprints/rigger_v1.2.3.fbe",
+      "version": "1.2.3",
+      "description": "",
+      "current": false
     },
     {
       "filename": "rigger_v1.2.2.fbe",
@@ -166,6 +174,18 @@
       "path": "photos/20210923110537_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20210923110537_1.jpg",
       "description": ""
+    },
+    {
+      "filename": "20241204150353_1.jpg",
+      "path": "photos/20241204150353_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20241204150353_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241204150355_1.jpg",
+      "path": "photos/20241204150355_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/rigger/photos/20241204150355_1.jpg",
+      "description": ""
     }
   ],
   "readme": {
@@ -291,20 +311,20 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 11852,
-        "stacks": 6.9
+        "kv": 12076,
+        "stacks": 7
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 1075,
+        "kv": 1041,
         "stacks": 0.6
       },
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 102361,
-        "stacks": 59.2
+        "kv": 102459,
+        "stacks": 59.3
       },
       {
         "ore": "charodium",
@@ -315,7 +335,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 10414,
+        "kv": 10415,
         "stacks": 6
       },
       {
@@ -333,32 +353,32 @@
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 244,
+        "kv": 225,
         "stacks": 0.1
       },
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 27258,
+        "kv": 27259,
         "stacks": 15.8
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 64014,
-        "stacks": 37
+        "kv": 64227,
+        "stacks": 37.2
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 404924,
-        "stacks": 234.3
+        "kv": 405407,
+        "stacks": 234.6
       }
     ],
     "cost": {
-      "assembly": 282520,
-      "manufacturing": 386278,
-      "total": 668797
+      "assembly": 283221,
+      "manufacturing": 386431,
+      "total": 669652
     },
     "discord": "https://discord.com/channels/1013328685564178472/1025266372638425138/1235740912554872873"
   },
@@ -539,6 +559,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         },
@@ -767,6 +792,12 @@
           "subSpecs": []
         },
         {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -785,5 +816,6 @@
     "path": "rigger",
     "name": "Rigger",
     "slug": "rigger"
-  }
+  },
+  "updated": true
 }

@@ -2,7 +2,6 @@
   "name": "Bugger X",
   "version": "1.0.3",
   "path": "bugger/variants/bugger-x",
-  "updated": true,
   "types": [
     {
       "type": "surface-miner",

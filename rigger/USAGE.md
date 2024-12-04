@@ -19,17 +19,17 @@ To enter the ship, there is a button above the cockpit that will open a `Hatch`.
 | Interface | Function |
 |---|---|
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
-| `SafeZone` | Whether current location is in the safe zone. |
-| `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
-| `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
-| `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
+| `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
+| `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
+| `Profiles` | Adjusts preset flight profiles. See [Flight Profiles](https://starbase.egotech.space/pages/systems/flight/#flight-profiles). |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Guides` & `Guidance` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Guidance` shows alerts showing position of objects detected with text and visualisation. For the visualisation, `O` means object is detected by  the particular rangefinder. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner). |
 | `Approach`, `Collect`, `Mine`, `Lasers`, `Laser Sweep Height` & `Laser Sweep Depth` | Mining controls. See [Mining](#mining). |
-| `Nav`, `Autopilot` & `Avoidance` | Autopilot controls. See [Autopilot and Crash Avoidance](#autopilot-and-crash-avoidance). |
+| `Warnings`, `SafeZone` & `StrengthFactor` | Warnings for being outside safe zone, ship damage as well as low fuel or propellant. See [Warnings Panel](https://starbase.egotech.space/pages/systems/utility/#warnings). |
+| `Avoidance` | Activates avoidance. See [Crash Avoidance](#crash-avoidance). |
 | Transponder `Toggle` & `Ping` | [Transponder](https://starbase.egotech.space/pages/systems/utility/#transponder) controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `ISAN2`, `Heading`, `Dest`, `DTW` & `Deltas` | See [ISAN Waypoint System](https://github.com/Archaegeo/Starbase/tree/45a9bb464cb71d7de7a214f8e665111d6b2b5989/ISAN-Waypoint%20System) for more informaton. |
 | `G` Rotated | Compass display. Shows direction towards `Dest` waypoint, `+` is in front of ship while `O` is behind the ship. Best used when stationary. See [Compass](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md) for more informaton. |
@@ -46,7 +46,7 @@ This is a custom interface for the [ISAN Waypoint System](https://github.com/Arc
 
 ### Viewing, Loading and Naming Waypoints
 
-View a waypoint (`WP1` to `WP18`) by pressing the individual buttons. The waypoint will be shown on the `WP` panel. Load the waypoint in `WP` to `Dest` using the `Load Dest` button. Once in `Dest`, the waypoint will be used by the compass, ISAN and autopilot systems.
+View a waypoint (`WP1` to `WP18`) by pressing the individual buttons. The waypoint will be shown on the `WP` panel. Load the waypoint in `WP` to `Dest` using the `Load Dest` button. Once in `Dest`, the waypoint will be used by the compass and ISAN systems.
 
 To give waypoints a name, use your universal tool to change the panel values with the name you want. This is for display purposes and your own reference only, it is not used anywhere else.
 
@@ -56,19 +56,9 @@ Use `Save Loc` to save waypoint of current location to the waypoint position vie
 
 To manually save coordinates, use your universal tool to add X, Y and Z values to `NewX`, `NewY` and `NewZ` respectively. Then use the button to save the coordinates to the waypoint position viewed on the `WP` panel.
 
-## Autopilot and Crash Avoidance
+## Crash Avoidance
 
-The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-projects/tree/main/NavCas) which uses the 3 in 1 ISAN from Compass and waypoint from ISAN Waypoint System.
-
-Use while the ship is stationary. Activating `Nav` will start point the ship towards `Dest` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Dest` waypoint with `Avoidance` activated.
-
-<nord-banner variant="warning">
-
-**NOTE:** `Nav` needs to be tuned more for accuracy. I recommend using it in conjunction with the compass.
-
-</nord-banner>
-
-`Avoidance` will activate `Guides`. If the guides detect objects it will pitch the ship down and cut forward thrust. If `Autopilot` is activated, it will readjust and continue its flight.
+`Avoidance` will activate `Guides`. If the guides detect objects it will pitch the ship down and cut forward thrust.
 
 <nord-banner variant="warning">
 
@@ -84,7 +74,7 @@ To approach an asteroid, point the center range finder at an asteroid and activa
 
 `Collect` turns on the two ore collectors. Ore collectors automatically adjust to point towards objects detected by the center range finder.
 
-If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Limit` of around 90%.
+If batteries start running out of charge while mining, turn on `Min Gen`. Continous use of the lasers and collectors at the same time requires a `Min Generator Rate` of around 90%.
 
 <nord-banner variant="warning">
 
@@ -106,13 +96,11 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 |---|---|
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
-| `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
-| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
-| `StoredHeat` | Current stored heat in the heat sinks, maximum of 15,000 units. |
+| `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `Fuel Rod 1` to `Fuel Rod 6` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 38,000,000 units. |
-| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from ISAN speed*. |
-| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from ISAN speed*. |
+| `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed. |
+| `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed. |
 | `WithBackup` | Same as FuelTime but takes into account backup rods available. Use the switch for `BackupRods` to set the number of backup rods available. As standard there are 16 extra rods. |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `FlowIn` & `FlowOut` | Toggle flow modes of resource bridges. See [Refilling Propellant](#refilling-propellant). |
@@ -124,8 +112,6 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 | `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
 
 </nord-table>
-
-*ISAN speed is normally quite conservative and not 100% accurate.
 
 ### Managing Power and Fuel
 
