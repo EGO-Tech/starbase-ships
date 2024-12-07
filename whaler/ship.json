@@ -1,6 +1,6 @@
 {
   "name": "Whaler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "path": "whaler",
   "new": false,
   "types": [
@@ -315,6 +315,30 @@
       "path": "photos/20230624200728_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20230624200728_1.jpg",
       "description": ""
+    },
+    {
+      "filename": "20241207143838_1.jpg",
+      "path": "photos/20241207143838_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20241207143838_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241207143852_1.jpg",
+      "path": "photos/20241207143852_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20241207143852_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241207143857_1.jpg",
+      "path": "photos/20241207143857_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20241207143857_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241207143901_1.jpg",
+      "path": "photos/20241207143901_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/whaler/photos/20241207143901_1.jpg",
+      "description": ""
     }
   ],
   "readme": {
@@ -401,20 +425,20 @@
       {
         "ore": "aegisium",
         "label": "Aegisium Ore",
-        "kv": 194168,
-        "stacks": 112.4
+        "kv": 211904,
+        "stacks": 122.6
       },
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 104461,
-        "stacks": 60.5
+        "kv": 104688,
+        "stacks": 60.6
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 159785,
-        "stacks": 92.5
+        "kv": 160086,
+        "stacks": 92.6
       },
       {
         "ore": "baltium",
@@ -425,8 +449,8 @@
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 412345,
-        "stacks": 238.6
+        "kv": 408439,
+        "stacks": 236.4
       },
       {
         "ore": "bastonium",
@@ -437,8 +461,8 @@
       {
         "ore": "charodium",
         "label": "Charodium Ore",
-        "kv": 375703,
-        "stacks": 217.4
+        "kv": 388168,
+        "stacks": 224.6
       },
       {
         "ore": "corazium",
@@ -449,7 +473,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 50245,
+        "kv": 50247,
         "stacks": 29.1
       },
       {
@@ -467,7 +491,7 @@
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 22359,
+        "kv": 22340,
         "stacks": 12.9
       },
       {
@@ -485,7 +509,7 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 130063,
+        "kv": 130061,
         "stacks": 75.3
       },
       {
@@ -503,8 +527,8 @@
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 337350,
-        "stacks": 195.2
+        "kv": 346381,
+        "stacks": 200.5
       },
       {
         "ore": "xhalium",
@@ -515,20 +539,20 @@
       {
         "ore": "ymrium",
         "label": "Ymrium Ore",
-        "kv": 214747,
-        "stacks": 124.3
+        "kv": 218902,
+        "stacks": 126.7
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 2538982,
-        "stacks": 1469.3
+        "kv": 2578970,
+        "stacks": 1492.5
       }
     ],
     "cost": {
-      "assembly": 601364,
-      "manufacturing": 4644021,
-      "total": 5245385
+      "assembly": 608050,
+      "manufacturing": 4669267,
+      "total": 5277316
     }
   },
   "links": [
@@ -907,6 +931,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         },
@@ -1076,6 +1105,23 @@
           "subSpecs": []
         },
         {
+          "id": "solar",
+          "label": "Solar Power Generation",
+          "subSpecs": [
+            {
+              "id": "solar-panels",
+              "label": "Panels",
+              "value": 72
+            },
+            {
+              "id": "solar-power",
+              "label": "Maximum Power",
+              "value": "1.8k",
+              "unit": "e/s"
+            }
+          ]
+        },
+        {
           "id": "fuel-time",
           "label": "Fuel Time Panel",
           "value": true,
@@ -1154,6 +1200,12 @@
           "subSpecs": []
         },
         {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -1172,5 +1224,6 @@
     "path": "whaler",
     "name": "Whaler",
     "slug": "whaler"
-  }
+  },
+  "updated": true
 }
