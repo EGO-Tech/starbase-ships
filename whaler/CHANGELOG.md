@@ -12,6 +12,6 @@
 - Reshuffled all pilot consoles
 - Updated ship manual link in help chip
 
-## v1.0.0 (Current) - 06/07/2023
+## v1.0.0 - 06/07/2023
 
 - Initial release
