@@ -614,5 +614,6 @@
     "path": "flipper",
     "name": "Flipper",
     "slug": "flipper"
-  }
+  },
+  "retired": true
 }
