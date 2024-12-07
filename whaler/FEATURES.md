@@ -4,10 +4,11 @@ The ship has the following standard features:
 
 - 144 ore crates
 - Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
+- Turtle and Sloth functions with adjustable rates and preset profiles
 - Transponder system with ping function
 - Auto generator rate script with adjustable minimum rate
 - 36 T3 generators with 12 T3 fuel chambers and 24 spare rods on racks
+- Additional solar power with 72 panels
 - Radiators and heat sinks that provide more than adequate cooling
 - 12 large propellant tanks with 144,000,000 units of propellant
 - Cockpit with two pilot seats
@@ -26,7 +27,6 @@ The ship has the following standard features:
 - Reconstruction machine
 - Two large cargo pods with cargo lock frames to store cargo
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), with ability to load target from NavGrid
 - Speedometer
 - Timer panel
 - Odometer panel

@@ -19,17 +19,16 @@ To enter the ship, there is are buttons on each side of the front of the ship th
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
 | `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
+| `Profiles` | Adjusts preset flight profiles. See [Flight Profiles](https://starbase.egotech.space/pages/systems/flight/#flight-profiles). |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Guides` | Activates rangefinders (except center one which can be activated separately) to be used as guide lasers. |
 | `Crosshair` | Activates beam crosshair. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
 | `Combat`, `Fire`, `Weapon Mode`, `LaserAmmo`, `PlasmaAmmo`, `Launch`, `Missile Volley` & `Lock` | Weapon controls. See [Combat](#combat). |
-| `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot](#auto-pilot). |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `NavGrid`, `NavP`, `NavC` & `Attitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](#using-the-waypoint-system). |
-| `SafeZone` | Whether current location is in the safe zone. |
-| `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
+| `Warnings`, `SafeZone` & `StrengthFactor` | Warnings for being outside safe zone, ship damage as well as low fuel or propellant. See [Warnings Panel](https://starbase.egotech.space/pages/systems/utility/#warnings). |
 | Transponder `Toggle` & `Ping` | [Transponder](https://starbase.egotech.space/pages/systems/utility/#transponder) controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
 | `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
@@ -116,22 +115,6 @@ To edit currently selected waypoint, use your `U` tool to add name, X, Y and Z v
 
 </nord-banner>
 
-### Loading Waypoint to Auto Pilot
-
-Use `Load to Auto Pilot` to load curretnly selected waypoint to `Target` to be used with the auto pilot system.
-
-## Auto Pilot
-
-The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-projects/tree/main/NavCas) which uses the 3 in 1 ISAN from Compass. Waypoints are loaded from NavGrid waypoint system.
-
-Use while the ship is stationary. Activating `Nav` will start point the ship towards `Target` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Target` waypoint.
-
-<nord-banner variant="warning">
-
-**NOTE:** `Nav` may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The `dd` panel on the pilot left console shows debugging information for NavCas.
-
-</nord-banner>
-
 ## Resetting Navigation
 
 If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button. Press once to take ISAN offline, then press again to reset.
@@ -153,7 +136,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 | `Min Gen` & `Min Generator Rate` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |
 | `Shutdown` | Will turn off all fuel chambers thus shutting down generators. |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
-| `HeatTransferRate` | Current heat transfer rate of the heat sinks, maximum of 100%. |
+| `Solar` | Current energy units generated from solar panels, maximum of 1,800 units per second. |
 | `Flow In` & `Flow Out` | Toggle flow modes of resource bridges. See [Refilling Propellant](#refilling-propellant). |
 | `Tow`, `Tow Status`, `Tow Mass` & `Auto Gen` | Tow beam controls. See [Towing Ships](#towing-ships). |
 | `Right Cargo`, `Right Pod`, `Left Cargo` & `Left Pod` | Cargo frame controls. See [Storing Cargo](#storing-cargo). |
