@@ -1,6 +1,13 @@
 # Changelog
 
-## v1.0.2 (Current) - 27/12/2022
+## v1.0.3 (Current) - 08/12/2024
+
+- Added warnings panel
+- Added flight profiles system
+- Reshuffled pilot consoles
+- Updated ship manual link in help chip
+
+## v1.0.2 - 27/12/2022
 
 - Renamed `Material` panel to `Materials`
 - Fixed upper limit of laser pitch control

@@ -21,11 +21,10 @@ To enter the ship, there is a button on top of the ship that will open `Hatch`. 
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
 | `Material Scanner` & `Materials` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
 | `Approach`, `Collect`, `Mine`, `Lasers`, `Rotate`, `Eco`, `Drill Mode` & `Drill Pitch` | Mining controls. See [Mining](#mining). |
-| `Nav`, `Autopilot`, `Avoidance` & `Target` | Autopilot controls. See [Autopilot and Crash Avoidance](#auto-pilot-and-crash-avoidance). |
+| `Avoidance` | Activates avoidance. See [Crash Avoidance](#crash-avoidance). |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `NavGrid`, `NavP`, `NavC` & `Attitude` | [NavGrid](https://github.com/pcbennion/starbase-navgrid) system, see [Using the Waypoint System](#using-the-waypoint-system). |
-| `SafeZone` | Whether current location is in the safe zone. |
-| `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
+| `Warnings`, `SafeZone` & `StrengthFactor` | Warnings for being outside safe zone, ship damage as well as low fuel or propellant. See [Warnings Panel](https://starbase.egotech.space/pages/systems/utility/#warnings). |
 | Transponder `Toggle` & `Ping` | [Transponder](https://starbase.egotech.space/pages/systems/utility/#transponder) controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
 | `Odometer` | See [Odometer](https://starbase.egotech.space/pages/systems/utility/#odometer). |
@@ -60,24 +59,14 @@ To edit currently selected waypoint, use your `U` tool to add name, X, Y and Z v
 
 Use `Load to Auto Pilot` to load curretnly selected waypoint to `Target` to be used with the auto pilot system.
 
-## Auto Pilot and Crash Avoidance
-
-The ship uses a modified version of [NavCas](https://github.com/fixerid/sb-projects/tree/main/NavCas) which uses the 3 in 1 ISAN from Compass. Waypoints are loaded from NavGrid waypoint system.
-
-Use while the ship is stationary. Activating `Nav` will start point the ship towards `Target` waypoint and deactivate itself when done. `Autopilot` will activate `Nav` and fly to within 5km of `Target` waypoint with `Avoidance` activated.
-
-<nord-banner variant="warning">
-
-**NOTE:** `Nav` may not be very accurate. I recommend using it in conjunction with the NavGrid compass. The `dd` panel on the pilot left console shows debugging information for NavCas.
-
-</nord-banner>
+## Crash Avoidance
 
 `Avoidance` will activate `Guides`. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom `Blue` warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
-It will also flash `Red` warning lights on the pilot center console according to the position of obstacle detected. If `Autopilot` is activated, it will readjust and continue its flight.
+It will also flash `Red` warning lights on the pilot center console according to the position of obstacle detected.
 
 <nord-banner variant="warning">
 
-**NOTE:** For safety, `Avoidance` will not activate if the mining lasers are turned on. Do not turn on `Avoidance`, `Autopilot` and `Nav` while lasers are turned on.
+**NOTE:** For safety, `Avoidance` will not activate if the mining lasers are turned on.
 
 </nord-banner>
 

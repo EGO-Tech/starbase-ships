@@ -60,7 +60,7 @@ To edit currently selected waypoint, use your `U` tool to add name, X, Y and Z v
 `Avoidance` will activate `Guides`. If the guides detect objects it will cut thrust and strafe up or down (will flash either the top or bottom `Blue` warning lights on the pilot center console according to the direction) while sounding an alarm (check game settings if you do not hear the alarm).
 It will also flash `Red` warning lights on the pilot center console according to the position of obstacle detected.
 
-`Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset by clearing the panel value using the `U` tool.
+`Avoids` will show the counters for number of avoidances. The `Trip` counter can be reset by holding down the `Avoids` `Reset Trips` button.
 
 <nord-banner variant="warning">
 

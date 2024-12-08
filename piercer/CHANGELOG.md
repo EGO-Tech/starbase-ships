@@ -1,6 +1,13 @@
 # Changelog
 
-## v1.1.2 (Current) - 27/12/2022
+## v1.1.3 (Current) - 08/12/2024
+
+- Added warnings panel
+- Added flight profiles system
+- Reshuffled pilot consoles
+- Updated ship manual link in help chip
+
+## v1.1.2 - 27/12/2022
 
 - Added Discord link to help chip
 - Renamed `Material` panel to `Materials`
