@@ -1,6 +1,6 @@
 {
   "name": "Piercer X (Anorak Edition)",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "path": "piercer/variants/piercer-x",
   "types": [
     {
@@ -66,19 +66,19 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 11227,
-        "stacks": 6.5
+        "kv": 11376,
+        "stacks": 6.6
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 25944,
+        "kv": 25910,
         "stacks": 15
       },
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 265261,
+        "kv": 265329,
         "stacks": 153.5
       },
       {
@@ -96,7 +96,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 28492,
+        "kv": 28493,
         "stacks": 16.5
       },
       {
@@ -114,7 +114,7 @@
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 5540,
+        "kv": 5521,
         "stacks": 3.2
       },
       {
@@ -132,7 +132,7 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 83098,
+        "kv": 83096,
         "stacks": 48.1
       },
       {
@@ -144,8 +144,8 @@
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 153443,
-        "stacks": 88.8
+        "kv": 153605,
+        "stacks": 88.9
       },
       {
         "ore": "xhalium",
@@ -162,14 +162,14 @@
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1274252,
-        "stacks": 737.4
+        "kv": 1274576,
+        "stacks": 737.6
       }
     ],
     "cost": {
-      "assembly": 272628,
-      "manufacturing": 1407760,
-      "total": 1680388
+      "assembly": 272974,
+      "manufacturing": 1407864,
+      "total": 1680837
     }
   },
   "links": [
@@ -343,6 +343,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         },
@@ -577,6 +582,12 @@
           "subSpecs": []
         },
         {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -595,5 +606,6 @@
     "path": "piercer",
     "name": "Piercer",
     "slug": "piercer"
-  }
+  },
+  "updated": true
 }
