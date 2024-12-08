@@ -1,6 +1,15 @@
 # Changelog
 
-## v2.0.1 (Current) - 28/12/2022
+## v2.0.2 (Current) - 08/12/2024
+
+- Removed NavCas auto pilot system
+- Removed `HeatTransferRate`, `StoredHeat` & `Generator Limit` panels
+- Reshuffled pilot center console
+- Added warnings panels
+- Added flight profiles system
+- Updated help chip ship manual link
+
+## v2.0.1 - 28/12/2022
 
 - Renamed `Material` panel to `Materials`
 - Fixed upper limit of laser pitch control

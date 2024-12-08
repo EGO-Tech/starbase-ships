@@ -1,6 +1,6 @@
 {
   "name": "Shifter X",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "path": "shifter/variants/shifter-x",
   "types": [
     {
@@ -66,19 +66,19 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 17581,
-        "stacks": 10.2
+        "kv": 17723,
+        "stacks": 10.3
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 25450,
+        "kv": 25416,
         "stacks": 14.7
       },
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 415701,
+        "kv": 415762,
         "stacks": 240.6
       },
       {
@@ -96,7 +96,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 46229,
+        "kv": 46230,
         "stacks": 26.8
       },
       {
@@ -114,7 +114,7 @@
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 4530,
+        "kv": 4511,
         "stacks": 2.6
       },
       {
@@ -132,13 +132,13 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 151202,
+        "kv": 151198,
         "stacks": 87.5
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 219214,
+        "kv": 219366,
         "stacks": 126.9
       },
       {
@@ -156,14 +156,14 @@
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1722028,
-        "stacks": 996.5
+        "kv": 1722327,
+        "stacks": 996.7
       }
     ],
     "cost": {
-      "assembly": 492755,
-      "manufacturing": 1917889,
-      "total": 2410643
+      "assembly": 492736,
+      "manufacturing": 1917987,
+      "total": 2410723
     }
   },
   "links": [
@@ -341,6 +341,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         },
@@ -591,6 +596,12 @@
           "subSpecs": []
         },
         {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -609,5 +620,6 @@
     "path": "shifter",
     "name": "Shifter",
     "slug": "shifter"
-  }
+  },
+  "updated": true
 }

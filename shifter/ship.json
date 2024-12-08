@@ -1,6 +1,6 @@
 {
   "name": "Shifter",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "path": "shifter",
   "types": [
     {
@@ -13,9 +13,17 @@
       "filename": "shifter.fbe",
       "path": "blueprints/shifter.fbe",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/blueprints/shifter.fbe",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "description": "",
       "current": true
+    },
+    {
+      "filename": "shifter_v2.0.1.fbe",
+      "path": "blueprints/shifter_v2.0.1.fbe",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/blueprints/shifter_v2.0.1.fbe",
+      "version": "2.0.1",
+      "description": "",
+      "current": false
     },
     {
       "filename": "shifter_v2.0.0.fbe",
@@ -300,6 +308,24 @@
       "path": "photos/20221126234439_1.jpg",
       "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/photos/20221126234439_1.jpg",
       "description": ""
+    },
+    {
+      "filename": "20241208142627_1.jpg",
+      "path": "photos/20241208142627_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/photos/20241208142627_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241208142631_1.jpg",
+      "path": "photos/20241208142631_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/photos/20241208142631_1.jpg",
+      "description": ""
+    },
+    {
+      "filename": "20241208142635_1.jpg",
+      "path": "photos/20241208142635_1.jpg",
+      "url": "https://github.com/EGO-Tech/starbase-ships/raw/main/shifter/photos/20241208142635_1.jpg",
+      "description": ""
     }
   ],
   "readme": {
@@ -469,19 +495,19 @@
       {
         "ore": "ajatite",
         "label": "Ajatite Ore",
-        "kv": 24426,
-        "stacks": 14.1
+        "kv": 24570,
+        "stacks": 14.2
       },
       {
         "ore": "arkanium",
         "label": "Arkanium Ore",
-        "kv": 6764,
+        "kv": 6730,
         "stacks": 3.9
       },
       {
         "ore": "bastium",
         "label": "Bastium Ore",
-        "kv": 443010,
+        "kv": 443075,
         "stacks": 256.4
       },
       {
@@ -499,7 +525,7 @@
       {
         "ore": "exorium",
         "label": "Exorium Ore",
-        "kv": 46229,
+        "kv": 46230,
         "stacks": 26.8
       },
       {
@@ -517,7 +543,7 @@
       {
         "ore": "karnite",
         "label": "Karnite Crystal",
-        "kv": 4494,
+        "kv": 4475,
         "stacks": 2.6
       },
       {
@@ -529,26 +555,26 @@
       {
         "ore": "nhurgite",
         "label": "Nhurgite Crystal",
-        "kv": 147117,
+        "kv": 147113,
         "stacks": 85.1
       },
       {
         "ore": "vokarium",
         "label": "Vokarium Ore",
-        "kv": 213994,
-        "stacks": 123.8
+        "kv": 214149,
+        "stacks": 123.9
       },
       {
         "ore": "total",
         "label": "Total ore",
-        "kv": 1433159,
-        "stacks": 829.4
+        "kv": 1433467,
+        "stacks": 829.6
       }
     ],
     "cost": {
-      "assembly": 498206,
-      "manufacturing": 1319916,
-      "total": 1818122
+      "assembly": 498290,
+      "manufacturing": 1320015,
+      "total": 1818305
     },
     "discord": "https://discord.com/channels/1013328685564178472/1025285307886731284/1235741537887981609"
   },
@@ -739,6 +765,11 @@
               "id": "sloth",
               "label": "Sloth Mode",
               "value": "Variable"
+            },
+            {
+              "id": "profiles",
+              "label": "Flight Profiles",
+              "value": true
             }
           ]
         },
@@ -989,6 +1020,12 @@
           "subSpecs": []
         },
         {
+          "id": "warnings",
+          "label": "Warnings Panel",
+          "value": true,
+          "subSpecs": []
+        },
+        {
           "id": "timer",
           "label": "Timer Panel",
           "value": true,
@@ -1007,5 +1044,6 @@
     "path": "shifter",
     "name": "Shifter",
     "slug": "shifter"
-  }
+  },
+  "updated": true
 }
