@@ -4,7 +4,7 @@
 - Spacious double level interior
 - Two additional seats for co-pilots
 - Standard Cruise function
-- Turtle and Sloth functions with adjustable rates
+- Turtle and Sloth functions with adjustable rates and preset profiles
 - Transponder system with ping function
 - Two automated rotating drills with four mining lasers each
 - Six ore collectors
@@ -24,7 +24,6 @@
 - Basic crafting bench to craft refills with meter upgrade plus the other two benches
 - Extra two small propellant tank with its own resource bridge for emergency refilling
 - [NavGrid by StandPeter](https://github.com/pcbennion/starbase-navgrid)
-- [NavCas by fixerid](https://github.com/fixerid/sb-projects/tree/main/NavCas), using custom avoidance system and ISAN 3 in 1 from [Compass by Firestar99](https://gitlab.com/Firestar99/yolol/-/blob/master/src/compass/README.md), with ability to load target from NavGrid
 - Warning lights and alarm for obstacle detection and avoidance, powered by 35 rangefinders
 - Speedometer
 - Timer panel
