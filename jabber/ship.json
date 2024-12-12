@@ -556,7 +556,7 @@
         {
           "id": "total-power",
           "label": "Total Power Generation",
-          "value": 120000,
+          "value": 6000,
           "unit": "e/s",
           "featured": true,
           "subSpecs": []
