@@ -2,7 +2,7 @@
 
 ## Flying the Ship
 
-![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_center_console.jpg)
+![Pilot Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/pilot_center_console.jpg)
 
 <nord-table>
 
@@ -28,7 +28,7 @@ See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on ho
 
 ## Managing Power, Fuel and Propellant
 
-![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_right_console.jpg)
+![Pilot Right Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/pilot_right_console.jpg)
 
 <nord-table>
 
@@ -53,7 +53,7 @@ See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant
 
 ## Scanning Asteroids
 
-![Scanner](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/scanner.jpg)
+![Scanner](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/scanner.jpg)
 
 `Scan` turns on the material scanner. The beam has a range of 100m.
 Point the beam at an asteroid and `Material` will show the materials in the asteroid along with the volume of each in stacks.
@@ -62,7 +62,7 @@ The calculation is 158.8% (worked out this with testing) of the cost of ore of t
 
 ## Loading Asteroids
 
-![Pilot Left Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer_trio/images/pilot_left_console.jpg)
+![Pilot Left Console](https://github.com/EGO-Tech/starbase-ships/raw/main/hexxer/variants/hexxer_trio/images/pilot_left_console.jpg)
 
 <nord-table>
 
