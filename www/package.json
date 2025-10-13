@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "commander": "^14.0.1",
-    "discord.js": "^14.22.1",
+    "discord.js": "^14.23.2",
     "lodash": "^4.17.21",
     "mdast-util-from-markdown": "^2.0.2",
     "mdast-util-gfm-table": "^2.0.0",
