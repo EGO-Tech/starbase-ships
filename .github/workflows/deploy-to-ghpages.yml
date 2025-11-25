@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Trigger Deploy Test
-        uses: convictional/trigger-workflow-and-wait@v1.6.1
+        uses: convictional/trigger-workflow-and-wait@v1.6.5
         if: github.ref != 'refs/heads/main'
         with:
           owner: EGO-Tech
@@ -28,7 +28,7 @@ jobs:
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN  }}
 
       - name: Trigger Deploy
-        uses: convictional/trigger-workflow-and-wait@v1.6.1
+        uses: convictional/trigger-workflow-and-wait@v1.6.5
         if: github.ref == 'refs/heads/main'
         with:
           owner: EGO-Tech
