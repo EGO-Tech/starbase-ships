@@ -1,10 +1,8 @@
 name: Push Changelog Changes to Discord
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+on: # yamllint disable-line rule:truthy
+  push: null
+  pull_request: null
 
 permissions: {}
 
@@ -40,7 +38,7 @@ jobs:
           node-version: "18"
 
       - name: Persist npm cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
