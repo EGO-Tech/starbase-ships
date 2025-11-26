@@ -109,7 +109,7 @@ const getShipBlueprints = (source, { currentVersion, relPath, baseUrl }) => {
     )
       .map((dir) => {
         const noExt = path.basename(dir.name, '.fbe');
-        const [ship, version] = noExt.split('_v');
+        const [_ship, version] = noExt.split('_v');
         return {
           filename: dir.name,
           path: `${blueprintsPath}/${dir.name}`,
@@ -293,7 +293,7 @@ const getShipVideos = (table) =>
     } = await worker.recognize(path.join(fullPath, buildCostPath));
     const lines = _(text).split('\n').compact().value();
     const materials = _(lines)
-      .map((line) => line.match(/([a-zA-Z\s]+) ([0-9\s]+) kv \(([0-9\.]+) st/))
+      .map((line) => line.match(/([a-zA-Z\s]+) ([0-9\s]+) kv \(([0-9.]+) st/))
       .compact()
       .map(([_text, originalLabel, kv, stacks]) => {
         // OCR corrections
@@ -311,7 +311,7 @@ const getShipVideos = (table) =>
       .value();
     const cost = _(lines)
       .map((line) =>
-        line.match(/([a-zA-Z\s\.]+) ([0-9\s]+)( ©| A| I| N| M| \\|$)/),
+        line.match(/([a-zA-Z\s.]+) ([0-9\s]+)( ©| A| I| N| M| \\|$)/),
       )
       .compact()
       .map(([_text, type, credits]) => [

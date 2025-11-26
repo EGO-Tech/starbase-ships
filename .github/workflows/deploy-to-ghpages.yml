@@ -1,10 +1,8 @@
 name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+on: # yamllint disable-line rule:truthy
+  push: null
+  pull_request: null
 
 permissions: {}
 
