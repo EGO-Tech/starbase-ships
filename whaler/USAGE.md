@@ -11,7 +11,7 @@ To enter the ship, there is are buttons on each side of the front of the ship th
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Speed` | Current speed in metres per second. |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Plasma` & `Plasma Charge Level` | Activates the plasma thrusters and intitiate charging. Plasma thrusters has to be activated and charge level at 1.0 for it to fire. |
@@ -126,7 +126,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 144,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed. |
@@ -160,7 +160,7 @@ See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Scanner` & `Scan` | Turns on the [Ore Scanner](#ore-scanner) and shows results of scan. |
 | `Lasers` | Turns on mining lasers. |
 | `Collect` | Turns on mining ore collectors. |
@@ -201,7 +201,7 @@ Use `Right Pod` and `Left Pod` on the pilot right console or the exterior button
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Tow Status` | Status of tow beam, `0` is off, `1` is on and `2` is locked on. |
 | `Tow Mass` | Mass of locked on ship, in kilograms. |
 | `Tow` | Activates the tow beam. |
@@ -242,7 +242,7 @@ The screen messages can be changed using the console in front of the screen in t
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `TitleText` | Message to be displayed for the title. |
 | `Title Size` | Size of the title text, `L`, `M` and `S`. |
 | `Title Style` | Animation style of the title text, `Scroll`, `Static` and `Blink`. |

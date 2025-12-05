@@ -5,7 +5,7 @@
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of 20%. |
 | `Transponder` | Turns on and off ship transponder |

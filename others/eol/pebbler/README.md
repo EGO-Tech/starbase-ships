@@ -76,7 +76,7 @@ The blueprint file is available in the `blueprints` folder [here](https://github
 ![Pilot Console](images/pilot_console.jpg)
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets all thrust to a maximum limit of 20% of full thrust. |

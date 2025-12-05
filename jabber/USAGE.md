@@ -9,7 +9,7 @@ To enter the ship, there is a button in front the cockpit that will open the gla
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
@@ -44,7 +44,7 @@ See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on ho
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Fire` | Fire lasers, best bound to a key and held down to fire. |
 | `Combat` | Activates combat mode which enables lasers and starts charging them. |
 | `Crosshair` | Activates beam crosshair. |

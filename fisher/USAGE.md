@@ -9,7 +9,7 @@ To enter the ship, there is a button on top of the ship that will open `Hatch`. 
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Speed` | Current speed in metres per second. |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |
@@ -94,7 +94,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Limit` & `Min Gen` | Toggle and sets minimum generator rate. |
@@ -123,7 +123,7 @@ See [Propellant Systems](https://starbase.egotech.space/pages/systems/propellant
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Tow Status` | Status of tow beam, `0` is off, `1` is on and `2` is locked on. |
 | `Tow Mass` | Mass of locked on ship, in kilograms. |
 | `Tow` | Activates the tow beam. |

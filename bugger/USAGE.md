@@ -9,7 +9,7 @@ To enter the ship, there is a button on bottom of the ship that will open `Hatch
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Speed` | Current speed in metres per second. |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Throttle` | Current throttle level, maximum of 100 percent |
@@ -37,7 +37,7 @@ See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on ho
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 96,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed. |

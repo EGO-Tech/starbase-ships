@@ -7,7 +7,7 @@
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Speed` | Current speed in metres per second.|
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
@@ -30,7 +30,7 @@ See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on ho
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Propellant` | Total propellant remaining in propellant tanks. |
 | `Fuel Rod 1` to `Fuel Rod 4` | Fuel remaining on fuel rods in individual fuel chambers, maximum of 300,000 units for each. |
 | `Generator` | Current generator rate, maximum of 100%. |
