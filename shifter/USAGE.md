@@ -15,7 +15,7 @@ To enter the ship, there is are buttons on either side of the body of the ship t
 | `Throttle` | Current throttle level, maximum of 100 percent |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
-| `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
+| `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Guides` | Activates rangefinders (except center one which can be activated separately). Can be used as guide lasers. `Red` warning lights show location of obstacles (left, right and centre). |
 | `Range` & `Distance` | Activates center rangefinder, with `Distance` showing distance to object. |

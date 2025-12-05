@@ -4,7 +4,7 @@ The Trebler X has the same features as the [Trebler](../trebler#features) except
 
 <nord-table>
 
-|   | Trebler | Trebler X |
+| | Trebler | Trebler X |
 | --- | --- | --- |
 | Thrusters | T2 | T3 |
 | Top Speed (empty) | 125m/s | 135m/s |

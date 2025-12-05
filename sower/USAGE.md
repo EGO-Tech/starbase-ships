@@ -12,7 +12,7 @@
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
-| `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
+| `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode. |
 | Transponder `Toggle` & `Ping` | [Transponder](https://starbase.egotech.space/pages/systems/utility/#transponder) controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
 | `ISAN2` | ISAN Mono system. No speed reading as that requires advanced chip which requires non safe zone ore |
 

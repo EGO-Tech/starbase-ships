@@ -4,7 +4,7 @@ The Crawler X has the same features as the [Crawler](../crawler#features) except
 
 <nord-table>
 
-|   | Crawler | Crawler X |
+| | Crawler | Crawler X |
 | --- | --- | --- |
 | Ore Crates | 704 | 640 |
 | Large Generators | 1 | 2 |

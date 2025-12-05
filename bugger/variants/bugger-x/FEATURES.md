@@ -4,7 +4,7 @@ The Bugger X has the same features as the [Bugger](../bugger#features) except th
 
 <nord-table>
 
-|   | Bugger | Bugger X |
+| | Bugger | Bugger X |
 | --- | --- | --- |
 | Thrusters | T2 | T3 |
 | Top Speed (empty) | 100m/s | 120m/s |

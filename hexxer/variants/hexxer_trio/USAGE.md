@@ -17,7 +17,7 @@
 | `Speed` | Current speed in metres per second. |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |
 | Transponder `Toggle` & `Ping` | [Transponder](https://starbase.egotech.space/pages/systems/utility/#transponder) controls, `Toggle` turns on and off ship transponder while `Ping` will activate transponder for three seconds |
-| `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
+| `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders. |
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
 | `Approach` & `Load` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 | `Timer` | See [Timer](https://starbase.egotech.space/pages/systems/utility/#timer). |
