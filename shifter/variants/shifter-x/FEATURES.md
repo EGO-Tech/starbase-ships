@@ -4,7 +4,7 @@ The Shifter X has the same features as the [Shifter](../shifter#features) except
 
 <nord-table>
 
-|   | Shifter | Shifter X |
+| | Shifter | Shifter X |
 | --- | --- | --- |
 | Thrusters | T2 | T3 |
 | Top Speed (empty) | 135m/s | 140m/s |

@@ -4,7 +4,7 @@ The Piercer X has the same features as the [Piercer](../piercer#features) except
 
 <nord-table>
 
-|   | Piercer | Piercer X |
+| | Piercer | Piercer X |
 | --- | --- | --- |
 | Thrusters | T2 | T3 |
 | Top Speed (empty) | 140m/s | 150m/s |

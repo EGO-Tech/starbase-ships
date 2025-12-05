@@ -14,7 +14,7 @@
 | `Sloth`, `Sensitivity` | Activates sloth mode which sets yaw and pitch thrust to a maximum limit of `Sensitivity` (percent) of full thrust. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `ID` | Toggle for the transponder. |
-| `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders.|
+| `Distance` & `Range` | Distance for rangefinder. `Range` toggles the rangefinders. |
 | `Scan`, `Material`, & `Credits` | Material scanning controls. See [Scanning Asteroids](#scanning-asteroids). |
 | `Approach`, `Beam`, `Load`, `Unload`, `Load Position`, Cargo `Load` & `Toggle` | Cargo loading controls. See [Loading Asteroids](#loading-asteroids). |
 | `StrengthFactor` | Current strength of ship. May fluctuate as ore crates are filled. Anything below 1.0 means ship is damaged. |

@@ -8,11 +8,11 @@
 
 | Interface | Function |
 | --- | --- |
-| `Speed` | Current speed in metres per second.|
+| `Speed` | Current speed in metres per second. |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
-| `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode.|
+| `Sloth` | Activates the low sensitvity mode of pitch and yaw by limiting thrust. Use the `Sensitivity` switch to set the maximum thrust rate of sloth mode. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |
 | `ISAN2` | Current ISAN coordinates of ship. |
 | `Range`, `Distance` & `Approach` | Activates forward rangefinders, with `Distance` showing distance to object detected by center rangefinder. `Approach` will guide the ship to 10m of the object |
