@@ -8,7 +8,7 @@
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `ForwardThrust`, `Thrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle`, `TurtleRate` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` (percent) of full thrust. |
@@ -30,7 +30,7 @@ See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on ho
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 10,000,000 units. |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |

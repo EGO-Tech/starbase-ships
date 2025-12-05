@@ -9,7 +9,7 @@ To enter the ship, there are buttons on either sides of the ship just behind the
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Speed` | Current speed in metres per second. |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Plasma` & `Plasma Charge Level` | Activates the plasma thrusters and intitiate charging. Plasma thrusters has to be activated and charge level at 1.0 for it to fire. |
@@ -91,7 +91,7 @@ If ISAN or NavGrid is not working, it can be reset using the `Reset ISAN` button
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 288,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. |

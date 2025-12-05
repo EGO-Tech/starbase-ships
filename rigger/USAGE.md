@@ -17,7 +17,7 @@ To enter the ship, there is a button above the cockpit that will open a `Hatch`.
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Turtle` | Activates turtle mode which sets forward thrust to a maximum limit of `TurtleRate` of full thrust. |
@@ -93,7 +93,7 @@ Activate using the `Scanner` button. The laser will try to adjust to point at th
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Battery` | Shows current battery charge of the batteries, maximum of 10,000 units. |
 | `Generator` | Current generator rate, maximum of 100%. |
 | `Min Generator Rate` & `Min Gen` | Toggle and sets minimum generator rate. See [Managing Power and Fuel](#managing-power-and-fuel). |

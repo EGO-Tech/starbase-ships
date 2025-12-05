@@ -9,7 +9,7 @@ To enter the ship, there are buttons at the back of the ship that will open `Doo
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Speed` | Current speed in metres per second.|
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
@@ -34,7 +34,7 @@ See [Flight Systems](https://starbase.egotech.space/pages/systems/flight/) on ho
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 96,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. |

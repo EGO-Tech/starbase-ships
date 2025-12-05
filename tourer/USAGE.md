@@ -9,7 +9,7 @@ To enter the ship, there is a button for `Door` next to the cockpit of the ship.
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
 | `Aim` | Reduces the response time of key presses for pitch and yaw. |

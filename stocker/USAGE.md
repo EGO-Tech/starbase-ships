@@ -9,7 +9,7 @@ To enter the ship, there is a button on top of the center of the ship that will 
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Speed` | Current speed in metres per second. |
 | `ForwardThrust` | Current forward thrust, maximum of 10,000 units |
 | `Cruise` | Activates cruise control, forward thrust will not reset to zero unless turned down. |
@@ -116,7 +116,7 @@ Activate using the `Material Scanner` button. The laser will try to adjust to po
 <nord-table>
 
 | Interface | Function |
-|---|---|
+| --- | --- |
 | `Propellant` | Total propellant remaining in propellant tanks, maximum of 70,000,000 units. |
 | `PropTime` | Time and distance remaining of propellant based on current usage. Distance is calculated from speed. |
 | `FuelTime` | Time and distance remaining of fuel based on current usage. Distance is calculated from speed. |
