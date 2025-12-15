@@ -38,7 +38,7 @@ jobs:
           node-version: "18"
 
       - name: Persist npm cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
