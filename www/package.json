@@ -20,7 +20,7 @@
     "micromark-extension-gfm-table": "^2.1.2",
     "nconf": "^0.13.0",
     "semver-compare": "^1.0.0",
-    "table": "^6.9.0",
+    "table": "^6.10.1",
     "tesseract.js": "^7.0.0"
   },
   "prettier": {
